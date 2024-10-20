@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.cordial.buttonbar.ButtonBar android:gravity="center_vertical" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:buttonStackOrder="startButtonAbove"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/plan_size_section" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:layout_buttonBarChildPosition="start">
+        <TextView android:textColor="?colorPrimary" android:id="@id/recommended_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="6.0dip" style="?textAppearanceOverline" />
+        <LinearLayout android:id="@id/tertiary_tag" android:background="@drawable/tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginBottom="8.0dip" android:layout_marginEnd="6.0dip">
+            <View android:id="@id/tertiary_tag_icon" android:background="@drawable/tag_icon" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" android:layout_marginStart="9.0dip" android:layout_marginEnd="9.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="?colorOnTertiaryContainer" android:gravity="center" android:id="@id/tertiary_tag_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:lineSpacingExtra="1.0sp" android:layout_marginEnd="10.0dip" android:letterSpacing="0.03" />
+        </LinearLayout>
+        <TextView android:textColor="?colorOnSurface" android:id="@id/plan_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="6.0dip" style="?textAppearanceHeadline6" />
+        <TextView android:textColor="?colorOnSurface" android:id="@id/plan_description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?textAppearanceBody2" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/cta_condensed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <Button android:layout_gravity="center_vertical" android:id="@id/highlighted_eligible_plan_price" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:layout_gravity="center_vertical" android:id="@id/eligible_plan_price" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?materialButtonOutlinedStyle" />
+        <TextView android:textColor="?colorOnSurfaceVariant" android:layout_gravity="center_vertical" android:id="@id/ineligible_plan_price" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?textAppearanceBody2" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cta_expanded" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/cta_expanded_highlights" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/cta_expanded_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:textColor="?colorTertiary" android:id="@id/plan_highlights" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="?textAppearanceCaption" />
+            <TextView android:textColor="?colorOnSurface" android:id="@id/footer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?textAppearanceCaption" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/cta_expanded_button" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/cta_expanded_highlights" app:layout_constraintTop_toTopOf="parent">
+            <Button android:layout_gravity="center_vertical" android:id="@id/highlighted_eligible_plan_price_expanded" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:layout_gravity="center_vertical" android:id="@id/eligible_plan_price_expanded" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?materialButtonOutlinedStyle" />
+            <TextView android:textColor="?colorOnSurfaceVariant" android:layout_gravity="center_vertical" android:id="@id/ineligible_plan_price_expanded" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?textAppearanceBody2" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.libraries.cordial.buttonbar.ButtonBar>

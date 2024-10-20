@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.printingskus.photobook.viewbinder.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:forcedDimension="width">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/scrim"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/photos_memories_my_week_month_scrim"
+        android:contentDescription="@null"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.BodyLarge"
+        android:layout_gravity="center"
+        android:id="@+id/date_tile_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</com.google.android.apps.photos.printingskus.photobook.viewbinder.SquareFrameLayout>

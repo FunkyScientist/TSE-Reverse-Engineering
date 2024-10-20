@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/photos_search_tab_container"
+    android:background="?android:attr/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.apps.photos.orthogonalscroll.VerticalParentRecyclerView
+        android:id="@+id/photos_search_destination_searchtab_recycler_view"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:defaultFocusHighlightEnabled="false"/>
+    <include layout="@layout/photos_search_destination_searchbar_layout"/>
+</FrameLayout>

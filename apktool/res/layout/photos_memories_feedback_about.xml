@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:id="@id/feedback_about_promo_bottomsheet" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Subhead1" android:textColor="?colorOnBackground" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_memories_promo_feedback_about_title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Body2" android:textColor="?photosOnSurfaceVariant" android:id="@id/body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/photos_memories_promo_feedback_about_description" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" />
+</android.support.constraint.ConstraintLayout>

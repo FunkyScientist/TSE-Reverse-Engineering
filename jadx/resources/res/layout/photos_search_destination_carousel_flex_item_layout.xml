@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginBottom="@dimen/photos_search_destination_carousel_item_tile_bottom_margin">
+    <ImageView
+        android:id="@+id/carousel_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="@drawable/carousel_press"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:ellipsize="end"
+        android:gravity="bottom|center_horizontal"
+        android:id="@+id/carousel_item_title"
+        android:background="@drawable/photos_search_destination_carousel_label_scrim"
+        android:paddingBottom="@dimen/photos_search_destination_carousel_item_label_bottom_margin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:maxLines="2"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/Photos.Search.Explore.Tile.TitleText"/>
+</android.support.constraint.ConstraintLayout>

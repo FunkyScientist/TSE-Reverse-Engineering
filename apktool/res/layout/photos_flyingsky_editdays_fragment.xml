@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/edit_days_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/edit_days_vertical_rv" android:background="@color/photos_daynight_white" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/photos_emptystate_container" />
+    <include android:theme="@style/Photos.FlyingSky.EditDays.ActionBar" layout="@layout/scrolling_toolbar" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

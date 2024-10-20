@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/photos_photoeditor_udon_confirmation_screen_image_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.photos.photoeditor.udon.UdonSubsamplingScaleImageView android:id="@id/photos_photoeditor_udon_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/photos_photoeditor_udon_confirmation_screen_animation" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/photos_photoeditor_udon_loading_gradient_animation" />
+    <ViewStub android:id="@id/photos_photoeditor_udon_refresh_notice_viewstub" android:layout="@layout/photos_photoeditor_udon_refresh_notice_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAppearance="?attr/textAppearanceTitleSmall"
+    android:textColor="?attr/colorSurface"
+    android:gravity="center"
+    android:background="@drawable/peoplekit_avatar_circle_gm3"
+    android:layout_width="@dimen/peoplekit_avatar_default_size"
+    android:layout_height="@dimen/peoplekit_avatar_default_size"/>

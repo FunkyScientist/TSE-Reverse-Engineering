@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@color/photos_printingskus_photobook_theme_page_text" android:textColorHint="?photosOnSurfaceVariantFaded" android:gravity="center" android:id="@id/page_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-light" app:autoSizeMinTextSize="1.0dip" app:autoSizeTextType="uniform"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

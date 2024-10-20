@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/photos_autobackup_particle_status_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/photos_autobackup_particle_card_min_height" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/TextAppearance.GoogleMaterial.Subhead2.AutoBackupParticleTitle" android:id="@id/photos_autobackup_particle_status_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="false" />
+            <TextView android:textAppearance="@style/TextAppearance.GoogleMaterial.Caption.AutoBackupParticleDescription" android:id="@id/photos_autobackup_particle_status_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="false" android:textDirection="locale" />
+        </LinearLayout>
+        <ImageView android:id="@id/photos_autobackup_current_item_imageview" android:layout_width="@dimen/photos_autobackup_particle_current_item_width" android:layout_height="@dimen/photos_autobackup_particle_current_item_height" android:scaleType="centerCrop" android:contentDescription="@null" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textColor="@color/photos_daynight_blue600" android:id="@id/photos_autobackup_particle_generic_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="textStart" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" android:layout_marginStart="0.0dip" style="@style/Widget.Photos.Button.Borderless" />
+    </LinearLayout>
+</LinearLayout>

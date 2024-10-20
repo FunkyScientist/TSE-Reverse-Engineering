@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center" android:id="@id/photos_photoeditor_fragments_editor3_sky_palette_viewstub" android:layout="@layout/photos_photoeditor_fragments_editor3_sky_palette_bar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" />
+    <View android:background="@color/google_black" android:layout_width="fill_parent" android:layout_height="26.0dip" />
+    <include layout="@layout/photos_photoeditor_slider" />
+    <include layout="@layout/photos_photoeditor_fragments_effects_exit_bar" />
+</LinearLayout>

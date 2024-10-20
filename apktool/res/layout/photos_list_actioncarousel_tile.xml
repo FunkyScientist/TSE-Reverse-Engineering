@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/TextAppearance.Photos.Caption" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/action_title" android:paddingTop="@dimen/photos_list_actioncarousel_action_icon_padding" android:paddingBottom="@dimen/photos_list_actioncarousel_padding_bottom" android:layout_width="@dimen/photos_list_actioncarousel_action_item_width" android:layout_height="wrap_content" android:minHeight="@dimen/photos_list_actioncarousel_action_item_height" android:maxLines="4" android:drawablePadding="@dimen/photos_list_actioncarousel_action_icon_padding" android:hyphenationFrequency="full" style="@style/ActionCarouselItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton android:layout_gravity="end" android:id="@id/photos_allphotos_gridcontrols_button" android:background="?selectableItemBackgroundBorderless" android:focusable="true" android:layout_width="@dimen/photos_list_date_header_grid_controls_width_height" android:layout_height="@dimen/photos_list_date_header_grid_controls_width_height" android:contentDescription="@string/photos_list_grid_controls_description" android:layout_marginEnd="@dimen/photos_list_date_header_grid_controls_end_margin" app:srcCompat="@drawable/quantum_gm_ic_more_vert_vd_theme_24"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/photos_allphotos_ui_actionconfirmation_intersitital_dialog_r" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/interstitial_image" />
+        <TextView android:textAppearance="@style/TextAppearance.Photos.Body1" android:textStyle="bold" android:textColor="?colorOnBackground" android:id="@id/photos_allphotos_ui_actionconfirmation_signed_in_interstitial_dialog_title" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="10.0dip" android:text="@string/photos_allphotos_ui_actionconfirmation_signed_in_interstitial_dialog_r_title" android:textAlignment="center" />
+        <TextView android:textColor="?colorOnBackground" android:id="@id/photos_allphotos_ui_actionconfirmation_signed_in_interstitial_dialog_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:text="@string/photos_allphotos_ui_actionconfirmation_signed_in_interstitial_dialog_info" android:lineSpacingMultiplier="1.2" style="@style/DeleteDialogSourceItem" />
+    </LinearLayout>
+</ScrollView>

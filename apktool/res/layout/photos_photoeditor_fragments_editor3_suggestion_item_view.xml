@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:orientation="vertical" android:background="@drawable/photos_photoeditor_fragments_editor3_round_corner_background" android:layout_width="@dimen/photos_photoeditor_fragments_editor3_suggestion_item_view_max_width" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/photos_photoeditor_fragments_editor3_suggestion_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginBottom="3.0dip" android:layout_marginStart="@dimen/photos_photoeditor_fragments_editor3_suggestion_item_view_text_padding" android:layout_marginEnd="@dimen/photos_photoeditor_fragments_editor3_suggestion_item_view_text_padding" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <TextView android:textAppearance="@style/TextAppearance.Photos.Subhead2" android:layout_gravity="center" android:id="@id/photos_photoeditor_fragments_editor3_suggestion_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="center" android:breakStrategy="high_quality" />
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

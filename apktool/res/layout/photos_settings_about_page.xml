@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/photos_settings_header_and_footer_spacing" />
+        <LinearLayout android:id="@id/third_party_notices_button" style="@style/photos_settings_two_lines_container">
+            <TextView android:id="@id/third_party_notices_button_title" android:text="@string/photos_settings_license_title" style="@style/photos_settings_line_one_text" />
+            <TextView android:id="@id/third_party_notices_button_summary" android:text="@string/photos_settings_license_summary" style="@style/photos_settings_line_two_text" />
+        </LinearLayout>
+        <include layout="@layout/photos_settings_divider_layout" />
+        <TextView android:id="@id/privacy_policy_button" android:visibility="visible" android:text="@string/menu_home_privacy_policy" app:drawableEndCompat="@drawable/gs_chevron_right_vd_theme_24" style="@style/photos_settings_main_page_item" />
+        <TextView android:id="@id/terms_of_service_button" android:visibility="visible" android:text="@string/menu_home_terms_of_service" app:drawableEndCompat="@drawable/gs_chevron_right_vd_theme_24" style="@style/photos_settings_main_page_item" />
+        <TextView android:id="@id/content_conduct_button" android:visibility="visible" android:text="@string/photos_settings_content_conduct_policy" app:drawableEndCompat="@drawable/gs_chevron_right_vd_theme_24" style="@style/photos_settings_main_page_item" />
+        <include layout="@layout/photos_settings_header_and_footer_spacing" />
+    </LinearLayout>
+</ScrollView>

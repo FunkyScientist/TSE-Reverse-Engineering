@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/photos_videoplayer_empty"
+    android:background="@color/photos_videoplayer_error_scrim"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0"
+    android:defaultFocusHighlightEnabled="false">
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="16sp"
+        android:textColor="@color/google_white"
+        android:layout_gravity="center"
+        android:id="@+id/photos_videoplayer_list_empty_text"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/google_sans_medium"/>
+    <ViewStub
+        android:id="@+id/photos_videoplayer_videoplayer_processing_v2_stub"
+        android:layout="@layout/photos_videoplayer_processing_ui"
+        android:inflatedId="@+id/photos_videoplayer_videoplayer_processing_v2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

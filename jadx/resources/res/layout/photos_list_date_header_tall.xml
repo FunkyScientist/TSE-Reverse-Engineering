@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.list.DateHeaderLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/date_header_height">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@+id/title_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/photos_list_date_header_start_padding">
+        <TextView
+            android:textAppearance="@style/TextAppearance.Photos.Subtitle2"
+            android:textColor="@color/photos_daynight_grey800"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@+id/title"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textIsSelectable="false"/>
+    </LinearLayout>
+</com.google.android.apps.photos.list.DateHeaderLayout>

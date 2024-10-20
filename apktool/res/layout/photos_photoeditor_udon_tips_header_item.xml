@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="40.0dip" android:contentDescription="@null" app:srcCompat="@drawable/gs_lightbulb_vd_theme_48" />
+    <TextView android:textAppearance="?textAppearanceHeadlineSmall" android:textSize="22.0sp" android:textColor="?colorOnSurface" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/photos_photoeditor_fragments_editor3_udon_tips_dialog_title" />
+</LinearLayout>

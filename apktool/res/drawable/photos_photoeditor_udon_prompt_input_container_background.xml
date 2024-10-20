@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="16.0dip" android:insetRight="16.0dip" android:insetTop="16.0dip" android:insetBottom="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/google_transparent" />
+        <stroke android:width="2.0dip" android:color="?colorPrimary" />
+        <corners android:radius="@dimen/photos_photoeditor_udon_prompt_input_container_radius" />
+    </shape>
+</inset>

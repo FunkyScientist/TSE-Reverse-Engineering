@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.photoeditor.slider.ThumbSliderView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/photos_photoeditor_fragments_editor3_slider"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:maxHeight="@dimen/photos_photoeditor_slider_slider_progressbar_height_width"
+    android:progressDrawable="@drawable/cpe_slider_progressbar"
+    android:minHeight="@dimen/photos_photoeditor_slider_slider_progressbar_height_width"
+    android:thumb="@drawable/photos_photoeditor_slider_state_changeable_thumb_large_screen_design"
+    android:importantForAccessibility="yes"
+    android:paddingStart="12dp"
+    android:paddingEnd="42dp"/>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/photos_mediadetails_people_carousel_tile_bottom_margin">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.google.android.apps.photos.view.RoundedCornerImageView
+            android:id="@+id/carousel_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/photos_mediadetails_people_carousel_image_bottom_margin"
+            android:foreground="@drawable/carousel_press"/>
+        <ImageView
+            android:id="@+id/carousel_image_circle"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/photos_mediadetails_people_carousel_image_bottom_margin"
+            android:foreground="@drawable/carousel_press"/>
+        <ImageView
+            android:layout_gravity="end|bottom"
+            android:id="@+id/more_options"
+            android:background="@drawable/photos_mediadetails_people_carousel_more_options"
+            android:padding="4dp"
+            android:visibility="gone"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="@dimen/photos_mediadetails_people_carousel_image_bottom_margin"
+            android:scaleType="centerCrop"
+            android:cropToPadding="true"
+            android:contentDescription="@null"
+            app:srcCompat="@drawable/quantum_gm_ic_more_vert_vd_theme_24"/>
+    </FrameLayout>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Subhead2"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:id="@+id/carousel_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"/>
+</LinearLayout>

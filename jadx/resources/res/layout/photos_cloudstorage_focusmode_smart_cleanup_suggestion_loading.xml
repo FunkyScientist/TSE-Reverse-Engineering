@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/FocusModeLoadingShimmer">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="@dimen/photos_cloudstorage_focusmode_smart_cleanup_suggestion_button_width"
+                android:layout_height="@dimen/photos_cloudstorage_focusmode_smart_cleanup_suggestion_button_height"
+                android:layout_marginBottom="8dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:backgroundTint="?attr/colorOutlineVariant"
+                app:cornerRadius="@dimen/photos_cloudstorage_focusmode_corner_radius"/>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="?attr/colorOutlineVariant"
+                app:cardCornerRadius="8dp"
+                app:strokeWidth="0dp">
+                <TextView
+                    android:textAppearance="@style/TextAppearance.Photos.LabelSmall"
+                    android:visibility="invisible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/photos_cloudstorage_focusmode_smart_cleanup_large_items"/>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</LinearLayout>

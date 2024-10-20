@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="@dimen/photos_search_destination_list_icon_size"
+        android:layout_height="@dimen/photos_search_destination_list_icon_size"
+        android:layout_marginTop="@dimen/photos_search_destination_list_icon_vertical_margin"
+        android:layout_marginBottom="@dimen/photos_search_destination_list_icon_vertical_margin"
+        android:contentDescription="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="?attr/photosOnSurfaceVariant"/>
+    <View
+        android:id="@+id/item_divider"
+        android:background="?attr/colorSurfaceVariant"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="@dimen/photos_search_destination_list_divider_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body2"
+        android:textColor="?attr/colorOnSurface"
+        android:id="@+id/item_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/item_divider"
+        app:layout_constraintTop_toTopOf="parent"/>
+</android.support.constraint.ConstraintLayout>

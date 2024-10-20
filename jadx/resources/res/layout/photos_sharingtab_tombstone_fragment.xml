@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tombstone"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Headline5"
+        android:gravity="center"
+        android:id="@+id/tombstone_title"
+        android:paddingLeft="48dp"
+        android:paddingTop="4dp"
+        android:paddingRight="48dp"
+        android:paddingBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_share_disabled_generic_title"
+        android:paddingHorizontal="48dp"
+        android:paddingVertical="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/tombstone_caption"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body2"
+        android:gravity="center"
+        android:id="@+id/tombstone_caption"
+        android:paddingLeft="24dp"
+        android:paddingTop="4dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tombstone_title"
+        app:layout_constraintVertical_chainStyle="packed"/>
+</android.support.constraint.ConstraintLayout>

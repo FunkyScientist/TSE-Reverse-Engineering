@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/photos_backup_selectivebackup_view_locked_folder_backup_status"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp">
+    <ImageView
+        android:id="@+id/photos_backup_selectivebackup_view_locked_folder_backup_status_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerInside"
+        android:contentDescription="@null"
+        android:layout_marginEnd="16dp"
+        android:layout_marginVertical="16dp"
+        app:srcCompat="@drawable/quantum_gm_ic_lock_vd_theme_24"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.BodyLarge"
+        android:gravity="center_vertical"
+        android:id="@+id/photos_backup_selectivebackup_view_locked_folder_backup_status_description"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textIsSelectable="false"/>
+    <Button
+        android:id="@+id/photos_backup_selectivebackup_view_locked_folder_backup_status_button"
+        android:padding="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:maxWidth="124dp"
+        android:text="@string/photos_strings_view_button"
+        android:layout_marginHorizontal="4dp"
+        style="@style/Widget.Photos.Button.Borderless"/>
+</LinearLayout>

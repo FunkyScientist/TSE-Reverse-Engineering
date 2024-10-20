@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="google_navigation_item_shape_corner_size_left">24dp</dimen>
+    <dimen name="google_navigation_item_shape_corner_size_right">0dp</dimen>
+    <dimen name="google_navigation_item_shape_margin_end">0dp</dimen>
+    <dimen name="google_navigation_item_shape_margin_start">8dp</dimen>
+    <dimen name="photos_envelope_feed_adapteritem_content_section_heart_end_padding">@dimen/photos_envelope_feed_adapteritem_content_section_left_padding</dimen>
+    <dimen name="photos_envelope_feed_adapteritem_content_section_heart_start_padding">@dimen/photos_envelope_feed_adapteritem_content_section_right_padding</dimen>
+    <dimen name="photos_flyingsky_header_title_vertical_guide_percent">0.9</dimen>
+    <dimen name="photos_printingskus_editing_landscape_guideline_percent">0.3</dimen>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:id="@+id/calendar_selector_section"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="24dp"
+    android:layout_marginStart="@dimen/photos_search_functional_reminders_fields_icon_padding"
+    android:layout_marginEnd="16dp">
+    <android.support.v7.widget.AppCompatImageView
+        android:gravity="center_horizontal"
+        android:id="@+id/calendar_selector_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/quantum_gm_ic_event_vd_theme_24"/>
+    <TextView
+        android:gravity="start"
+        android:id="@+id/calendar_selector_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/photos_search_functional_reminders_fields_icon_text_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/calendar_selector_expand_icon"
+        app:layout_constraintStart_toEndOf="@+id/calendar_selector_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Photos.Search.FunctionalPhotos.ReminderCreation.View.Text"/>
+    <android.support.v7.widget.AppCompatImageView
+        android:gravity="center_horizontal"
+        android:id="@+id/calendar_selector_expand_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/quantum_gm_ic_navigate_next_vd_theme_24"/>
+</android.support.constraint.ConstraintLayout>

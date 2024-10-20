@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/photos_trash_ui_confirmation_restore_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="9dp"
+        android:tint="?attr/photosPrimary"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/quantum_gm_ic_restore_vd_theme_24"/>
+    <TextView
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorOnBackground"
+        android:id="@+id/photos_trash_ui_confirmation_restore_dialog_r_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="?attr/colorOnSurface"
+        android:id="@+id/photos_trash_ui_confirmation_restore_dialog_r_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp"
+        android:lineSpacingMultiplier="1.2"/>
+</LinearLayout>

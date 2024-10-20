@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="@dimen/photos_drawermenu_navigation_divider_spacing"
+    android:paddingBottom="@dimen/photos_drawermenu_navigation_divider_spacing"
+    android:clickable="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:background="@color/quantum_grey300"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/photos_drawermenu_navigation_divider_height"/>
+</FrameLayout>

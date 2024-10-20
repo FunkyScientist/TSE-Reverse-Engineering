@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="24.0dip" android:paddingTop="12.0dip" android:paddingRight="24.0dip" android:paddingBottom="24.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/photos_printingskus_wallart_ui_order_details_order_info_card" />
+        <include layout="@layout/photos_printingskus_wallart_ui_order_details_tracking_info_card" />
+        <include layout="@layout/photos_printingskus_wallart_ui_order_confirmation_shipment_info_card" />
+        <TableLayout android:id="@id/cost_table" android:paddingTop="32.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1" />
+        <TextView android:textColor="?photosOnSurfaceVariant" android:gravity="center" android:id="@id/help_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:minHeight="48.0dip" android:textDirection="locale" android:textAlignment="gravity" style="@style/quantum_text_menu_grey" />
+    </LinearLayout>
+</ScrollView>

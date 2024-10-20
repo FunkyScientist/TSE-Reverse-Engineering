@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/people_section_divider"
+        android:background="?attr/colorOutline"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="56dp"
+        style="@style/Photos.Search.AutoComplete.ZeroPrefix.Divider"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/people_section_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/avatar_section"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:scrollbars="none"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/show_more"
+            android:background="?attr/selectableItemBackground"
+            android:padding="16dp"
+            android:layout_width="@dimen/photos_search_autocomplete_zeroprefix_people_more_button_size"
+            android:layout_height="@dimen/photos_search_autocomplete_zeroprefix_people_more_button_size"
+            android:layout_weight="0"
+            android:contentDescription="@string/photos_search_autocomplete_zeroprefix_people_avatar_more_button_description"
+            app:srcCompat="@drawable/quantum_gm_ic_arrow_forward_vd_theme_24"/>
+    </LinearLayout>
+</FrameLayout>

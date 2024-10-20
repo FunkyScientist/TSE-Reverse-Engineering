@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/photos_photoeditor_slider_container" android:background="@color/google_black" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/photos_photoeditor_slider_start_end_padding" android:paddingEnd="@dimen/photos_photoeditor_slider_start_end_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:id="@id/photos_photoeditor_slider_left_spacer" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+    <include android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/photos_photoeditor_multi_slider_template" />
+    <Space android:id="@id/photos_photoeditor_slider_placeholder" android:layout_width="@dimen/photos_photoeditor_slider_auto_padding" android:layout_height="fill_parent" />
+    <include layout="@layout/photos_photoeditor_auto_button" />
+    <Space android:id="@id/photos_photoeditor_slider_right_spacer" android:layout_width="@dimen/photos_photoeditor_slider_start_end_padding" android:layout_height="fill_parent" />
+</LinearLayout>

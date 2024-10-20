@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/photos_photoeditor_fragments_editor3_filter_unselected_image_size" android:width="@dimen/photos_photoeditor_fragments_editor3_filter_unselected_image_size" />
+            <solid android:color="?colorSurfaceVariant" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:id="@id/photos_photoeditor_fragments_editor3_filter_check_mark" android:drawable="@drawable/quantum_gm_ic_check_vd_theme_24" />
+</layer-list>

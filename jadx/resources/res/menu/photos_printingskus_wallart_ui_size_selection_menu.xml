@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/quantum_gm_ic_rotate_90_degrees_ccw_vd_theme_24"
+        android:id="@+id/rotate_canvas"
+        android:title="@string/photos_printingskus_wallart_ui_size_selection_rotate_canvas"
+        support:showAsAction="always"/>
+    <item
+        android:id="@+id/delete_draft"
+        android:title="@string/photos_printingskus_wallart_ui_delete_draft"
+        support:showAsAction="never"/>
+    <item
+        android:id="@+id/photos_pager_menu_action_bar_help"
+        android:title="@string/photos_printingskus_wallart_ui_see_canvas_info"
+        support:showAsAction="never"/>
+</menu>

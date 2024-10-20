@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/photos_partneraccount_settings_ui_fragment"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        style="@style/Widget.Photos.ActionMode.ActionBar.WithHome"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:headerDividersEnabled="false"
+            android:footerDividersEnabled="false"
+            android:paddingStart="8dp"
+            android:paddingEnd="-4dp"
+            style="@style/Theme.Photos.PartnerAccount.Settings"/>
+    </LinearLayout>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body2"
+        android:textColor="?attr/photosOnSurfaceVariant"
+        android:id="@+id/photos_partneraccount_onboarding_backup_off_banner"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/photos_partneraccount_settings_ui_backup_off_banner_margin"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="24.0dip" android:layout_marginHorizontal="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Body2" android:id="@id/best_by_default_migration_switch_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/photos_autobackuppromos_sheet_switch_description" android:layout_weight="1.0" />
+    <com.google.android.material.switchmaterial.SwitchMaterial android:id="@id/best_by_default_migration_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_weight="0.0" android:layout_marginStart="16.0dip" />
+</LinearLayout>

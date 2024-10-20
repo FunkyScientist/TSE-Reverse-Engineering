@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/peoplekit_popup_menu_row" android:layout_width="fill_parent" android:layout_height="@dimen/peoplekit_ui_autocomplete_popup_row_height" android:foreground="?selectableItemBackground">
+        <android.support.v7.widget.AppCompatImageView android:theme="@style/peoplekit_hide_suggestion_grey_tint" android:id="@id/peoplekit_popup_menu_icon" android:layout_width="@dimen/peoplekit_ui_autocomplete_icon_size" android:layout_height="@dimen/peoplekit_ui_autocomplete_icon_size" android:scaleType="centerInside" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginStart="@dimen/peoplekit_ui_autocomplete_popup_padding" app:srcCompat="@drawable/quantum_gm_ic_visibility_off_vd_theme_24" />
+        <TextView android:textAppearance="@style/TextAppearance.GoogleMaterial.Body1" android:textColor="@color/google_grey700" android:id="@id/peoplekit_popup_menu_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/peoplekit_ui_autocomplete_popup_padding" android:layout_marginRight="@dimen/peoplekit_ui_autocomplete_popup_padding" android:layout_centerVertical="true" android:layout_marginStart="@dimen/peoplekit_ui_autocomplete_popup_padding" android:layout_marginEnd="@dimen/peoplekit_ui_autocomplete_popup_padding" android:layout_toEndOf="@id/peoplekit_popup_menu_icon" />
+    </RelativeLayout>
+</RelativeLayout>

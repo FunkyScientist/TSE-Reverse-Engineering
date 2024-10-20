@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/photos_share_method_fragment"
+    android:background="@color/photos_daynight_grey100"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.AppCompatTextView
+        android:textAppearance="@style/TextAppearance.Photos.Caption"
+        android:textColor="?attr/photosOnSurfaceVariantFaded"
+        android:gravity="center_vertical"
+        android:id="@+id/back_button"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/photos_share_method_back_button"
+        android:drawablePadding="12dp"
+        app:drawableStartCompat="@drawable/quantum_gm_ic_keyboard_arrow_left_vd_theme_24"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

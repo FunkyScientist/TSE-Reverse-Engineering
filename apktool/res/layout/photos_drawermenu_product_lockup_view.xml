@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.material.productlockup.ProductLockupView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photos_drawermenu_logo_lockup_container_margin_top" android:text="@string/photos_theme_product_name" android:layout_marginStart="@dimen/photos_drawermenu_logo_lockup_padding_start" />
+    <View android:background="?colorOutline" android:layout_width="fill_parent" android:layout_height="@dimen/photos_drawermenu_logo_lockup_separator_height" android:layout_marginTop="24.0dip" />
+</LinearLayout>

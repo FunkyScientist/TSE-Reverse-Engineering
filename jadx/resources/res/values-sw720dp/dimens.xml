@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="empty_state_caption_line_spacing_extra">12dp</dimen>
+    <dimen name="empty_state_image_size">200dp</dimen>
+    <dimen name="empty_state_layout_padding_bottom">0dp</dimen>
+    <dimen name="empty_state_padding_bottom">48dp</dimen>
+    <dimen name="mr_dialog_fixed_width_major">50%</dimen>
+    <dimen name="mr_dialog_fixed_width_minor">70%</dimen>
+</resources>

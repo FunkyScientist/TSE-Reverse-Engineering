@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:textColor="?colorOnSurfaceVariant" android:id="@id/flyingsky_play_highlight_button" android:visibility="gone" app:icon="@drawable/photos_quantum_gm_ic_play_circle_vd_theme_18" app:iconTint="?colorOnSurfaceVariant" style="@style/FlyingSkyStickyHeaderEditDoneButtonsCommonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

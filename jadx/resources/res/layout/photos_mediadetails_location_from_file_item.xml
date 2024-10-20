@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="16dp"
+    android:paddingBottom="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp">
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Caption"
+        android:textColor="?attr/photosOnSurfaceVariantFaded"
+        android:ellipsize="end"
+        android:id="@+id/location_from_file_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_mediadetails_location_from_file"
+        android:maxLines="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:id="@+id/gps_icon"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:contentDescription="@string/photos_mediadetails_location_from_file"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/location_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/quantum_gm_ic_gps_fixed_vd_theme_24"
+        app:tint="?attr/photosOnSurfaceVariantFaded"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Caption"
+        android:ellipsize="end"
+        android:id="@+id/location_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/location_from_file_label"
+        app:layout_constraintStart_toEndOf="@+id/gps_icon"
+        app:layout_constraintTop_toTopOf="parent"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/df_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="@color/google_grey700" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/quantum_gm_ic_dogfood_vd_theme_24" />
+    <TextView android:textColor="@color/google_grey700" android:gravity="center_vertical" android:id="@id/link_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_importsurfaces_feedback_link" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/df_icon" app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

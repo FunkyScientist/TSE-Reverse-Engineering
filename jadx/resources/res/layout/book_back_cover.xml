@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="4dp"
+    android:paddingEnd="0dp">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/photos_printingskus_photobook_theme_preview_page_card_view">
+        <com.google.android.apps.photos.printingskus.photobook.viewbinder.SquareFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            custom:forcedDimension="width">
+            <ImageView
+                android:gravity="center"
+                android:layout_gravity="bottom|center_horizontal"
+                android:id="@+id/back_cover_icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:src="@drawable/photos_printingskus_photobook_viewbinder_back_cover_logo"
+                android:scaleType="fitCenter"
+                android:contentDescription="@null"/>
+        </com.google.android.apps.photos.printingskus.photobook.viewbinder.SquareFrameLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

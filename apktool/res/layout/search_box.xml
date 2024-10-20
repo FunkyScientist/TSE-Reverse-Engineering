@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.view.BoundedFrameLayout android:layout_gravity="center_horizontal" android:id="@id/search_box_frame_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/search_box_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/search_box_query" android:layout_width="0.0dip" android:layout_height="@dimen/photos_search_searchbox_height" android:layout_weight="1.0">
+            <EditText android:id="@id/search_box" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/photos_search_searchbox_text" android:inputType="textNoSuggestions" android:privateImeOptions="nm" android:imeOptions="flagNoExtractUi" style="@style/Photos.Search.SearchBox.EditTextTheme" />
+            <android.support.v7.widget.RecyclerView android:id="@id/search_box_active_chips" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:layout_gravity="left" android:id="@id/search_box_chips_mask_left" android:visibility="invisible" android:layout_width="48.0dip" android:layout_height="fill_parent" />
+            <View android:layout_gravity="right" android:id="@id/search_box_chips_mask_right" android:visibility="invisible" android:layout_width="48.0dip" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <ImageButton android:id="@id/clear_button" android:background="?actionBarItemBackground" android:visibility="gone" android:layout_width="@dimen/photos_search_searchbox_height" android:layout_height="@dimen/photos_search_searchbox_height" android:contentDescription="@string/photos_search_searchbox_clear_text_button" app:srcCompat="@drawable/quantum_gm_ic_clear_vd_theme_24" />
+        <ImageButton android:id="@id/voice_search" android:background="?actionBarItemBackground" android:visibility="gone" android:layout_width="@dimen/photos_search_searchbox_height" android:layout_height="@dimen/photos_search_searchbox_height" android:contentDescription="@string/photos_search_searchbox_voice_search_button" app:srcCompat="@drawable/quantum_gm_ic_mic_vd_theme_24" />
+    </LinearLayout>
+</com.google.android.apps.photos.view.BoundedFrameLayout>

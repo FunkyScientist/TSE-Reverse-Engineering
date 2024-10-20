@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingTop="24dp"
+    android:paddingBottom="24dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:paddingVertical="24dp">
+    <ImageView
+        android:id="@+id/link_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:importantForAccessibility="no"
+        android:layout_marginHorizontal="24dp"
+        app:srcCompat="@drawable/quantum_gm_ic_link_vd_theme_24"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/photos_sharingtab_impl_viewbinders_managesharedlinks_entry_text"/>
+</LinearLayout>

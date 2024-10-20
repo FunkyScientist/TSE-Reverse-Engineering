@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="12dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="24dp"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/photos_printingskus_wallart_ui_order_details_order_info_card"/>
+        <include layout="@layout/photos_printingskus_wallart_ui_order_details_tracking_info_card"/>
+        <include layout="@layout/photos_printingskus_wallart_ui_order_confirmation_shipment_info_card"/>
+        <TableLayout
+            android:id="@+id/cost_table"
+            android:paddingTop="32dp"
+            android:paddingBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"/>
+        <TextView
+            android:textColor="?attr/photosOnSurfaceVariant"
+            android:gravity="center"
+            android:id="@+id/help_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:minHeight="48dp"
+            android:textDirection="locale"
+            android:textAlignment="gravity"
+            style="@style/quantum_text_menu_grey"/>
+    </LinearLayout>
+</ScrollView>

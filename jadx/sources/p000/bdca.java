@@ -1,0 +1,57 @@
+package p000;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public final class bdca extends bfir implements bfjx {
+
+    /* renamed from: a */
+    public static final bdca f90564a;
+
+    /* renamed from: b */
+    private static volatile bfkd f90565b;
+
+    static {
+        bdca bdcaVar = new bdca();
+        f90564a = bdcaVar;
+        bfir.m39976aa(bdca.class, bdcaVar);
+    }
+
+    private bdca() {
+        bfkg bfkgVar = bfkg.f99953a;
+    }
+
+    @Override // p000.bfir
+    /* renamed from: a */
+    public final Object mo4203a(int i, Object obj) {
+        int i2 = i - 1;
+        if (i2 != 0) {
+            if (i2 != 2) {
+                if (i2 != 3) {
+                    if (i2 != 4) {
+                        if (i2 != 5) {
+                            if (i2 != 6) {
+                                return null;
+                            }
+                            bfkd bfkdVar = f90565b;
+                            if (bfkdVar == null) {
+                                synchronized (bdca.class) {
+                                    bfkdVar = f90565b;
+                                    if (bfkdVar == null) {
+                                        bfkdVar = new bfim(f90564a);
+                                        f90565b = bfkdVar;
+                                    }
+                                }
+                            }
+                            return bfkdVar;
+                        }
+                        return f90564a;
+                    }
+                    return new bfil(f90564a);
+                }
+                return new bdca();
+            }
+            return new bfkh(f90564a, "\u0004\u0000", null);
+        }
+        return (byte) 1;
+    }
+}

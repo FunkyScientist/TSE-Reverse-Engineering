@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/photos_settings_preference_padding_top"
+    android:paddingBottom="@dimen/photos_settings_preference_padding_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/photos_settings_preference_padding_start"
+    android:paddingEnd="@dimen/photos_settings_preference_padding_end">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_settings_raw_editing_subtitle"
+        android:paddingStart="@dimen/photos_settings_preference_padding_start"
+        android:paddingEnd="@dimen/photos_settings_preference_padding_end"
+        style="@style/photos_settings_line_one_text"/>
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/default_app_checkbox_container"
+        android:paddingBottom="@dimen/photos_settings_preference_padding_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/photos_settings_two_lines_container">
+        <TextView
+            android:id="@+id/default_app_checkbox_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/photos_settings_raw_editing_summary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/default_app_checkbox"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/photos_settings_line_one_text"/>
+        <CheckBox
+            android:id="@+id/default_app_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/default_app_checkbox_title"/>
+    </android.support.constraint.ConstraintLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/editor_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/quantum_gm_ic_done_vd_theme_24"/>
+    <item android:drawable="@drawable/photos_movies_activity_soundtrack_empty_check"/>
+</selector>

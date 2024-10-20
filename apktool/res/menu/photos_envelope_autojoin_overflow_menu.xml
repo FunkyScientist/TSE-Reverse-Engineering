@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/block_menu_item" android:title="@string/photos_envelope_autojoin_block_user" />
+    <item android:id="@id/report_menu_item" android:title="@string/photos_envelope_autojoin_report_abuse" />
+</menu>

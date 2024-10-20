@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.search.cardui.BehaviorProxyLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/proxy_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <include layout="@layout/photos_emptystate_container"/>
+    <include layout="@layout/photos_search_searchresults_chips"/>
+    <include layout="@layout/photos_search_searchresults_optout_chips"/>
+    <include layout="@layout/photos_search_searchresults_albums_carousel"/>
+    <include layout="@layout/photos_help_lostphotostroubleshooter_entrypoints_chip_view"/>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:textAppearance="@style/TextAppearance.Photos.Button"
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/new_creation_fab"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_search_searchresults_manual_creation"
+        style="@style/Widget.Photos.ExtendedFloatingActionButton"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_gravity="end|bottom"
+        android:id="@+id/fab"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/photos_fabcontroller_fab_margin"
+        android:contentDescription="@string/photos_search_searchresults_floating_action_button_content_description"
+        android:layout_marginEnd="@dimen/photos_fabcontroller_fab_margin"
+        support:fabSize="normal"
+        support:srcCompat="@drawable/quantum_gm_ic_add_vd_theme_24"
+        style="@style/Widget.Photos.FloatingActionButton"/>
+</com.google.android.apps.photos.search.cardui.BehaviorProxyLayout>

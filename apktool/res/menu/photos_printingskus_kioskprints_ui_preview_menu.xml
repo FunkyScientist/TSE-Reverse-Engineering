@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/quantum_gm_ic_add_photo_alternate_vd_theme_24" android:id="@id/add_item" android:title="@string/photos_printingskus_common_ui_add_photos_action" support:showAsAction="ifRoom" />
+    <item android:id="@id/delete_draft" android:title="@string/photos_printingskus_common_ui_empty_draft_dialog_delete_draft_button" support:showAsAction="never" />
+    <item android:id="@id/photos_pager_menu_action_bar_help" android:title="@string/photos_app_menu_item_help_feedback" support:showAsAction="never" />
+</menu>

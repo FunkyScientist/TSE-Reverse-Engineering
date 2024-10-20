@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/photos_flyingsky_title_suggestions_ui_label_cluster_entry_background"
+    android:paddingLeft="16dp"
+    android:paddingTop="12dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="12dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?attr/selectableItemBackground"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="12dp">
+    <ImageView
+        android:id="@+id/label_cluster_entry_avatar"
+        android:layout_width="@dimen/photos_flyingsky_title_suggestions_ui_cluster_avatar_size"
+        android:layout_height="@dimen/photos_flyingsky_title_suggestions_ui_cluster_avatar_size"
+        android:contentDescription="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:id="@+id/label_cluster_entry_avatar_help"
+        android:background="?attr/colorPrimaryContainer"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="24dp"
+        android:tint="?attr/colorOnPrimaryContainer"
+        android:contentDescription="@null"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toStartOf="@+id/label_cluster_entry_avatar"
+        app:layout_constraintTop_toTopOf="@+id/label_cluster_entry_avatar"
+        app:srcCompat="@drawable/photos_quantum_gm_ic_help_vd_theme_16"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.LabelLarge"
+        android:textColor="?attr/colorOnPrimaryContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_flyingsky_title_suggestions_unlabelled_clusters_name_face_groups"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/label_cluster_entry_avatar"
+        app:layout_constraintTop_toTopOf="parent"/>
+</android.support.constraint.ConstraintLayout>

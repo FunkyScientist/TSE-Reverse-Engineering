@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.apps.photos.insetview.WindowInsetsView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.libraries.social.p043ui.views.expandingscrollview.ExpandingScrollView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/create_expander"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.google.android.apps.photos.view.BoundedFrameLayout
+                android:id="@+id/fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:maxWidth="@dimen/photos_create_dialog_maxwidth"
+                android:layout_weight="1"/>
+        </com.google.android.libraries.social.p043ui.views.expandingscrollview.ExpandingScrollView>
+    </com.google.android.apps.photos.insetview.WindowInsetsView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

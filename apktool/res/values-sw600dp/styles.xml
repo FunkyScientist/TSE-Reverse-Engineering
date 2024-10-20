@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FreeUpSpaceLottieAnimation">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">270.0dip</item>
+        <item name="lottie_autoPlay">true</item>
+    </style>
+    <style name="FreeUpSpaceText" parent="@style/FreeUpSpaceTextBase">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="FreeUpSpaceTitle" parent="@style/FreeUpSpaceTitleBase">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Photos.FlexLayout.Album" parent="@style/Base.Photos.FlexLayout.Album">
+        <item name="targetRowAspect">3.333</item>
+    </style>
+    <style name="SupportPreference.PreferenceScreen" parent="@style/SupportPreference">
+        <item name="supportScreenWidth">600.0dip</item>
+    </style>
+    <style name="TextAppearanceDate" parent="@style/TextAppearance.Photos.Caption">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="TextAppearanceMainTitle" parent="@style/TextAppearance.Photos.HeadlineLarge" />
+    <style name="TextAppearanceTitleHeader" parent="@style/TextAppearance.Photos.HeadlineLarge" />
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+</resources>

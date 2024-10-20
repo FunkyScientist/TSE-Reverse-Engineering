@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textSize="@dimen/text_size_12"
+    android:textColor="@color/quantum_grey600"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="@string/photos_strings_share_action"
+    android:singleLine="true"
+    android:drawablePadding="8dp"
+    android:alpha="0.54"
+    android:paddingStart="0dp"
+    android:paddingEnd="24dp"
+    app:drawableStartCompat="@drawable/quantum_gm_ic_group_gm_grey_18"/>

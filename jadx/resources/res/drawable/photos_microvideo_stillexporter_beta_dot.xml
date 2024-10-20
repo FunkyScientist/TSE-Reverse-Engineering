@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="@dimen/photos_microvideo_stillexporter_beta_dot_padding"
+    android:insetRight="@dimen/photos_microvideo_stillexporter_beta_dot_padding"
+    android:insetTop="@dimen/photos_microvideo_stillexporter_beta_dot_padding">
+    <shape android:shape="oval">
+        <size
+            android:height="@dimen/photos_microvideo_stillexporter_beta_dot_diameter"
+            android:width="@dimen/photos_microvideo_stillexporter_beta_dot_diameter"/>
+        <solid android:color="@color/photos_microvideo_stillexporter_beta_dot_color"/>
+    </shape>
+</inset>

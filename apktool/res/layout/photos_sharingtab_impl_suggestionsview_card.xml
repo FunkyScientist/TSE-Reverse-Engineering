@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@id/suggestion_card" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="?android:colorBackground" style="@style/suggestions_card"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.libraries.material.aspectratio.FixedAspectRatioFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:aspectRatio="3.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/suggestion_card_image_1" android:scaleType="centerCrop" android:contentDescription="@null" style="@style/suggestions_card_image" />
+                <ImageView android:id="@id/suggestion_card_image_2" android:scaleType="centerCrop" android:contentDescription="@null" android:layout_marginStart="@dimen/photos_sharingtab_impl_suggestionsview_card_image_margin" style="@style/suggestions_card_image" />
+                <FrameLayout android:id="@id/suggestion_card_image_3_container" android:layout_marginStart="@dimen/photos_sharingtab_impl_suggestionsview_card_image_margin" style="@style/suggestions_card_image">
+                    <ImageView android:id="@id/suggestion_card_image_3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+                    <TextView android:textAppearance="@style/TextAppearance.Photos.Headline5" android:textColor="@color/google_white" android:gravity="center" android:id="@id/overflow_count" android:background="#80000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </FrameLayout>
+            </LinearLayout>
+        </com.google.android.libraries.material.aspectratio.FixedAspectRatioFrameLayout>
+        <TextView android:textAppearance="@style/suggestions_card_description" android:id="@id/description_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photos_sharingtab_impl_suggestionsview_card_text_top_margin" android:layout_marginBottom="@dimen/photos_sharingtab_impl_suggestionsview_card_text_bottom_margin" android:paddingStart="@dimen/photos_sharingtab_impl_suggestionsview_card_text_horizontal_padding" android:paddingEnd="@dimen/photos_sharingtab_impl_suggestionsview_card_text_horizontal_padding" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/recipients_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/photos_sharingtab_impl_suggestionsview_card_recipients_left_padding">
+            <ImageView android:id="@id/recipient_1" android:visibility="gone" android:contentDescription="@null" style="@style/suggestions_card_recipient_image" />
+            <ImageView android:id="@id/recipient_2" android:visibility="gone" android:contentDescription="@null" style="@style/suggestions_card_recipient_image" />
+            <ImageView android:id="@id/recipient_3" android:visibility="gone" android:contentDescription="@null" style="@style/suggestions_card_recipient_image" />
+            <ImageView android:id="@id/recipient_4" android:visibility="gone" android:contentDescription="@null" style="@style/suggestions_card_recipient_image" />
+            <ImageView android:id="@id/add_recipient_icon" android:src="@drawable/photos_sharingtab_impl_suggestionsview_add_recipient_icon" android:scaleType="center" android:contentDescription="@null" style="@style/suggestions_card_recipient_image" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/photos_sharingtab_impl_suggestionsview_card_button_horizontal_margin" android:layout_marginTop="@dimen/photos_sharingtab_impl_suggestionsview_card_button_area_top_margin" android:layout_marginRight="@dimen/photos_sharingtab_impl_suggestionsview_card_button_horizontal_margin">
+            <FrameLayout android:id="@id/skip_button_container" android:layout_marginEnd="@dimen/photos_sharingtab_impl_suggestionsview_card_button_horizontal_margin" style="@style/suggestions_card_button_container">
+                <Button android:id="@id/skip_button" android:layout_width="fill_parent" android:layout_height="@dimen/photos_sharingtab_impl_suggestionsview_card_button_height" android:text="@string/photos_sharingtab_impl_suggestionsview_card_skip_button" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" style="@style/suggestions_card_skip_button" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/review_button_container" style="@style/suggestions_card_button_container">
+                <Button android:layout_width="fill_parent" android:layout_height="@dimen/photos_sharingtab_impl_suggestionsview_card_button_height" android:text="@string/photos_sharingtab_impl_suggestionsview_card_review_button" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" style="@style/suggestions_card_review_button" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

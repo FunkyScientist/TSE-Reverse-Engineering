@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/gs_delete_forever_vd_theme_48" android:id="@id/delete_items" android:visible="false" android:title="@string/delete" android:contentDescription="@string/delete" app:iconTint="?colorOnSurface" app:showAsAction="always" />
+    <item android:id="@id/delete_all_items" android:visible="false" android:contentDescription="@string/delete_all" app:actionLayout="@layout/delete_all_menu_item" app:showAsAction="ifRoom" />
+</menu>

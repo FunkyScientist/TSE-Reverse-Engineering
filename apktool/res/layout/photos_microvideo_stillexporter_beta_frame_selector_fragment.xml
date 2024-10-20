@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/frame_selector" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.photos.viewzoom.ZoomableImageView android:id="@id/photos_microvideo_stillexporter_beta_frame_selector_fragment_preview_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" android:contentDescription="@string/photos_microvideo_stillexporter_beta_preview_image_content_description" android:transitionName="com.google.android.apps.photos.microvideo.stillexporter.intentloader.FrameExporterLauncher.photo_view_transition" />
+    <include layout="@layout/photos_videoplayer_view_video_view_container" />
+    <FrameLayout android:id="@id/photos_microvideo_stillexporter_beta_frame_selector_fragment_controller_fragment_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/photos_photoeditor_commonui_top_gradient" />
+    <include layout="@layout/photos_photoeditor_commonui_bottom_gradient" />
+    <RelativeLayout android:id="@id/photos_microvideo_stillexporter_beta_frame_selector_fragment_tool_container" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.Toolbar android:theme="?actionBarTheme" android:id="@id/toolbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_alignParentTop="true" style="?actionBarStyle" />
+        <ProgressBar android:id="@id/photos_microvideo_stillexporter_beta_frame_selector_fragment_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:layout_centerInParent="true" style="@style/Widget.Photos.ProgressBar.IndeterminateWhite" />
+        <RelativeLayout android:id="@id/photos_microvideo_stillexporter_beta_frame_selector_fragment_scrubber_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layoutDirection="ltr" android:transitionGroup="true">
+            <com.google.android.apps.photos.microvideo.stillexporter.beta.ScrubberView android:id="@id/photos_microvideo_stillexporter_beta_frame_selector_fragment_scrubber" android:paddingLeft="@dimen/photos_microvideo_stillexporter_beta_scrubber_horizontal_padding" android:paddingTop="@dimen/photos_microvideo_stillexporter_beta_scrubber_top_padding" android:paddingRight="@dimen/photos_microvideo_stillexporter_beta_scrubber_horizontal_padding" android:paddingBottom="@dimen/photos_microvideo_stillexporter_beta_scrubber_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

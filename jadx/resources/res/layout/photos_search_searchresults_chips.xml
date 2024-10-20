@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="top"
+    android:id="@+id/photos_search_searchresults_chips_container"
+    android:background="?attr/colorSurface"
+    android:visibility="gone"
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:fillViewport="true">
+    <LinearLayout
+        android:gravity="start"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="false"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp">
+        <com.google.android.material.chip.Chip
+            android:id="@+id/photos_search_searchresults_order_photos_chip_id"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/photos_search_searchresults_order_photos_chip"
+            support:chipIcon="@drawable/quantum_gm_ic_shopping_cart_vd_theme_24"
+            style="@style/photos_search_searchresults_order_photos_chip"/>
+        <com.google.android.material.chip.Chip
+            android:id="@+id/photos_search_searchresults_order_photos_chip_id_gm3"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/photos_search_searchresults_order_photos_chip"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            support:chipIcon="@drawable/quantum_gm_ic_shopping_cart_vd_theme_24"
+            support:chipIconSize="@dimen/photos_search_refinements_ui_chip_icon_size_gm3"
+            support:chipStrokeWidth="0dp"
+            support:iconStartPadding="@dimen/photos_search_refinements_ui_chip_icon_startPadding_gm3"/>
+    </LinearLayout>
+</HorizontalScrollView>

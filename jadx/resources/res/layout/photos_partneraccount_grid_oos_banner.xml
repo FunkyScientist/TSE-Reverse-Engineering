@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.view.AccessibleClickSpanTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="14sp"
+    android:textColor="?attr/colorOnBackground"
+    android:gravity="center_vertical"
+    android:id="@+id/banner_text"
+    android:background="?android:attr/colorBackground"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawablePadding="16dp"
+    android:lineSpacingExtra="6dp"
+    style="@style/TextAppearance.Photos.Subhead2"/>

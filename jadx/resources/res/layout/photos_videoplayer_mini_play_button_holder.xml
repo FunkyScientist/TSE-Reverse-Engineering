@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:id="@+id/photos_videoplayer_mini_play_button_holder"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:theme="@style/ThemeOverlay.GoogleMaterial.Dark"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/photos_videoplayer_mini_play_button"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/photos_videoplayer_play_video"
+        app:srcCompat="@drawable/quantum_gm_ic_play_arrow_white_24"/>
+    <ImageButton
+        android:theme="@style/ThemeOverlay.GoogleMaterial.Dark"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/photos_videoplayer_mini_pause_button"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/photos_videoplayer_pause_video"
+        app:srcCompat="@drawable/quantum_gm_ic_pause_white_24"/>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/photos_movies_v3_ui_clipeditor_impl_trim_outline_width" android:color="@color/gm3_sys_color_dark_inverse_surface" />
+    <corners android:radius="@dimen/photos_movies_v3_ui_clipeditor_impl_selected_clip_corner_radius" />
+</shape>

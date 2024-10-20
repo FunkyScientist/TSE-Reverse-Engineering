@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:gravity="start|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/device_folders_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_devicefolders_heading" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Photos.Albums.View.AlbumHeading" />
+    <Button android:textColor="?photosPrimary" android:gravity="end|center" android:id="@id/view_all_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_albums_grid_view_all" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.Photos.Button.Borderless" />
+</android.support.constraint.ConstraintLayout>

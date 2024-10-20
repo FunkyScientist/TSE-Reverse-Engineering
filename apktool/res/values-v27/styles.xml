@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.GoogleMaterial.Light" parent="@style/Base.V27.Theme.GoogleMaterial.Light" />
+    <style name="Base.Theme.GoogleMaterial3.Light" parent="@style/Base.V27.Theme.GoogleMaterial3.Light" />
+    <style name="OneGoogle.Dialog.Base" parent="@style/OneGoogle.Dialog.Base.V27" />
+    <style name="SudThemeGlifV3" parent="@style/SudBaseThemeGlifV3">
+        <item name="android:navigationBarColor">@color/sud_glif_v3_nav_bar_color_dark</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">@color/sud_glif_v3_nav_bar_divider_color_dark</item>
+        <item name="sucLightSystemNavBar">?android:windowLightNavigationBar</item>
+        <item name="sucSystemNavBarDividerColor">?android:navigationBarDividerColor</item>
+    </style>
+    <style name="SudThemeGlifV3.Light" parent="@style/SudBaseThemeGlifV3.Light">
+        <item name="android:navigationBarColor">@color/sud_glif_v3_nav_bar_color_light</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarDividerColor">@color/sud_glif_v3_nav_bar_divider_color_light</item>
+        <item name="sucLightSystemNavBar">?android:windowLightNavigationBar</item>
+        <item name="sucSystemNavBarDividerColor">?android:navigationBarDividerColor</item>
+    </style>
+    <style name="Theme.Photos.FrameExporter" parent="@style/Theme.Photos.OneUp">
+        <item name="android:windowBackground">@color/photos_microvideo_stillexporter_beta_main_background</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.Photos.ActionBar.Inverse.Overflow.FrameExporter</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">@integer/photos_theme_display_cutout_mode</item>
+        <item name="actionBarStyle">@style/Theme.Photos.PhotoEditor.ActionBar.Transparent</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.Photos.ActionBar.Inverse.Overflow.FrameExporter</item>
+        <item name="borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+    <style name="Theme.Photos.Fullscreen" parent="@style/Base.Theme.Photos.Fullscreen">
+        <item name="android:statusBarColor">@color/photos_theme_white_translucent_system_ui_color</item>
+        <item name="android:navigationBarColor">@color/photos_theme_white_translucent_system_ui_color</item>
+    </style>
+    <style name="Base.V27.Theme.GoogleMaterial.Light" parent="@style/Base.V24.Theme.GoogleMaterial.Light">
+        <item name="android:navigationBarColor">@color/google_white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="Base.V27.Theme.GoogleMaterial3.Light" parent="@style/Base.V24.Theme.GoogleMaterial3.Light">
+        <item name="android:navigationBarColor">@color/gm3_ref_palette_white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="OneGoogle.Dialog.Base.V27" parent="@style/OneGoogle.Dialog.Base.V23">
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

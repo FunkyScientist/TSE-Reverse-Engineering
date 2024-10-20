@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ripple android:color="@color/photos_daynight_white">
+        <item>
+            <shape>
+                <solid android:color="?colorSurfaceContainerHigh" />
+                <corners android:radius="@dimen/photos_photoeditor_udon_preset_popup_radius" />
+            </shape>
+        </item>
+    </ripple>
+</inset>

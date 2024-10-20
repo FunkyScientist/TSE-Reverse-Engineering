@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/assistant_card_overflow_button"
+    android:paddingTop="@dimen/photos_assistant_cardui_overflow_button_vertical_padding"
+    android:paddingBottom="@dimen/photos_assistant_cardui_overflow_button_vertical_padding"
+    android:layout_alignParentTop="true"
+    android:contentDescription="@string/overflow_menu_button"
+    android:paddingStart="@dimen/photos_assistant_cardui_overflow_button_horizontal_padding"
+    android:paddingEnd="@dimen/photos_assistant_cardui_overflow_button_horizontal_padding"
+    android:layout_alignParentEnd="true"
+    style="@style/AssistantOverflowButtonWhite"/>

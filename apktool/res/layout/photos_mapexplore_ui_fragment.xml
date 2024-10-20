@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/map" android:layout_width="fill_parent" android:layout_height="fill_parent" support:layout_behavior="com.google.android.apps.photos.mapexplore.ui.MapBehavior" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="start|center|top" android:id="@id/close_fab" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CloseFabStyle" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/menu_fab" style="@style/MenuFabStyle" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/current_location_fab" android:layout_width="wrap_content" android:layout_height="wrap_content" support:layout_behavior="com.google.android.apps.photos.mapexplore.ui.CurrentLocationButtonBehavior" style="@style/CurrentLocationFabStyle" />
+    <View android:id="@id/dim_background" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/feedback_view_stub" android:inflatedId="@id/feedback_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:layout_width="@dimen/photos_mapexplore_ui_info_button_size" android:layout_height="@dimen/photos_mapexplore_ui_info_button_size" support:layout_behavior="com.google.android.apps.photos.mapexplore.ui.InfoButtonBehavior" layout="@layout/photos_mapexplore_ui_info_button" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" support:layout_behavior="com.google.android.apps.photos.mapexplore.ui.GridContainerBottomSheetBehavior" layout="@layout/photos_mapexplore_ui_grid_container" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

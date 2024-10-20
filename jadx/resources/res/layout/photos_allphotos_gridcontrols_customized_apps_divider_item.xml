@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.divider.MaterialDivider xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/photos_allphotos_bottomsheet_gridcontrols_divider_margin"
+    android:layout_marginTop="@dimen/photos_allphotos_bottomsheet_gridcontrols_divider_margin"
+    android:layout_marginRight="@dimen/photos_allphotos_bottomsheet_gridcontrols_divider_margin"
+    android:layout_marginBottom="@dimen/photos_allphotos_bottomsheet_gridcontrols_divider_margin"
+    android:paddingStart="@dimen/photos_allphotos_bottomsheet_gridcontrols_padding"
+    android:paddingEnd="@dimen/photos_allphotos_bottomsheet_gridcontrols_padding"
+    android:layout_marginHorizontal="@dimen/photos_allphotos_bottomsheet_gridcontrols_divider_margin"
+    android:layout_marginVertical="@dimen/photos_allphotos_bottomsheet_gridcontrols_divider_margin"
+    app:dividerColor="@color/gm3_ref_palette_neutral_variant90"/>

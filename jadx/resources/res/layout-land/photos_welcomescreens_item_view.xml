@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_gravity="center"
+        android:id="@+id/welcomescreens_animation"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_width="@dimen/photos_welcomescreens_animation_width"
+        android:layout_height="@dimen/photos_welcomescreens_animation_height"
+        android:paddingStart="16dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"/>
+    <Space
+        android:id="@+id/welcomescreens_animation_built_in_margin_space"
+        android:layout_width="0dp"
+        android:layout_height="0dp"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+        <TextView
+            android:textAppearance="@style/TextAppearance.Photos.Headline5"
+            android:textColor="?attr/colorOnBackground"
+            android:gravity="center"
+            android:id="@+id/welcomescreens_title"
+            android:paddingBottom="@dimen/photos_welcomescreens_title_bottom_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"/>
+        <include layout="@layout/photos_welcomescreens_subtitle_layout"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ebnr_onboarding" android:paddingLeft="16.0dip" android:paddingTop="32.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip">
+        <include layout="@layout/photos_devicesetup_header_view" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip">
+            <TextView android:layout_gravity="center_vertical" android:id="@id/ebnr_onboarding_mobile_data_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Switch android:layout_gravity="center_vertical" android:id="@id/ebnr_onboarding_mobile_data_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.google.android.apps.photos.devicesetup.AccountHeaderView android:id="@id/ebnr_onboarding_account_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.google.android.material.button.MaterialButton android:id="@id/ebnr_onboarding_confirm_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+        <TextView android:textAppearance="@style/TextAppearance.Photos.Caption" android:textColorLink="?android:textColorSecondary" android:id="@id/ebnr_onboarding_disclaimer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:textAlignment="center" android:breakStrategy="balanced" android:layout_marginVertical="16.0dip" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

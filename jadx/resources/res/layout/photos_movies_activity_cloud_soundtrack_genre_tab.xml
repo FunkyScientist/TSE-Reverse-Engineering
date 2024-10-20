@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp">
+    <TextView
+        android:textColor="@color/photos_movies_activity_soundtrack_genre_tab_selector"
+        android:gravity="center_vertical"
+        android:id="@+id/soundtrack_genre_title"
+        android:paddingLeft="16dp"
+        android:paddingTop="@dimen/photos_movies_activity_music_picker_tab_text_padding_top"
+        android:paddingRight="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        style="@style/photos_movies_activity_menu_item_text_appearance"/>
+</LinearLayout>

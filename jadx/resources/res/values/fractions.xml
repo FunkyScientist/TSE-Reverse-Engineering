@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="monogram_letter_to_size_ratio">54%</fraction>
+    <fraction name="monogram_letter_to_size_ratio_three_chars">45%</fraction>
+    <fraction name="monogram_letter_to_size_ratio_two_chars">54%</fraction>
+    <fraction name="photos_settings_notification_permission_icon_vertical_bias">0.223</fraction>
+</resources>

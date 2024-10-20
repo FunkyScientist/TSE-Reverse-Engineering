@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="@drawable/photos_printingskus_common_intent_impl_menu_item_image_selector" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:tintMode="multiply" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/TextAppearance.Photos.Body1" android:textColor="@drawable/photos_printingskus_common_intent_impl_menu_item_title_selector" android:layout_gravity="start|center|top" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <TextView android:textAppearance="@style/TextAppearance.Photos.Body2" android:textColor="@drawable/photos_printingskus_common_intent_impl_menu_item_subtitle_selector" android:layout_gravity="start|bottom|center" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+</LinearLayout>

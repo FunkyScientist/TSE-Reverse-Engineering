@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="32dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/photos_conversation_starter_impl_suggested_conversation"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Headline5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/photos_conversation_starter_impl_new_way_to_share"
+        android:textAlignment="center"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body2"
+        android:id="@+id/photos_conversation_starter_impl_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_conversation_starter_impl_new_suggestion_photos_grouped_here_multi_recipient"
+        android:textAlignment="center"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
+</LinearLayout>

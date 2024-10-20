@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.theme.SurfaceMaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="24dp"
+    android:layout_marginStart="@dimen/photos_search_destination_horiz_margin"
+    android:layout_marginEnd="@dimen/photos_search_destination_horiz_margin"
+    app:cardBackgroundColor="?android:attr/colorBackground"
+    app:cardCornerRadius="@dimen/photos_theme_rounded_corner_radius">
+    <android.support.constraint.ConstraintLayout
+        android:padding="@dimen/photos_theme_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAppearance="@style/TextAppearance.Photos.Body2"
+            android:textColor="?attr/photosPrimary"
+            android:gravity="start"
+            android:id="@+id/photos_search_destination_carousel_people_promo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/photos_search_destination_people_carousel_promo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/dismiss_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <ImageView
+            android:id="@+id/dismiss_button"
+            android:padding="6dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:tint="?attr/photosPrimary"
+            android:contentDescription="@string/photos_search_destination_people_carousel_promo_content_description"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/quantum_gm_ic_close_vd_theme_24"/>
+    </android.support.constraint.ConstraintLayout>
+</com.google.android.apps.photos.theme.SurfaceMaterialCardView>

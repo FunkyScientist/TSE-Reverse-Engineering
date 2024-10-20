@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip">
+        <android.support.v7.widget.AppCompatTextView android:layout_gravity="center_vertical" android:id="@id/share_clusters" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/photos_partneraccount_onboarding_confirm_photos_access_all_face_clusters_text" android:drawablePadding="16.0dip" app:drawableStartCompat="@drawable/quantum_gm_ic_check_vd_theme_24" style="@style/TextAppearance.Photos.Body1" />
+        <android.support.v7.widget.AppCompatTextView android:textAppearance="@style/TextAppearance.Photos.Body2" android:textColor="?photosOnSurfaceVariant" android:textColorLink="?photosOnSurfaceVariant" android:id="@id/share_clusters_notice_text" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="40.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip">
+        <android.support.v7.widget.AppCompatTextView android:layout_gravity="center_vertical" android:id="@id/share_after_time" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/photos_partneraccount_onboarding_confirm_photos_access_old_photos_text" android:drawablePadding="16.0dip" app:drawableStartCompat="@drawable/quantum_gm_ic_check_vd_theme_24" style="@style/TextAppearance.Photos.Body1" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip">
+        <android.support.v7.widget.AppCompatTextView android:layout_gravity="center_vertical" android:id="@id/share_location_data" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/photos_partneraccount_onboarding_confirm_photos_access_location_data_text" android:drawablePadding="16.0dip" app:drawableStartCompat="@drawable/quantum_gm_ic_check_vd_theme_24" style="@style/TextAppearance.Photos.Body1" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.allphotos.ui.AllPhotosBar android:id="@id/all_photos_bar" style="@style/AllPhotosSyncStatusBar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/status" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingHorizontal="16.0dip" style="@style/AllPhotosSyncStatusBar.TextView" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include android:layout_width="fill_parent" android:layout_height="3.0dip" layout="@layout/status_progress_bar" />
+        <ImageView android:id="@id/progress_stalled" android:background="@color/quantum_grey300" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:importantForAccessibility="no" />
+    </FrameLayout>
+</com.google.android.apps.photos.allphotos.ui.AllPhotosBar>

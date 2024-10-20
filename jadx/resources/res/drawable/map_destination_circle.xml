@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <size
+        android:scaleType="center"
+        android:height="@dimen/photos_album_enrichment_ui_map_enrichment_destination_circle_diameter"
+        android:width="@dimen/photos_album_enrichment_ui_map_enrichment_destination_circle_diameter"/>
+    <padding
+        android:left="12dp"
+        android:top="12dp"
+        android:right="12dp"
+        android:bottom="12dp"/>
+    <solid android:color="@color/photos_album_enrichment_ui_map_marker_background"/>
+</shape>

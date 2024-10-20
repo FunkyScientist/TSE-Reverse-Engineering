@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="8.0dip" android:insetRight="8.0dip" android:insetTop="-20.0dip" android:insetBottom="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape>
+        <corners android:radius="@dimen/photos_theme_rounded_corner_radius" />
+    </shape>
+</inset>

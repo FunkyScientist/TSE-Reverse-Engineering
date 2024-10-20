@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textAppearance="@style/TextAppearance.Photos.Headline3" android:textColor="?photosTextColorPrimaryVariant" android:ellipsize="end" android:gravity="start" android:id="@id/photos_memories_edittitle_dialog_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/photos_memories_edittitle_dialog_edit_hint" android:selectAllOnFocus="true" android:inputType="textCapSentences" android:imeOptions="actionDone" />
+    <TextView android:textAppearance="@style/TextAppearance.Photos.BodySmall" android:id="@id/photos_memories_edittitle_dialog_supporting" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

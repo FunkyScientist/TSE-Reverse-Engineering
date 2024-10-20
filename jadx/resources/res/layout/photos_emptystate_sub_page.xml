@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout style="@style/Theme.Photos.EmptyState.Layout">
+        <ImageView
+            android:id="@+id/empty_page_image"
+            android:contentDescription="@null"
+            style="@style/Theme.Photos.EmptyState.Image"/>
+        <TextView
+            android:id="@+id/empty_page_title_bottom"
+            style="@style/Theme.Photos.EmptyState.Title"/>
+        <TextView
+            android:id="@+id/empty_page_caption"
+            style="@style/Theme.Photos.EmptyState.Caption"/>
+        <TextView
+            android:id="@+id/empty_page_title_top"
+            style="@style/Theme.Photos.EmptyState.Title"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Theme.Photos.EmptyState.Layout">
+            <TextView
+                android:textColor="?attr/colorOnSurfaceVariant"
+                android:id="@+id/empty_page_button_caption"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Theme.Photos.EmptyState.Caption.Base"/>
+            <Button
+                android:id="@+id/empty_page_borderless_button"
+                android:paddingBottom="8dp"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?attr/borderlessButtonStyle"/>
+            <Button
+                android:id="@+id/empty_page_dark_button"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                style="@style/Widget.Photos.BoldButton"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

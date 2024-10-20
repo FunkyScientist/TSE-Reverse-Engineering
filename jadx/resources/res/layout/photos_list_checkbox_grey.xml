@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.list.DateHeaderCheckBox xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="start"
+    android:id="@+id/checkbox"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:button="@drawable/photos_list_checkbox_grey"
+    android:layout_marginStart="4dp"/>

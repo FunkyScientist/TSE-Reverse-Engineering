@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textColor="#fff"
+    android:id="@+id/photos_stories_promo_skip_button"
+    android:padding="16dp"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleType="center"
+    android:text="@string/skip_button"
+    android:maxLines="1"
+    android:fontFamily="@font/google_sans_medium"
+    style="@style/Widget.Photos.Button.Borderless"/>

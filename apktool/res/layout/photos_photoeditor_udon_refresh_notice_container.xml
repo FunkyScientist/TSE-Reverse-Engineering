@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?colorSurface" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/photos_photoeditor_udon_refresh_container" android:background="@drawable/photos_photoeditor_udon_button_background" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerInParent="true">
+        <com.airbnb.lottie.LottieAnimationView android:background="@drawable/photos_photoeditor_udon_button_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/photos_photoeditor_udon_button_background_animation" />
+        <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@null" app:srcCompat="@drawable/gs_refresh_vd_theme_48" />
+    </FrameLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_photoeditor_udon_refresh_instructions" android:layout_below="@id/photos_photoeditor_udon_refresh_container" android:layout_centerHorizontal="true" />
+</RelativeLayout>

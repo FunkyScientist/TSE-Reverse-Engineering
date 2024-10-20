@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="@dimen/photos_stories_progressbar_corner_radius" />
+            <solid android:color="@color/photos_stories_progressbar_background_color" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:topLeftRadius="@dimen/photos_stories_progressbar_corner_radius" android:bottomLeftRadius="@dimen/photos_stories_progressbar_corner_radius" />
+                <solid android:color="@color/photos_stories_progressbar_progress_color" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

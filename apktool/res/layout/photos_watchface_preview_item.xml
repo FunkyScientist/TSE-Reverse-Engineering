@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/preview_image" android:layout_width="@dimen/photos_watchface_preview_circular_image_diameter" android:layout_height="@dimen/photos_watchface_preview_circular_image_diameter" android:layout_marginTop="@dimen/photos_watchface_preview_margin" android:contentDescription="@string/photos_accessibility_photo" />
+    <com.google.android.material.button.MaterialButton android:id="@id/remove_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photos_watchface_preview_margin" android:layout_marginBottom="@dimen/photos_watchface_preview_margin" android:text="@string/photos_watchface_preview_remove_button" app:icon="@drawable/quantum_gm_ic_remove_circle_outline_vd_theme_24" style="@style/Widget.Photos.Button.TonalButton.Icon" />
+</LinearLayout>

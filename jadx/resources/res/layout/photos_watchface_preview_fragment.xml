@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/container"
+        android:paddingBottom="80dp"
+        android:clipToPadding="false"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        support:layoutManager="LinearLayoutManager"
+        support:layout_constraintBottom_toBottomOf="parent"
+        support:layout_constraintEnd_toEndOf="parent"
+        support:layout_constraintStart_toStartOf="parent"
+        support:layout_constraintTop_toBottomOf="@+id/watchface_toolbar"/>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/add_photos_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/photos_watchface_preview_add_photos_button_margin_bottom"
+        android:text="@string/photos_watchface_preview_add_photos"
+        support:icon="@drawable/quantum_gm_ic_add_photo_alternate_vd_theme_24"
+        support:layout_constraintBottom_toBottomOf="parent"
+        support:layout_constraintEnd_toEndOf="parent"
+        support:layout_constraintStart_toStartOf="parent"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/photos_watchface_preview_toolbar"/>
+</android.support.constraint.ConstraintLayout>

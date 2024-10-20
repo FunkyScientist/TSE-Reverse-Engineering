@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/photos_videoplayer_view_video_view_container"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/photos_motion_hint_still_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/photos_motion_hint_hint_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"/>
+</FrameLayout>

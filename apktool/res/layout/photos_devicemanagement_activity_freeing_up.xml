@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_view" app:lottie_loop="true" app:lottie_rawRes="@raw/photos_devicemanagement_activity_freeing_up_lottie_animation" style="@style/FreeUpSpaceLottieAnimation" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/lottie_view">
+        <TextView android:id="@id/title" android:text="@string/photos_devicemanagement_activity_freeing_up_title_v2" style="@style/FreeUpSpaceTitle" />
+        <TextView android:id="@id/free_up_space_progress_text" android:text="@string/photos_devicemanagement_activity_freeing_up_progress_text" android:lineSpacingExtra="0.0dip" style="@style/FreeUpSpaceText" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/free_up_space_progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        <TextView android:text="@string/photos_devicemanagement_activity_freeing_up_tip" style="@style/FreeUpSpaceText" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

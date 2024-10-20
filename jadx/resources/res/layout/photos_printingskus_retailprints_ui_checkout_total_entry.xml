@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/photos_printingskus_retailprints_ui_horizontal_margin"
+    android:paddingEnd="@dimen/photos_printingskus_retailprints_ui_horizontal_margin">
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Subhead1"
+        android:textColor="?attr/colorOnSurface"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_printingskus_retailprints_ui_checkout_subtotal_label"
+        support:layout_constraintEnd_toStartOf="@+id/print_item_total"
+        support:layout_constraintStart_toStartOf="parent"
+        support:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Subhead1"
+        android:textColor="?attr/colorOnSurface"
+        android:id="@+id/print_item_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        support:layout_constraintEnd_toEndOf="parent"
+        support:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Caption"
+        android:textColor="?attr/photosOnSurfaceVariantFaded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_printingskus_retailprints_ui_order_plus_tax"
+        support:layout_constraintEnd_toEndOf="parent"
+        support:layout_constraintTop_toBottomOf="@+id/print_item_total"/>
+</android.support.constraint.ConstraintLayout>

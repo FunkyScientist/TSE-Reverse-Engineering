@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/transparent_bg"/>
+    <stroke
+        android:width="@dimen/photos_flyingsky_bulk_banner_cover_image_border_width"
+        android:color="?attr/photosSurface2"/>
+    <corners android:radius="@dimen/photos_flyingsky_bulk_confirmation_banner_cover_image_corner_radius"/>
+</shape>

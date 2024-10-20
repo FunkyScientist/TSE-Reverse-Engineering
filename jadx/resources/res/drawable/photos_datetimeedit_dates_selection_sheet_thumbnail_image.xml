@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:gravity="start|top"
+        android:drawable="@drawable/photos_datetimeedit_thumbnail_image_rectangle_shape"/>
+    <item
+        android:gravity="start|top"
+        android:drawable="@drawable/photos_datetimeedit_thumbnail_image_rectangle_shape"
+        android:top="8dp"
+        android:start="8dp"/>
+    <item
+        android:gravity="start|top"
+        android:drawable="@drawable/photos_datetimeedit_thumbnail_image_rectangle_shape"
+        android:top="16dp"
+        android:start="16dp"/>
+</layer-list>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/toolbar_container"
+    android:background="?android:attr/colorBackground"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/notification_bar_spacer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <android.support.v7.widget.Toolbar
+        android:theme="?attr/actionBarTheme"
+        android:id="@+id/toolbar"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:touchscreenBlocksFocus="false"
+        style="?attr/actionBarStyle"/>
+</LinearLayout>

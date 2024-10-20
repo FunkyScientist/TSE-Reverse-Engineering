@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="14sp"
+        android:textColor="?attr/colorError"
+        android:id="@+id/message"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="16sp"
+        android:id="@+id/delete_confirmation_button"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:drawableStartCompat="@drawable/quantum_gm_ic_phone_android_vd_theme_24"
+        style="@style/photos_localmedia_ui_deleteconfirm_style"/>
+</LinearLayout>

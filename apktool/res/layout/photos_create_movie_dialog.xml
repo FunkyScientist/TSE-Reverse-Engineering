@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/photos_create_movie_layout_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="top" android:id="@id/photos_create_v3_guided_movies_toolbar_and_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+        <android.support.v7.widget.Toolbar android:id="@id/photos_create_v3_guided_movies_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" />
+        <Button android:id="@id/photos_create_v3_start_from_scratch_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_create_movie_theme_picker_manual_creation_title" android:layout_centerVertical="true" android:paddingStart="16.0dip" android:paddingEnd="22.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" app:drawableTint="?colorOnPrimary" app:icon="@drawable/quantum_gm_ic_add_vd_theme_24" app:iconGravity="textStart" app:iconSize="18.0dip" style="@style/photos_create_start_from_scratch_button" />
+    </RelativeLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.Photos.Body1" android:textSize="36.0sp" android:textColor="?colorOnSurface" android:gravity="center_horizontal" android:id="@id/photos_create_theme_title" android:paddingTop="16.0dip" android:paddingBottom="48.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/photos_create_start_from_a_theme" />
+            <android.support.v7.widget.RecyclerView android:id="@id/photos_create_movie_dialog_recycler_view" android:paddingTop="8.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

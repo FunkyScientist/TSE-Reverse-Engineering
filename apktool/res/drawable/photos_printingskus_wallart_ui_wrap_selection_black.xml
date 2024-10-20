@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="72.0dip" android:width="80.0dip" android:viewportWidth="80.0" android:viewportHeight="72.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <path android:name="top" android:fillColor="@color/photos_printingskus_wallart_ui_canvas_wrap_top" android:pathData="M0,0H80V9L40,30L0,9z" />
+        <path android:name="left_edge" android:fillColor="#ff202124" android:pathData="M0,9L40,30L40,41L0,22z" />
+        <path android:name="right_edge" android:fillColor="#ff3c4042" android:pathData="M80,9L40,30L40,41L80,22z" />
+        <path android:name="bottom_line" android:pathData="M0,22L40,41L80,22" android:strokeColor="#ff3c4042" android:strokeWidth="0.5" />
+    </group>
+</vector>

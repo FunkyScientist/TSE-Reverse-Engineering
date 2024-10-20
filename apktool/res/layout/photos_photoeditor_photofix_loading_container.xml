@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:id="@id/photos_photoeditor_photofix_loading_container" android:background="@color/google_black" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:layout_gravity="bottom|center" android:id="@id/photos_photoeditor_photofix_loading_indicator" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminate="true" app:indicatorColor="@color/google_white" app:trackColor="@color/google_black" app:trackThickness="3.0dip" />
+</FrameLayout>

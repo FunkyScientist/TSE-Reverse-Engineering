@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/xray_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/xray_fragment_icon" android:layout_width="25.0dip" android:layout_height="25.0dip" android:tint="?colorError" app:srcCompat="@drawable/photos_search_destination_impl_xray_error_icon" />
+        <TextView android:textAppearance="@style/TextAppearance.Photos.TitleLarge" android:gravity="center" android:id="@id/xray_fragment_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="24.0dip" android:text="@string/photos_search_destination_partialstate_xray_text" />
+        <com.google.android.material.button.MaterialButton android:textAppearance="@style/TextAppearance.Photos.LabelLarge" android:id="@id/xray_fragment_buy_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" android:backgroundTint="?colorError" />
+        <com.google.android.material.button.MaterialButton android:id="@id/xray_fragment_manage_storage_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="40.0dip" android:text="@string/photos_search_destination_partialstate_contextual_upsell_manage_storage_text" android:backgroundTint="?colorError" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.google.android.material.button.MaterialButton android:textAppearance="@style/TextAppearance.Photos.LabelLarge" android:textColor="@color/photos_cloudstorage_brokenstate_continue_button_color" android:id="@id/xray_fragment_continue_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="34.0dip" android:text="@string/photos_search_destination_impl_xray_continue_button" style="@style/Widget.Photos.Button.Borderless" />
+    </LinearLayout>
+</RelativeLayout>

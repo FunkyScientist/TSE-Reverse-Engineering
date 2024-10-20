@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/photos_photoeditor_fragments_effects_layout_start_end_padding" android:paddingEnd="@dimen/photos_photoeditor_fragments_effects_layout_start_end_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

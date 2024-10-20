@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="@dimen/photos_printingskus_storefront_config_contentrow_product_item_height" style="@style/Widget.Photos.CardView.PrintingStorefront">
+        <android.support.v7.widget.AppCompatImageView android:theme="@style/ThemeOverlay.Photos.DayNight.Primary" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" android:contentDescription="@null" app:srcCompat="@drawable/quantum_gm_ic_arrow_forward_vd_theme_24" />
+    </com.google.android.material.card.MaterialCardView>
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Subhead2" android:ellipsize="end" android:id="@id/see_all" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/photos_printingskus_storefront_config_contentrow_see_all_button_label" android:textDirection="locale" android:textAlignment="center" />
+</LinearLayout>

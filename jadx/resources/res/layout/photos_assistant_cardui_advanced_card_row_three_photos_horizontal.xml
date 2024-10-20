@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.material.aspectratio.FixedAspectRatioFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:aspectRatio="3">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.apps.photos.assistant.cardui.CardPhotoView
+            android:id="@+id/photo_0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/accessibility_photo_button"
+            android:layout_marginEnd="@dimen/photos_assistant_cardui_photo_grid_reduced_padding"/>
+        <com.google.android.apps.photos.assistant.cardui.CardPhotoView
+            android:id="@+id/photo_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/accessibility_photo_button"
+            android:layout_marginEnd="@dimen/photos_assistant_cardui_photo_grid_reduced_padding"/>
+        <com.google.android.apps.photos.assistant.cardui.CardPhotoView
+            android:id="@+id/photo_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/accessibility_photo_button"/>
+    </LinearLayout>
+</com.google.android.libraries.material.aspectratio.FixedAspectRatioFrameLayout>

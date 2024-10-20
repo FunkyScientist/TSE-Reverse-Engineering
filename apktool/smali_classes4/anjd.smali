@@ -1,0 +1,124 @@
+.class public final Lanjd;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Layps;
+.implements Lyfj;
+
+
+# static fields
+.field public static final a:Lcom/google/android/apps/photos/surveys/Trigger;
+
+.field public static final b:Lcom/google/android/apps/photos/surveys/Trigger;
+
+.field public static final c:Lcom/google/android/apps/photos/surveys/Trigger;
+
+
+# instance fields
+.field public d:Lyer;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lcom/google/android/apps/photos/surveys/AutoValue_Trigger;
+
+    .line 2
+    .line 3
+    const-string v1, "nnkaGvD2G0e4SaBu66B0W1n1wcrv"
+
+    .line 4
+    .line 5
+    invoke-direct {v0, v1}, Lcom/google/android/apps/photos/surveys/AutoValue_Trigger;-><init>(Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    sput-object v0, Lanjd;->a:Lcom/google/android/apps/photos/surveys/Trigger;
+
+    .line 9
+    .line 10
+    new-instance v0, Lcom/google/android/apps/photos/surveys/AutoValue_Trigger;
+
+    .line 11
+    .line 12
+    const-string v1, "tBSN4Ekia0e4SaBu66B0SpKg1anD"
+
+    .line 13
+    .line 14
+    invoke-direct {v0, v1}, Lcom/google/android/apps/photos/surveys/AutoValue_Trigger;-><init>(Ljava/lang/String;)V
+
+    .line 15
+    .line 16
+    .line 17
+    sput-object v0, Lanjd;->b:Lcom/google/android/apps/photos/surveys/Trigger;
+
+    .line 18
+    .line 19
+    new-instance v0, Lcom/google/android/apps/photos/surveys/AutoValue_Trigger;
+
+    .line 20
+    .line 21
+    const-string v1, "4MnNsNqev0e4SaBu66B0TwYHbcp5"
+
+    .line 22
+    .line 23
+    invoke-direct {v0, v1}, Lcom/google/android/apps/photos/surveys/AutoValue_Trigger;-><init>(Ljava/lang/String;)V
+
+    .line 24
+    .line 25
+    .line 26
+    sput-object v0, Lanjd;->c:Lcom/google/android/apps/photos/surveys/Trigger;
+
+    .line 27
+    .line 28
+    return-void
+.end method
+
+.method public constructor <init>(Laypb;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p1, p0}, Laypb;->S(Layps;)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method
+
+
+# virtual methods
+.method public final gI(Landroid/content/Context;L_1311;Landroid/os/Bundle;)V
+    .locals 0
+
+    .line 1
+    const-class p1, Lapei;
+
+    .line 2
+    .line 3
+    const/4 p3, 0x0
+
+    .line 4
+    invoke-virtual {p2, p1, p3}, L_1311;->b(Ljava/lang/Class;Ljava/lang/Object;)Lyer;
+
+    .line 5
+    .line 6
+    .line 7
+    move-result-object p1
+
+    .line 8
+    iput-object p1, p0, Lanjd;->d:Lyer;
+
+    .line 9
+    .line 10
+    return-void
+.end method

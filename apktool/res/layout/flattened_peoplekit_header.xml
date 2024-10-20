@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/quantum_white_100" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/peoplekit_listview_flattened_main_header_wrapper" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatTextView android:textAppearance="@style/TextAppearance.GoogleMaterial.Overline" android:id="@id/peoplekit_listview_flattened_main_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/peoplekit_listview_row_padding" android:layout_marginTop="@dimen/peoplekit_listview_row_padding" android:layout_marginBottom="@dimen/peoplekit_listview_row_header_letter_top_padding" android:layout_marginStart="@dimen/peoplekit_listview_row_padding" />
+    </RelativeLayout>
+    <com.google.android.libraries.social.peoplekit.common.ui.InfoIconButton android:textAppearance="@style/TextAppearance.GoogleMaterial.Overline" android:id="@id/peoplekit_listview_flattened_legalese_info_header" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/peoplekit_listview_info_header_margin_top" android:layout_marginStart="@dimen/peoplekit_listview_info_header_margin_start" app:themeType="gm2" />
+</RelativeLayout>

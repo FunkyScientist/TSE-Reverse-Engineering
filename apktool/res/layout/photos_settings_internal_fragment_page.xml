@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/photos_settings_header_and_footer_spacing" />
+        <TextView android:id="@id/feature_flags_button" android:text="@string/photos_settings_internal_feature_flags" app:drawableStartCompat="@drawable/gs_flag_vd_theme_24" style="@style/photos_settings_main_page_item" />
+        <TextView android:id="@id/developer_settings_button" android:text="@string/photos_settings_internal_developer_settings" app:drawableStartCompat="@drawable/gs_manage_accounts_vd_theme_24" style="@style/photos_settings_main_page_item" />
+        <TextView android:id="@id/library_statistics_button" android:text="@string/photos_settings_internal_library_statistics" app:drawableStartCompat="@drawable/gs_leaderboard_vd_theme_24" style="@style/photos_settings_main_page_item" />
+        <TextView android:id="@id/poke_ui_button" android:text="@string/photos_settings_internal_poke_ui" app:drawableStartCompat="@drawable/gs_build_vd_theme_24" style="@style/photos_settings_main_page_item" />
+        <TextView android:id="@id/restore_service_button" android:text="@string/photos_settings_internal_restore_service" app:drawableStartCompat="@drawable/gs_new_releases_vd_theme_24" style="@style/photos_settings_main_page_item" />
+        <TextView android:id="@id/send_databases_button" android:text="@string/photos_settings_internal_send_databases" app:drawableStartCompat="@drawable/gs_database_vd_theme_24" style="@style/photos_settings_main_page_item" />
+        <TextView android:id="@id/send_log_files_button" android:text="@string/photos_settings_internal_send_log_files" app:drawableStartCompat="@drawable/gs_history_vd_theme_24" style="@style/photos_settings_main_page_item" />
+        <TextView android:id="@id/storage_debug_ui_button" android:text="@string/photos_settings_internal_storage_debug_ui" app:drawableStartCompat="@drawable/gs_storage_vd_theme_24" style="@style/photos_settings_main_page_item" />
+        <include layout="@layout/photos_settings_header_and_footer_spacing" />
+    </LinearLayout>
+</ScrollView>

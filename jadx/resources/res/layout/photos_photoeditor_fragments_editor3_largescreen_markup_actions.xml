@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.material.button.MaterialButton
+        android:enabled="false"
+        android:textColor="@color/photos_photoeditor_commonui_icon_color"
+        android:layout_gravity="start"
+        android:id="@+id/photos_photoeditor_fragments_editor3_markup_tab_clear_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_photoeditor_markup_impl_clear_button_text"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        style="@style/Widget.Photos.Button.Borderless"/>
+    <com.google.android.material.button.MaterialButton
+        android:enabled="false"
+        android:layout_gravity="end"
+        android:id="@+id/photos_photoeditor_fragments_editor3_markup_tab_undo_button"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/photos_photoeditor_markup_impl_a11y_undo_button"
+        app:icon="@drawable/quantum_gm_ic_undo_vd_theme_24"
+        app:iconGravity="textStart"
+        app:iconSize="@dimen/photos_photoeditor_markup_impl_undo_button_size"
+        app:iconTint="@color/photos_photoeditor_commonui_icon_color"
+        style="@style/Widget.Photos.Button.Borderless"/>
+</FrameLayout>

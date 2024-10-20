@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/face_grouping_button" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/photos_settings_two_lines_container">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_settings_faceclustering_advanced_face_recognition_setting_title_v2" style="@style/photos_settings_line_one_text" />
+            <TextView android:gravity="start" android:id="@id/face_clustering_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_settings_faceclustering_advanced_setting_detailed_desc" style="@style/photos_settings_line_two_text" />
+        </LinearLayout>
+        <com.google.android.material.switchmaterial.SwitchMaterial android:layout_gravity="center_vertical" android:id="@id/face_grouping_app_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:paddingStart="20.0dip" android:paddingEnd="0.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/my_face_preference_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/my_face_sharing_button" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/photos_settings_two_lines_container">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:gravity="start" android:id="@id/my_face_sharing_button_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_settings_faceclustering_advanced_allow_sharing_title" style="@style/photos_settings_line_one_text" />
+            <TextView android:gravity="start" android:id="@id/my_face_sharing_button_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_settings_faceclustering_advanced_allow_sharing_desc" style="@style/photos_settings_line_two_text" />
+        </LinearLayout>
+        <com.google.android.material.switchmaterial.SwitchMaterial android:layout_gravity="center_vertical" android:id="@id/my_face_sharing_app_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:paddingStart="20.0dip" android:paddingEnd="0.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/show_pets_button" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/photos_settings_two_lines_container">
+        <TextView android:layout_gravity="start|center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/photos_settings_faceclustering_advanced_pets_setting" android:layout_weight="1.0" style="@style/photos_settings_line_one_text" />
+        <com.google.android.material.switchmaterial.SwitchMaterial android:layout_gravity="end|center" android:id="@id/show_pets_app_switch" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/photos_photoeditor_fragments_editor3_spotlight_range_seek_bar_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp">
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/photos_photoeditor_fragments_editor3_spotlight_range_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:valueFrom="0"
+        android:valueTo="100"
+        app:thumbHeight="36dp"
+        app:trackColorInactive="#3a3c3c"
+        app:trackHeight="12dp"
+        app:trackStopIndicatorSize="0dp"/>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/photos_suggested_editor_document_toolbar" android:paddingTop="5.0dip" android:paddingBottom="21.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <android.support.v7.widget.AppCompatTextView android:id="@id/suggested_doc_mode_invert_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_suggestedactions_editor_invert_text" android:contentDescription="@string/photos_suggestedactions_editor_a11y_invert_colors" app:drawableTopCompat="@drawable/photos_suggestedactions_editor_document_colortoggle" style="@style/photos_suggestedactions_editor_document_action_text" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <android.support.v7.widget.AppCompatTextView android:id="@id/suggested_doc_mode_corner_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_suggestedactions_editor_adjust_corners" android:contentDescription="@string/photos_suggestedactions_editor_a11y_adjust_corners" app:drawableTopCompat="@drawable/quantum_gm_ic_crop_free_white_24" style="@style/photos_suggestedactions_editor_document_action_text" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <android.support.v7.widget.AppCompatTextView android:id="@id/suggested_doc_mode_rotate_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_suggestedactions_editor_rotate" android:contentDescription="@string/photos_suggestedactions_editor_a11y_rotate_counterclockwise" app:drawableTopCompat="@drawable/quantum_gm_ic_rotate_90_degrees_ccw_white_24" style="@style/photos_suggestedactions_editor_document_action_text" />
+    </FrameLayout>
+</LinearLayout>

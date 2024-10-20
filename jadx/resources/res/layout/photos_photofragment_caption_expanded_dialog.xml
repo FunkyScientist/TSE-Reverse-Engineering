@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/photos_photofragment_caption_expanded_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/photos_photofragment_caption_expanded_dialog_close_button"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/photos_strings_dismiss_button"
+        app:srcCompat="@drawable/quantum_gm_ic_close_white_24"/>
+    <FrameLayout
+        android:clickable="false"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ScrollView
+            android:layout_gravity="bottom"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="64dp"
+            android:paddingHorizontal="24dp">
+            <TextView
+                android:textColor="@color/google_white"
+                android:id="@+id/photos_photofragment_caption_expanded_dialog_text"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:textDirection="firstStrong"
+                style="@style/TextAppearance.Photos.Body2"/>
+        </ScrollView>
+    </FrameLayout>
+</LinearLayout>

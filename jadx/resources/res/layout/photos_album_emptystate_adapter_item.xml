@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/album_is_empty_state_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="Photos.Album.EmptyState">
+    <ImageView
+        android:id="@+id/album_is_empty_state_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="24dp"
+        android:maxWidth="160dp"
+        android:maxHeight="160dp"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/photos_album_emptystate_220x204dp"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body2"
+        android:textSize="20sp"
+        android:id="@+id/album_is_empty_state_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_album_emptystate_title"
+        android:lineSpacingExtra="12sp"/>
+    <Button
+        android:textSize="16sp"
+        android:gravity="center"
+        android:id="@+id/album_is_empty_state_add_photos_button"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="56dp"
+        android:text="@string/photos_album_emptystate_add_items_button_text"
+        style="@style/Photos.Album.EmptyState.AddPhotosButton"/>
+</LinearLayout>

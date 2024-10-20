@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="12sp"
+    android:textColor="@color/photos_daynight_white"
+    android:gravity="center"
+    android:id="@+id/blue_circle_textview"
+    android:background="@drawable/dragging_layout_blue_circle"
+    android:layout_width="@dimen/photos_photogrid_drag_blue_circle_diameter"
+    android:layout_height="@dimen/photos_photogrid_drag_blue_circle_diameter"/>

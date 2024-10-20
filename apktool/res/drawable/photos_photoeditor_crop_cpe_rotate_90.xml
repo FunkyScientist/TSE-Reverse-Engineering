@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/photos_photoeditor_crop_cpe_rotate_90_disabled" />
+    <item android:drawable="@drawable/quantum_gm_ic_rotate_90_degrees_ccw_white_24" />
+</selector>

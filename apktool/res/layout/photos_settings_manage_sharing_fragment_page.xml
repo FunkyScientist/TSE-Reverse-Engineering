@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/shared_links_button" android:text="@string/photos_settings_sharing_manage_sharing_shared_links_title" style="@style/photos_settings_sharing_singleline_item" />
+        <TextView android:id="@id/shared_memories_button" android:text="@string/photos_settings_sharing_manage_sharing_shared_memories_title" style="@style/photos_settings_sharing_singleline_item" />
+        <TextView android:id="@id/conversations_button" android:text="@string/photos_settings_sharing_manage_sharing_conversations_title" style="@style/photos_settings_sharing_singleline_item" />
+        <TextView android:id="@id/partner_sharing_button" android:visibility="gone" android:text="@string/photos_settings_sharing_manage_sharing_partner_sharing_title" style="@style/photos_settings_sharing_singleline_item" />
+    </LinearLayout>
+</ScrollView>

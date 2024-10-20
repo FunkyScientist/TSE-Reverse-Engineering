@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/photos_trash_ui_confirmation_bottomsheet" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatTextView android:textColor="?colorError" android:id="@id/confirmation_message_label" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PhotosTrashUiConfirmationMessage" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/confirmation_button" android:layout_width="fill_parent" android:layout_height="wrap_content" app:drawableStartCompat="@drawable/quantum_gm_ic_delete_forever_vd_theme_24" style="@style/PhotosTrashUiConfirmationButton" />
+</LinearLayout>

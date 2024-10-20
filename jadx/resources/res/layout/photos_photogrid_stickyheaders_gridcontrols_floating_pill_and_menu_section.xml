@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="end"
+    android:layout_gravity="end"
+    android:orientation="horizontal"
+    android:id="@+id/float_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ViewStub
+        android:id="@+id/grid_controls_floating_pill_viewstub"
+        android:layout="@layout/photos_photogrid_stickyheaders_gridcontrols_floating_pill_inflated"
+        android:inflatedId="@+id/grid_controls_floating_pill_inflated"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/photos_photogrid_stickyheaders_grid_controls_pill_height"
+        android:layout_marginEnd="8dp"/>
+    <ImageButton
+        android:id="@+id/floating_grid_controls_overflow_button"
+        android:background="@drawable/photos_photogrid_stickyheaders_rounded_button"
+        android:layout_width="@dimen/photos_photogrid_stickyheaders_grid_controls_floating_menu_width"
+        android:layout_height="@dimen/photos_photogrid_stickyheaders_grid_controls_pill_height"
+        android:contentDescription="@string/photos_photogrid_stickyheaders_floating_grid_controls_desc"
+        android:layout_marginEnd="@dimen/photos_photogrid_stickyheaders_grid_controls_floating_menu_end_layout_margin"
+        android:elevation="@dimen/gm3_sys_elevation_level1"
+        app:srcCompat="@drawable/quantum_gm_ic_more_vert_vd_theme_24"/>
+    <ImageButton
+        android:id="@+id/floating_grid_controls_settings_button"
+        android:background="@drawable/photos_photogrid_stickyheaders_rounded_button"
+        android:visibility="gone"
+        android:layout_width="@dimen/photos_photogrid_stickyheaders_grid_controls_floating_menu_width"
+        android:layout_height="@dimen/photos_photogrid_stickyheaders_grid_controls_pill_height"
+        android:contentDescription="@string/photos_photogrid_stickyheaders_floating_setting_button_desc"
+        android:layout_marginEnd="@dimen/photos_photogrid_stickyheaders_grid_controls_floating_menu_end_layout_margin"
+        android:elevation="@dimen/gm3_sys_elevation_level1"
+        app:srcCompat="@drawable/quantum_gm_ic_settings_vd_theme_24"/>
+</LinearLayout>

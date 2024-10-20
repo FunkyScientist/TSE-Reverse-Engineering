@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:id="@id/photos_photoeditor_fragments_effects_relighting_loading_container" android:background="@color/google_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/google_white" android:layout_gravity="center" android:id="@id/photos_photoeditor_fragments_effects_relighting_loading_text_container" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:layout_gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminate="true" app:indicatorColor="@color/google_white" app:trackColor="@color/google_black" app:trackThickness="3.0dip" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="?attr/colorSurfaceContainer"/>
+    <corners
+        android:topLeftRadius="@dimen/photos_flyingsky_title_suggestions_ui_bottomsheet_radius"
+        android:topRightRadius="@dimen/photos_flyingsky_title_suggestions_ui_bottomsheet_radius"/>
+</shape>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <include layout="@layout/photos_facegaia_optin_impl_opt_in_dialog_content"/>
+    </ScrollView>
+    <Button
+        android:textColor="@color/photos_daynight_white"
+        android:layout_gravity="bottom"
+        android:id="@+id/confirm_button"
+        android:background="?attr/photosPrimary"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/photos_facegaia_optin_impl_confirm_selection"/>
+</LinearLayout>

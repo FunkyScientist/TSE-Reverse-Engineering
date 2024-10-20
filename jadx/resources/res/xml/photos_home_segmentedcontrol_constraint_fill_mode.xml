@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConstraintSet xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Constraint
+        android:id="@+id/segmented_control_bar_container"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/photos_home_segmentedcontrol_height"
+        android:layout_marginEnd="@dimen/photos_home_segmentedcontrol_bar_search_fab_distance"
+        app:layout_constraintBottom_toBottomOf="@+id/photos_home_segmentedcontrol_search_fab"
+        app:layout_constraintEnd_toStartOf="@+id/photos_home_segmentedcontrol_search_fab"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/photos_home_segmentedcontrol_search_fab"/>
+    <Constraint
+        android:id="@+id/photos_home_segmentedcontrol_search_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</ConstraintSet>

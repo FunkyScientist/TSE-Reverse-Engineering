@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.search.cardui.BehaviorProxyLayout android:id="@id/proxy_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" />
+    <androidx.compose.ui.platform.ComposeView android:layout_gravity="center" android:id="@id/compose_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+    <FrameLayout android:id="@id/grid_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/scrolling_toolbar" />
+</com.google.android.apps.photos.search.cardui.BehaviorProxyLayout>

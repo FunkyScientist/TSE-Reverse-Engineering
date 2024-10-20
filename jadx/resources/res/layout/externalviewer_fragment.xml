@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/photos_photofragment_components_externalviewer_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:layout_gravity="center"
+        android:id="@+id/photos_photofragment_components_externalviewer_launch_button"
+        android:background="@null"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:textAppearance="@style/quantum_text_headline_white"
+        android:textColor="@color/quantum_grey400"
+        android:layout_gravity="center"
+        android:id="@+id/photos_photofragment_components_externalviewer_remote_video_processing"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_videoplayer_video_not_ready"
+        android:drawablePadding="24dp"
+        app:drawableTopCompat="@drawable/quantum_gm_ic_loop_gm_grey_48"/>
+</FrameLayout>

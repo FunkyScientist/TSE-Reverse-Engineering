@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:background="@color/google_black"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"/>
+    <include layout="@layout/photos_photoeditor_slider"/>
+    <include layout="@layout/photos_photoeditor_photofix_loading_container"/>
+    <include layout="@layout/photos_photoeditor_fragments_effects_exit_bar"/>
+</LinearLayout>

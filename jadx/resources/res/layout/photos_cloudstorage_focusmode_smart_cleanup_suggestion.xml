@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="14dp"
+    android:layout_marginRight="14dp"
+    android:layout_weight="1"
+    android:layout_marginHorizontal="14dp">
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/smart_cleanup_icon"
+        android:layout_width="@dimen/photos_cloudstorage_focusmode_smart_cleanup_suggestion_button_width"
+        android:layout_height="@dimen/photos_cloudstorage_focusmode_smart_cleanup_suggestion_button_height"
+        android:layout_marginBottom="8dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:backgroundTint="@color/photos_cloudstorage_focusmode_smart_cleanup_suggestion_background_color"
+        app:cornerRadius="@dimen/photos_cloudstorage_focusmode_corner_radius"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="24dp"
+        app:iconTint="@color/photos_cloudstorage_focusmode_smart_cleanup_suggestion_icon_color"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.LabelSmall"
+        android:ellipsize="end"
+        android:id="@+id/smart_cleanup_category_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:maxEms="5"
+        android:textAlignment="center"
+        android:hyphenationFrequency="fullFast"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.LabelSmall"
+        android:id="@+id/smart_cleanup_storage_estimate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.button.MaterialButton android:layout_gravity="center" android:id="@id/order_again" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/photos_printingskus_common_orderdetails_order_again" android:layout_weight="1.0" style="@style/Widget.Photos.Button" />
+    <com.google.android.material.button.MaterialButton android:layout_gravity="center" android:id="@id/cancel_order" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/photos_printingskus_common_orderdetails_cancel_order" android:layout_weight="1.0" style="@style/Widget.Photos.Button.Borderless" />
+</LinearLayout>

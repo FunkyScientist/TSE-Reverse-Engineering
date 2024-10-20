@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/photos_partneraccount_onboarding_v2_face_item_top_spacing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/photos_partneraccount_onboarding_v2_face_item_end_spacing"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/face_item_image" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="4.0dip" android:contentDescription="@null" android:layout_marginEnd="4.0dip" />
+    <ImageView android:layout_gravity="end|bottom|center" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/photos_partneraccount_onboarding_v2_selected_face_item_circle_check" android:contentDescription="@null" />
+</FrameLayout>

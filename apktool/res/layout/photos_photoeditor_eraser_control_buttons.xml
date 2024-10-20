@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/photos_photoeditor_eraser_control_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/photos_photoeditor_fragments_eraser_loading_container" android:background="@color/google_black" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.progressindicator.LinearProgressIndicator android:layout_gravity="bottom|center" android:id="@id/photos_photoeditor_fragments_eraser_loading_indicator" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminate="true" app:indicatorColor="@color/google_white" app:trackColor="@color/google_black" app:trackThickness="3.0dip" />
+    </FrameLayout>
+    <ViewStub android:layout_gravity="center" android:id="@id/photos_photoeditor_eraser_toggle_bar_viewstub" android:layout="@layout/photos_photoeditor_eraser_toggle_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="55.0dip">
+        <com.google.android.material.button.MaterialButton android:enabled="false" android:textColor="@color/photos_photoeditor_commonui_icon_color" android:id="@id/photos_photoeditor_eraser_clear_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/photos_photoeditor_fragments_editor3_reset_button" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:rippleColor="?colorPrimary" style="@style/Widget.Photos.Button.Borderless" />
+        <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.google.android.material.button.MaterialButton android:id="@id/photos_photoeditor_eraser_undo_button" android:contentDescription="@string/photos_strings_undo_button" app:icon="@drawable/quantum_gm_ic_undo_vd_theme_24" style="@style/photos_photoeditor_eraser_image_button" />
+        <com.google.android.material.button.MaterialButton android:id="@id/photos_photoeditor_eraser_redo_button" android:contentDescription="@string/photos_photoeditor_eraser_a11y_redo_button" app:icon="@drawable/quantum_gm_ic_redo_vd_theme_24" style="@style/photos_photoeditor_eraser_image_button" />
+        <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.google.android.material.button.MaterialButton android:id="@id/photos_photoeditor_eraser_done_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_photoeditor_ui_done" android:layout_marginEnd="@dimen/photos_photoeditor_fragments_editor3_done_button_right_align_margin" app:rippleColor="?colorPrimary" style="@style/photos_photoeditor_fragments_editor3_done_button" />
+    </LinearLayout>
+</LinearLayout>

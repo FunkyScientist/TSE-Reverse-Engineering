@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/photos_albums_empty_footer"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/photos_albums_empty_footer_min_height"
+    android:minHeight="@dimen/photos_albums_empty_footer_min_height"
+    style="@style/Photos.Albums.EmptyFooter">
+    <TextView
+        android:textColor="?attr/photosTextColorPrimaryVariant"
+        android:gravity="center"
+        android:id="@+id/empty_title"
+        android:paddingTop="24dp"
+        android:paddingBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_albums_empty_state_title_new"
+        style="TextAppearance.Photos.Body2"/>
+    <Button
+        android:textSize="@dimen/text_size_16"
+        android:gravity="center"
+        android:id="@+id/photos_albums_empty_create_album_button"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/photos_albums_empty_create_album_button_text"
+        style="@style/Widget.Photos.Button.Borderless"/>
+    <ImageView
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/photos_albums_empty_state_albums"/>
+</LinearLayout>

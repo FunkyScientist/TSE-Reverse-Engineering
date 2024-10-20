@@ -1,0 +1,14 @@
+package p000;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public enum pby {
+    ALBUM_OPTIONS_UPDATED,
+    CREATE_ALBUM_FLOW_UPDATED,
+    LIVE_ALBUM_CREATION_INTENT,
+    LIVE_ALBUM_CREATION_FOR_PHOTO_FRAMES_INTENT,
+    CHILD_PROMO_CARD,
+    PET_PROMO_CARD,
+    PARTNER_PROMO_CARD,
+    PEOPLE_AND_PETS_WIDGET
+}

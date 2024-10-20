@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/photos_partneraccount_settings_ui_row_padding_horizontal"
+    android:paddingRight="@dimen/photos_partneraccount_settings_ui_row_padding_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no">
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="@dimen/photos_partneraccount_settings_people_options_text_size"
+        android:gravity="center_vertical"
+        android:id="@+id/summary_text_no_pfc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="@string/photos_partneraccount_settings_people_specific_people"
+        android:importantForAccessibility="no"
+        android:paddingEnd="4dp"
+        app:drawableEndCompat="@drawable/quantum_gm_ic_radio_button_unchecked_vd_theme_24"/>
+</FrameLayout>

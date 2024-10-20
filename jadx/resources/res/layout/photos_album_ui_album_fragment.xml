@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/photos_emptystate_container"/>
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        support:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+    <View
+        android:id="@+id/accessibility_announcement_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <include layout="@layout/shared_collection_not_found_layout"/>
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_container"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        support:layout_behavior="com.google.android.apps.photos.album.ui.AlbumAppBarLayoutBehavior"
+        support:liftOnScroll="true"
+        support:liftOnScrollTargetViewId="@+id/recycler_view">
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            support:layout_scrollFlags="exitUntilCollapsed|scroll"
+            support:titleCollapseMode="scale"
+            support:titleEnabled="false"
+            support:toolbarId="@+id/toolbar">
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingTop="?attr/actionBarSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <include
+                    android:id="@+id/photos_album_ui_abusewarning_layout"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/photos_album_ui_abusewarning_layout"/>
+                <com.google.android.apps.photos.album.titlecard.AlbumTitleCard
+                    android:id="@+id/collection_title_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                support:layout_collapseMode="pin"/>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+        <HorizontalScrollView
+            android:layout_gravity="bottom"
+            android:id="@+id/chips_container"
+            android:paddingTop="@dimen/photos_album_ui_chips_container_vertical_padding"
+            android:paddingBottom="@dimen/photos_album_ui_chips_container_vertical_padding"
+            android:visibility="gone"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:importantForAccessibility="no"
+            android:paddingVertical="@dimen/photos_album_ui_chips_container_vertical_padding">
+            <include layout="@layout/photos_album_ui_chips"/>
+        </HorizontalScrollView>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout
+        android:layout_gravity="bottom"
+        android:id="@+id/bottom_action_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

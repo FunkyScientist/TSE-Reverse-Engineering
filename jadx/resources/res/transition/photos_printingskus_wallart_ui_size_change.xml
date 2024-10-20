@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@interpolator/mtrl_fast_out_slow_in"
+    android:duration="200">
+    <transitionSet>
+        <transition class="com.google.android.apps.photos.printingskus.wallart.ui.SizePreviewTransition"/>
+        <targets>
+            <target android:targetId="@+id/wallart_2d_preview"/>
+        </targets>
+    </transitionSet>
+    <transitionSet>
+        <changeBounds/>
+        <targets>
+            <target android:targetId="@+id/wallart_2d_preview_wrapper"/>
+            <target android:targetId="@+id/background_image"/>
+            <target android:targetId="@+id/low_res_warning_icon"/>
+        </targets>
+    </transitionSet>
+</transitionSet>

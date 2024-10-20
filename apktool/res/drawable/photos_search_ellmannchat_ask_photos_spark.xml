@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="64.0dip" android:width="64.0dip" android:viewportWidth="64.0" android:viewportHeight="64.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h64v64h-64z" />
+        <path android:fillColor="@drawable/$photos_search_ellmannchat_ask_photos_spark__0" android:pathData="M32,58.667C32,54.978 31.289,51.511 29.867,48.267C28.489,45.022 26.6,42.2 24.2,39.8C21.8,37.4 18.978,35.511 15.733,34.133C12.489,32.711 9.022,32 5.333,32C9.022,32 12.489,31.311 15.733,29.933C18.978,28.511 21.8,26.6 24.2,24.2C26.6,21.8 28.489,18.978 29.867,15.733C31.289,12.489 32,9.022 32,5.333C32,9.022 32.689,12.489 34.067,15.733C35.489,18.978 37.4,21.8 39.8,24.2C42.2,26.6 45.022,28.511 48.267,29.933C51.511,31.311 54.978,32 58.667,32C54.978,32 51.511,32.711 48.267,34.133C45.022,35.511 42.2,37.4 39.8,39.8C37.4,42.2 35.489,45.022 34.067,48.267C32.689,51.511 32,54.978 32,58.667Z" />
+    </group>
+</vector>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatTextView android:paddingLeft="68.0dip" android:paddingTop="24.0dip" android:paddingRight="68.0dip" android:paddingBottom="36.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:text="@string/photos_sharingtab_sharehub_sharedalbums_empty_state_title" android:drawablePadding="16.0dip" android:textAlignment="center" android:paddingHorizontal="68.0dip" app:drawableTopCompat="@drawable/photos_sharingtab_sharehub_sharedalbums_empty_state_illustration" style="@style/TextAppearance.Photos.Headline6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

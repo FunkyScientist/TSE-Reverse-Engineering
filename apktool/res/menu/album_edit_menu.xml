@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/photos_album_albumeditmode_choose_photos_menu_item_icon" android:id="@id/photos_album_albumeditmode_choose_photos_menu_item" android:title="@string/photos_album_albumeditmode_choose_photos" support:iconTint="?photosOnSurfaceVariant" support:showAsAction="always" />
+    <item android:icon="@drawable/photos_album_albumeditmode_add_text_to_album_icon" android:id="@id/add_text_to_album" android:title="@string/photos_album_albumeditmode_add_text" support:iconTint="?photosOnSurfaceVariant" support:showAsAction="always" />
+    <item android:icon="@drawable/photos_album_albumeditmode_add_places_to_album_icon" android:id="@id/add_places_to_album" android:title="@string/photos_album_albumeditmode_add_places" support:iconTint="?photosOnSurfaceVariant" support:showAsAction="always" />
+    <item android:icon="@drawable/photos_album_albumeditmode_sorting_mode_icon" android:id="@id/sorting_mode" android:title="@string/photos_album_albumeditmode_sorting_mode" support:iconTint="?photosOnSurfaceVariant" support:showAsAction="always" />
+</menu>

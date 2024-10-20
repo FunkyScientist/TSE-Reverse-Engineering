@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/photos_search_destination_searchtab_searchbar_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/photos_search_destination_horiz_margin" android:layout_marginEnd="@dimen/photos_search_destination_horiz_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/photos_search_destination_searchtab_searchbar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:layout_weight="1.0" app:rippleColor="@android:color/transparent" style="@style/FloatingSearchBarCardView">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/photos_search_destination_searchtab_searchbar_layout" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/photos_search_destination_searchbar_height">
+            <ImageView android:id="@id/searchbar_icon" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" android:paddingStart="16.0dip" android:paddingEnd="8.0dip" android:paddingVertical="12.0dip" app:srcCompat="@drawable/quantum_gm_ic_search_vd_theme_24" />
+            <android.support.v7.widget.AppCompatTextView android:textAppearance="@style/TextAppearance.Photos.Body1" android:textColor="?photosOnSurfaceVariantFaded" android:gravity="center_vertical" android:id="@id/searchbar" android:layout_width="fill_parent" android:layout_height="@dimen/photos_search_destination_searchbar_height" android:text="@string/photos_search_searchbox_text" android:paddingStart="0.0dip" android:paddingEnd="16.0dip" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <ViewStub android:id="@id/ellmann_entry_point" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+</LinearLayout>

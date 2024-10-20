@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="false"
+        android:color="#61e3e3e3"/>
+    <item
+        android:state_enabled="true"
+        android:state_selected="true"
+        android:color="?attr/editor3IconSelected"/>
+    <item
+        android:state_enabled="true"
+        android:color="?attr/editor3IconEnabled"/>
+</selector>

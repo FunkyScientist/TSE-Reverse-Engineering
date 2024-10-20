@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/google_white">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/photos_theme_rounded_corner_radius"/>
+            <solid android:color="?attr/colorPrimary"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:id="@+id/photos_collageeditor_ui_check_drawable"
+        android:drawable="@drawable/quantum_gm_ic_done_vd_theme_24"/>
+</ripple>

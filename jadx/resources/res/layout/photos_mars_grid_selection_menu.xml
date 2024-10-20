@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/bottom_selection_menu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="8dp">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/photos_mars_grid_selection_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/photos_mars_grid_bar_height">
+        <Button
+            android:textColor="?attr/photosPrimary"
+            android:id="@+id/photos_mars_grid_remove_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/photos_mars_grid_remove"
+            android:layout_weight="1"
+            style="@style/Widget.Photos.Button.Borderless"/>
+        <Button
+            android:textColor="?attr/colorError"
+            android:id="@+id/photos_mars_grid_delete_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/photos_mars_grid_delete"
+            android:layout_weight="1"
+            style="@style/Widget.Photos.Button.Borderless"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/fill_under_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+</LinearLayout>

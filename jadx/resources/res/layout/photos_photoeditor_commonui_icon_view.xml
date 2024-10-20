@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/photos_photoeditor_commonui_icon_root_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <android.support.constraint.ConstraintLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/photos_photoeditor_commonui_icon_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tint="@color/photos_photoeditor_commonui_icon_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:textAppearance="@style/TextAppearance.Photos.Subhead2"
+            android:textColor="@color/google_grey200"
+            android:gravity="center"
+            android:id="@+id/photos_photoeditor_commonui_icon_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/photos_photoeditor_commonui_icon_view"/>
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

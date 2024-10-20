@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.list.DateHeaderLayout android:id="@id/sticky_header_layout" android:background="@drawable/photos_theme_top_gradient" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="start|center" android:orientation="vertical" android:id="@id/title_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="64.0dip">
+        <TextView android:textAppearance="@style/TextAppearance.Photos.Subtitle1" android:textColor="@color/photos_photogrid_stickyheaders_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textIsSelectable="false" />
+        <TextView android:textColor="@color/photos_photogrid_stickyheaders_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/location" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="1" />
+    </LinearLayout>
+</com.google.android.apps.photos.list.DateHeaderLayout>

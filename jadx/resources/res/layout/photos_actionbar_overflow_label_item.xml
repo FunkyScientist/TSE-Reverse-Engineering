@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/photos_actionbar_overflow_menu_item_height">
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Overline"
+        android:textColor="?attr/photosTextColorSecondaryVariant"
+        android:gravity="start|center_vertical"
+        android:id="@+id/action_bar_overflow_menu_group_label"
+        android:paddingLeft="@dimen/photos_actionbar_overflow_menu_item_padding"
+        android:paddingTop="@dimen/photos_actionbar_overflow_menu_padding"
+        android:paddingRight="@dimen/photos_actionbar_overflow_menu_item_padding"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

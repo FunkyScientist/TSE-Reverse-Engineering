@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:descendantFocusability="afterDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:background="?attr/previewBackground"
+        android:paddingTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/book_page_list"
+            android:clipToPadding="false"
+            android:descendantFocusability="afterDescendants"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <include layout="@layout/photos_emptystate_container"/>
+    </FrameLayout>
+    <FrameLayout
+        android:theme="@style/ThemeOverlay.Photos.PhotobookPreviewBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/scrolling_toolbar"/>
+    </FrameLayout>
+    <include layout="@layout/photos_printingskus_photobook_mixins_progress_bar"/>
+    <View
+        android:id="@+id/accessibility_announcement_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ViewStub
+        android:id="@+id/photos_printingskus_bottom_sheet_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

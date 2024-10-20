@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="bottom"
+    android:orientation="horizontal"
+    android:id="@+id/home_segmented_control_bar"
+    android:background="@drawable/photos_home_segmentedcontrol_bar_background"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/photos_home_segmentedcontrol_height"
+    android:paddingStart="@dimen/photos_home_segmentedcontrol_bar_side_padding"
+    android:paddingEnd="@dimen/photos_home_segmentedcontrol_bar_side_padding"
+    android:elevation="@dimen/photos_home_segmentedcontrol_elevation">
+    <TextView
+        android:id="@+id/photos_home_segmentedcontrol_all_photos_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="@string/photos_tabbar_photos_label"
+        android:layout_weight="1"
+        android:contentDescription="@string/photos_home_segmentedcontrol_photos_button_accessibility_text"
+        style="@style/SegmentedControlBarButtonText"/>
+    <TextView
+        android:id="@+id/photos_home_segmentedcontrol_memories_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="@string/photos_home_toggle_memories"
+        android:layout_weight="1"
+        android:contentDescription="@string/photos_home_segmentedcontrol_memories_button_accessibility_text"
+        style="@style/SegmentedControlBarButtonText"/>
+    <TextView
+        android:id="@+id/photos_home_segmentedcontrol_library_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="@string/photos_tabbar_library_label"
+        android:layout_weight="1"
+        android:contentDescription="@string/photos_home_segmentedcontrol_library_button_accessibility_text"
+        style="@style/SegmentedControlBarButtonText"/>
+</LinearLayout>

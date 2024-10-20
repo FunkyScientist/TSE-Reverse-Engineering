@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAppearance="@style/TextAppearance.Photos.BodyLarge"
+    android:gravity="center_horizontal"
+    android:id="@+id/best_by_default_migration_non_backed_up_message"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="26dp"
+    android:drawableBottom="@drawable/photos_autobackuppromos_bestbydefault_caution_icon"
+    android:drawablePadding="26dp"
+    android:paddingHorizontal="32dp"/>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="16.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:height="158.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Body1" android:gravity="center_vertical" android:id="@id/photos_mediadetails_moments_impl_title" android:layout_width="fill_parent" android:layout_height="@dimen/photos_mediadetails_header_item_height" style="@style/photos_mediadetails_subhead" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="62.0dip">
+        <com.google.android.apps.photos.mediadetails.moments.impl.ThumbnailsView android:layout_gravity="bottom" android:id="@id/photos_mediadetails_moments_impl_scrubber_placeholder_with_thumbnail" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/photos_mediadetails_moments_impl_scrubber_loading_bg" android:baselineAlignBottom="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/photos_mediadetails_moments_impl_scrubber_placeholder" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/photos_mediadetails_moments_impl_scrubber_loading_bg" android:baselineAlignBottom="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.0">
+            <com.google.android.apps.photos.microvideo.stillexporter.beta.ScrubberView android:layout_gravity="bottom" android:id="@id/photos_microvideo_stillexporter_beta_frame_selector_fragment_scrubber" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:foreground="@drawable/photos_mediadetails_moments_impl_scrubber_ripple" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+        </RelativeLayout>
+    </FrameLayout>
+    <TextView android:textSize="14.0sp" android:textColor="?photosPrimary" android:id="@id/photos_mediadetails_moments_impl_recommended_shots_text" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="32.0dip" android:alpha="0.0" android:textAllCaps="false" android:paddingStart="16.0dip" style="@style/photos_mediadetails_subhead" />
+</LinearLayout>

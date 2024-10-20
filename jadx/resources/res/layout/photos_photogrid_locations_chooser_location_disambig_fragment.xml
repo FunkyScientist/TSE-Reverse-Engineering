@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/location_disambig_content"
+    android:paddingTop="@dimen/photos_photogrid_locations_impl_list_item_padding_vertical"
+    android:paddingBottom="@dimen/photos_photogrid_locations_impl_list_item_padding_vertical"
+    android:scrollbars="none"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:overScrollMode="never"/>

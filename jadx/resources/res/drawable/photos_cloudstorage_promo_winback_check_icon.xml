@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="22dp"
+    android:viewportWidth="22"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@color/photos_cloudstorage_winback_button_background_color"
+        android:pathData="M5.505,13.245L0,7.052L1.057,5.863L5.505,10.868L14.943,0.25L16,1.439L5.505,13.245Z"/>
+</vector>

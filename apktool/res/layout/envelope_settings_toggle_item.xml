@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/recycler_view_settings_divider" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/text_container" android:padding="@dimen/photos_envelope_settings_components_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toStartOf="@id/toggle_container">
+            <TextView android:textAppearance="@style/photos_envelope_settings_components_toggle_title" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="@style/photos_envelope_settings_components_toggle_description" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/toggle_container" android:padding="@dimen/photos_envelope_settings_components_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignTop="@id/text_container" android:layout_alignBottom="@id/text_container" android:layout_marginStart="@dimen/photos_envelope_settings_components_padding" android:layout_alignParentEnd="true">
+            <Switch android:gravity="center_vertical" android:id="@id/toggle" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

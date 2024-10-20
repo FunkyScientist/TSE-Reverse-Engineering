@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="@drawable/photos_stories_promo_autocomplete_round_chip"
+    android:padding="4dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+    <ImageView
+        android:id="@+id/autocomplete_icon"
+        android:visibility="gone"
+        android:layout_width="24dp"
+        android:layout_height="24dp"/>
+    <TextView
+        android:textColor="@color/photos_stories_promo_autocomplete_chip_foreground"
+        android:id="@+id/autocomplete_text"
+        android:paddingLeft="4dp"
+        android:paddingTop="2dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="false"
+        android:textAlignment="center"
+        android:paddingHorizontal="4dp"
+        android:paddingVertical="2dp"/>
+</LinearLayout>

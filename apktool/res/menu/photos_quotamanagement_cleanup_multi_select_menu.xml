@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/empty_selection_group">
+        <item android:icon="@null" android:id="@id/photos_quotamanagement_cleanup_menu_select_all" android:title="@string/photos_quotamanagement_cleanup_select_all" app:showAsAction="always" />
+    </group>
+    <group android:id="@id/full_selection_group">
+        <item android:icon="@null" android:id="@id/photos_quotamanagement_cleanup_menu_unselect_all" android:title="@string/photos_quotamanagement_cleanup_unselect_all" app:showAsAction="always" />
+    </group>
+    <group android:id="@id/selection_group">
+        <item android:icon="@drawable/quantum_gm_ic_delete_vd_theme_24" android:id="@id/photos_quotamanagement_cleanup_menu_delete" android:title="@string/photos_quotamanagement_cleanup_delete" app:iconTint="?photosPrimary" app:showAsAction="always" />
+    </group>
+</menu>

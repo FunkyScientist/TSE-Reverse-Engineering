@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/photos_videoplayer_videolayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:defaultFocusHighlightEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/photos_videoplayer_view_video_view_container" />
+    <ViewStub android:layout_gravity="center" android:id="@id/photos_videoplayer_empty_view_stub" android:layout="@layout/photos_videoplayer_empty_view" android:inflatedId="@id/photos_videoplayer_empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

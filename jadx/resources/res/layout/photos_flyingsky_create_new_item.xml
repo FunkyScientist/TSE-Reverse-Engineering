@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingTop="8dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="8dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?attr/selectableItemBackground"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="8dp">
+    <com.google.android.apps.photos.theme.SquareImageView
+        android:theme="@style/ThemeOverlay.Photos.DayNight.Primary"
+        android:layout_gravity="center"
+        android:background="@drawable/photos_flyingsky_create_new_button"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:scaleType="center"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/quantum_gm_ic_add_vd_theme_24"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body1"
+        android:layout_gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/photos_create_viewbinder_title_new"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="16dp"/>
+</LinearLayout>

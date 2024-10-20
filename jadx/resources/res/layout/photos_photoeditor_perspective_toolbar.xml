@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/photos_photoeditor_commonui_action_bar_background"
+    android:padding="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false">
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/photos_photoeditor_perspective_action_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/photos_photoeditor_ui_reset"
+            style="@style/Widget.Photos.Button.Borderless.EditorText"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/photos_photoeditor_perspective_done_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/photos_photoeditor_ui_done"
+            style="@style/editor_filled_button"/>
+    </FrameLayout>
+</LinearLayout>

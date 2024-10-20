@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/res_0x7f080037_photos_microvideo_badging_ic_motion_badge_animated__0">
+    <target
+        android:name="_R_G_L_2_G"
+        android:animation="@drawable/res_0x7f080038_photos_microvideo_badging_ic_motion_badge_animated__1"/>
+    <target
+        android:name="_R_G_L_1_G_N_3_T_0"
+        android:animation="@drawable/res_0x7f080039_photos_microvideo_badging_ic_motion_badge_animated__2"/>
+    <target
+        android:name="time_group"
+        android:animation="@drawable/res_0x7f08003a_photos_microvideo_badging_ic_motion_badge_animated__3"/>
+</animated-vector>

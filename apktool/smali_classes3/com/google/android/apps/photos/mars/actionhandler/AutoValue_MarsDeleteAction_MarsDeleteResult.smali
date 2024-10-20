@@ -1,0 +1,126 @@
+.class public final Lcom/google/android/apps/photos/mars/actionhandler/AutoValue_MarsDeleteAction_MarsDeleteResult;
+.super Lcom/google/android/apps/photos/mars/actionhandler/$AutoValue_MarsDeleteAction_MarsDeleteResult;
+.source "PG"
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lyuu;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    invoke-direct {v0, v1}, Lyuu;-><init>(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    sput-object v0, Lcom/google/android/apps/photos/mars/actionhandler/AutoValue_MarsDeleteAction_MarsDeleteResult;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    .line 8
+    .line 9
+    return-void
+.end method
+
+.method public constructor <init>(Lbatz;Lbatz;Lyux;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2, p3}, Lcom/google/android/apps/photos/mars/actionhandler/$AutoValue_MarsDeleteAction_MarsDeleteResult;-><init>(Lbatz;Lbatz;Lyux;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final describeContents()I
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    return v0
+.end method
+
+.method public final writeToParcel(Landroid/os/Parcel;I)V
+    .locals 0
+
+    .line 1
+    iget-object p2, p0, Lcom/google/android/apps/photos/mars/actionhandler/$AutoValue_MarsDeleteAction_MarsDeleteResult;->a:Lbatz;
+
+    .line 2
+    .line 3
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeList(Ljava/util/List;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iget-object p2, p0, Lcom/google/android/apps/photos/mars/actionhandler/$AutoValue_MarsDeleteAction_MarsDeleteResult;->b:Lbatz;
+
+    .line 7
+    .line 8
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeList(Ljava/util/List;)V
+
+    .line 9
+    .line 10
+    .line 11
+    iget-object p2, p0, Lcom/google/android/apps/photos/mars/actionhandler/$AutoValue_MarsDeleteAction_MarsDeleteResult;->c:Lyux;
+
+    .line 12
+    .line 13
+    if-nez p2, :cond_0
+
+    .line 14
+    .line 15
+    const/4 p2, 0x1
+
+    .line 16
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+
+    .line 17
+    .line 18
+    .line 19
+    return-void
+
+    .line 20
+    :cond_0
+    const/4 p2, 0x0
+
+    .line 21
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+
+    .line 22
+    .line 23
+    .line 24
+    iget-object p2, p0, Lcom/google/android/apps/photos/mars/actionhandler/$AutoValue_MarsDeleteAction_MarsDeleteResult;->c:Lyux;
+
+    .line 25
+    .line 26
+    invoke-virtual {p2}, Ljava/lang/Enum;->name()Ljava/lang/String;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object p2
+
+    .line 30
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 31
+    .line 32
+    .line 33
+    return-void
+.end method

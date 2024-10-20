@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/photos_microvideo_stillexporter_beta_playhead_horizontal_padding" android:insetRight="@dimen/photos_microvideo_stillexporter_beta_playhead_horizontal_padding" android:insetTop="@dimen/photos_microvideo_stillexporter_beta_playhead_vertical_padding" android:insetBottom="@dimen/photos_microvideo_stillexporter_beta_playhead_vertical_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/photos_microvideo_stillexporter_beta_playhead_color" />
+        <corners android:radius="@dimen/photos_microvideo_stillexporter_beta_playhead_corner_radius" />
+        <size android:height="@dimen/photos_microvideo_stillexporter_beta_playhead_height" android:width="@dimen/photos_microvideo_stillexporter_beta_playhead_width" />
+    </shape>
+</inset>

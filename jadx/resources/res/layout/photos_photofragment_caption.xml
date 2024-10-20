@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textColor="@color/google_white"
+    android:ellipsize="end"
+    android:gravity="start"
+    android:layout_gravity="bottom|center_horizontal"
+    android:paddingLeft="@dimen/photos_photofragment_caption_padding_horizontal"
+    android:paddingTop="@dimen/photos_photofragment_caption_padding_vertical"
+    android:paddingRight="@dimen/photos_photofragment_caption_padding_horizontal"
+    android:paddingBottom="@dimen/photos_photofragment_caption_padding_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:maxLines="3"
+    android:paddingHorizontal="@dimen/photos_photofragment_caption_padding_horizontal"
+    android:paddingVertical="@dimen/photos_photofragment_caption_padding_vertical"
+    style="@style/TextAppearance.Photos.Body2"/>

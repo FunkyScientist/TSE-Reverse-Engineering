@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/add_photo_pages"
+        android:text="@string/photos_printingskus_photobook_preview_menu_item_add_photo_pages"
+        app:drawableStartCompat="@drawable/quantum_gm_ic_photo_vd_theme_24"
+        style="@style/photos_printingskus_photobook_preview_popup_window_item"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/add_collage_page"
+        android:text="@string/photos_printingskus_photobook_preview_menu_item_add_collage_page"
+        app:drawableStartCompat="@drawable/quantum_gm_ic_auto_awesome_mosaic_vd_theme_24"
+        style="@style/photos_printingskus_photobook_preview_popup_window_item"/>
+</LinearLayout>

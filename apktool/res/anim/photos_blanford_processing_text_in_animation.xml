@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="?motionDurationLong1" android:fromYDelta="40.0dip" android:toYDelta="0.0dip" />
+    <alpha android:interpolator="?motionEasingLinearInterpolator" android:duration="?motionDurationMedium1" android:startOffset="?motionDurationShort4" android:fromAlpha="0.0" android:toAlpha="1.0" />
+</set>

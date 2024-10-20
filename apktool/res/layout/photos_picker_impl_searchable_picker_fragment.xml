@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.photos.search.cardui.BehaviorProxyLayout android:id="@id/search_items" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" />
+    <com.google.android.apps.photos.search.cardui.BehaviorProxyLayout android:id="@id/photos_search_explore_ui_autocomplete" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" />
+    <include layout="@layout/photos_picker_impl_floating_toolbar" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

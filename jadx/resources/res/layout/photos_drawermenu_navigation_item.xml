@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/photos_drawermenu_navigation_item_height">
+    <ImageView
+        android:theme="@style/ThemeOverlay.Photos.DrawerMenuNavigationIcon"
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/photos_drawermenu_navigation_padding"
+        android:paddingEnd="@dimen/photos_drawermenu_navigation_padding"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Subtitle2"
+        android:textColor="@color/photos_drawermenu_navigation_item_textcolor"
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:layout_weight="1"
+        android:paddingStart="@dimen/photos_drawermenu_navigation_padding"
+        android:paddingEnd="@dimen/photos_drawermenu_navigation_padding"/>
+    <ImageView
+        android:theme="@style/ThemeOverlay.Photos.DrawerMenuNavigationExternalIcon"
+        android:id="@+id/open_external"
+        android:visibility="gone"
+        android:layout_width="@dimen/photos_drawermenu_navigation_item_count_diameter"
+        android:layout_height="@dimen/photos_drawermenu_navigation_item_count_diameter"
+        android:contentDescription="@string/photos_drawermenu_navigation_launch_external"
+        android:layout_marginEnd="@dimen/photos_drawermenu_navigation_item_count_margin"
+        app:srcCompat="@drawable/quantum_gm_ic_open_in_new_vd_theme_24"/>
+</LinearLayout>

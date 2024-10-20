@@ -1,0 +1,74 @@
+package p000;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public final class beza extends bfir implements bfjx {
+
+    /* renamed from: a */
+    public static final beza f98423a;
+
+    /* renamed from: g */
+    private static volatile bfkd f98424g;
+
+    /* renamed from: b */
+    public bfbr f98425b;
+
+    /* renamed from: c */
+    public bfbp f98426c;
+
+    /* renamed from: d */
+    public bexq f98427d;
+
+    /* renamed from: e */
+    public bfjb f98428e = bfkg.f99953a;
+
+    /* renamed from: f */
+    public bfbn f98429f;
+
+    /* renamed from: h */
+    private int f98430h;
+
+    static {
+        beza bezaVar = new beza();
+        f98423a = bezaVar;
+        bfir.m39976aa(beza.class, bezaVar);
+    }
+
+    private beza() {
+    }
+
+    @Override // p000.bfir
+    /* renamed from: a */
+    public final Object mo4203a(int i, Object obj) {
+        int i2 = i - 1;
+        if (i2 != 0) {
+            if (i2 != 2) {
+                if (i2 != 3) {
+                    if (i2 != 4) {
+                        if (i2 != 5) {
+                            if (i2 != 6) {
+                                return null;
+                            }
+                            bfkd bfkdVar = f98424g;
+                            if (bfkdVar == null) {
+                                synchronized (beza.class) {
+                                    bfkdVar = f98424g;
+                                    if (bfkdVar == null) {
+                                        bfkdVar = new bfim(f98423a);
+                                        f98424g = bfkdVar;
+                                    }
+                                }
+                            }
+                            return bfkdVar;
+                        }
+                        return f98423a;
+                    }
+                    return new bfil(f98423a);
+                }
+                return new beza();
+            }
+            return new bfkh(f98423a, "\u0004\u0005\u0000\u0001\u0001\n\u0005\u0000\u0001\u0000\u0001ဉ\u0000\u0003ဉ\u0002\u0005\u001b\u0006ဉ\u0001\nဉ\u0007", new Object[]{"h", "b", "d", "e", bfbk.class, "c", "f"});
+        }
+        return (byte) 1;
+    }
+}

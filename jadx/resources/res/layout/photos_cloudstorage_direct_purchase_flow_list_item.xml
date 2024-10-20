@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp">
+    <ImageView
+        android:id="@+id/photos_cloudstorage_ui_freetrial_impl_onboarding_item_2_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dp"
+        app:srcCompat="@drawable/quantum_gm_ic_check_vd_theme_24"
+        app:tint="?attr/photosPrimary"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body2"
+        android:textColor="@color/photos_daynight_grey800"
+        android:id="@+id/list_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/photos_cloudstorage_ui_freetrial_impl_onboarding_item_2_image"/>
+</RelativeLayout>

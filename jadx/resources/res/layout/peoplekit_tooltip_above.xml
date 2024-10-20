@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.social.peoplekit.common.p042ui.tooltip.InsetAwareLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/peoplekit_tooltip_above"
+    android:paddingLeft="4dp"
+    android:paddingTop="4dp"
+    android:paddingRight="4dp"
+    android:clipToPadding="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/tooltip_text_container"
+        android:padding="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp">
+        <com.google.android.libraries.social.peoplekit.common.p042ui.tooltip.WrapWidthTextView
+            android:textAppearance="@style/TextAppearance.GoogleMaterial.Subhead1"
+            android:textColor="?android:attr/colorBackground"
+            android:id="@+id/tooltip_headline_text"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="@dimen/peoplekit_tooltip_max_width"/>
+        <com.google.android.libraries.social.peoplekit.common.p042ui.tooltip.WrapWidthTextView
+            android:textAppearance="@style/TextAppearance.GoogleMaterial.Body2"
+            android:textColor="?android:attr/colorBackground"
+            android:id="@+id/tooltip_body_text"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="@dimen/peoplekit_tooltip_max_width"/>
+    </LinearLayout>
+    <include layout="@layout/peoplekit_tooltip_arrow_downward"/>
+</com.google.android.libraries.social.peoplekit.common.p042ui.tooltip.InsetAwareLinearLayout>

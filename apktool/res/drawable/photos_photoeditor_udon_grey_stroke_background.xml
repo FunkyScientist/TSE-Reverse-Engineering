@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ripple android:color="?colorSurfaceContainerHigh">
+        <item>
+            <shape android:shape="rectangle">
+                <corners android:radius="24.0dip" />
+                <stroke android:width="1.0dip" android:color="@color/gm3_sys_color_dark_outline_variant" />
+                <solid android:color="@color/gm3_sys_color_dark_surface_container" />
+            </shape>
+        </item>
+    </ripple>
+</inset>

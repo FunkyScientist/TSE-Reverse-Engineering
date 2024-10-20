@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Subhead1"
+        android:id="@+id/recent_searches_header"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_search_destination_recentsearches_section_header"
+        android:textAlignment="viewStart"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/recent_searches_container"
+        android:background="?android:attr/colorBackground"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

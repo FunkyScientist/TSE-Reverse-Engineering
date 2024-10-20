@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:layout_width="36dp"
+    android:layout_height="36dp"
+    android:src="@drawable/product_logo_photos_color_48"
+    android:importantForAccessibility="no"/>

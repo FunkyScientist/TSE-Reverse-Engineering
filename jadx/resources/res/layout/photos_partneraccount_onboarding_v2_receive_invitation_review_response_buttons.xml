@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/account_avatar">
+    <Button
+        android:id="@+id/decline_button"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/photos_partneraccount_onboarding_v2_receive_invitation_dialog_negative_button_text"
+        android:layout_weight="1"
+        android:layout_marginEnd="12dp"
+        android:paddingHorizontal="14dp"
+        style="@style/Widget.Photos.Button.TonalButton"/>
+    <Button
+        android:id="@+id/accept_button"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/photos_partneraccount_onboarding_v2_receive_invitation_dialog_positive_button_text"
+        android:layout_weight="1"
+        android:layout_marginStart="12dp"
+        android:paddingHorizontal="14dp"
+        style="@style/Widget.Photos.Button"/>
+</LinearLayout>

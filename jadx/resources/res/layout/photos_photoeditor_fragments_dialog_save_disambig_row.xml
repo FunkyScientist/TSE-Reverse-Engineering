@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="62dp"
+    android:paddingStart="27dp"
+    android:paddingEnd="27dp">
+    <ImageView
+        android:id="@+id/disambig_row_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:contentDescription="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body1"
+        android:textColor="?attr/colorOnBackground"
+        android:gravity="center_vertical"
+        android:id="@+id/disambig_row_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="27dp"
+        android:paddingEnd="27dp"
+        app:layout_constraintBottom_toTopOf="@+id/disambig_row_subtitle"
+        app:layout_constraintStart_toEndOf="@+id/disambig_row_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body2"
+        android:id="@+id/disambig_row_subtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="27dp"
+        android:paddingEnd="27dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/disambig_row_icon"
+        app:layout_constraintTop_toBottomOf="@+id/disambig_row_title"
+        app:layout_constraintVertical_chainStyle="packed"/>
+</android.support.constraint.ConstraintLayout>

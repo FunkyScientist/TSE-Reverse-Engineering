@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.RecyclerView android:id="@id/container" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="0.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" support:layout_constraintBottom_toTopOf="@id/footer" support:layout_constraintEnd_toEndOf="parent" support:layout_constraintStart_toStartOf="parent" support:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/footer" android:background="?colorSurface" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="3.0dip" support:layout_constraintBottom_toBottomOf="parent">
+        <com.google.android.material.button.MaterialButton android:enabled="false" android:id="@id/next_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="12.0dip" android:text="@string/photos_strings_next_button" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

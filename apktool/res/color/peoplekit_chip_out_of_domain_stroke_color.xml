@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="@color/people_chip_out_of_domain_selected_state_border_color" />
+    <item android:color="@color/people_chip_out_of_domain_default_state_border_color" />
+</selector>

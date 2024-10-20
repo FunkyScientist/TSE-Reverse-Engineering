@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/backup_off_divide" android:background="?colorOnPrimaryContainer" android:layout_width="fill_parent" android:layout_height="1.0dip" android:alpha="0.25" />
+    <TextView android:textAppearance="@style/PartnerSharing.BodyMedium.Active" android:gravity="center_vertical" android:id="@id/backup_off_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/photos_partneraccount_onboarding_v2_backup_off_warning" android:drawablePadding="16.0dip" app:drawableStartCompat="@drawable/quantum_gm_ic_cloud_upload_vd_theme_24" />
+</LinearLayout>

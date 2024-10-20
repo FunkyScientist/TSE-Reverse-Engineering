@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?colorOnBackground" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" android:accessibilityHeading="true" style="?textAppearanceOverline" />
+    <LinearLayout android:orientation="vertical" android:id="@id/plans_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/plan_vertical_divider" android:showDividers="middle" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/plans_container_expanded" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/plan_vertical_divider" android:showDividers="beginning|middle" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+</merge>

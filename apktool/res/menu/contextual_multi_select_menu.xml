@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/bulk_date_and_time_edits_overflow_button" android:title="@string/photos_selection_cabmode_bulk_date_and_time_edits" support:showAsAction="never" />
+    <item android:id="@id/bulk_location_edits_overflow_button" android:title="@string/photos_selection_cabmode_bulk_location_edits" support:showAsAction="never" />
+    <item android:icon="@drawable/photos_selection_cabmode_ic_bulk_location_edits" android:id="@id/bulk_location_edits_map_view_button" android:title="@string/photos_selection_cabmode_bulk_location_edits" support:iconTint="?photosPrimary" support:showAsAction="always" />
+    <item android:icon="@drawable/photos_selection_cabmode_ic_share" android:id="@id/share_button" android:title="@string/photos_selection_cabmode_post_share_button_text" support:iconTint="?photosPrimary" support:showAsAction="always" />
+    <item android:icon="@drawable/photos_selection_cabmode_ic_add" android:id="@id/create_button" android:title="@string/photos_selection_cabmode_create_button_text" support:iconTint="?photosPrimary" support:showAsAction="always" />
+    <item android:icon="@drawable/photos_selection_cabmode_ic_delete" android:id="@id/move_to_trash" android:title="@string/photos_selection_cabmode_menu_move_photos_to_trash" support:iconTint="?photosPrimary" support:showAsAction="always" />
+    <item android:id="@id/remove_local_copy" android:title="@string/photos_selection_cabmode_menu_remove_local_copy" support:iconTint="?photosPrimary" support:showAsAction="never" />
+    <item android:icon="@drawable/photos_selection_cabmode_ic_delete" android:id="@id/delete_signed_out_local_copy" android:title="@string/photos_selection_cabmode_menu_signed_out_delete_local_copy" support:iconTint="?photosPrimary" support:showAsAction="never" />
+    <item android:icon="@drawable/photos_selection_cabmode_ic_delete" android:id="@id/remove_photo" android:title="@string/photos_selection_cabmode_menu_remove_photo" support:iconTint="?photosPrimary" support:showAsAction="never" />
+    <item android:id="@id/photos_selection_cabmode_menu_move_to_trash_from_album" android:title="@string/photos_selection_cabmode_menu_move_photos_to_trash" support:showAsAction="never" />
+    <item android:id="@id/remove_photos" android:title="@string/photos_selection_cabmode_menu_remove_photos" support:iconTint="?photosPrimary" support:showAsAction="never" />
+    <item android:icon="@drawable/photos_selection_cabmode_ic_cloud_download" android:id="@id/save_items" android:title="@string/photos_strings_save_action" support:iconTint="?photosPrimary" />
+    <item android:icon="@null" android:id="@id/photos_selection_cabmode_menu_back_up" android:title="@string/photos_selection_cabmode_menu_back_up_now" support:iconTint="?photosPrimary" support:showAsAction="never" />
+    <item android:id="@id/photos_selection_cabmode_menu_move_to_folder" android:title="@string/photos_selection_cabmode_menue_move_to_folder" support:iconTint="?photosPrimary" support:showAsAction="never" />
+    <item android:id="@id/photos_selection_cabmode_menu_copy_to_folder" android:title="@string/photos_selection_cabmode_menue_copy_to_folder" support:iconTint="?photosPrimary" support:showAsAction="never" />
+    <item android:id="@id/photos_selection_cabmode_menu_archive" android:title="@string/photos_selection_cabmode_menu_archive" support:iconTint="?photosPrimary" support:showAsAction="never" />
+    <item android:id="@id/photos_selection_cabmode_menu_move_to_archive" android:title="@string/photos_selection_cabmode_menu_move_to_archive" support:iconTint="?photosPrimary" support:showAsAction="never" />
+    <item android:id="@id/photos_selection_cabmode_menu_move_to_archive_lqa" android:title="@string/photos_archive_move_to_archive" support:iconTint="?photosPrimary" support:showAsAction="never" />
+    <item android:id="@id/photos_selection_cabmode_menu_unarchive" android:title="@string/photos_selection_cabmode_menu_unarchive" support:iconTint="?photosPrimary" support:showAsAction="never" />
+    <item android:icon="@null" android:id="@id/photos_selection_cabmode_menu_unshare" android:title="@string/photos_selection_cabmode_menu_unshare" support:iconTint="?photosPrimary" support:showAsAction="always|withText" />
+    <item android:id="@id/photos_selection_cabmore_menu_print" support:iconTint="?photosPrimary" support:showAsAction="always" />
+    <item android:icon="@null" android:enabled="true" android:id="@id/photos_selection_cabmode_out_of_sync_resolve_button" support:iconTint="?photosPrimary" support:showAsAction="always" />
+    <item android:id="@id/photos_selection_cabmode_menu_mars" android:title="@null" support:showAsAction="never" />
+</menu>

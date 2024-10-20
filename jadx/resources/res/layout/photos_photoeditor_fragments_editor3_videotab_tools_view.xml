@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/google_black"
+    android:visibility="gone"
+    android:clipChildren="false"
+    android:inflatedId="@+id/photos_photoeditor_fragments_editor3_videotab_v2_viewstub"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ViewStub
+        android:id="@+id/photos_photoeditor_fragments_editor3_videotab_scrubber_viewstub"
+        android:visibility="gone"
+        android:layout="@layout/photos_photoeditor_fragments_editor3_videotab_scrubber"
+        android:inflatedId="@+id/photos_photoeditor_fragments_editor3_video_scrubber_view_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/photos_photoeditor_fragments_editor3_videotab_tools_recyclerview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <android.support.v7.widget.RecyclerView
+        android:gravity="center"
+        android:id="@+id/photos_photoeditor_fragments_editor3_videotab_tools_recyclerview"
+        android:background="@drawable/photos_photoeditor_fragments_editor3_videotab_tools_background"
+        android:visibility="gone"
+        android:scrollbars="vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:inflatedId="@+id/photos_photoeditor_fragments_editor3_videotab_tools_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photos_photoeditor_fragments_editor3_video_scrubber_view_holder"/>
+</android.support.constraint.ConstraintLayout>

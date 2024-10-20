@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/dropdown_container" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photos_search_refinements_ui_dropdown_top_margin" android:layout_marginBottom="@dimen/photos_search_refinements_ui_dropdown_bottom_margin" android:divider="@drawable/photos_search_refinements_ui_dropdown_divider" android:showDividers="middle" android:elevation="@dimen/photos_search_refinements_ui_dropdown_elevation">
+        <android.support.v7.widget.RecyclerView android:id="@id/carousel_items_container" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/photos_search_refinements_ui_carousel_height" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
+    </LinearLayout>
+</FrameLayout>

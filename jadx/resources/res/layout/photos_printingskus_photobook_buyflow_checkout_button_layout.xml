@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:id="@+id/checkout_button"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="11dp"
+    android:layout_marginRight="12dp"
+    android:layout_marginBottom="14dp"
+    android:text="@string/photos_printingskus_photobook_buyflow_checkout"
+    app:icon="@drawable/quantum_gm_ic_shopping_cart_white_24"
+    style="@style/photos_printingskus_photobook_theme_next_button"/>

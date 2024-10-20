@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:id="@id/carousel_item_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.photos.view.RoundedCornerImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <android.support.v7.widget.AppCompatCheckBox android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/photos_list_checkbox_white_with_background" app:buttonTint="@null" app:layout_constraintStart_toStartOf="@id/image" app:layout_constraintTop_toTopOf="@id/image" />
+    <View android:id="@id/more_overlay_scrim" android:background="@drawable/photos_flyingsky_editdays_squircle" android:layout_width="0.0dip" android:layout_height="0.0dip" android:alpha="0.68" app:layout_constraintBottom_toBottomOf="@id/image" app:layout_constraintEnd_toEndOf="@id/image" app:layout_constraintStart_toStartOf="@id/image" app:layout_constraintTop_toTopOf="@id/image" />
+    <TextView android:textColor="@color/photos_daynight_white" android:id="@id/more_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_flyingsky_editdays_carousel_more" app:layout_constraintBottom_toBottomOf="@id/image" app:layout_constraintEnd_toEndOf="@id/image" app:layout_constraintStart_toStartOf="@id/image" app:layout_constraintTop_toTopOf="@id/image" />
+</android.support.constraint.ConstraintLayout>

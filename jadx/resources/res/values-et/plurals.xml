@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Keri %d sekund edasi</item>
+        <item quantity="other">Keri %d sekundit edasi</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Keri %d sekund tagasi</item>
+        <item quantity="other">Keri %d sekundit tagasi</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="one">%1$d üksus on skannitud</item>
+        <item quantity="other">%1$d üksust on skannitud</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="one">Valitud on %1$d üksus</item>
+        <item quantity="other">Valitud on %1$d üksust</item>
+    </plurals>
+    <plurals name="og_backup_failed_title">
+        <item quantity="one">%1$d üksuse varundamine ebaõnnestus</item>
+        <item quantity="other">%1$d üksuse varundamine ebaõnnestus</item>
+    </plurals>
+    <plurals name="og_backup_items_left">
+        <item quantity="one">Jäänud on %1$d üksus</item>
+        <item quantity="other">Jäänud on %1$d üksust</item>
+    </plurals>
+    <plurals name="og_backup_items_stopped_title">
+        <item quantity="one">%1$d üksus on varundamata</item>
+        <item quantity="other">%1$d üksust on varundamata</item>
+    </plurals>
+    <plurals name="peoplekit_chips_copied_recipients">
+        <item quantity="one">Kopeeriti %d adressaat</item>
+        <item quantity="other">Kopeeriti %d adressaati</item>
+    </plurals>
+    <plurals name="photos_accessibility_shared_album_with_recipients_count">
+        <item quantity="one">%1$s, jagatud album, %2$d liige</item>
+        <item quantity="other">%1$s, jagatud album, %2$d liiget</item>
+    </plurals>
+    <plurals name="photos_accessibility_shared_memory_with_recipients_count">
+        <item quantity="one">%1$s, jagatud mälestus, %2$d liige</item>
+        <item quantity="other">%1$s, jagatud mälestus, %2$d liiget</item>
+    </plurals>
+    <plurals name="photos_album_editalbumphotos_album_will_be_too_large_album_limit">
+        <item quantity="one">Albumi uus suurus oleks olnud suurem kui praegune %1$d üksuse piirang.</item>
+        <item quantity="other">Albumi uus suurus oleks olnud suurem kui praegune %1$d üksuse piirang.</item>
+    </plurals>
+    <plurals name="photos_album_editalbumphotos_album_will_be_too_large_new_estimate_size">
+        <item quantity="one">Albumis oleks %1$d üksus.</item>
+        <item quantity="other">Albumis oleks %1$d üksust.</item>
+    </plurals>
+    <plurals name="photos_album_enrichment_ui_locations_added">
+        <item quantity="one">%d asukoht on lisatud</item>
+        <item quantity="other">%d asukohta on lisatud</item>
+    </plurals>
+    <plurals name="photos_album_enrichment_ui_locations_and_maps_added_location_subsentence">
+        <item quantity="one">%d asukoht</item>
+        <item quantity="other">%d asukohta</item>
+    </plurals>
+    <plurals name="photos_album_enrichment_ui_locations_and_maps_added_maps_subsentence">
+        <item quantity="one">%d kaart</item>
+        <item quantity="other">%d kaarti</item>
+    </plurals>
+    <plurals name="photos_album_enrichment_ui_maps_added">
+        <item quantity="one">%d kaart on lisatud</item>
+        <item quantity="other">%d kaarti on lisatud</item>
+    </plurals>
+    <plurals name="photos_album_highlight_editor_count_text">
+        <item quantity="one">Valitud on %d üksus</item>
+        <item quantity="other">Valitud on %d üksust</item>
+    </plurals>
+    <plurals name="photos_album_highlight_editor_max_reached_count_text_updated">
+        <item quantity="one">Saavutatud on maksimaalne arv • %d üksus on valitud</item>
+        <item quantity="other">Saavutatud on maksimaalne arv • %d üksust on valitud</item>
+    </plurals>
+    <plurals name="photos_album_removefromalbum_item_pending">
+        <item quantity="one">Üksuse eemaldamine sellest albumist…</item>
+        <item quantity="other">Üksuste eemaldamine sellest albumist…</item>
+    </plurals>
+    <plurals name="photos_album_removefromalbum_items_removed">
+        <item quantity="one">%d üksus on eemaldatud</item>
+        <item quantity="other">%d üksust on eemaldatud</item>
+    </plurals>
+    <plurals name="photos_album_removefromalbum_photo_pending">
+        <item quantity="one">Foto eemaldamine sellest albumist…</item>
+        <item quantity="other">Fotode eemaldamine sellest albumist…</item>
+    </plurals>
+    <plurals name="photos_album_removefromalbum_video_pending">
+        <item quantity="one">Video eemaldamine sellest albumist…</item>
+        <item quantity="other">Videote eemaldamine sellest albumist…</item>
+    </plurals>
+    <plurals name="photos_album_story_titlecard_highlight_info">
+        <item quantity="one">%1$d esitletõst\n%2$s</item>
+        <item quantity="other">%1$d esiletõstu\n%2$s</item>
+    </plurals>
+    <plurals name="photos_albums_grid_items_count">
+        <item quantity="one">%1$d üksus</item>
+        <item quantity="other">%1$d üksust</item>
+    </plurals>
+    <plurals name="photos_allphotos_data_album_items_title">
+        <item quantity="one">%d üksus</item>
+        <item quantity="other">%d üksust</item>
+    </plurals>
+    <plurals name="photos_allphotos_ui_actionconfirmation_delete_from_device_button_text_plural">
+        <item quantity="one">Kustuta seadmest (%d)</item>
+        <item quantity="other">Kustuta seadmest (%d)</item>
+    </plurals>
+    <plurals name="photos_allphotos_ui_actionconfirmation_delete_from_device_mixed_button_text_plural">
+        <item quantity="one">Kustuta kõik seadmest (%d)</item>
+        <item quantity="other">Kustuta kõik seadmest (%d)</item>
+    </plurals>
+    <plurals name="photos_allphotos_ui_actionconfirmation_trash">
+        <item quantity="one">Teisalda prügikasti (%d)</item>
+        <item quantity="other">Teisalda prügikasti (%d)</item>
+    </plurals>
+    <plurals name="photos_archive_actions_archived_toast_text">
+        <item quantity="one">%d üksus on arhiivitud</item>
+        <item quantity="other">%d on arhiivitud</item>
+    </plurals>
+    <plurals name="photos_archive_actions_unarchived_toast_text">
+        <item quantity="one">%d üksus on arhiivist taastatud</item>
+        <item quantity="other">%d on arhiivist taastatud</item>
+    </plurals>
+    <plurals name="photos_autoadd_rulebuilder_album_title_multiple_labelled_people">
+        <item quantity="one">%1$s, %2$s ja veel %3$d inimene</item>
+        <item quantity="other">%1$s, %2$s ja veel %3$d inimest</item>
+    </plurals>
+    <plurals name="photos_autoadd_rulebuilder_album_title_one_labelled">
+        <item quantity="one">%1$s ja veel %2$d inimene</item>
+        <item quantity="other">%1$s ja veel %2$d inimest</item>
+    </plurals>
+    <plurals name="photos_autoadd_rulebuilderpeople_picker_people_selected_title">
+        <item quantity="one">%d on valitud</item>
+        <item quantity="other">%d on valitud</item>
+    </plurals>
+    <plurals name="photos_autobackup_particle_background_uploading_title">
+        <item quantity="one">%d üksuse üleslaadimine</item>
+        <item quantity="other">%d üksuse üleslaadimine</item>
+    </plurals>
+    <plurals name="photos_autobackup_particle_items_left_to_back_up">
+        <item quantity="one">Varundada on jäänud %d üksus</item>
+        <item quantity="other">Varundada on jäänud %d üksust</item>
+    </plurals>
+    <plurals name="photos_autobackup_particle_items_left_with_basic_storage_policy">
+        <item quantity="one">%d üksus on jäänud • Ekspress</item>
+        <item quantity="other">%d üksust on jäänud • Ekspress</item>
+    </plurals>
+    <plurals name="photos_autobackup_particle_items_left_with_original_storage_policy">
+        <item quantity="one">%d üksus on jäänud • Algne kvaliteet</item>
+        <item quantity="other">%d üksust on jäänud • Algne kvaliteet</item>
+    </plurals>
+    <plurals name="photos_backup_notifications_stalled_notification_title">
+        <item quantity="one">%1$d fotot ei ole varundatud</item>
+        <item quantity="other">%1$d fotot ei ole varundatud</item>
+    </plurals>
+    <plurals name="photos_backup_persistentstatus_uploading_items">
+        <item quantity="one">%d üksuse üleslaadimine</item>
+        <item quantity="other">%d üksuse üleslaadimine</item>
+    </plurals>
+    <plurals name="photos_backup_persistentstatus_uploading_videos">
+        <item quantity="one">%d video üleslaadimine</item>
+        <item quantity="other">%d video üleslaadimine</item>
+    </plurals>
+    <plurals name="photos_backup_persistentstatus_waiting_to_upload_items">
+        <item quantity="one">%d üleslaaditav üksus</item>
+        <item quantity="other">%d üleslaaditavat üksust</item>
+    </plurals>
+    <plurals name="photos_backup_persistentstatus_waiting_to_upload_videos">
+        <item quantity="one">%d üleslaaditav video</item>
+        <item quantity="other">%d üleslaaditavat videot</item>
+    </plurals>
+    <plurals name="photos_burst_actionsheet_trash_all">
+        <item quantity="one">%d foto</item>
+        <item quantity="other">Kõik %d fotot</item>
+    </plurals>
+    <plurals name="photos_cloudstorage_notification_backup_stop_items_not_backed_up_message">
+        <item quantity="one">%1$d üksust ei varundata, kuna teie konto salvestusruum on täis</item>
+        <item quantity="other">%1$d üksust ei varundata, kuna teie konto salvestusruum on täis</item>
+    </plurals>
+    <plurals name="photos_create_addtoalbum_success_existing_album">
+        <item quantity="one">%1$d üksus on lisatud</item>
+        <item quantity="other">%1$d üksust on lisatud</item>
+    </plurals>
+    <plurals name="photos_create_mediabundle_validation_error_max">
+        <item quantity="one">Valige kuni %d üksus.</item>
+        <item quantity="other">Valige kuni %d üksust.</item>
+    </plurals>
+    <plurals name="photos_create_mediabundle_validation_error_min">
+        <item quantity="one">Valige vähemalt %d üksus.</item>
+        <item quantity="other">Valige vähemalt %d üksust.</item>
+    </plurals>
+    <plurals name="photos_create_mediabundle_validation_error_story_time_delta">
+        <item quantity="one">Valige üksused vahemikust, mille kestus on %d päev.</item>
+        <item quantity="other">Valige üksused vahemikust, mille kestus on %d päeva.</item>
+    </plurals>
+    <plurals name="photos_dateformat_n_days_ago">
+        <item quantity="one">%d päev tagasi</item>
+        <item quantity="other">%d päeva tagasi</item>
+    </plurals>
+    <plurals name="photos_dateformat_within_24_hours">
+        <item quantity="one">%d h</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+    <plurals name="photos_dateformat_within_24_hours_for_a11y">
+        <item quantity="one">%d tund tagasi</item>
+        <item quantity="other">%d tundi tagasi</item>
+    </plurals>
+    <plurals name="photos_dateformat_within_31_days">
+        <item quantity="one">%d näd</item>
+        <item quantity="other">%d näd</item>
+    </plurals>
+    <plurals name="photos_dateformat_within_31_days_for_a11y">
+        <item quantity="one">%d nädal tagasi</item>
+        <item quantity="other">%d nädalat tagasi</item>
+    </plurals>
+    <plurals name="photos_dateformat_within_hour">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="photos_dateformat_within_hour_for_a11y">
+        <item quantity="one">%d minut tagasi</item>
+        <item quantity="other">%d minutit tagasi</item>
+    </plurals>
+    <plurals name="photos_dateformat_within_seven_days">
+        <item quantity="one">%d p</item>
+        <item quantity="other">%d p</item>
+    </plurals>
+    <plurals name="photos_dateformat_within_seven_days_for_a11y">
+        <item quantity="one">%d päev tagasi</item>
+        <item quantity="other">%d päeva tagasi</item>
+    </plurals>
+    <plurals name="photos_datetimeedit_photos_updated_toast">
+        <item quantity="one">%1$d foto on värskendatud</item>
+        <item quantity="other">%1$d fotot on värskendatud</item>
+    </plurals>
+    <plurals name="photos_envelope_addmedia_toast_optimistic_add_online_quantity">
+        <item quantity="one">%d üksus on lisatud</item>
+        <item quantity="other">%d üksust on lisatud</item>
+    </plurals>
+    <plurals name="photos_envelope_feed_adapteritem_num_updates">
+        <item quantity="one">%1$d värskendus</item>
+        <item quantity="other">%1$d värskendust</item>
+    </plurals>
+    <plurals name="photos_envelope_feed_adapteritem_read_receipt_content_description_many">
+        <item quantity="one">%1$s, %2$s ja veel %3$d inimene on vaadanud</item>
+        <item quantity="other">%1$s, %2$s ja veel %3$d inimest on vaadanud</item>
+    </plurals>
+    <plurals name="photos_envelope_feed_commentbar_viewbinders_num_comments">
+        <item quantity="one">%1$d kommentaar</item>
+        <item quantity="other">%1$d kommentaari</item>
+    </plurals>
+    <plurals name="photos_flyingsky_fragment_bulk_confirmation_banner_subtitle_number_promos">
+        <item quantity="one">%d mälestus ülevaatamiseks</item>
+        <item quantity="other">%d mälestust ülevaatamiseks</item>
+    </plurals>
+    <plurals name="photos_hearts_viewbinder_user_liked_coalesced_photo_and_timestamp">
+        <item quantity="one">%1$s märkis %2$d foto meeldivaks • %3$s</item>
+        <item quantity="other">%1$s märkis %2$d fotot meeldivaks • %3$s</item>
+    </plurals>
+    <plurals name="photos_hearts_viewbinder_user_liked_coalesced_video_and_timestamp">
+        <item quantity="one">%1$s märkis %2$d video meeldivaks • %3$s</item>
+        <item quantity="other">%1$s märkis %2$d videot meeldivaks • %3$s</item>
+    </plurals>
+    <plurals name="photos_localmedia_ui_delete_folder_on_device">
+        <item quantity="one">Kausta ja selles oleva %d üksuse kustutamine</item>
+        <item quantity="other">Kausta ja %d selles oleva üksuse kustutamine</item>
+    </plurals>
+    <plurals name="photos_localmedia_ui_deleteconfirm_delete_from_device_plural">
+        <item quantity="one">Kustuta seadmest (%d)</item>
+        <item quantity="other">Kustuta seadmest (%d)</item>
+    </plurals>
+    <plurals name="photos_localmedia_ui_filemanagement_copy_to_folder_error">
+        <item quantity="one">%d üksuse kopeerimisel ilmnes probleem</item>
+        <item quantity="other">%d üksuse kopeerimisel ilmnes probleem</item>
+    </plurals>
+    <plurals name="photos_localmedia_ui_filemanagement_copy_to_folder_success">
+        <item quantity="one">%d üksus on kopeeritud</item>
+        <item quantity="other">%d üksust on kopeeritud</item>
+    </plurals>
+    <plurals name="photos_localmedia_ui_filemanagement_move_to_folder_error">
+        <item quantity="one">%d üksuse teisaldamisel ilmnes probleem</item>
+        <item quantity="other">%d üksuse teisaldamisel ilmnes probleem</item>
+    </plurals>
+    <plurals name="photos_localmedia_ui_filemanagement_move_to_folder_success">
+        <item quantity="one">%d üksus on teisaldatud</item>
+        <item quantity="other">%d üksust on teisaldatud</item>
+    </plurals>
+    <plurals name="photos_location_edits_ui_batch_location_editing_toast">
+        <item quantity="one">%1$d foto on töödeldud</item>
+        <item quantity="other">%1$d fotot on töödeldud</item>
+    </plurals>
+    <plurals name="photos_mediadetails_moments_impl_recommendations_text">
+        <item quantity="one">%d soovitatud kaader</item>
+        <item quantity="other">%d soovitatud kaadrit</item>
+    </plurals>
+    <plurals name="photos_microvideo_stillexporter_beta_rotate_announcement">
+        <item quantity="one">Pööra %d kraad vastupäeva</item>
+        <item quantity="other">Pööra %d kraadi vastupäeva</item>
+    </plurals>
+    <plurals name="photos_movies_activity_load_progress_message_with_count">
+        <item quantity="one">%1$d/%2$d video laadimine …</item>
+        <item quantity="other">%1$d/%2$d video laadimine …</item>
+    </plurals>
+    <plurals name="photos_partneraccount_grid_promobanner_autosave_auto_save_num_people">
+        <item quantity="one">Fotod %d inimesest</item>
+        <item quantity="other">Fotod %d inimesest</item>
+    </plurals>
+    <plurals name="photos_partneraccount_onboarding_confirm_photos_access_selected_faces_all_dates_text">
+        <item quantity="one">Fotod %d valitud näost, sh vanemad fotod</item>
+        <item quantity="other">Fotod %d valitud näost, sh vanemad fotod</item>
+    </plurals>
+    <plurals name="photos_partneraccount_onboarding_confirm_photos_access_selected_faces_selected_date_text">
+        <item quantity="one">Fotod %d valitud näost, alates %2$s</item>
+        <item quantity="other">Fotod %d valitud näost, alates %2$s</item>
+    </plurals>
+    <plurals name="photos_partneraccount_people_title_n_selected">
+        <item quantity="one">%d on valitud</item>
+        <item quantity="other">%d on valitud</item>
+    </plurals>
+    <plurals name="photos_partneraccount_settings_people_n_selected">
+        <item quantity="one">%d nägu on valitud</item>
+        <item quantity="other">%d nägu on valitud</item>
+    </plurals>
+    <plurals name="photos_partneraccount_settings_sender_share_selected_people_by_day">
+        <item quantity="one">Fotod %1$d valitud näost alates %2$s</item>
+        <item quantity="other">Fotod %1$d valitud näost alates %2$s</item>
+    </plurals>
+    <plurals name="photos_partneraccount_settings_sender_share_selected_people_summary">
+        <item quantity="one">Fotod %d valitud näost</item>
+        <item quantity="other">Fotod %d valitud näost</item>
+    </plurals>
+    <plurals name="photos_partneraccount_unshare_success">
+        <item quantity="one">%1$d foto on eemaldatud</item>
+        <item quantity="other">%1$d fotot on eemaldatud</item>
+    </plurals>
+    <plurals name="photos_peoplepicker_exceed_max_allowed">
+        <item quantity="one">Valige ainult %d inimene</item>
+        <item quantity="other">Valige ainult %d inimest</item>
+    </plurals>
+    <plurals name="photos_photoframes_albumselection_collection_count">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d fotot</item>
+    </plurals>
+    <plurals name="photos_picker_impl_n_items_selected">
+        <item quantity="one">Valitud on %d üksus</item>
+        <item quantity="other">Valitud on %d üksust</item>
+    </plurals>
+    <plurals name="photos_picker_impl_n_selected">
+        <item quantity="one">%d on valitud</item>
+        <item quantity="other">%d on valitud</item>
+    </plurals>
+    <plurals name="photos_printingskus_common_remediation_dialog_message">
+        <item quantity="one">Printimiseks soovitati teie fotodest %d fotot</item>
+        <item quantity="other">Printimiseks soovitati teie fotodest %d fotot</item>
+    </plurals>
+    <plurals name="photos_printingskus_common_remediation_dialog_no_photos_selected_dialog_message">
+        <item quantity="one">Printimiseks saate valida ainult kuni %d foto</item>
+        <item quantity="other">Printimiseks saate valida ainult kuni %d fotot</item>
+    </plurals>
+    <plurals name="photos_printingskus_common_remediation_dialog_title">
+        <item quantity="one">%d soovitatud foto</item>
+        <item quantity="other">%d soovitatud fotot</item>
+    </plurals>
+    <plurals name="photos_printingskus_common_ui_max_prints_dialog_message">
+        <item quantity="one">Saate valida kuni %1$d suuruses %2$s prindi tellimuse kohta</item>
+        <item quantity="other">Saate valida kuni %1$d suuruses %2$s printi tellimuse kohta</item>
+    </plurals>
+    <plurals name="photos_printingskus_common_ui_max_prints_in_order_dialog_message">
+        <item quantity="one">Saate valida kuni %1$d prindi tellimuse kohta</item>
+        <item quantity="other">Saate valida kuni %1$d printi tellimuse kohta</item>
+    </plurals>
+    <plurals name="photos_printingskus_common_ui_preview_print_quantity">
+        <item quantity="one">%1$d print</item>
+        <item quantity="other">%1$d printi</item>
+    </plurals>
+    <plurals name="photos_printingskus_common_ui_printspreview_added_message_with_size">
+        <item quantity="one">%1$d foto lisati %2$s prindina</item>
+        <item quantity="other">%1$d fotot lisati %2$s printidena</item>
+    </plurals>
+    <plurals name="photos_printingskus_common_ui_printspreview_min_prints_dialog_message">
+        <item quantity="one">Mustandi kallal töötamise jätkamiseks on vaja vähemalt %1$d fotot.</item>
+        <item quantity="other">Mustandi kallal töötamise jätkamiseks on vaja vähemalt %1$d fotot.</item>
+    </plurals>
+    <plurals name="photos_printingskus_kioskprints_ui_checkout_order_type_glossy">
+        <item quantity="one">%1$s läikega print\n%2$d foto</item>
+        <item quantity="other">%1$s läikega printi\n%2$d fotot</item>
+    </plurals>
+    <plurals name="photos_printingskus_photobook_buyflow_num_extra_pages">
+        <item quantity="one">%d täiendav leht</item>
+        <item quantity="other">%d täiendavat lehte</item>
+    </plurals>
+    <plurals name="photos_printingskus_photobook_confirmation_page_count">
+        <item quantity="one">%d leht</item>
+        <item quantity="other">%d lehte</item>
+    </plurals>
+    <plurals name="photos_printingskus_photobook_preview_add_photos_tooltip">
+        <item quantity="one">Lisage ostmiseks veel %d foto</item>
+        <item quantity="other">Lisage ostmiseks veel %d fotot</item>
+    </plurals>
+    <plurals name="photos_printingskus_photobook_preview_added_page_count_toast">
+        <item quantity="one">Lisati %d leht</item>
+        <item quantity="other">Lisati %d lehte</item>
+    </plurals>
+    <plurals name="photos_printingskus_photobook_preview_added_photo_count_toast">
+        <item quantity="one">Lisati %d foto</item>
+        <item quantity="other">Lisati %d fotot</item>
+    </plurals>
+    <plurals name="photos_printingskus_photobook_preview_removed_page_count_toast">
+        <item quantity="one">Eemaldati %d leht</item>
+        <item quantity="other">Eemaldati %d lehte</item>
+    </plurals>
+    <plurals name="photos_printingskus_photobook_preview_removed_photo_count_toast">
+        <item quantity="one">%d foto eemaldati</item>
+        <item quantity="other">%d fotot eemaldati</item>
+    </plurals>
+    <plurals name="photos_printingskus_photobook_product_extra_page_count">
+        <item quantity="one">%d täiendav leht</item>
+        <item quantity="other">%d täiendavat lehte</item>
+    </plurals>
+    <plurals name="photos_printingskus_photobook_product_page_count">
+        <item quantity="one">%d leht</item>
+        <item quantity="other">%d lehte</item>
+    </plurals>
+    <plurals name="photos_printingskus_printsubscription_ui_add_photos_tooltip">
+        <item quantity="one">Lisage lõpetamiseks veel %d foto</item>
+        <item quantity="other">Lisage lõpetamiseks veel %d fotot</item>
+    </plurals>
+    <plurals name="photos_printingskus_retailprints_ui_checkout_product_name">
+        <item quantity="one">%d fotoprint</item>
+        <item quantity="other">%d fotoprinti</item>
+    </plurals>
+    <plurals name="photos_restore_notification_content_download_in_progress">
+        <item quantity="one">%1$d üksus %2$d-st on alla laaditud</item>
+        <item quantity="other">%1$d üksust %2$d-st on alla laaditud</item>
+    </plurals>
+    <plurals name="photos_restore_notification_dialog_title_bypass_wifi">
+        <item quantity="one">Kas taastada %d üksus?</item>
+        <item quantity="other">Kas taastada %d üksust?</item>
+    </plurals>
+    <plurals name="photos_restore_notification_max_photo_count_restored">
+        <item quantity="one">1 hiljutine üksus taastati seadmesse</item>
+        <item quantity="other">%1$d hiljutist üksust taastati seadmesse</item>
+    </plurals>
+    <plurals name="photos_restore_notification_title_low_restore_count">
+        <item quantity="one">1 foto või video on taastatud</item>
+        <item quantity="other">%1$d fotot ja videot on taastatud</item>
+    </plurals>
+    <plurals name="photos_search_peoplelabeling_header_count">
+        <item quantity="one">%,d foto</item>
+        <item quantity="other">%,d fotot</item>
+    </plurals>
+    <plurals name="photos_search_remove_search_results_succeeded_count">
+        <item quantity="one">%1$d foto eemaldati grupist %2$s</item>
+        <item quantity="other">%1$d fotot eemaldati grupist %2$s</item>
+    </plurals>
+    <plurals name="photos_search_remove_search_results_succeeded_unnamed">
+        <item quantity="one">%1$d foto eemaldati sellest grupist</item>
+        <item quantity="other">%1$d fotot eemaldati sellest grupist</item>
+    </plurals>
+    <plurals name="photos_share_handler_add_to_existing_album_success_toast_text">
+        <item quantity="one">%d üksus lisati albumisse</item>
+        <item quantity="other">%d üksust lisati albumisse</item>
+    </plurals>
+    <plurals name="photos_share_handler_background_share_uploading">
+        <item quantity="one">%d üksuse üleslaadimine</item>
+        <item quantity="other">%d üksuse üleslaadimine</item>
+    </plurals>
+    <plurals name="photos_share_handler_background_share_waiting_for_upload">
+        <item quantity="one">%d üksus laaditakse ühenduse loomisel üles</item>
+        <item quantity="other">%d üksust laaditakse ühenduse loomisel üles</item>
+    </plurals>
+    <plurals name="photos_sharedlinks_subtitle_recipient_list">
+        <item quantity="one">%1$s ja veel %2$d</item>
+        <item quantity="other">%1$s ja veel %2$d</item>
+    </plurals>
+    <plurals name="photos_sharedmedia_envelope_items_title">
+        <item quantity="one">%d üksus</item>
+        <item quantity="other">%d üksust</item>
+    </plurals>
+    <plurals name="photos_sharingtab_impl_viewbinders_add_related_photos">
+        <item quantity="one">Kas lisada %d seotud foto?</item>
+        <item quantity="other">Kas lisada %d seotud fotot?</item>
+    </plurals>
+    <plurals name="photos_sharingtab_impl_viewbinders_new_auto_added_photos">
+        <item quantity="one">%1$d foto lisati automaatselt</item>
+        <item quantity="other">%1$d fotot lisati automaatselt</item>
+    </plurals>
+    <plurals name="photos_sharingtab_impl_viewbinders_new_photos_multiple_contributors">
+        <item quantity="one">%1$d uus foto</item>
+        <item quantity="other">%1$d uut fotot</item>
+    </plurals>
+    <plurals name="photos_sharingtab_picker_impl_num_selected">
+        <item quantity="one">%d on valitud</item>
+        <item quantity="other">%d on valitud</item>
+    </plurals>
+    <plurals name="photos_stories_item_count">
+        <item quantity="one">%1$d üksus</item>
+        <item quantity="other">%1$d üksust</item>
+    </plurals>
+    <plurals name="photos_trash_delete_delete_error">
+        <item quantity="one">Üksust ei saa kustutada</item>
+        <item quantity="other">Üksusi ei saa kustutada</item>
+    </plurals>
+    <plurals name="photos_trash_delete_on_sd_card_title">
+        <item quantity="one">%d üksust ei saa kustutada</item>
+        <item quantity="other">%d üksust ei saa kustutada</item>
+    </plurals>
+    <plurals name="photos_trash_delete_permanent_delete_error">
+        <item quantity="one">%d üksust ei saa jäädavalt kustutada</item>
+        <item quantity="other">%d üksust ei saa jäädavalt kustutada</item>
+    </plurals>
+    <plurals name="photos_trash_delete_remove_local_only_delete_toast_text_plural">
+        <item quantity="one">%d on seadmest kustutatud</item>
+        <item quantity="other">%d on seadmest kustutatud</item>
+    </plurals>
+    <plurals name="photos_trash_restore_restore_photo_error">
+        <item quantity="one">%d üksust ei saa taastada</item>
+        <item quantity="other">%d üksust ei saa taastada</item>
+    </plurals>
+    <plurals name="photos_trash_skip_trash_title">
+        <item quantity="one">Kas kustutada üksus jäädavalt?</item>
+        <item quantity="other">Kas kustutada üksused jäädavalt?</item>
+    </plurals>
+    <plurals name="photos_update_x_days_left">
+        <item quantity="one">Jäänud on veel %d päev, kuni teie praegune teenuse Google Photos rakendus ei ole enam ajakohane. Peate rakendust värskendama, et jätkata teenuse Google Photos kasutamist.</item>
+        <item quantity="other">Jäänud on veel %d päeva, kuni teie praegune teenuse Google Photos rakendus ei ole enam ajakohane. Peate rakendust värskendama, et jätkata teenuse Google Photos kasutamist.</item>
+    </plurals>
+    <plurals name="photos_upload_background_full_multiple_items">
+        <item quantity="one">%d üksuse üleslaadimine</item>
+        <item quantity="other">%d üksuse üleslaadimine</item>
+    </plurals>
+    <plurals name="photos_upload_background_full_multiple_items_offline">
+        <item quantity="one">%d üksus laaditakse üles ühenduse korral</item>
+        <item quantity="other">%d üksust laaditakse üles ühenduse korral</item>
+    </plurals>
+    <plurals name="photos_upload_background_full_multiple_items_wait_wifi">
+        <item quantity="one">%d üksus laaditakse üles WiFi-ühenduse korral</item>
+        <item quantity="other">%d üksust laaditakse üles WiFi-ühenduse korral</item>
+    </plurals>
+    <plurals name="photos_upload_title_uploading">
+        <item quantity="one">Üleslaadimine… %d on jäänud</item>
+        <item quantity="other">Üleslaadimine… %d on jäänud</item>
+    </plurals>
+    <plurals name="photos_uploadtoalbum_upload_media_num_files">
+        <item quantity="one">%d fail</item>
+        <item quantity="other">%d faili</item>
+    </plurals>
+    <plurals name="picker_external_folder_subtitle_photos">
+        <item quantity="one">%s foto</item>
+        <item quantity="other">%s fotot</item>
+    </plurals>
+    <plurals name="picker_external_folder_subtitle_photos_or_videos">
+        <item quantity="one">%s üksus</item>
+        <item quantity="other">%s üksust</item>
+    </plurals>
+    <plurals name="picker_external_folder_subtitle_videos">
+        <item quantity="one">%s video</item>
+        <item quantity="other">%s videot</item>
+    </plurals>
+    <plurals name="picker_external_title_photos">
+        <item quantity="one">Valige foto</item>
+        <item quantity="other">Valige fotod</item>
+    </plurals>
+    <plurals name="picker_external_title_photos_or_videos">
+        <item quantity="one">Valige üksus</item>
+        <item quantity="other">Valige üksused</item>
+    </plurals>
+    <plurals name="picker_external_title_videos">
+        <item quantity="one">Valige video</item>
+        <item quantity="other">Valige videod</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="smui_generic_deletion_title">
+        <item quantity="one">Kas kustutada üks üksus?</item>
+        <item quantity="other">Kas kustutada %d üksust?</item>
+    </plurals>
+    <plurals name="smui_photos_deletion_title">
+        <item quantity="one">Kas teisaldada üks üksus prügikasti?</item>
+        <item quantity="other">Kas teisaldada %d üksust prügikasti?</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d tärn %2$d-st</item>
+        <item quantity="other">%1$d tärni %2$d-st</item>
+    </plurals>
+</resources>

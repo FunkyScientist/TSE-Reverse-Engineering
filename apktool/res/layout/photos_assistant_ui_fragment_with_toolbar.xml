@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="?tabBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.photos.view.BoundedFrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxWidth="@dimen/photos_assistant_ui_with_toolbar_max_width">
+        <android.support.v7.widget.RecyclerView android:id="@id/cards" android:paddingTop="@dimen/photos_assistant_cardui_vertical_padding" android:paddingBottom="@dimen/photos_assistant_cardui_vertical_padding" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/photos_emptystate_container" />
+    </com.google.android.apps.photos.view.BoundedFrameLayout>
+    <include layout="@layout/scrolling_toolbar" />
+</FrameLayout>

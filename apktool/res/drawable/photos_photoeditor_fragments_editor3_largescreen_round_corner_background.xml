@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ripple android:color="@color/google_white">
+        <item>
+            <shape>
+                <solid android:color="@color/photos_photoeditor_fragments_editor3_largescreen_rounded_card_background" />
+                <corners android:radius="@dimen/photos_theme_rounded_corner_radius" />
+            </shape>
+        </item>
+    </ripple>
+</inset>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/pending_invite_promo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginHorizontal="16.0dip" app:cardBackgroundColor="?photosSurface2" app:strokeWidth="0.0dip" style="@style/Widget.Photos.CardView">
+        <LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/partner_avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/photos_partneraccount_promo_pending_invite_loading_avatar" android:importantForAccessibility="no" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textAppearance="@style/TextAppearance.Photos.TitleSmall" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/photos_partneraccount_promo_pending_invite_title" android:lineSpacingExtra="6.0sp" android:layout_marginStart="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/partner_avatar" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textAppearance="@style/TextAppearance.Photos.BodyMedium" android:id="@id/subtitle" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:lineSpacingExtra="6.0sp" android:textAlignment="viewStart" android:layout_marginStart="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/partner_avatar" app:layout_constraintTop_toBottomOf="@id/title" />
+                <include android:id="@id/subtitle_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="56.0dip" app:layout_constraintStart_toEndOf="@id/partner_avatar" app:layout_constraintTop_toBottomOf="@id/title" layout="@layout/photos_partneraccount_promo_pending_invite_subtitle_loading" />
+            </android.support.constraint.ConstraintLayout>
+            <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <com.google.android.material.button.MaterialButton android:id="@id/dismiss_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_partneraccount_promo_pending_invite_dismiss" style="@style/Widget.Photos.Button.Borderless" />
+                <com.google.android.material.button.MaterialButton android:id="@id/view_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_partneraccount_promo_pending_invite_view" style="@style/Widget.Photos.Button" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

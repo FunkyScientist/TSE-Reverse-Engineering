@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.search.cardui.BehaviorProxyLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/proxy_container"
+    android:background="?android:attr/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.app.FragmentContainerView
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <include layout="@layout/photos_emptystate_container"/>
+</com.google.android.apps.photos.search.cardui.BehaviorProxyLayout>

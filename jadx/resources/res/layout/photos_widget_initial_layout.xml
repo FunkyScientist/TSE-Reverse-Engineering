@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/AAG.Theme.AppWidget"
+    android:id="@android:id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AAG.AppWidget.Background">
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Subtitle2"
+        android:ellipsize="end"
+        android:gravity="start|bottom"
+        android:id="@+id/loading_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/photos_widget_loading"
+        android:maxLines="2"/>
+</FrameLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:clipChildren="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/timeline"
+        android:paddingTop="@dimen/photos_movies_v3_ui_clipeditor_impl_smallscreen_spacing_top_bottom"
+        android:paddingBottom="@dimen/photos_movies_v3_ui_clipeditor_impl_smallscreen_spacing_top_bottom"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/photos_movies_v3_ui_clipeditor_impl_recyclerview_padding_side"
+        android:paddingEnd="@dimen/photos_movies_v3_ui_clipeditor_impl_recyclerview_padding_side"/>
+    <FrameLayout
+        android:layout_gravity="start|bottom"
+        android:id="@+id/add_clips_button"
+        android:background="@drawable/photos_movies_v3_ui_clipeditor_impl_add_clips_background"
+        android:layout_width="@dimen/photos_movies_v3_ui_clipeditor_impl_button_layout_size"
+        android:layout_height="@dimen/photos_movies_v3_ui_clipeditor_impl_button_layout_size"
+        android:layout_marginTop="@dimen/photos_movies_v3_ui_clipeditor_impl_smallscreen_spacing_top_bottom"
+        android:layout_marginBottom="@dimen/photos_movies_v3_ui_clipeditor_impl_smallscreen_spacing_top_bottom"
+        android:layout_marginStart="8dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:duplicateParentState="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="@color/photos_movies_v3_ui_clipeditor_add_clips_tint"
+            android:contentDescription="@string/photos_movies_ui_clipeditor_impl_add_clips_button_a11y_label"
+            app:srcCompat="@drawable/quantum_gm_ic_add_vd_theme_24"/>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar
+            android:theme="?attr/actionBarTheme"
+            android:id="@+id/toolbar"
+            android:clipChildren="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:elevation="3dp">
+            <TextView
+                android:textSize="20sp"
+                android:textColor="@color/photos_daynight_grey900"
+                android:ellipsize="end"
+                android:id="@+id/photos_empty_feed_toolbar_title_text_view"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:drawablePadding="4dp"
+                android:fontFamily="@font/google_sans"
+                android:paddingEnd="12dp"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/autocomplete_wrapper"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="-56dp"
+                android:paddingEnd="0dp"/>
+        </android.support.v7.widget.Toolbar>
+        <include
+            android:paddingTop="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            layout="@layout/photos_emptystate_container"/>
+        <include layout="@layout/photos_comments_ui_commentbar_comment_bar"/>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

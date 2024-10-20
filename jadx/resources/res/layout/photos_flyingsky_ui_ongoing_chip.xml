@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textAppearance="@style/TextAppearance.Photos.LabelMedium"
+    android:textColor="@color/photos_daynight_grey900"
+    android:id="@+id/ongoing_chip"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/photos_ongoing_chip_real_time_album_text"
+    app:chipBackgroundColor="?attr/colorSecondaryContainer"
+    app:chipCornerRadius="100dp"
+    app:chipIcon="@drawable/quantum_ic_youtube_live_vd_theme_24"
+    app:chipIconSize="14dp"
+    app:chipIconTint="@color/photos_daynight_grey900"
+    app:chipStrokeColor="?attr/colorSecondaryContainer"
+    app:iconStartPadding="8dp"/>

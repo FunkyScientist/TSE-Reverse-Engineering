@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/photos_printingskus_photobook_preview_layout_switching_button_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.card.MaterialCardView android:layout_gravity="center" android:id="@id/photos_printingskus_photobook_preview_layout_switching_button_cardview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/photos_printingskus_photobook_preview_layout_switching_cardview_margin" style="@style/photos_printingskus_photobook_theme_preview_page_layout_button_card_view">
+        <com.google.android.apps.photos.printingskus.common.pagelayout.PrintPageLayout android:layout_gravity="center" android:id="@id/print_page" android:layout_width="@dimen/photos_printingskus_photobook_preview_layout_switching_cardview_size" android:layout_height="@dimen/photos_printingskus_photobook_preview_layout_switching_cardview_size">
+            <ImageView android:id="@id/page_photo_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:contentDescription="@null" />
+        </com.google.android.apps.photos.printingskus.common.pagelayout.PrintPageLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

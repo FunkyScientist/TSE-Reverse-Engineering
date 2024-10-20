@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textColor="@color/google_white"
+    android:layout_gravity="bottom|center_horizontal"
+    android:background="@android:color/transparent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingVertical="16dp"
+    style="@style/TextAppearance.Photos.Body1"/>

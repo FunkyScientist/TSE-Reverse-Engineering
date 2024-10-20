@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/quantum_gm_ic_add_vd_theme_24" android:id="@id/action_bar_add_more_photos" android:title="@string/photos_printingskus_photobook_preview_menu_item_title_add_more_photos" support:showAsAction="always" />
+    <item android:icon="@null" android:id="@id/action_bar_done" android:title="@string/photos_printingskus_photobook_preview_done" support:showAsAction="always|withText" />
+</menu>

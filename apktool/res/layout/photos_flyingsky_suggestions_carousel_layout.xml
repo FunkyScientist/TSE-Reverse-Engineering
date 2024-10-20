@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/carousel_items_container_parent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/top_wavy_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/photos_flyingsky_wavy_divider_height" android:contentDescription="@null" />
+    <TextView android:textAppearance="@style/TextAppearance.Photos.LabelLarge" android:textSize="14.0sp" android:textColor="?colorOnSurface" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="start|bottom|center" android:id="@id/photos_suggestion_header_title" android:paddingTop="16.0dip" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="64.0dip" android:text="@string/photos_flyingsky_suggestions_title" android:maxLines="1" android:lineSpacingExtra="2.0sp" android:textIsSelectable="false" android:layout_marginStart="@dimen/photos_flyingsky_title_start_margin" />
+    <com.google.android.apps.photos.orthogonalscroll.NestedCarouselRecyclerView android:id="@id/carousel_items_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/bottom_wavy_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/photos_flyingsky_wavy_divider_height" android:contentDescription="@null" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <view
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.apps.photos.zoom.ZoomLevelManager$ZoomFrameLayout"/>
+    <include layout="@layout/photos_emptystate_container"/>
+    <ViewStub
+        android:layout_gravity="end|bottom"
+        android:id="@+id/zoom_fab_layout_stub"
+        android:layout="@layout/zoom_fab_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/photos_fabcontroller_fab_margin"
+        android:layout_marginEnd="@dimen/photos_fabcontroller_fab_margin"/>
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/date_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/photos_search_functional_reminders_fields_icon_padding" android:layout_marginEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/date_icon_section" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <android.support.v7.widget.AppCompatImageView android:gravity="center_horizontal" android:id="@id/date_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/quantum_gm_ic_schedule_vd_theme_24" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/date_toggles_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="5.0dip">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/all_day_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+            <TextView android:gravity="center_horizontal" android:id="@id/all_day_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_search_functional_reminders_date_all_day_text" android:layout_marginStart="@dimen/photos_search_functional_reminders_fields_icon_text_padding" android:layout_alignParentStart="true" style="@style/Photos.Search.FunctionalPhotos.ReminderCreation.View.Text" />
+            <Space android:id="@id/all_day_space" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toStartOf="@id/all_day_switch" android:layout_toEndOf="@id/all_day_text" />
+            <com.google.android.material.switchmaterial.SwitchMaterial android:id="@id/all_day_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@id/start_date_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/photos_search_functional_reminders_fields_padding">
+            <TextView android:gravity="center_horizontal" android:id="@id/start_date_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/photos_search_functional_reminders_fields_icon_text_padding" android:layout_alignParentStart="true" style="@style/Photos.Search.FunctionalPhotos.ReminderCreation.View.Text" />
+            <Space android:id="@id/start_date_space" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toStartOf="@id/start_time_text" android:layout_toEndOf="@id/start_date_text" />
+            <TextView android:id="@id/start_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" style="@style/Photos.Search.FunctionalPhotos.ReminderCreation.View.Text" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@id/end_date_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip">
+            <TextView android:gravity="center_horizontal" android:id="@id/end_date_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/photos_search_functional_reminders_fields_icon_text_padding" android:layout_alignParentStart="true" style="@style/Photos.Search.FunctionalPhotos.ReminderCreation.View.Text" />
+            <Space android:id="@id/end_date_space" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toStartOf="@id/end_time_text" android:layout_toEndOf="@id/end_date_text" />
+            <TextView android:id="@id/end_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" style="@style/Photos.Search.FunctionalPhotos.ReminderCreation.View.Text" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="84dp"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:id="@+id/photos_photoeditor_fragments_editor3_filter_item_image_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:foreground="?attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/photos_photoeditor_fragments_editor3_filter_item_image"
+            android:layout_width="@dimen/photos_photoeditor_fragments_editor3_filter_unselected_image_size"
+            android:layout_height="@dimen/photos_photoeditor_fragments_editor3_filter_unselected_image_size"/>
+    </FrameLayout>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Subhead2"
+        android:textColor="?attr/colorNeutral500"
+        android:ellipsize="end"
+        android:id="@+id/photos_photoeditor_fragments_editor3_filter_item_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="6dp"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photos_photoeditor_fragments_editor3_filter_item_image_container"/>
+</android.support.constraint.ConstraintLayout>

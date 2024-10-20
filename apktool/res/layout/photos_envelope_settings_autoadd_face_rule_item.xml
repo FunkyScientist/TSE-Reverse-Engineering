@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/face_image" android:layout_width="@dimen/photos_envelope_settings_autoadd_face_size" android:layout_height="@dimen/photos_envelope_settings_autoadd_face_size" android:layout_marginTop="@dimen/photos_envelope_settings_autoadd_remove_button_offset" android:contentDescription="@string/photos_envelope_settings_autoadd_face_rule_content_description" android:layout_marginStart="@dimen/photos_envelope_settings_autoadd_remove_button_offset" />
+    <ImageView android:layout_gravity="start|center|top" android:id="@id/remove_cluster_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/photos_envelope_settings_autoadd_remove_cluster_button" android:contentDescription="@string/photos_envelope_settings_autoadd_remove_cluster_button_content_description" />
+</FrameLayout>

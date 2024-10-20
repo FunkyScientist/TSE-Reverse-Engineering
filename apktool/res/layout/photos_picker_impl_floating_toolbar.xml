@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.floatingsearchbar.SearchBarLayout android:id="@id/toolbar_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/floating_toolbar_card_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" style="@style/FloatingSearchBarCardView">
+        <android.support.v7.widget.Toolbar android:theme="@style/ThemeOverlay.Photos.ActionBar.FloatingToolbar" android:id="@id/floating_toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/photos_floatingsearchbar_height" android:touchscreenBlocksFocus="false" app:buttonGravity="center_vertical" app:contentInsetStart="0.0dip" />
+    </com.google.android.material.card.MaterialCardView>
+</com.google.android.apps.photos.floatingsearchbar.SearchBarLayout>

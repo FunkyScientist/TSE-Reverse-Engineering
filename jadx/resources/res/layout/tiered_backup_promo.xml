@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="end"
+    android:orientation="vertical"
+    android:id="@+id/tiered_backup_promo"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="16dp">
+    <View
+        android:layout_gravity="end"
+        android:id="@+id/tiered_backup_promo_arrow"
+        android:background="@drawable/photos_theme_promo_banner_arrow_upward_blue"
+        android:layout_width="@dimen/photos_pager_autobackup_tiered_backup_promo_arrow_size"
+        android:layout_height="@dimen/photos_pager_autobackup_tiered_backup_promo_arrow_size"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/tiered_backup_promo_tap_area"
+        android:background="@drawable/tiered_backup_promo_background"
+        android:padding="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/text_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/photos_pager_autobackup_preview_quality_tooltip"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/photos_daynight_white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_gravity="start|fill_vertical"
+        android:orientation="horizontal"
+        android:layout_width="@dimen/photos_pager_sidepanel_width"
+        android:layout_height="@dimen/photos_pager_sidepanel_header_height">
+        <FrameLayout
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/photos_pager_sidepanel_header_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/photos_pager_sidepanel_close_button"
+                android:background="@drawable/photo_action_bar_button_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:contentDescription="@string/photos_mediadetails_accessibility_exif_info_close"
+                app:srcCompat="@drawable/quantum_ic_close_vd_theme_24"/>
+        </FrameLayout>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/photos_pager_sidepanel_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="0dp"
+            android:paddingEnd="@dimen/photos_pager_sidepanel_header_padding"
+            style="@style/TextAppearance.Photos.Headline6"/>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_gravity="start|fill_vertical"
+        android:id="@+id/photos_pager_sidepanel_content"
+        android:layout_width="@dimen/photos_pager_sidepanel_width"
+        android:layout_height="match_parent"/>
+</LinearLayout>

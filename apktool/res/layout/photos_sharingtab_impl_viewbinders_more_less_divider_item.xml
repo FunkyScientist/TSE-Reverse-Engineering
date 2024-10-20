@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButton android:id="@id/more_less_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16.0dip" app:iconGravity="textStart" app:iconPadding="8.0dip" style="@style/Widget.Photos.Button.Borderless" />
+    <View android:id="@id/collapsed_padding" android:layout_width="wrap_content" android:layout_height="16.0dip" />
+</LinearLayout>

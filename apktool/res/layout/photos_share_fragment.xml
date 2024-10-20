@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/share_fragment_root_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/drag_handle" android:background="@drawable/photos_list_drag_handle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="4.0dip" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/share_sheet_container" android:background="@color/photos_share_fragment_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView android:id="@id/share_sheet" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+        <View android:id="@id/share_sheet_overlay" android:background="?android:colorBackground" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.5" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

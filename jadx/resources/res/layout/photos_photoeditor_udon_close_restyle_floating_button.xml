@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/photos_photoeditor_udon_restyle_dismiss_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="16dp"
+    app:backgroundTint="?android:attr/colorBackground"
+    app:icon="@drawable/quantum_gm_ic_close_vd_theme_24"
+    app:iconTint="?attr/colorOnSurface"
+    app:rippleColor="@null"
+    style="?attr/materialIconButtonFilledStyle"/>

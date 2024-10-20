@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="0.0dip" android:layout_height="104.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="@dimen/photos_theme_rounded_corner_radius" app:strokeColor="?colorOutline" app:strokeWidth="1.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip">
+            <ImageView android:theme="@style/ThemeOverlay.Photos.DayNight.Primary" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:contentDescription="@null" />
+            <TextView android:textAppearance="@style/TextAppearance.Photos.Subhead2" android:textColor="?colorOnSurface" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" />
+            <TextView android:textAppearance="@style/TextAppearance.Photos.Caption" android:textColor="?photosOnSurfaceVariant" android:id="@id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

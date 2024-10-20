@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <size
+        android:height="@dimen/photos_partneraccount_grid_promobanner_autosave_promo_banner_face_outline_size"
+        android:width="@dimen/photos_partneraccount_grid_promobanner_autosave_promo_banner_face_outline_size"/>
+    <solid android:color="@null"/>
+    <stroke
+        android:width="@dimen/photos_partneraccount_grid_promobanner_autosave_promo_banner_face_outline_width"
+        android:color="?android:attr/colorBackground"/>
+</shape>

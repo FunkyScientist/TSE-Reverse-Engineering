@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/location_sharing_notice"
+    android:paddingTop="@dimen/photos_mediadetails_item_padding"
+    android:paddingBottom="@dimen/photos_mediadetails_item_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/photos_mediadetails_item_min_height"
+    android:layout_marginStart="@dimen/photos_mediadetails_item_margin_horizontal"
+    android:layout_marginEnd="@dimen/photos_mediadetails_item_margin_horizontal"
+    android:paddingVertical="@dimen/photos_mediadetails_item_padding">
+    <ImageView
+        android:theme="@style/ThemeOverlay.Photos.DayNight.Grey"
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/quantum_gm_ic_visibility_off_vd_theme_24"/>
+    <TextView
+        android:id="@+id/notice"
+        android:paddingTop="8dp"
+        android:paddingBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="locale"
+        android:paddingStart="16dp"
+        android:paddingEnd="2dp"
+        android:layout_toEndOf="@+id/icon"/>
+</RelativeLayout>

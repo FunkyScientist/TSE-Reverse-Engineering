@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/photos_widget_description"
+    android:minWidth="@dimen/photos_widget_min_width"
+    android:minHeight="@dimen/photos_widget_min_height"
+    android:updatePeriodMillis="0"
+    android:initialLayout="@layout/photos_widget_initial_layout"
+    android:configure="com.google.android.apps.photos.widget.WidgetAccountChooserActivity"
+    android:previewImage="@drawable/photos_widget_preview"
+    android:resizeMode="vertical|horizontal"
+    android:minResizeWidth="@dimen/photos_widget_min_width"
+    android:minResizeHeight="@dimen/photos_widget_min_height"
+    android:widgetCategory="keyguard|home_screen"
+    android:previewLayout="@layout/photos_widget_preview_layout"
+    android:targetCellWidth="2"
+    android:targetCellHeight="2"/>

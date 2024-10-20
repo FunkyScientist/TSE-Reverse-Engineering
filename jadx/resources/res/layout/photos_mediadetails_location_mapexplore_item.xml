@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:background="@color/photos_list_tile_loading_background"
+    android:layout_width="match_parent"
+    android:layout_height="156dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp">
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        map:cameraZoom="16"
+        map:liteMode="true"/>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/storage_meter" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextAppearance.GoogleMaterial.Subhead2.AutoBackupParticleTitle" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale" android:textAlignment="gravity" />
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progress_indicator" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="8.0dip" android:max="100" app:trackColor="?photosStorageBackground" app:trackCornerRadius="2.0dip" app:trackThickness="4.0dip" />
+    <TextView android:textAppearance="@style/TextAppearance.GoogleMaterial.Caption.AutoBackupParticleDescription" android:id="@id/progress_details" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale" android:textAlignment="gravity" />
+    <com.google.android.apps.photos.cloudstorage.ui.storagemeter.StorageMeterActionChipSection android:id="@id/chip_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+</LinearLayout>

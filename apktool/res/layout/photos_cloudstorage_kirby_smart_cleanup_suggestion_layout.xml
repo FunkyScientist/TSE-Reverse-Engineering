@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/smart_cleanup_view" android:background="@drawable/photos_cloudstorage_kirby_smart_cleanup_suggestion_background" android:focusable="true" android:clickable="true" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginHorizontal="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/smart_cleanup_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="32.0dip" android:tint="@color/photos_cloudstorage_kirby_smart_cleanup_suggestion_icon_color" android:contentDescription="@null" />
+    <TextView android:textAppearance="@style/TextAppearance.Photos.LabelLarge" android:id="@id/smart_cleanup_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:textAlignment="center" />
+    <TextView android:textAppearance="@style/TextAppearance.Photos.BodySmall" android:id="@id/smart_cleanup_estimate" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="28.0dip" android:textAlignment="center" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/estimate_shimmer_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="24.0dip" style="@style/FocusModeLoadingShimmer">
+        <com.google.android.material.card.MaterialCardView android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="?colorOutlineVariant" app:cardCornerRadius="8.0dip" app:strokeWidth="0.0dip">
+            <TextView android:layout_width="48.0dip" android:layout_height="12.0dip" android:textAlignment="center" />
+        </com.google.android.material.card.MaterialCardView>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</LinearLayout>

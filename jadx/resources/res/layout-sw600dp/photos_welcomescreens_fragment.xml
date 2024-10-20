@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@color/photos_daynight_grey100"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_gravity="center"
+        android:layout_width="480dp"
+        android:layout_height="516dp"
+        card_view:cardCornerRadius="6dp">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <RelativeLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/photos_welcomescreens_button_row_height"
+            android:paddingStart="@dimen/photos_welcomescreens_horizontal_padding"
+            android:paddingEnd="@dimen/photos_welcomescreens_horizontal_padding">
+            <Button
+                android:textAppearance="@style/TextAppearance.Photos.Subhead2"
+                android:textColor="?attr/photosOnSurfaceVariant"
+                android:gravity="center"
+                android:id="@+id/welcomescreens_skip_button"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/photos_welcomescreens_skip_button"
+                android:layout_centerVertical="true"
+                android:textAllCaps="false"
+                android:layout_alignParentStart="true"
+                style="@style/Widget.Photos.Button.Borderless"/>
+            <Button
+                android:textAppearance="@style/TextAppearance.Photos.Subhead2"
+                android:textColor="?attr/photosPrimary"
+                android:gravity="center"
+                android:id="@+id/welcomescreens_next_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textAllCaps="false"
+                android:layout_alignParentEnd="true"
+                style="@style/Widget.Photos.Button.Borderless"/>
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

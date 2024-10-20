@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>x 0,25</item>
+        <item>x 0,5</item>
+        <item>x 0,75</item>
+        <item>Normal</item>
+        <item>x 1,25</item>
+        <item>x 1,5</item>
+        <item>x 2</item>
+    </array>
+    <array name="photos_album_titlecard_narrative_add_description_alternates">
+        <item>Indiquez trois choses que vous ne voulez pas oublier</item>
+        <item>Décrivez cet événement pour vous en rappeler plus tard</item>
+        <item>Une phrase pour décrire ce souvenir…</item>
+        <item>Quelle impression vous a laissée cette journée ?</item>
+    </array>
+    <array name="photos_album_titlecard_narrative_prompt">
+        <item>Qu\'est-ce qui rend ce souvenir spécial ?</item>
+        <item>Pourquoi est-ce un souvenir important ?</item>
+        <item>Qu\'avez-vous préféré dans ce souvenir ?</item>
+        <item>Qu\'est-ce qui a rendu ce moment spécial ?</item>
+    </array>
+    <array name="photos_allphotos_ui_actionconfirmation_delete_from_device_message">
+        <item>@string/photos_allphotos_ui_actionconfirmation_delete_from_device_message_one</item>
+        <item>@string/photos_allphotos_ui_actionconfirmation_delete_from_device_message_other</item>
+    </array>
+    <array name="photos_allphotos_ui_actionconfirmation_delete_from_device_warning">
+        <item>@string/photos_allphotos_ui_actionconfirmation_delete_from_device_warning_one</item>
+        <item>@string/photos_allphotos_ui_actionconfirmation_delete_from_device_warning_other</item>
+        <item>@string/photos_allphotos_ui_actionconfirmation_delete_from_device_warning_mixed</item>
+    </array>
+    <array name="photos_allphotos_ui_actionconfirmation_move_to_trash_messages">
+        <item>@string/photos_allphotos_ui_actionconfirmation_move_to_trash_folders_one</item>
+        <item>@string/photos_allphotos_ui_actionconfirmation_move_to_trash_folders_other</item>
+    </array>
+    <array name="photos_allphotos_ui_actionconfirmation_places_shared_message">
+        <item>@string/photos_allphotos_ui_actionconfirmation_places_shared_message_one</item>
+        <item>@string/photos_allphotos_ui_actionconfirmation_places_shared_message_other</item>
+    </array>
+    <array name="photos_envelope_addmedia_toast_optimistic_add_success_offline">
+        <item>@string/photos_envelope_addmedia_toast_optimistic_add_success_offline_single</item>
+        <item>@string/photos_envelope_addmedia_toast_optimistic_add_success_offline_multiple</item>
+    </array>
+    <array name="photos_localmedia_ui_deleteconfirm_delete_from_device_warnings">
+        <item>@string/photos_localmedia_ui_deleteconfirm_delete_from_device_warning_one</item>
+        <item>@string/photos_localmedia_ui_deleteconfirm_delete_from_device_warning_other</item>
+    </array>
+    <array name="photos_partneraccount_settings_receiver_autosave_options">
+        <item>@string/photos_partneraccount_settings_receiver_autosave_all</item>
+        <item>@string/photos_partneraccount_settings_receiver_autosave_none</item>
+        <item>@string/photos_partneraccount_settings_receiver_autosave_specific_people</item>
+    </array>
+    <array name="photos_partneraccount_settings_receiver_autosave_options_no_people">
+        <item>@string/photos_partneraccount_settings_receiver_autosave_all</item>
+        <item>@string/photos_partneraccount_settings_receiver_autosave_none</item>
+    </array>
+    <array name="photos_printingskus_photobook_picker_cannot_add_duplicate_photo_dialog_message">
+        <item>Vous ne pouvez ajouter qu\'un exemplaire de chaque photo à une même page</item>
+    </array>
+    <array name="photos_printingskus_photobook_picker_cannot_add_duplicate_photo_dialog_title">
+        <item>Impossible d\'ajouter une photo en double</item>
+    </array>
+    <array name="photos_printingskus_photobook_picker_duplicate_check_dialog_message">
+        <item>Cette photo est déjà utilisée dans votre livre</item>
+        <item>Certaines de ces photos sont déjà utilisées dans votre livre</item>
+    </array>
+    <array name="photos_printingskus_photobook_picker_duplicate_check_dialog_title">
+        <item>Ajouter une photo en double ?</item>
+        <item>Ajouter aussi les photos en double ?</item>
+    </array>
+    <array name="photos_search_ellmannchat_additional_feedback_down_reason">
+        <item>Offensive / unsafe / biased</item>
+        <item>Slow</item>
+        <item>Incorrect photos</item>
+        <item>Incorrect facts</item>
+        <item>Other</item>
+    </array>
+    <array name="photos_search_ellmannchat_additional_feedback_up_reason">
+        <item>Fast</item>
+        <item>Correct photos</item>
+        <item>Factually correct</item>
+        <item>Other</item>
+    </array>
+    <array name="photos_search_peoplegroupingonboarding_promo_recapture_desc_global_opt_in_personalized_copy2">
+        <item>@string/photos_search_peoplegroupingonboarding_promo_recapture_desc_global_opt_in_personalized_copy2_1face</item>
+        <item>@string/photos_search_peoplegroupingonboarding_promo_recapture_desc_global_opt_in_personalized_copy2_2faces</item>
+        <item>@string/photos_search_peoplegroupingonboarding_promo_recapture_desc_global_opt_in_personalized_copy2_3faces</item>
+        <item>@string/photos_search_peoplegroupingonboarding_promo_recapture_desc_global_opt_in_personalized_copy2_4faces</item>
+    </array>
+    <array name="photos_search_removeresults_feedback_title">
+        <item>@string/photos_search_removeresults_feedback_title_single</item>
+        <item>@string/photos_search_removeresults_feedback_title_multiple</item>
+    </array>
+    <array name="photos_search_removeresults_feedback_title_unnamed_person_cluster">
+        <item>@string/photos_search_removeresults_feedback_title_unnamed_person_cluster_single</item>
+        <item>@string/photos_search_removeresults_feedback_title_unnamed_person_cluster_multiple</item>
+    </array>
+    <array name="photos_search_removeresults_feedback_title_unnamed_pet_cluster">
+        <item>@string/photos_search_removeresults_feedback_title_unnamed_pet_cluster_single</item>
+        <item>@string/photos_search_removeresults_feedback_title_unnamed_pet_cluster_multiple</item>
+    </array>
+</resources>

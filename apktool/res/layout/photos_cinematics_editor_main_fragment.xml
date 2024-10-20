@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/photos_cinematics_ui_bottom_control_bar_container" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/photos_videoplayer_view_video_view_container" />
+        <ViewStub android:id="@id/feedback_view_stub" android:inflatedId="@id/feedback_view" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="8.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <FrameLayout android:id="@id/photos_cinematics_ui_bottom_control_bar_container" android:background="@color/google_black" android:layout_width="fill_parent" android:layout_height="112.0dip" app:layout_constraintBottom_toBottomOf="parent">
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/photos_cinematics_ui_toolbar" android:background="@color/google_black" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="8.0dip" android:layoutDirection="locale" app:layout_constraintBottom_toBottomOf="parent">
+                <Button android:layout_gravity="start" android:id="@id/photos_cinematics_ui_cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_cinematics_ui_cancel_button" style="@style/photos_cinematics_ui_cancel_button" />
+                <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <Button android:layout_gravity="end" android:id="@id/photos_cinematics_ui_save_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_cinematics_ui_save_button" style="@style/photos_cinematics_ui_save_button" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/photos_cinematics_ui_main_fragment_controller_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="64.0dip" />
+    </android.support.constraint.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

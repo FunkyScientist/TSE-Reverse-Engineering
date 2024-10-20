@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/photos_location_edits_ui_recycler_view_row_spacing" android:paddingBottom="@dimen/photos_location_edits_ui_recycler_view_row_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/photos_daynight_grey900" android:id="@id/photo_location_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/photos_daynight_grey600" android:id="@id/photo_location_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="0.0dip" />
+</LinearLayout>

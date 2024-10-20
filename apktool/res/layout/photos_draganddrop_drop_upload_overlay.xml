@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/photos_draganddrop_drop_overlay_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/photos_draganddrop_drop_upload_cloud" android:tint="@color/photos_daynight_grey500" android:contentDescription="@null" />
+    <TextView android:textAppearance="?textAppearanceTitleLarge" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="36.0dip" android:layout_marginRight="24.0dip" android:text="@string/photos_draganddrop_drop_files_anywhere_to_upload" android:textAlignment="center" android:layout_marginHorizontal="24.0dip" />
+</LinearLayout>

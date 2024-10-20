@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAppearance="@style/TextAppearance.Photos.Subhead2"
+    android:textColor="@color/google_grey800"
+    android:id="@+id/photos_collageeditor_ui_popup_tools_item_text"
+    android:background="?android:attr/selectableItemBackgroundBorderless"
+    android:paddingLeft="16dp"
+    android:paddingTop="8dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="8dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="36dp"
+    android:singleLine="true"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="8dp"/>

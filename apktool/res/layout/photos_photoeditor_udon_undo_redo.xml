@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/photos_photoeditor_udon_undo_redo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/photos_photoeditor_udon_undo_button" android:background="@drawable/photos_photoeditor_udon_button_circle_background" android:padding="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:contentDescription="@string/photos_photoeditor_markup_impl_a11y_undo_button" app:iconTint="@color/photos_photoeditor_commonui_icon_color" app:srcCompat="@drawable/quantum_gm_ic_undo_vd_theme_24" />
+    <ImageView android:id="@id/photos_photoeditor_udon_redo_button" android:background="@drawable/photos_photoeditor_udon_button_circle_background" android:padding="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:contentDescription="@string/photos_photoeditor_eraser_a11y_redo_button" android:layout_marginStart="24.0dip" app:iconTint="@color/photos_photoeditor_commonui_icon_color" app:srcCompat="@drawable/quantum_gm_ic_redo_vd_theme_24" />
+</LinearLayout>

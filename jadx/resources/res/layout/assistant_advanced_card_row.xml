@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Widget.Photos.CardView">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/card_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="top"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/assistant_advanced_card_header"/>
+            <View
+                android:id="@+id/top_div_line"
+                android:background="?attr/colorOutline"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/card_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <include layout="@layout/assistant_advanced_card_text_layout"/>
+                    <ImageView
+                        android:id="@+id/card_image"
+                        android:contentDescription="@null"
+                        style="@style/AssistantCardImage"/>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:id="@+id/media_preview_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </RelativeLayout>
+                <ViewStub
+                    android:id="@+id/one_button_bar_stub"
+                    android:layout="@layout/assistant_advanced_card_one_button"
+                    android:inflatedId="@+id/one_button_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <ViewStub
+                    android:id="@+id/two_buttons_bar_stub"
+                    android:layout="@layout/assistant_advanced_card_two_buttons"
+                    android:inflatedId="@+id/two_buttons_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.google.android.material.card.MaterialCardView>

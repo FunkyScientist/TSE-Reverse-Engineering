@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textAppearance="@style/TextAppearance.Photos.Headline3"
+                android:textColor="?attr/colorOnSurface"
+                android:id="@+id/name"
+                android:paddingTop="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textDirection="locale"
+                android:textAlignment="gravity"/>
+            <TextView
+                android:textAppearance="@style/TextAppearance.Photos.Body2"
+                android:textColor="?attr/orderConfirmationTextColor"
+                android:id="@+id/message"
+                android:paddingBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lineSpacingExtra="4dp"
+                android:textDirection="locale"
+                android:textAlignment="gravity"/>
+            <include layout="@layout/photos_printingskus_wallart_ui_order_confirmation_order_details_card"/>
+            <include layout="@layout/photos_printingskus_wallart_ui_order_confirmation_shipment_info_card"/>
+            <include layout="@layout/photos_printingskus_wallart_ui_order_confirmation_order_number_card"/>
+            <TextView
+                android:textColor="?attr/photosOnSurfaceVariant"
+                android:gravity="center"
+                android:id="@+id/help_text"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="32dp"
+                android:minHeight="48dp"
+                android:textDirection="locale"
+                android:textAlignment="gravity"
+                style="@style/quantum_text_menu_grey"/>
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/photos_printingskus_common_ui_confirmation_back_button"/>
+</FrameLayout>

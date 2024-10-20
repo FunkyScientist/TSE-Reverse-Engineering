@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/title_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.photos.edittext.KeyboardDismissEditText android:layout_gravity="start" android:id="@id/reminder_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:hint="@string/photos_search_functional_reminders_creation_title" android:inputType="text" android:layout_marginEnd="20.0dip" style="@style/Photos.Search.FunctionalPhotos.ReminderCreation.View.Title" />
+</LinearLayout>

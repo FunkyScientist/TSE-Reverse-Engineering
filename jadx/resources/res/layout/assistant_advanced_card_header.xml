@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/header"
+    style="@style/AssistantCardBar">
+    <ImageView
+        android:id="@+id/header_image"
+        android:contentDescription="@null"
+        style="@style/AssistantCardIcon"/>
+    <TextView
+        android:id="@+id/header_text"
+        android:text="@string/photos_assistant_cardui_card_header"
+        style="@style/AssistantCardHeaderText"/>
+    <ImageButton
+        android:id="@+id/dismiss_card_button"
+        android:contentDescription="@string/dismiss_card"
+        app:srcCompat="@drawable/quantum_gm_ic_close_vd_theme_24"
+        style="@style/AssistantCardIcon"/>
+</LinearLayout>

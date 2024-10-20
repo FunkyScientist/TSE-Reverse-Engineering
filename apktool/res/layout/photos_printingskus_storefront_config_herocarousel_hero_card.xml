@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@id/card" android:layout_width="fill_parent" android:layout_height="fill_parent" support:strokeWidth="0.0dip" style="@style/Widget.Photos.CardView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/card_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" support:layout_constraintGuide_percent="0.5" />
+        <ImageView android:id="@id/hero_asset_glow" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/photos_printingskus_storefront_config_herocarousel_asset_glow" android:scaleType="fitCenter" android:contentDescription="@null" support:layout_constraintStart_toStartOf="parent" support:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/hero_asset" android:layout_width="wrap_content" android:layout_height="0.0dip" android:contentDescription="@null" support:layout_constraintStart_toStartOf="parent" support:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textAppearance="@style/TextAppearance.Photos.Caption" android:id="@id/hero_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_marginStart="16.0dip" support:layout_constraintStart_toStartOf="parent" support:layout_constraintTop_toTopOf="parent" />
+        <TextView android:id="@id/hero_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" support:layout_constraintStart_toStartOf="parent" support:layout_constraintTop_toTopOf="parent" />
+        <Button android:id="@id/hero_action" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" support:layout_constraintStart_toStartOf="parent" support:layout_constraintTop_toTopOf="parent" style="@style/Widget.Photos.Button.StrokedButton" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

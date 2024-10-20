@@ -1,0 +1,56 @@
+package p000;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public final class bgoc extends bfir implements bfjx {
+
+    /* renamed from: a */
+    public static final bgoc f104201a;
+
+    /* renamed from: b */
+    private static volatile bfkd f104202b;
+
+    static {
+        bgoc bgocVar = new bgoc();
+        f104201a = bgocVar;
+        bfir.m39976aa(bgoc.class, bgocVar);
+    }
+
+    private bgoc() {
+    }
+
+    @Override // p000.bfir
+    /* renamed from: a */
+    public final Object mo4203a(int i, Object obj) {
+        int i2 = i - 1;
+        if (i2 != 0) {
+            if (i2 != 2) {
+                if (i2 != 3) {
+                    if (i2 != 4) {
+                        if (i2 != 5) {
+                            if (i2 != 6) {
+                                return null;
+                            }
+                            bfkd bfkdVar = f104202b;
+                            if (bfkdVar == null) {
+                                synchronized (bgoc.class) {
+                                    bfkdVar = f104202b;
+                                    if (bfkdVar == null) {
+                                        bfkdVar = new bfim(f104201a);
+                                        f104202b = bfkdVar;
+                                    }
+                                }
+                            }
+                            return bfkdVar;
+                        }
+                        return f104201a;
+                    }
+                    return new bfil(f104201a);
+                }
+                return new bgoc();
+            }
+            return new bfkh(f104201a, "\u0004\u0000", null);
+        }
+        return (byte) 1;
+    }
+}

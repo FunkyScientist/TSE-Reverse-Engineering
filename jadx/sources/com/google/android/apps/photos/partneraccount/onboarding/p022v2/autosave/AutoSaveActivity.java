@@ -1,0 +1,112 @@
+package com.google.android.apps.photos.partneraccount.onboarding.p022v2.autosave;
+
+import android.content.Intent;
+import android.os.Bundle;
+import com.google.android.apps.photos.R;
+import p000.C0070ba;
+import p000.C0133ct;
+import p000.ComponentCallbacksC0094by;
+import p000._1862;
+import p000.adnq;
+import p000.adns;
+import p000.adof;
+import p000.adpc;
+import p000.adpd;
+import p000.adrk;
+import p000.adtz;
+import p000.awuo;
+import p000.awuz;
+import p000.aybb;
+import p000.aybg;
+import p000.aylm;
+import p000.blwh;
+import p000.lwq;
+import p000.lwt;
+import p000.lxn;
+import p000.mse;
+import p000.puv;
+import p000.ycd;
+import p000.yff;
+
+/* compiled from: PG */
+/* loaded from: classes3.dex */
+public final class AutoSaveActivity extends yff implements aybb {
+
+    /* renamed from: p */
+    private final awuo f126750p;
+
+    /* renamed from: q */
+    private final lwq f126751q;
+
+    /* renamed from: r */
+    private adtz f126752r;
+
+    public AutoSaveActivity() {
+        awuz awuzVar = new awuz(this, this.f76602K);
+        awuzVar.m32681h(this.f189768H);
+        this.f126750p = awuzVar;
+        this.f126751q = new puv(8);
+        new aybg(this, this.f76602K, this).m34316h(this.f189768H);
+        new lwt(this, this.f76602K).m62717i(this.f189768H);
+        lxn lxnVar = new lxn(this, this.f76602K);
+        lxnVar.f158511e = R.id.toolbar;
+        lxnVar.m62758a().m62761e(this.f189768H);
+        aylm aylmVar = new aylm(this, this.f76602K);
+        aylmVar.m34537e(new mse(this, 7));
+        aylmVar.m34535b(this.f189768H);
+    }
+
+    /* renamed from: A */
+    public final void m47760A(boolean z) {
+        if (z) {
+            Intent m2756av = _1862.m2756av(this, getIntent().getIntExtra("account_id", -1), adrk.PARTNER_PHOTOS, blwh.UNSPECIFIED);
+            m2756av.addFlags(67108864);
+            startActivity(m2756av);
+        }
+        finish();
+    }
+
+    /* JADX INFO: Access modifiers changed from: protected */
+    @Override // p000.yff
+    /* renamed from: go */
+    public final void mo15429go(Bundle bundle) {
+        super.mo15429go(bundle);
+        adtz m14101b = adtz.m14101b(this);
+        m14101b.m14103e(this.f189768H);
+        this.f126752r = m14101b;
+        this.f189768H.m34582q(adof.class, new adpd(this, 1));
+        this.f189768H.m34582q(adnq.class, new adpc(this, 1));
+        this.f189768H.m34584s(lwq.class, this.f126751q);
+    }
+
+    /* JADX INFO: Access modifiers changed from: protected */
+    @Override // p000.yff, p000.ayqe, p000.ActivityC0098cb, p000.ActivityC1013qj, p000.ActivityC0161du, android.app.Activity
+    public final void onCreate(Bundle bundle) {
+        super.onCreate(bundle);
+        setContentView(R.layout.photos_partneraccount_onboarding_v2_autosave_activity);
+        findViewById(android.R.id.content).setOnApplyWindowInsetsListener(new ycd(2));
+        C0133ct m46079gM = m46079gM();
+        if (((adns) m46079gM.m50422g("AutoSaveFragment")) == null) {
+            Bundle bundle2 = new Bundle();
+            bundle2.putString("AutoSaveFragmentEntry", "STAND_ALONE");
+            adns adnsVar = new adns();
+            adnsVar.mo14569az(bundle2);
+            C0070ba c0070ba = new C0070ba(m46079gM);
+            c0070ba.m50535p(R.id.fragment_container, adnsVar, "AutoSaveFragment");
+            c0070ba.mo36567a();
+        }
+    }
+
+    /* JADX INFO: Access modifiers changed from: protected */
+    @Override // p000.ayqe, p000.ActivityC0198fd, p000.ActivityC0098cb, android.app.Activity
+    public final void onStart() {
+        super.onStart();
+        this.f126752r.m14102c(this.f126750p.mo32662d());
+    }
+
+    @Override // p000.aybb
+    /* renamed from: y */
+    public final ComponentCallbacksC0094by mo12956y() {
+        return m46079gM().m50421f(R.id.fragment_container);
+    }
+}

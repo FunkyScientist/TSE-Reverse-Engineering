@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAppearance="@style/TextAppearance.Photos.Subhead2"
+    android:textColor="@color/photos_photoeditor_fragments_editor3_tab_text_unselected"
+    android:gravity="center"
+    android:layout_gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:minHeight="36dp"
+    android:maxLines="1"
+    android:textAlignment="center"
+    android:paddingStart="@dimen/photos_photoeditor_fragments_editor3_tab_padding"
+    android:paddingEnd="@dimen/photos_photoeditor_fragments_editor3_tab_padding"/>

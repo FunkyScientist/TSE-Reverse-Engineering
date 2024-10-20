@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:id="@+id/warning_text"
+    android:background="?attr/bannerBackground"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/photos_printingskus_photobook_viewbinder_low_res_warning_height"
+    android:drawablePadding="16dp"
+    android:lineSpacingExtra="4dp"
+    android:textDirection="locale"
+    android:textAlignment="gravity"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    app:drawableStartCompat="@drawable/quantum_gm_ic_error_vd_theme_24"
+    app:drawableTint="?attr/colorError"/>

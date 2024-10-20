@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/change_categories" android:title="@string/photos_photofragment_functional_menu_change_categories" />
+    <item android:id="@id/view_all_documents" android:title="@string/photos_photofragment_functional_menu_view_all_documents" />
+</menu>

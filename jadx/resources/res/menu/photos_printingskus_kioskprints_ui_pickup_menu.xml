@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/quantum_gm_ic_help_outline_vd_theme_24"
+        android:id="@+id/photos_pager_menu_action_bar_help"
+        android:title="@string/photos_app_menu_item_help_feedback"
+        support:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/download_pdf"
+        android:visible="false"
+        android:title="@string/photos_printingskus_common_ui_download_as_pdf"
+        support:showAsAction="never"/>
+    <item
+        android:id="@+id/archive_order"
+        android:visible="false"
+        android:title="@string/photos_printingskus_common_ui_order_delete"
+        support:showAsAction="never"/>
+</menu>

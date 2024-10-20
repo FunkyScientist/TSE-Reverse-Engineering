@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/photos_psd_feedback_button"
+    android:text="@string/photos_flyingsky_fragment_psd_feedback_text"
+    app:icon="@drawable/photos_quantum_gm_ic_pets_vd_theme_15"
+    style="@style/FlyingSkyStickyHeaderFeedbackButton"/>

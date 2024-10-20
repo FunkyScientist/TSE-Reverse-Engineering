@@ -1,0 +1,56 @@
+package p000;
+
+/* compiled from: PG */
+/* loaded from: classes4.dex */
+public final class awfy extends bfir implements bfjx {
+
+    /* renamed from: a */
+    public static final awfy f70948a;
+
+    /* renamed from: b */
+    private static volatile bfkd f70949b;
+
+    static {
+        awfy awfyVar = new awfy();
+        f70948a = awfyVar;
+        bfir.m39976aa(awfy.class, awfyVar);
+    }
+
+    private awfy() {
+    }
+
+    @Override // p000.bfir
+    /* renamed from: a */
+    public final Object mo4203a(int i, Object obj) {
+        int i2 = i - 1;
+        if (i2 != 0) {
+            if (i2 != 2) {
+                if (i2 != 3) {
+                    if (i2 != 4) {
+                        if (i2 != 5) {
+                            if (i2 != 6) {
+                                return null;
+                            }
+                            bfkd bfkdVar = f70949b;
+                            if (bfkdVar == null) {
+                                synchronized (awfy.class) {
+                                    bfkdVar = f70949b;
+                                    if (bfkdVar == null) {
+                                        bfkdVar = new bfim(f70948a);
+                                        f70949b = bfkdVar;
+                                    }
+                                }
+                            }
+                            return bfkdVar;
+                        }
+                        return f70948a;
+                    }
+                    return new bfil(f70948a);
+                }
+                return new awfy();
+            }
+            return new bfkh(f70948a, "\u0004\u0000", null);
+        }
+        return (byte) 1;
+    }
+}

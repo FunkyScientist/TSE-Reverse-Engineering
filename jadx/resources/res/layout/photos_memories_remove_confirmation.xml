@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp">
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Subhead1"
+        android:textSize="16sp"
+        android:textColor="@color/photos_daynight_grey900"
+        android:gravity="start"
+        android:id="@+id/remove_confirmation_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/photos_daynight_grey800"
+        android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/photos_memories_remove_info"
+        android:lineSpacingExtra="4sp"/>
+</LinearLayout>

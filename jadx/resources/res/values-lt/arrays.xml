@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>0,25 k.</item>
+        <item>0,5 k.</item>
+        <item>0,75 k.</item>
+        <item>Įprasta</item>
+        <item>1,25 k.</item>
+        <item>1,5 k.</item>
+        <item>2 k.</item>
+    </array>
+    <array name="photos_album_titlecard_narrative_add_description_alternates">
+        <item>Kokios trys detalės, kurių nenorite pamiršti?</item>
+        <item>Apibūdinkite šį įvykį savo būsimuoju „aš“.</item>
+        <item>Vienas sakinys, apibūdinantis šį prisiminimą…</item>
+        <item>Kokius jausmus jums sukelia ši diena?</item>
+    </array>
+    <array name="photos_album_titlecard_narrative_prompt">
+        <item>Kuo ypatingas šis prisiminimas?</item>
+        <item>Kodėl šis prisiminimas buvo svarbus?</item>
+        <item>Kas jums labiausiai patiko šią akimirką?</item>
+        <item>Kuo ši akimirka buvo ypatinga?</item>
+    </array>
+    <array name="photos_allphotos_ui_actionconfirmation_delete_from_device_message">
+        <item>@string/photos_allphotos_ui_actionconfirmation_delete_from_device_message_one</item>
+        <item>@string/photos_allphotos_ui_actionconfirmation_delete_from_device_message_other</item>
+    </array>
+    <array name="photos_allphotos_ui_actionconfirmation_delete_from_device_warning">
+        <item>@string/photos_allphotos_ui_actionconfirmation_delete_from_device_warning_one</item>
+        <item>@string/photos_allphotos_ui_actionconfirmation_delete_from_device_warning_other</item>
+        <item>@string/photos_allphotos_ui_actionconfirmation_delete_from_device_warning_mixed</item>
+    </array>
+    <array name="photos_allphotos_ui_actionconfirmation_move_to_trash_messages">
+        <item>@string/photos_allphotos_ui_actionconfirmation_move_to_trash_folders_one</item>
+        <item>@string/photos_allphotos_ui_actionconfirmation_move_to_trash_folders_other</item>
+    </array>
+    <array name="photos_allphotos_ui_actionconfirmation_places_shared_message">
+        <item>@string/photos_allphotos_ui_actionconfirmation_places_shared_message_one</item>
+        <item>@string/photos_allphotos_ui_actionconfirmation_places_shared_message_other</item>
+    </array>
+    <array name="photos_envelope_addmedia_toast_optimistic_add_success_offline">
+        <item>@string/photos_envelope_addmedia_toast_optimistic_add_success_offline_single</item>
+        <item>@string/photos_envelope_addmedia_toast_optimistic_add_success_offline_multiple</item>
+    </array>
+    <array name="photos_localmedia_ui_deleteconfirm_delete_from_device_warnings">
+        <item>@string/photos_localmedia_ui_deleteconfirm_delete_from_device_warning_one</item>
+        <item>@string/photos_localmedia_ui_deleteconfirm_delete_from_device_warning_other</item>
+    </array>
+    <array name="photos_partneraccount_settings_receiver_autosave_options">
+        <item>@string/photos_partneraccount_settings_receiver_autosave_all</item>
+        <item>@string/photos_partneraccount_settings_receiver_autosave_none</item>
+        <item>@string/photos_partneraccount_settings_receiver_autosave_specific_people</item>
+    </array>
+    <array name="photos_partneraccount_settings_receiver_autosave_options_no_people">
+        <item>@string/photos_partneraccount_settings_receiver_autosave_all</item>
+        <item>@string/photos_partneraccount_settings_receiver_autosave_none</item>
+    </array>
+    <array name="photos_printingskus_photobook_picker_cannot_add_duplicate_photo_dialog_message">
+        <item>Puslapyje galite pridėti tik vieną tokią nuotrauką</item>
+    </array>
+    <array name="photos_printingskus_photobook_picker_cannot_add_duplicate_photo_dialog_title">
+        <item>Negalima pridėti tikslios nuotr. kopijos</item>
+    </array>
+    <array name="photos_printingskus_photobook_picker_duplicate_check_dialog_message">
+        <item>Ši nuotrauka jau naudojama jūsų knygoje</item>
+        <item>Kai kurios iš šių nuotraukų jau naudojamos jūsų knygoje</item>
+    </array>
+    <array name="photos_printingskus_photobook_picker_duplicate_check_dialog_title">
+        <item>Pridėti tikslią nuotraukos kopiją?</item>
+        <item>Taip pat pridėti tikslias nuotraukos kopijas?</item>
+    </array>
+    <array name="photos_search_ellmannchat_additional_feedback_down_reason">
+        <item>Offensive / unsafe / biased</item>
+        <item>Slow</item>
+        <item>Incorrect photos</item>
+        <item>Incorrect facts</item>
+        <item>Other</item>
+    </array>
+    <array name="photos_search_ellmannchat_additional_feedback_up_reason">
+        <item>Fast</item>
+        <item>Correct photos</item>
+        <item>Factually correct</item>
+        <item>Other</item>
+    </array>
+    <array name="photos_search_peoplegroupingonboarding_promo_recapture_desc_global_opt_in_personalized_copy2">
+        <item>@string/photos_search_peoplegroupingonboarding_promo_recapture_desc_global_opt_in_personalized_copy2_1face</item>
+        <item>@string/photos_search_peoplegroupingonboarding_promo_recapture_desc_global_opt_in_personalized_copy2_2faces</item>
+        <item>@string/photos_search_peoplegroupingonboarding_promo_recapture_desc_global_opt_in_personalized_copy2_3faces</item>
+        <item>@string/photos_search_peoplegroupingonboarding_promo_recapture_desc_global_opt_in_personalized_copy2_4faces</item>
+    </array>
+    <array name="photos_search_removeresults_feedback_title">
+        <item>@string/photos_search_removeresults_feedback_title_single</item>
+        <item>@string/photos_search_removeresults_feedback_title_multiple</item>
+    </array>
+    <array name="photos_search_removeresults_feedback_title_unnamed_person_cluster">
+        <item>@string/photos_search_removeresults_feedback_title_unnamed_person_cluster_single</item>
+        <item>@string/photos_search_removeresults_feedback_title_unnamed_person_cluster_multiple</item>
+    </array>
+    <array name="photos_search_removeresults_feedback_title_unnamed_pet_cluster">
+        <item>@string/photos_search_removeresults_feedback_title_unnamed_pet_cluster_single</item>
+        <item>@string/photos_search_removeresults_feedback_title_unnamed_pet_cluster_multiple</item>
+    </array>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/identity_row" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/identity_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_alignParentStart="true" />
+            <LinearLayout android:orientation="vertical" android:id="@id/identity_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/identity_icon">
+                <TextView android:textAppearance="@style/TextAppearance.Photos.TitleMedium" android:ellipsize="end" android:id="@id/identity_display_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+                <TextView android:textAppearance="@style/TextAppearance.Photos.BodySmall" android:ellipsize="end" android:id="@id/identity_display_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/switch_account_layout" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:layout_below="@id/identity_row">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/switch_account_icon" android:focusable="false" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="?photosPrimary" android:contentDescription="@null" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" app:srcCompat="@drawable/gs_swap_horiz_vd_theme_24" />
+            <TextView android:textAppearance="@style/TextAppearance.Photos.BodyMedium" android:textSize="16.0sp" android:textColor="?photosPrimary" android:gravity="center_vertical" android:id="@id/switch_account_button" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/photos_envelope_autojoin_switch_account" style="@style/Widget.Photos.Button.Borderless" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/leave_album_layout" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_below="@id/switch_account_layout">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/leave_album_icon" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="?photosPrimary" android:contentDescription="@null" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" app:srcCompat="@drawable/gs_exit_to_app_vd_theme_24" />
+            <TextView android:textAppearance="@style/TextAppearance.Photos.BodyMedium" android:textSize="16.0sp" android:textColor="?photosPrimary" android:gravity="center_vertical" android:id="@id/leave_album_button" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/photos_envelope_autojoin_leave_album" style="@style/Widget.Photos.Button.Borderless" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

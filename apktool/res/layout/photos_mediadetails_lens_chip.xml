@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/photos_mediadetails_lens_chip_border" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginStart="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/photos_mediadetails_lens_chip_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginHorizontal="8.0dip" />
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Subhead2" android:textSize="14.0sp" android:textColor="?colorOnSurface" android:layout_gravity="center_vertical" android:id="@id/photos_mediadetails_lens_chip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="14.0dip" />
+</LinearLayout>

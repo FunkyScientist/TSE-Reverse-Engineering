@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Button"
+        android:textColor="?attr/photosPrimary"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/see_all"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_printingskus_storefront_config_contentrow_see_all_button_label"
+        android:drawablePadding="8dp"
+        app:drawableStartCompat="@drawable/quantum_gm_ic_arrow_forward_vd_theme_24"
+        app:drawableTint="?attr/photosPrimary"/>
+</FrameLayout>

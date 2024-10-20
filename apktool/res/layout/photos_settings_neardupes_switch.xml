@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/photos_settings_cleangrid_margin" android:layout_marginEnd="@dimen/photos_settings_cleangrid_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/stack_setting_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/photos_settings_cleangrid_margin" style="@style/photos_settings_line_two_text" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/stack_setting_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photos_settings_cleangrid_margin" android:layout_marginBottom="@dimen/photos_settings_cleangrid_margin" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <android.support.v7.widget.AppCompatImageView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/stack_setting_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/photos_settings_cleangrid_margin" android:layout_alignParentStart="true" app:srcCompat="@drawable/gs_stack_vd_theme_24" />
+        <TextView android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/stack_setting_switch_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_settings_clean_grid_setting_title" android:layout_toStartOf="@id/stack_setting_switch" android:layout_toEndOf="@id/stack_setting_icon" style="@style/photos_settings_line_one_text" />
+        <com.google.android.material.switchmaterial.SwitchMaterial android:layout_gravity="center_vertical" android:id="@id/stack_setting_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

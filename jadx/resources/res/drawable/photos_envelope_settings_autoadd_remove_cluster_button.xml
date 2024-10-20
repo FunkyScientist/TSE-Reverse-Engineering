@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:height="24dp"
+                android:width="24dp"/>
+            <gradient
+                android:startColor="#80000000"
+                android:endColor="#00000000"
+                android:angle="0"
+                android:type="radial"
+                android:centerX="0.5"
+                android:centerY="0.55"
+                android:gradientRadius="12dp"/>
+        </shape>
+    </item>
+    <item
+        android:left="2dp"
+        android:top="2dp"
+        android:right="2dp"
+        android:bottom="2dp">
+        <shape android:shape="oval">
+            <size
+                android:height="20dp"
+                android:width="20dp"/>
+            <solid android:color="@color/photos_daynight_white"/>
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/quantum_gm_ic_close_gm_grey_18"
+        android:left="3dp"
+        android:top="3dp"
+        android:right="3dp"
+        android:bottom="3dp"/>
+</layer-list>

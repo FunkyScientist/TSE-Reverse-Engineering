@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="photos_printingskus_storefront_config_herocarousel_sku_info_card_landscape_width">432.0dip</dimen>
+    <dimen name="photos_printingskus_storefront_config_herocarousel_slideshow_height_regular">432.0dip</dimen>
+    <dimen name="photos_printingskus_storefront_config_herocarousel_slideshow_height_sku_landscape">504.0dip</dimen>
+</resources>

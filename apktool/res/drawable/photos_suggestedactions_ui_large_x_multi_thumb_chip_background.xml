@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/photos_suggestedactions_ui_large_x_multi_thumb_chip_touch_area_padding" android:top="@dimen/photos_suggestedactions_ui_large_x_multi_thumb_chip_touch_area_padding" android:right="@dimen/photos_suggestedactions_ui_large_x_multi_thumb_chip_touch_area_padding" android:bottom="@dimen/photos_suggestedactions_ui_large_x_multi_thumb_chip_touch_area_padding">
+        <shape>
+            <solid android:color="@color/google_grey900" />
+            <corners android:radius="@dimen/photos_suggestedactions_ui_large_chip_radius" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.flyingsky.fragment.LifeStoryCoordinatorLayout android:id="@id/photos_flyingsky_coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.photos.list.fastscroll.DateScrubberView android:id="@id/photos_flyingsky_fragment_date_scrubber_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:recyclerViewId="@id/photos_flyingsky_vertical_rv">
+        <android.support.v7.widget.RecyclerView android:id="@id/photos_flyingsky_vertical_rv" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:id="@id/photos_flyingsky_progressbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:scaleX="0.1" android:scaleY="0.1" />
+    </com.google.android.apps.photos.list.fastscroll.DateScrubberView>
+    <ViewStub android:id="@id/photos_flyingsky_sticky_header_view_stub" android:layout="@layout/photos_flyingsky_sticky_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/photos_emptystate_container" />
+</com.google.android.apps.photos.flyingsky.fragment.LifeStoryCoordinatorLayout>

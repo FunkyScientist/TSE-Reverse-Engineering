@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/access_permanent_delete_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@id/access_permanent_delete_dialog_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+    <TextView android:textSize="16.0sp" android:id="@id/access_permanent_delete_dialog_custom_message" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+    <TextView android:textSize="16.0sp" android:id="@id/access_permanent_delete_dialog_legal_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="15.0dip">
+        <Button android:textStyle="bold" android:id="@id/access_permanent_delete_dialog_negative_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" style="?borderlessButtonStyle" />
+        <View android:id="@id/access_permanent_delete_dialog_button_divider" android:background="@color/photos_daynight_grey100" android:visibility="gone" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+        <Button android:textStyle="bold" android:id="@id/access_permanent_delete_dialog_action_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" style="?borderlessButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/name_and_message_section" android:paddingLeft="@dimen/photos_printingskus_photobook_confirmation_card_internal_padding" android:paddingTop="@dimen/photos_printingskus_photobook_confirmation_top_padding" android:paddingRight="@dimen/photos_printingskus_photobook_confirmation_card_internal_padding" android:paddingBottom="@dimen/photos_printingskus_photobook_confirmation_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/photos_printingskus_photobook_confirmation_greeting" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale" android:textAlignment="gravity" />
+    <TextView android:textAppearance="@style/photos_printingskus_photobook_confirmation_message" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photos_printingskus_photobook_confirmation_greeting_message_marginTop" android:lineSpacingExtra="4.0dip" android:textDirection="locale" android:textAlignment="gravity" />
+</LinearLayout>

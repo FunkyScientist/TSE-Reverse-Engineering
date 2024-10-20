@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/photos_albums_view_sorting_dropdown_item_margins" android:paddingEnd="@dimen/photos_albums_view_sorting_dropdown_item_margins"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:theme="@style/ThemeOverlay.Photos.DayNight.Primary" android:id="@id/checkmark" android:paddingTop="@dimen/photos_albums_view_sorting_dropdown_item_vertical_margins" android:paddingBottom="@dimen/photos_albums_view_sorting_dropdown_item_vertical_margins" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/photos_albums_view_sorting_dropdown_checkmark_end_margin" app:srcCompat="@drawable/quantum_gm_ic_check_vd_theme_24" />
+    <TextView android:textSize="@dimen/text_size_16" android:textColor="?colorOnSurface" android:id="@id/albums_sorting_option_text" android:paddingTop="@dimen/photos_albums_view_sorting_dropdown_text_top_margin" android:paddingBottom="@dimen/photos_albums_view_sorting_dropdown_item_vertical_margins" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

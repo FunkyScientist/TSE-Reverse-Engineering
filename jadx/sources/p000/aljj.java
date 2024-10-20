@@ -1,0 +1,13 @@
+package p000;
+
+/* compiled from: PG */
+/* loaded from: classes4.dex */
+enum aljj {
+    ODFC_SETTINGS_DISALLOWED,
+    CLOUD_SETTINGS_REFRESH_FAILURE,
+    CLOUD_SETTINGS_FETCH_FAILURE,
+    CLOUD_SETTINGS_DISABLE,
+    CLOUD_SETTINGS_DISALLOWED,
+    WIPEOUT_PENDING,
+    INACTIVE_ACCOUNT
+}

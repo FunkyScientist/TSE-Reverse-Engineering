@@ -1,0 +1,12 @@
+package p000;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public enum bkzr {
+    CRONET_SOURCE_UNSPECIFIED,
+    CRONET_SOURCE_STATICALLY_LINKED,
+    CRONET_SOURCE_PLAY_SERVICES,
+    CRONET_SOURCE_FALLBACK,
+    CRONET_SOURCE_PLATFORM,
+    CRONET_SOURCE_FAKE
+}

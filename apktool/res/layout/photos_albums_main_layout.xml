@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.photos.list.fastscroll.DateScrubberView android:id="@id/photos_albums_date_scrubber_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:recyclerViewId="@id/photos_albums_recycler_view">
+        <com.google.android.apps.photos.orthogonalscroll.VerticalParentRecyclerView android:id="@id/photos_albums_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/photos_emptystate_container" />
+    </com.google.android.apps.photos.list.fastscroll.DateScrubberView>
+    <ViewStub android:layout_gravity="bottom" android:id="@id/photos_help_lostphotostroubleshooter_entrypoints_chip_viewstub" android:layout="@layout/photos_help_lostphotostroubleshooter_entrypoints_chip_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="57.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:theme="@style/ThemeOverlay.Photos.DayNight.Grey" android:gravity="center_vertical" android:orientation="horizontal" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <ImageView android:id="@id/autocomplete_suggestion_icon" android:padding="16.0dip" android:layout_width="56.0dip" android:layout_height="56.0dip" android:contentDescription="@null" />
+        <TextView android:textAppearance="@style/TextAppearance.Photos.Body1" android:textColor="?colorOnSurface" android:id="@id/autocomplete_suggestion_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="8.0dip" />
+        <TextView android:textAppearance="@style/TextAppearance.Photos.Body1" android:textSize="@dimen/text_size_12" android:textColor="?photosOnSurfaceVariantFaded" android:id="@id/debug_text" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="?colorSurfaceVariant" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

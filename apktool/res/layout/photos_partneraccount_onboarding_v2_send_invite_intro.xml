@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@id/intro" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginHorizontal="24.0dip" app:cardCornerRadius="@dimen/photos_theme_rounded_corner_radius" app:strokeWidth="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@drawable/photos_partneraccount_onboarding_v2_send_intro_illustration" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginBottom="8.0dip" android:importantForAccessibility="no" />
+        <TextView android:textAppearance="@style/PartnerSharing.TitleLarge.Active" android:gravity="center_horizontal" android:id="@id/title_active" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/photos_partneraccount_onboarding_v2_send_intro_title" />
+        <TextView android:textAppearance="@style/PartnerSharing.BodyMedium.Active" android:gravity="center_horizontal" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        <include android:id="@id/backup_off_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="14.0dip" layout="@layout/photos_partneraccount_onboarding_v2_backup_off" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

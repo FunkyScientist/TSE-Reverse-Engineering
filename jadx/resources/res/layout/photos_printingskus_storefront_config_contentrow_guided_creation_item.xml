@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="@dimen/photos_printingskus_storefront_config_contentrow_guided_creation_item_width"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="24dp">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        app:cardCornerRadius="28dp"
+        app:strokeWidth="0dp"
+        style="@style/Widget.Photos.CardView">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"/>
+    </com.google.android.material.card.MaterialCardView>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Caption"
+        android:textColor="?attr/colorOnSurface"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:maxLines="2"
+        android:textDirection="locale"
+        android:textAlignment="gravity"/>
+</LinearLayout>

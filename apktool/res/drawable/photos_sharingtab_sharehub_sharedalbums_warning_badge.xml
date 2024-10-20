@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:tint="@color/gm3_ref_palette_yellow80"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/photos_theme_rounded_corner_radius" />
+</shape>

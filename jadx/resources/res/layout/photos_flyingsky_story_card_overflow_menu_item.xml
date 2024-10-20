@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/photos_memories_highlights_overflow_menu_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/photos_flyingsky_ui_cloud_grid_overflow_menu_item_height">
+    <ImageView
+        android:id="@+id/photos_flyingsky_highlight_overflow_menu_item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="@color/google_grey700"
+        android:contentDescription="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/photos_flyingsky_highlight_overflow_menu_item_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="?attr/colorOnSurface"
+        android:ellipsize="end"
+        android:id="@+id/photos_flyingsky_highlight_overflow_menu_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:contentDescription="@null"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/photos_flyingsky_ui_cloud_grid_overflow_menu_text_start_margin"
+        android:layout_marginEnd="@dimen/photos_flyingsky_ui_cloud_grid_overflow_menu_text_end_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</android.support.constraint.ConstraintLayout>

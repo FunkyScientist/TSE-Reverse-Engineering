@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="194.0dip">
+        <ViewStub android:layout_gravity="bottom" android:id="@id/photos_photoeditor_fragments_editor3_interstitial_trim_scrubber_viewstub" android:layout="@layout/photos_photoeditor_fragments_editor3_scrubber" android:inflatedId="@id/photos_photoeditor_fragments_editor3_interstitial_trim_scrubber" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" />
+    </FrameLayout>
+    <android.support.v7.widget.Toolbar android:layout_gravity="bottom" android:id="@id/toolbar" android:background="@color/google_black" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_margin="0.0dip" android:contentInsetStart="0.0dip" android:contentInsetEnd="0.0dip" app:contentInsetEnd="0.0dip" app:contentInsetStart="0.0dip" app:contentInsetStartWithNavigation="0.0dip" style="?actionBarStyle">
+        <com.google.android.material.button.MaterialButton android:layout_gravity="start" android:id="@id/photos_photoeditor_fragments_effects_interstitial_trim_back_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_strings_back_button" android:layout_marginStart="4.0dip" style="@style/photos_photoeditor_fragments_editor3_inline_button" />
+        <com.google.android.material.button.MaterialButton android:enabled="false" android:layout_gravity="end" android:id="@id/photos_photoeditor_fragments_effects_interstitial_trim_next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_strings_next_button" android:layout_marginEnd="12.0dip" style="@style/Widget.Photos.Button.StrokedButton" />
+    </android.support.v7.widget.Toolbar>
+</LinearLayout>

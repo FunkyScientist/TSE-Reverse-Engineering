@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_button_card_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    style="@style/photos_printingskus_photobook_theme_preview_page_layout_button_card_view">
+    <include
+        android:layout_width="@dimen/photos_printingskus_photobook_preview_layout_switching_button_cardview_size_unselected"
+        android:layout_height="@dimen/photos_printingskus_photobook_preview_layout_switching_button_cardview_size_unselected"
+        layout="@layout/photos_printingskus_photobook_pagelayout_book_page"/>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/backup_options_container"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.apps.photos.devicesetup.resources.ShadowScrollView xmlns:photos="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        photos:shadowColor="@color/photos_daynight_grey300">
+        <include layout="@layout/photos_backup_settings_backup_mode_page"/>
+    </com.google.android.apps.photos.devicesetup.resources.ShadowScrollView>
+</LinearLayout>

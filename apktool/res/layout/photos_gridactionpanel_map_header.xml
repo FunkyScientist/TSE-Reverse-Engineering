@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="16.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Subhead1" android:gravity="center_vertical" android:id="@id/map_header" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/photos_gridactionpanel_viewbinder_location" app:layout_constraintEnd_toStartOf="@id/view_map_button" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toStartOf="parent" />
+    <Button android:layout_gravity="end" android:id="@id/view_map_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/photos_gridactionpanel_viewbinder_view_map" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/map_header" style="@style/Widget.Photos.Button.Borderless" />
+</android.support.constraint.ConstraintLayout>

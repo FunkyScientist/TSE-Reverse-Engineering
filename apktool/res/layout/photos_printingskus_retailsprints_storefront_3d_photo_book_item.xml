@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:layout_gravity="center" android:id="@id/prints_product_container" android:layout_width="fill_parent" android:layout_height="@dimen/photos_printingskus_storefront_config_contentrow_product_item_height" app:cardBackgroundColor="@color/photos_daynight_grey100" app:strokeWidth="0.0dip" style="@style/Widget.Photos.CardView">
+        <ImageView android:id="@id/prints_product_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:contentDescription="@null" android:elevation="5.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </com.google.android.material.card.MaterialCardView>
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Subhead2" android:ellipsize="end" android:gravity="start" android:layout_gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:textDirection="locale" android:textAlignment="gravity" />
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Caption" android:ellipsize="end" android:gravity="start" android:layout_gravity="center" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:textDirection="locale" android:textAlignment="gravity" />
+</LinearLayout>

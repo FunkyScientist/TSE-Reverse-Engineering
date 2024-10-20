@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/join_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="14sp"
+        android:textColor="?attr/colorOnPrimary"
+        android:gravity="center"
+        android:id="@+id/join_text"
+        android:background="@drawable/photos_album_titlecard_facepile_join_button_background"
+        android:paddingLeft="@dimen/photos_album_titlecard_facepile_join_button_extra_padding_horizontal"
+        android:paddingRight="@dimen/photos_album_titlecard_facepile_join_button_extra_padding_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/photos_album_titlecard_facepile_contributor_image_size"
+        android:layout_marginTop="@dimen/photos_album_titlecard_facepile_margin_top"
+        android:layout_marginBottom="@dimen/photos_album_titlecard_facepile_margin_bottom"
+        android:minWidth="@dimen/photos_album_titlecard_facepile_join_button_min_width"
+        android:text="@string/photos_album_titlecard_facepile_join_button_text"
+        android:textAllCaps="true"
+        android:layout_marginEnd="@dimen/photos_album_titlecard_facepile_join_button_extra_margin_right"
+        style="@style/TextAppearance.Photos.Subhead2"/>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.floatingactionbutton.FloatingActionButton xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/collapse_info_panel_fab"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/photos_mediadetails_accessibility_exif_info_close"
+    app:backgroundTint="?android:attr/colorBackground"
+    app:fabSize="mini"
+    app:rippleColor="@null"
+    app:srcCompat="@drawable/quantum_gm_ic_arrow_back_vd_theme_24"
+    app:tint="?attr/colorOnSurface"
+    style="@style/Widget.Photos.FloatingActionButton"/>

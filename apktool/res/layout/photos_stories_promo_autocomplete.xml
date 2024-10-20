@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/photos_stories_promo_autocomplete_round_chip" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/autocomplete_icon" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+    <TextView android:textColor="@color/photos_stories_promo_autocomplete_chip_foreground" android:id="@id/autocomplete_text" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:paddingRight="4.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" android:textAlignment="center" android:paddingHorizontal="4.0dip" android:paddingVertical="2.0dip" />
+</LinearLayout>

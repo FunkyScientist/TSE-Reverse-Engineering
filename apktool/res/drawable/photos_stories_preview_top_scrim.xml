@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@android:color/transparent" android:endColor="@color/google_grey900" android:angle="90.0" android:type="linear" />
+    <corners android:topLeftRadius="@dimen/photos_stories_transition_max_corner_radius" android:topRightRadius="@dimen/photos_stories_transition_max_corner_radius" />
+</shape>

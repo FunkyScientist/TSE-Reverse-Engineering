@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="photos_printingskus_retailprints_ui_location_use_infowindow_for_confirm">true</bool>
+</resources>

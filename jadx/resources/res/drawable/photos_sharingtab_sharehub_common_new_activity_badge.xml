@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="@dimen/photos_sharingtab_sharehub_common_new_activity_badge_diameter"
+    android:width="@dimen/photos_sharingtab_sharehub_common_new_activity_badge_diameter"
+    android:viewportWidth="2"
+    android:viewportHeight="2">
+    <path
+        android:fillColor="?attr/colorError"
+        android:pathData="M0,1a1,1 0 1,0 2,0a1,1 0 1,0 -2,0"/>
+</vector>

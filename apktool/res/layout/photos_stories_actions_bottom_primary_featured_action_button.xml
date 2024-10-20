@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="0.0dip" android:paddingEnd="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.photos.stories.actions.AlternateTextMaterialButton android:textAppearance="@style/TextAppearance.Photos.LabelLarge" android:textColor="#ff444746" android:gravity="center" android:layout_gravity="start|bottom|center" android:id="@id/action_button" android:layout_width="wrap_content" android:layout_height="40.0dip" android:singleLine="true" android:insetTop="0.0dip" android:insetBottom="0.0dip" android:paddingStart="16.0dip" android:paddingEnd="24.0dip" support:backgroundTint="#fff2f2f2" support:cornerRadius="30.0dip" support:iconPadding="8.0dip" support:iconSize="18.0dip" support:iconTint="#ff444746" />
+</FrameLayout>

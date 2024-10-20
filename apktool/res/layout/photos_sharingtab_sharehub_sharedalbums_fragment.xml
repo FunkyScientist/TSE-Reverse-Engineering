@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.photos.list.fastscroll.DateScrubberView android:id="@id/shared_albums_date_scrubber_view" android:background="?tabBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" app:recyclerViewId="@id/shared_albums_list">
+        <android.support.v7.widget.RecyclerView android:id="@id/shared_albums_list" android:paddingBottom="@dimen/photos_sharingtab_sharehub_sharedalbums_height_covered_by_fab" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.google.android.apps.photos.list.fastscroll.DateScrubberView>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/create_shared_album_fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/photos_fabcontroller_fab_margin" android:text="@string/photos_sharingtab_sharehub_sharedalbums_create_shared_album" android:layout_marginEnd="@dimen/photos_fabcontroller_fab_margin" app:icon="@drawable/quantum_gm_ic_photo_album_vd_theme_24" />
+</FrameLayout>

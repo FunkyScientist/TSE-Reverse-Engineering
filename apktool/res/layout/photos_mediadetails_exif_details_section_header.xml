@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/photos_mediadetails_details_section_header_label" android:layout_width="fill_parent" android:layout_height="@dimen/photos_mediadetails_header_item_height" android:text="@string/photos_mediadetails_exif_header" android:textAlignment="viewStart" android:accessibilityHeading="true" style="@style/photos_mediadetails_subhead" />
+</LinearLayout>

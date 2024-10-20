@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="?colorOnBackground" android:id="@id/cluster_error_feedback_skip_button" android:background="@color/google_transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/skip_button" style="@style/Photos.Search.Cluster.Error.Feedback.View.ActionButtons.Text" />
+    <Button android:textColor="?android:colorBackground" android:id="@id/cluster_error_feedback_submit_button" android:background="@drawable/photos_search_rounded_button" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="@string/survey_submit" style="@style/Photos.Search.Cluster.Error.Feedback.View.ActionButtons.Text" />
+</LinearLayout>

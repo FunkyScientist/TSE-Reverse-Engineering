@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto"
+    android:textAppearance="@style/TextAppearance.Photos.Headline6"
+    android:textColor="?attr/colorOnSurface"
+    android:gravity="center_horizontal"
+    android:id="@+id/no_location_found_item"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/photos_printingskus_retailprints_ui_location_no_location_found"
+    android:drawablePadding="16dp"
+    support:drawableTopCompat="@drawable/photos_printingskus_retailprints_ui_location_no_location_124dp"/>

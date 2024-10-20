@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Headline6"
+        android:gravity="center"
+        android:id="@+id/promo_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/photos_update_treatment_promo_page_title_top_margin"
+        android:layout_marginBottom="@dimen/photos_update_treatment_promo_page_title_bottom_margin"
+        android:text="@string/photos_update_treatment_title"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body2"
+        android:textColor="@color/photos_daynight_grey700"
+        android:gravity="center"
+        android:id="@+id/promo_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_update_treatment_default_message"
+        android:lineSpacingExtra="@dimen/photos_update_treatment_promo_page_message_line_spacing"/>
+</merge>

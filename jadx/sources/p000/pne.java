@@ -1,0 +1,16 @@
+package p000;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public enum pne {
+    NONE,
+    BACKUP_OFF,
+    NOT_ALLOWED_WHILE_ROAMING,
+    DISALLOWED_NETWORK_TYPE,
+    DAILY_DATA_USAGE_LIMIT_REACHED,
+    OFFLINE,
+    POWER_NOT_CONNECTED,
+    NOT_LOGGED_IN,
+    CLOUD_STORAGE_FULL,
+    CLOUD_STORAGE_ALMOST_FULL_BACKEND_RECALCULATING
+}

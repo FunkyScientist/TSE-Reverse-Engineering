@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/og_loading_card_icon_placeholder" android:layout_width="@dimen/account_menu_dynamic_cards_icon_size" android:layout_height="@dimen/account_menu_dynamic_cards_icon_size" android:contentDescription="@null" android:importantForAccessibility="no" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/account_menu_cards_content_margin_from_icon" android:layout_marginStart="@dimen/account_menu_cards_content_margin_from_icon">
+        <ImageView android:id="@id/og_loading_card_title_placeholder" android:layout_width="120.0dip" android:layout_height="20.0dip" android:contentDescription="@null" android:importantForAccessibility="no" />
+        <ImageView android:id="@id/og_loading_card_progress_placeholder" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginTop="8.0dip" android:contentDescription="@null" android:importantForAccessibility="no" />
+        <ImageView android:id="@id/og_loading_card_progress_desc_placeholder" android:layout_width="160.0dip" android:layout_height="12.0dip" android:layout_marginTop="4.0dip" android:contentDescription="@null" android:importantForAccessibility="no" />
+    </LinearLayout>
+</LinearLayout>

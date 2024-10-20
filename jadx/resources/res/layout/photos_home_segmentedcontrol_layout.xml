@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="bottom|center_horizontal"
+    android:id="@+id/photos_segmented_control_layout"
+    android:padding="@dimen/photos_home_segmentedcontrol_layout_padding"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ViewStub
+        android:id="@+id/segmented_control_bar_viewstub"
+        android:layout="@layout/photos_home_segmentedcontrol_bar"
+        android:inflatedId="@+id/segmented_control_bar_container"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/photos_home_segmentedcontrol_height"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/photos_home_segmentedcontrol_search_fab"
+        app:layout_constraintEnd_toStartOf="@+id/photos_home_segmentedcontrol_search_fab"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/photos_home_segmentedcontrol_search_fab"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/photos_home_segmentedcontrol_search_fab"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/photos_tabbar_search_label"
+        app:backgroundTint="?attr/colorSurfaceContainer"
+        app:fabCustomSize="@dimen/photos_home_segmentedcontrol_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/quantum_gm_ic_search_vd_theme_24"
+        app:tint="?attr/colorOnSurface"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+package p000;
+
+import android.content.SharedPreferences;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+final class awvi implements awve {
+    @Override // p000.awve
+    /* renamed from: b */
+    public final void mo32699b(SharedPreferences.Editor editor, String str) {
+        editor.remove(str);
+    }
+
+    @Override // p000.awve
+    /* renamed from: a */
+    public final Object mo32698a(Object obj) {
+        return obj;
+    }
+}

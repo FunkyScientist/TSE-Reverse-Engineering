@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetTop="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <layer-list>
+        <item>
+            <shape android:shape="oval">
+                <solid android:color="@color/photos_stories_action_bar_button_background_color" />
+                <corners android:radius="8.0dip" />
+            </shape>
+        </item>
+        <item android:drawable="@drawable/quantum_gm_ic_close_white_24" android:left="8.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+    </layer-list>
+</inset>

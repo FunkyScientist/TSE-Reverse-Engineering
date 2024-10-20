@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="photos_search_explore_suggestedmerge_button_min_width">72dp</dimen>
+    <dimen name="photos_search_explore_suggestedmerge_button_spacing">24dp</dimen>
+    <dimen name="photos_search_explore_suggestedmerge_button_spacing_wide">12dp</dimen>
+    <dimen name="photos_search_explore_suggestedmerge_question_margin">18dp</dimen>
+</resources>

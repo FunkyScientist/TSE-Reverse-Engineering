@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.theme.SurfaceMaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:enabled="false"
+    android:id="@+id/photos_devicesetup_setup_guide_completed_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:contentPadding="16dp">
+    <android.support.v7.widget.AppCompatTextView
+        android:textAppearance="@style/TextAppearance.Photos.TitleSmall"
+        android:id="@+id/photos_devicesetup_setup_guide_completed_card_title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="16dp"
+        app:drawableStartCompat="@drawable/quantum_gm_ic_check_circle_filled_vd_theme_24"
+        app:drawableTint="?attr/photosPrimary"/>
+</com.google.android.apps.photos.theme.SurfaceMaterialCardView>

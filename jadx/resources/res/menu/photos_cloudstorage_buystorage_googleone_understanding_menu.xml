@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/quantum_gm_ic_clear_vd_theme_24"
+        android:id="@+id/photos_cloudstorage_buystorage_googleone_close"
+        android:title="@string/photos_strings_dismiss_button"
+        support:showAsAction="always"/>
+</menu>

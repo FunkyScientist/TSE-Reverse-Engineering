@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:clipToPadding="false"
+    android:layout_width="120dp"
+    android:layout_height="match_parent">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton xmlns:support="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/view_all_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/quantum_gm_ic_arrow_forward_gm_blue_24"
+        support:backgroundTint="@color/photos_daynight_white"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body2"
+        android:gravity="center_horizontal"
+        android:id="@+id/view_all_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="@dimen/photos_albums_view_section_bottom_margin"
+        android:text="@string/photos_carousel_common_view_all_button"/>
+</LinearLayout>

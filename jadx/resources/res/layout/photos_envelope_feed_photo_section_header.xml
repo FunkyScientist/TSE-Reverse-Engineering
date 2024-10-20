@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/photos_envelope_feed_adapteritem_top_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/photos_envelope_feed_adapteritem_metadata_section_bottom_margin">
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Caption"
+        android:textColor="@color/photos_envelope_feed_adapteritem_section_header_text_color"
+        android:id="@+id/name_and_timestamp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textDirection="locale"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Caption"
+        android:textSize="11sp"
+        android:textColor="@color/photos_daynight_grey700"
+        android:id="@+id/autoadd_label"
+        android:background="@drawable/photos_envelope_feed_adapteritem_rounded_corners"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="20dp"
+        android:text="@string/photos_envelope_feed_adapteritem_autoadd_label"
+        android:textDirection="locale"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
+</LinearLayout>

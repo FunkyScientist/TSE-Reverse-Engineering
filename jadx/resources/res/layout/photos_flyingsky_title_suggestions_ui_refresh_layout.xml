@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/refresh_button"
+    android:background="@drawable/photos_flyingsky_title_suggestions_ui_refresh_button_background"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="56dp"
+    android:paddingHorizontal="8dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="?attr/colorOnPrimaryContainer"
+        android:contentDescription="@null"
+        android:layout_marginEnd="12dp"
+        app:srcCompat="@drawable/gs_refresh_vd_theme_24"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Subhead2"
+        android:textColor="?attr/colorOnPrimaryContainer"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_flyingsky_title_suggestions_ui_more_ideas"
+        android:maxLines="1"/>
+</LinearLayout>

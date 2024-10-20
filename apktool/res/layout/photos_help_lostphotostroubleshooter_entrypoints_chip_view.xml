@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.chip.Chip android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/photos_help_lostphotostroubleshooter_entrypoints_chip" android:background="@color/photos_daynight_white" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/photos_help_lost_photos_troubleshooter_snackbar_message" android:elevation="3.0dip" android:layout_marginHorizontal="8.0dip" style="@style/LostPhotosTroubleShooterChip" />
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="false"
+        android:color="?attr/colorSurface"
+        android:state_activated="false"/>
+    <item
+        android:state_selected="true"
+        android:color="?attr/editor3SelectedEditedColor"
+        android:state_activated="false"/>
+    <item
+        android:color="?attr/editor3IconHighlighted"
+        android:state_activated="true"/>
+</selector>

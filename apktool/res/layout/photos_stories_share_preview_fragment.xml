@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.app.FragmentContainerView android:id="@id/preview_container" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="16.0dip" app:layout_constraintBottom_toTopOf="@id/share_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <Button android:id="@id/edit_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_stories_share_edit" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Widget.Photos.Button.StrokedButton" />
+    <Button android:id="@id/share_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_strings_share_action" android:layout_marginEnd="16.0dip" app:icon="@drawable/quantum_gm_ic_share_vd_theme_24" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" style="@style/Widget.Photos.Button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

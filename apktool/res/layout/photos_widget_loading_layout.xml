@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/AAG.Theme.AppWidget" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/photos_widget_loading_shape" android:layout_width="fill_parent" android:layout_height="fill_parent" android:tint="?android:colorBackground" android:contentDescription="@string/photos_widget_loading" />
+    <ProgressBar android:layout_gravity="center" android:layout_width="48.0dip" android:layout_height="48.0dip" android:foregroundTint="@color/aag_color_on_surface" style="@style/Widget.Photos.ProgressBar.Indeterminate" />
+</FrameLayout>

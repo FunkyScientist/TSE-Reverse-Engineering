@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/map" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_gravity="center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" support:layout_dodgeInsetEdges="bottom" layout="@layout/photos_printingskus_retailprints_ui_location_search_area_button" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/bottom_sheet_container" android:layout_width="fill_parent" android:layout_height="fill_parent" support:behavior_hideable="false" support:behavior_peekHeight="@dimen/photos_printingskus_retailprints_ui_location_sheet_peek_height" support:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" support:layout_insetEdge="bottom">
+        <android.support.v7.widget.RecyclerView android:id="@id/sheet" android:background="?android:colorBackground" android:paddingTop="24.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/confirm_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

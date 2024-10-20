@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Subhead1" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/photos_search_destination_suggestions_section_header" android:textAlignment="viewStart" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/suggestions_container" android:background="?android:colorBackground" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

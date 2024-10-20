@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/TextAppearance.Photos.Subhead1" android:textColor="?colorOnBackground" android:gravity="center_vertical" android:id="@id/heading_text" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="8.0dip" android:maxLines="1"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

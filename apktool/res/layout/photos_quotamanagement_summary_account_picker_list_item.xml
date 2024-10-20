@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.subscriptions.membership.G1ProfileView android:id="@id/account_avatar" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:contentDescription="@null" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <ImageView android:id="@id/avatar_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:layout_alignTop="@id/account_avatar" android:contentDescription="@null" android:layout_marginStart="22.0dip" android:layout_alignStart="@id/account_avatar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="56.0dip" android:layout_toEndOf="@id/account_avatar">
+        <TextView android:textAppearance="@style/TextAppearance.Photos.Body1" android:textColor="?colorOnSurface" android:ellipsize="end" android:id="@id/account_picker_list_item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?colorError" android:id="@id/account_picker_list_item_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:theme="@style/ThemeOverlay.Photos.DayNight.Primary" android:gravity="center_vertical" android:id="@id/backup_account_picker_check_mark" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="fill_parent" android:contentDescription="@null" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" app:srcCompat="@drawable/quantum_gm_ic_done_vd_theme_24" />
+</RelativeLayout>

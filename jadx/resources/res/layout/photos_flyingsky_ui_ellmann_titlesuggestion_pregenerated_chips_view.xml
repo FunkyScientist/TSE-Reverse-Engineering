@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.flyingsky.p013ui.PregeneratedTitleSuggestionsView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constrainedWidth="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/pregenerated_titles_chips_container_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/pregeneration_chips_spacer"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/photos_flyingsky_ui_cloud_grid_top_margin"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:scrollbars="none"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+            <include layout="@layout/photos_flyingsky_ui_generating_loader_chip"/>
+            <HorizontalScrollView
+                android:id="@+id/pregenerated_titles_chips_container_scroll_view"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:visibility="gone"
+                android:scrollbars="none"
+                android:clipToPadding="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="24dp">
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/pregenerated_titles_chips_container_chip_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:chipSpacingHorizontal="@dimen/photos_flyingsky_ui_cloud_grid_suggestion_chip_spacing"/>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.compose.p002ui.platform.ComposeView
+        android:orientation="horizontal"
+        android:id="@+id/pregenerated_titles_chips_container_composable"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:visibility="gone"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:paddingHorizontal="24dp"/>
+</com.google.android.apps.photos.flyingsky.p013ui.PregeneratedTitleSuggestionsView>

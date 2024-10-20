@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/ThemeOverlay.Photos.TabBar" android:orientation="vertical" android:id="@id/tab_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.photos.tabbar.TabBarButtonsLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/photos_tabbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.apps.photos.tabbar.TabBarButton android:id="@id/tab_photos" android:layout_width="0.0dip" android:text="@string/photos_tabbar_photos_label" android:layout_weight="1.0" style="@style/TabButton" />
+        <com.google.android.apps.photos.tabbar.TabBarButton android:id="@id/tab_memories" android:layout_width="0.0dip" android:text="@string/photos_home_toggle_memories" android:layout_weight="1.0" style="@style/TabButton" />
+        <com.google.android.apps.photos.tabbar.TabBarButton android:id="@id/tab_library" android:layout_width="0.0dip" android:text="@string/photos_tabbar_library_label" android:layout_weight="1.0" style="@style/TabButton" />
+        <com.google.android.apps.photos.tabbar.TabBarButton android:id="@id/tab_collections" android:visibility="gone" android:layout_width="0.0dip" android:text="@string/photos_tabbar_collections_label" android:layout_weight="1.0" style="@style/TabButton" />
+        <com.google.android.apps.photos.tabbar.TabBarButton android:id="@id/search_destination" android:layout_width="0.0dip" android:text="@string/photos_tabbar_search_label" android:layout_weight="1.0" style="@style/TabButton" />
+    </com.google.android.apps.photos.tabbar.TabBarButtonsLayout>
+    <View android:id="@id/fill_under_navigation_bar" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+</LinearLayout>

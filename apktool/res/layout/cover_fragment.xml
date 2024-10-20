@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="?previewBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:id="@id/content_container" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/low_res_warning" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" layout="@layout/book_low_res_header_item" />
+                    <com.google.android.material.card.MaterialCardView android:layout_gravity="center|top" android:id="@id/book_cover_preview_container" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/photos_printingskus_photobook_preview_layout_switching_primary_view_margin_horizontal" android:layout_marginRight="@dimen/photos_printingskus_photobook_preview_layout_switching_primary_view_margin_horizontal" android:layout_marginBottom="@dimen/photos_printingskus_photobook_preview_layout_switching_primary_view_margin_vertical" style="@style/photos_printingskus_photobook_theme_preview_one_up_page_card_view">
+                        <com.google.android.apps.photos.printingskus.photobook.pagelayout.BookCoverLayout android:id="@id/book_cover_preview" android:background="@color/photos_printingskus_photobook_theme_page_background" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+            </ScrollView>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/photobook_cover_layout_toggle_container" android:paddingTop="@dimen/photos_printingskus_photobook_preview_page_layout_toggle_container_padding" android:paddingBottom="@dimen/photos_printingskus_photobook_preview_page_layout_toggle_container_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/photos_printingskus_photobook_preview_tool_tray" />
+        </LinearLayout>
+        <View android:id="@id/blank_page" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/photos_emptystate_container" />
+    </FrameLayout>
+    <FrameLayout android:theme="@style/ThemeOverlay.Photos.PhotobookPreviewBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/scrolling_toolbar" />
+    </FrameLayout>
+</FrameLayout>

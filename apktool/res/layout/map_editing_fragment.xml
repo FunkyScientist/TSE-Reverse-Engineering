@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/map_editing_top_bar" />
+    <View android:background="@color/photos_album_enrichment_ui_top_lines" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <include layout="@layout/place_enrichment_loading_progress_bar" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/photos_album_enrichment_ui_location_editing_fragment_start_padding" android:paddingEnd="@dimen/photos_album_enrichment_ui_location_editing_fragment_end_padding">
+        <android.support.v7.widget.RecyclerView android:id="@id/map_edit_suggested_locations" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

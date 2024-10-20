@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/photos_photoeditor_udon_prompt_dialog_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/photos_photoeditor_udon_tips_dialog_tips_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="100.0dip" android:layout_marginHorizontal="24.0dip" />
+    <com.google.android.material.button.MaterialButton android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/photos_photoeditor_udon_tips_dialog_got_it" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="30.0dip" android:text="@string/photos_strings_got_it" android:layout_marginHorizontal="24.0dip" style="@style/Widget.Photos.Button" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:constantSize="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_checked="true" android:drawable="@drawable/photos_list_check_circle_primary_with_background" app:state_prechecked="false" />
+    <item android:state_selected="true" android:drawable="@drawable/photos_list_check_circle_primary_with_background" app:state_prechecked="false" />
+    <item android:state_checked="true" android:drawable="@drawable/photos_list_check_circle_surface_with_background" app:state_prechecked="true" />
+    <item android:state_selected="true" android:drawable="@drawable/photos_list_check_circle_surface_with_background" app:state_prechecked="true" />
+    <item android:state_checked="false" android:drawable="@drawable/quantum_gm_ic_check_circle_filled_vd_theme_24" android:state_hovered="true" app:state_prechecked="false" />
+    <item android:state_selected="false" android:drawable="@drawable/quantum_gm_ic_check_circle_filled_vd_theme_24" android:state_hovered="true" app:state_prechecked="false" />
+    <item android:drawable="@drawable/photos_list_empty_checkbox_white" />
+</selector>

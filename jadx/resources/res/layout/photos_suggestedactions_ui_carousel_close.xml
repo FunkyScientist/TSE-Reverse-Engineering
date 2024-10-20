@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/photos_suggestedactions_ui_circle_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/photos_suggestedactions_ui_gm3_chip_elevation">
+    <ImageView
+        android:theme="@style/photos_suggestedactions_ui_close_vb"
+        android:id="@+id/dismiss_all_button"
+        android:layout_width="@dimen/photos_suggestedactions_ui_chip_button_size"
+        android:layout_height="@dimen/photos_suggestedactions_ui_chip_button_size"
+        android:src="@drawable/photos_suggestedactions_ui_close_icon_vd"
+        android:scaleType="center"
+        android:contentDescription="@string/photos_suggestedactions_ui_dismiss_all_button_description"/>
+</FrameLayout>

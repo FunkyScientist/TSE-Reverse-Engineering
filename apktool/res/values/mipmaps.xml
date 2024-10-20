@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="mipmap" name="photos_launcher">@mipmap/photos_launchericon_product_logo_photos_launcher_color_48</item>
+    <item type="mipmap" name="photos_round_launcher">@mipmap/product_logo_photos_round_launcher_color_48</item>
+</resources>

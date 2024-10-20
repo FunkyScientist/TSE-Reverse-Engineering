@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/message" android:paddingLeft="?dialogPreferredPadding" android:paddingTop="?dialogPreferredPadding" android:paddingRight="?dialogPreferredPadding" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="?materialAlertDialogBodyTextStyle" />
+    <TextView android:id="@id/shipping_availability" android:background="?selectableItemBackground" android:paddingLeft="?dialogPreferredPadding" android:paddingTop="12.0dip" android:paddingRight="?dialogPreferredPadding" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" style="?materialAlertDialogBodyTextStyle" />
+</LinearLayout>

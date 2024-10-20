@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:background="@drawable/photos_flyingsky_title_suggestions_ui_edit_button_background"
+    android:focusable="false"
+    android:clickable="false"
+    android:layout_width="@dimen/photos_flyingsky_title_suggestions_ui_edit_button_size"
+    android:layout_height="@dimen/photos_flyingsky_title_suggestions_ui_edit_button_size"
+    android:contentDescription="@null"
+    app:srcCompat="@drawable/photos_quantum_gm_ic_edit_vd_theme_18"/>

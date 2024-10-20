@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_vertical"
+    android:id="@+id/photos_photoeditor_chansey_view_button_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/photos_photoeditor_chansey_view_icon_button"
+        android:contentDescription="@null"
+        app:icon="@drawable/gs_edit_fix_auto_vd_theme_24"
+        style="@style/photos_photoeditor_chansey_view_icon_button_style"/>
+    <ImageView
+        android:layout_gravity="end|bottom"
+        android:id="@+id/photos_photoeditor_chansey_view_download_icon_view"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="?attr/photosPrimary"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/gs_downloading_vd_theme_24"/>
+</FrameLayout>

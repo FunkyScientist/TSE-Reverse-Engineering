@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/google_black"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.RecyclerView
+        android:layout_gravity="center"
+        android:id="@+id/photos_photoeditor_fragments_editor3_markup_tools_recyclerview"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="128dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"/>
+</FrameLayout>

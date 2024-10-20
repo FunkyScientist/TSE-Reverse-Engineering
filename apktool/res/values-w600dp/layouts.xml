@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="photos_printingskus_retailprints_ui_location_fragment">@layout/photos_printingskus_retailprints_ui_location_fragment_landscape</item>
+</resources>

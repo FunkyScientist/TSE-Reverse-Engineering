@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/photos_photoeditor_fragments_editor3_largescreen_round_corner_background"
+    android:paddingLeft="26dp"
+    android:paddingTop="14dp"
+    android:paddingRight="26dp"
+    android:paddingBottom="14dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp"
+    android:layout_marginVertical="6dp">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/photos_photoeditor_fragments_editor3_suggestion_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Subhead2"
+        android:id="@+id/photos_photoeditor_fragments_editor3_suggestion_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginStart="16dp"
+        android:breakStrategy="high_quality"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/photos_photoeditor_fragments_editor3_suggestion_icon"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_gravity="center_vertical"
+        android:id="@+id/photos_photoeditor_fragments_editor3_suggestions_done"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_photoeditor_ui_done"
+        android:layout_marginEnd="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="?attr/colorPrimary"
+        style="@style/photos_photoeditor_fragments_editor3_done_button"/>
+</android.support.constraint.ConstraintLayout>

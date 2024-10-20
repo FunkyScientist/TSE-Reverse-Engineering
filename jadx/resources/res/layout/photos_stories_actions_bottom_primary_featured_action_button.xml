@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingStart="0dp"
+    android:paddingEnd="0dp">
+    <com.google.android.apps.photos.stories.actions.AlternateTextMaterialButton
+        android:textAppearance="@style/TextAppearance.Photos.LabelLarge"
+        android:textColor="#444746"
+        android:gravity="center"
+        android:layout_gravity="start|bottom"
+        android:id="@+id/action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="24dp"
+        support:backgroundTint="#f2f2f2"
+        support:cornerRadius="30dp"
+        support:iconPadding="8dp"
+        support:iconSize="18dp"
+        support:iconTint="#444746"/>
+</FrameLayout>

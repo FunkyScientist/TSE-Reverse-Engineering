@@ -1,0 +1,62 @@
+.class final Lfpl;
+.super Lbkgu;
+.source "PG"
+
+# interfaces
+.implements Lbkfw;
+
+
+# instance fields
+.field final synthetic a:Landroid/os/CancellationSignal;
+
+
+# direct methods
+.method public constructor <init>(Landroid/os/CancellationSignal;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lfpl;->a:Landroid/os/CancellationSignal;
+
+    .line 2
+    .line 3
+    const/4 p1, 0x1
+
+    .line 4
+    invoke-direct {p0, p1}, Lbkgu;-><init>(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic a(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Ljava/lang/Throwable;
+
+    .line 2
+    .line 3
+    if-eqz p1, :cond_0
+
+    .line 4
+    .line 5
+    iget-object p1, p0, Lfpl;->a:Landroid/os/CancellationSignal;
+
+    .line 6
+    .line 7
+    invoke-virtual {p1}, Landroid/os/CancellationSignal;->cancel()V
+
+    .line 8
+    .line 9
+    .line 10
+    :cond_0
+    sget-object p1, Lbkcg;->a:Lbkcg;
+
+    .line 11
+    .line 12
+    return-object p1
+.end method

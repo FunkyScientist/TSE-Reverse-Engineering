@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_view" app:lottie_loop="false" app:lottie_rawRes="@raw/photos_devicemanagement_activity_nothing_to_free_up_lottie_animation" style="@style/FreeUpSpaceLottieAnimation" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/lottie_view">
+        <TextView android:id="@id/title" android:text="@string/photos_devicemanagement_activity_nothing_to_free_up_title" style="@style/FreeUpSpaceTitle" />
+        <TextView android:text="@string/photos_devicemanagement_activity_nothing_to_free_up_tip" style="@style/FreeUpSpaceText" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

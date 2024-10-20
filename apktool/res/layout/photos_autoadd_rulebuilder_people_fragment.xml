@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.search.cardui.BehaviorProxyLayout android:id="@id/proxy_container" android:background="@color/photos_daynight_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:id="@id/photos_autoadd_rulebuilder_name_editor_view_stub" android:layout="@layout/photos_autoadd_rulebuilder_title_editor" android:inflatedId="@id/photos_autoadd_rulebuilder_title_editor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photos_autoadd_rulebuilder_header_padding" android:layout_marginStart="@dimen/photos_autoadd_rulebuilder_header_padding" android:layout_marginEnd="@dimen/photos_autoadd_rulebuilder_subtitle_padding" />
+        <include layout="@layout/photos_autoadd_rulebuilder_subtitle" />
+        <ViewStub android:id="@id/photos_autoadd_rulebuilder_include_existing_photos_view_stub" android:layout="@layout/photos_autoadd_rulebuilder_include_existing_photos" android:inflatedId="@id/photos_autoadd_rulebuilder_include_existing_photos" android:layout_width="fill_parent" android:layout_height="64.0dip" />
+        <ViewStub android:id="@id/photos_autoadd_rulebuilder_notify_when_photos_added_view_stub" android:layout="@layout/photos_autoadd_rulebuilder_notify_when_photos_added" android:inflatedId="@id/photos_autoadd_rulebuilder_notify_when_photos_added" android:layout_width="fill_parent" android:layout_height="64.0dip" />
+        <android.support.v4.app.FragmentContainerView android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</com.google.android.apps.photos.search.cardui.BehaviorProxyLayout>

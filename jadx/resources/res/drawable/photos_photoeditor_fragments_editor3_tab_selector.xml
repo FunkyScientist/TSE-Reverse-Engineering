@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="6dp"
+    android:insetRight="6dp"
+    android:insetTop="0dp"
+    android:insetBottom="0dp">
+    <shape>
+        <solid android:color="@color/photos_photoeditor_commonui_grey50_alpha30"/>
+        <padding
+            android:left="16dp"
+            android:top="8dp"
+            android:right="16dp"
+            android:bottom="8dp"/>
+        <corners android:radius="100dp"/>
+    </shape>
+</inset>

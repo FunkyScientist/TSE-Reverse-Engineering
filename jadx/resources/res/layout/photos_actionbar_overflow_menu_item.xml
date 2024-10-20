@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingLeft="@dimen/photos_actionbar_overflow_menu_item_padding"
+    android:paddingRight="@dimen/photos_actionbar_overflow_menu_item_padding"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/photos_actionbar_overflow_menu_item_height">
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body1"
+        android:gravity="center_vertical"
+        android:id="@+id/action_bar_overflow_menu_item_title"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:drawablePadding="@dimen/photos_actionbar_overflow_menu_item_padding"
+        android:layout_weight="1"/>
+    <ViewStub
+        android:gravity="center_vertical"
+        android:id="@+id/check_box_stub"
+        android:layout="@layout/photos_actionbar_overflow_menu_item_check_box"
+        android:inflatedId="@+id/action_bar_overflow_menu_item_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Headline4" android:textColor="@color/photos_daynight_grey900" android:gravity="center_horizontal" android:id="@id/photos_cloudstorage_ui_freetrial_impl_onboarding_title_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" />
+    <include android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" layout="@layout/photos_cloudstorage_ui_freetrial_impl_onboarding_items" />
+    <com.google.android.material.button.MaterialButton android:layout_gravity="center_horizontal" android:id="@id/photos_cloudstorage_ui_freetrial_impl_onboarding_start_button" android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="40.0dip" android:minWidth="88.0dip" android:minHeight="48.0dip" android:text="@string/photos_cloudstorage_ui_freetrial_impl_start_button" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" style="@style/Widget.Photos.Button" />
+</LinearLayout>

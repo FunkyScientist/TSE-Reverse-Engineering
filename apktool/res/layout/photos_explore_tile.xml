@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/explore_tile_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/circular_explore_tile_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.apps.photos.search.explore.ui.CircularImageView android:id="@id/explore_tile_image_circular" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:ellipsize="end" android:gravity="center" android:id="@id/explore_tile_subtitle_text" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:paddingVertical="8.0dip" style="@style/TextAppearance.Material3.BodySmall" />
+    </LinearLayout>
+    <com.google.android.apps.photos.search.explore.ui.CircularImageView android:id="@id/tint_layer_circular" android:background="@color/photos_search_explore_peoplehiding_hiding_mode_selected_background" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:contentDescription="@null" />
+    <FrameLayout android:id="@id/explore_tile_hidden_circular" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/google_white" android:contentDescription="@string/photos_search_explore_ui_unlabeled_person_hidden_content_description" app:srcCompat="@drawable/quantum_gm_ic_visibility_off_vd_theme_24" />
+    </FrameLayout>
+    <com.google.android.apps.photos.theme.SquareImageView android:id="@id/explore_tile_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:ellipsize="end" android:gravity="bottom|center" android:id="@id/explore_tile_text" android:paddingBottom="@dimen/photos_search_explore_ui_tile_text_bottom_margin" android:layout_width="fill_parent" android:layout_height="56.0dip" android:maxLines="2" android:singleLine="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/Photos.Search.Explore.Tile.TitleText" />
+    <com.google.android.apps.photos.theme.SquareImageView android:id="@id/tint_layer" android:background="@color/photos_search_explore_peoplehiding_hiding_mode_selected_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <ImageView android:id="@id/explore_tile_hidden" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/photos_search_explore_ui_unlabeled_person_hidden_content_description" style="@style/Photos.Search.Explore.Tile.Hidden" />
+    <android.support.v7.widget.AppCompatCheckBox android:gravity="center" android:id="@id/explore_tile_hidden_checkbox" android:visibility="gone" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_margin="6.0dip" android:button="@drawable/photos_list_checkbox_white" android:layout_alignParentTop="true" android:layout_alignParentStart="true" app:buttonTint="@null" />
+</RelativeLayout>

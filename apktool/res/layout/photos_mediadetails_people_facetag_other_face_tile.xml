@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.photos.theme.SquareImageView android:id="@id/face_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:contentDescription="@string/photos_mediadetails_people_facetag_title_select_face" android:layout_marginStart="16.0dip" />
+    <ImageView android:id="@id/add_face_tag_button" android:paddingTop="4.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?photosPrimary" android:contentDescription="@string/photos_mediadetails_people_facetag_add_person_description" android:paddingStart="4.0dip" android:paddingEnd="20.0dip" app:srcCompat="@drawable/quantum_gm_ic_add_circle_vd_theme_24" />
+</FrameLayout>

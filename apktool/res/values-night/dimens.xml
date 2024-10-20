@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="peoplekit_chip_out_of_domain_selected_state_opacity">0.12</item>
+    <item type="dimen" name="peoplekit_chip_selected_state_opacity">0.12</item>
+    <dimen name="photos_premiumuploadpromo_height">120.0dip</dimen>
+    <dimen name="photos_printingskus_photobook_preview_tool_tray_elevation">1.0dip</dimen>
+</resources>

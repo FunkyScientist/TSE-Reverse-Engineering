@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/photos_devicesetup_backupoptions_default_background"/>
+    <item>
+        <selector android:enterFadeDuration="70">
+            <item
+                android:state_selected="true"
+                android:drawable="@drawable/photos_devicesetup_backupoptions_selected_background"/>
+        </selector>
+    </item>
+</layer-list>

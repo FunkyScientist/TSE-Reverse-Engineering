@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/quantum_grey900" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="@dimen/photos_suggestedactions_editor_document_corner_bar_height" android:layout_weight="1.0">
+        <Button android:layout_gravity="center" android:id="@id/photos_suggestedactions_editor_reset_corner_adjustment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_suggestedactions_editor_adjust_corners_reset_button" android:contentDescription="@string/photos_suggestedactions_editor_a11y_adjust_corners_reset" style="@style/photos_suggestedactions_editor_crop_reset_button" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="@dimen/photos_suggestedactions_editor_document_corner_bar_height" android:layout_weight="1.0">
+        <Button android:layout_gravity="center" android:id="@id/photos_suggestedactions_editor_done_corner_adjustment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_suggestedactions_editor_adjust_corners_done_button" android:contentDescription="@string/photos_suggestedactions_editor_a11y_adjust_corners_done" style="@style/Widget.Photos.SuggestedActionsEditorSaveButton" />
+    </FrameLayout>
+</LinearLayout>

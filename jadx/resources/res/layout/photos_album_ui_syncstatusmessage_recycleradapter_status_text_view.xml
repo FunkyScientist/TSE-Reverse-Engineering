@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textColor="@color/quantum_grey500"
+    android:id="@+id/sync_status_text"
+    android:paddingBottom="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="32dp"
+    android:text="@string/photos_album_ui_syncstatusmessage_recycleradapter_waiting_for_connection_concise"
+    style="@style/quantum_text_black_medium"/>

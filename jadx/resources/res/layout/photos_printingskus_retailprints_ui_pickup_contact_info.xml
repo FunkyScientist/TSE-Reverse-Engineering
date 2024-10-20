@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/photos_printingskus_retailprints_ui_pickup_contact_layout"
+    android:background="?attr/listChoiceBackgroundIndicator"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="0dp"
+    android:paddingEnd="24dp">
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/photos_printingskus_retailprints_ui_pickup_contact_icon"
+        android:paddingTop="@dimen/photos_printingskus_retailprints_ui_pickup_icon_padding"
+        android:paddingBottom="@dimen/photos_printingskus_retailprints_ui_pickup_icon_padding"
+        android:layout_width="@dimen/photos_printingskus_retailprints_ui_pickup_icon_layout_width"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/quantum_gm_ic_account_circle_vd_theme_24"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body1"
+        android:id="@+id/photos_printingskus_retailprints_ui_pickup_contact_name"
+        android:paddingTop="12dp"
+        android:paddingBottom="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        app:layout_constraintStart_toEndOf="@+id/photos_printingskus_retailprints_ui_pickup_contact_icon"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body2"
+        android:textColor="?attr/photosOnSurfaceVariant"
+        android:id="@+id/photos_printingskus_retailprints_ui_pickup_contact_label"
+        android:paddingTop="2dp"
+        android:paddingBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_printingskus_retailprints_ui_pickup_contact_label"
+        android:maxLines="1"
+        android:paddingStart="0dp"
+        android:paddingEnd="16dp"
+        app:layout_constraintStart_toEndOf="@+id/photos_printingskus_retailprints_ui_pickup_contact_icon"
+        app:layout_constraintTop_toBottomOf="@+id/photos_printingskus_retailprints_ui_pickup_contact_name"/>
+</android.support.constraint.ConstraintLayout>

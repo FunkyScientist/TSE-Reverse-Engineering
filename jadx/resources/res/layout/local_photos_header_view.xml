@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    style="@style/Photos.LocalMedia.LocalPhotosHeaderView">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/photos_localmedia_ui_action_bar_menu_item_height">
+        <TextView
+            android:textSize="14sp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/autobackup_folder_switch_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/autobackup_folder"
+            android:maxLines="1"
+            android:layout_weight="1"
+            android:textIsSelectable="false"
+            style="@style/Photos.LocalMedia.LocalPhotosHeaderViewText"/>
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:layout_gravity="center"
+            android:id="@+id/autobackup_folder_switch_icon"
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/autobackup_folder"
+            style="@style/Photos.LocalMedia.LocalPhotosHeaderViewSwitch"/>
+    </LinearLayout>
+</LinearLayout>

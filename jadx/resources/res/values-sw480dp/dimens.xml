@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="photos_assistant_cardui_button_bottom_padding_no_photo">22dp</dimen>
+    <dimen name="photos_assistant_cardui_button_row_height">56dp</dimen>
+    <dimen name="photos_assistant_cardui_icon_padding">24dp</dimen>
+    <dimen name="photos_assistant_cardui_overflow_button_horizontal_padding">12dp</dimen>
+    <dimen name="photos_assistant_cardui_overflow_button_vertical_padding">24dp</dimen>
+    <dimen name="photos_assistant_cardui_text_end_padding">40dp</dimen>
+    <dimen name="photos_assistant_cardui_text_linear_layout_padding">24dp</dimen>
+    <dimen name="photos_assistant_cardui_vertical_padding">16dp</dimen>
+    <dimen name="photos_search_destination_carousel_item_label_bottom_margin">12dp</dimen>
+    <dimen name="photos_search_destination_carousel_item_tile_bottom_margin">24dp</dimen>
+    <dimen name="photos_search_destination_carousel_people_label_bottom_margin">10dp</dimen>
+    <dimen name="photos_search_destination_carousel_row_horiz_padding">32dp</dimen>
+    <dimen name="photos_search_destination_horiz_margin">32dp</dimen>
+    <dimen name="photos_search_destination_list_divider_margin">56dp</dimen>
+    <dimen name="photos_search_destination_list_outer_horiz_margin">32dp</dimen>
+</resources>

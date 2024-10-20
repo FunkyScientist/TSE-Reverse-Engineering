@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/google_white" />
+    <foreground>
+        <bitmap android:src="@mipmap/adaptiveproduct_photos_foreground_color_108" />
+    </foreground>
+    <monochrome android:drawable="@drawable/photos_launchericon_release_monochrome" />
+</adaptive-icon>

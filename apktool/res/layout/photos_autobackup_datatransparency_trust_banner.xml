@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.theme.SurfaceMaterialCardView android:id="@id/photos_backup_trust_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextAppearance.Photos.LabelLarge" android:gravity="center_vertical" android:id="@id/photos_backup_trust_text_view" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawablePadding="16.0dip" app:drawableStartCompat="@drawable/product_logo_gshield_color_24" />
+</com.google.android.apps.photos.theme.SurfaceMaterialCardView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Subtitle1" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:text="@string/photos_cloudstorage_ui_g1disclaimer_title" android:layout_marginHorizontal="24.0dip" />
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Body2" android:id="@id/g1disclaimer_terms" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="24.0dip" android:lineSpacingExtra="6.0dip" android:layout_marginHorizontal="24.0dip" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginHorizontal="8.0dip">
+        <com.google.android.material.button.MaterialButton android:gravity="center" android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="88.0dip" android:minHeight="48.0dip" android:text="@android:string/cancel" android:layout_marginEnd="8.0dip" style="@style/Widget.Photos.Button.Borderless" />
+        <com.google.android.material.button.MaterialButton android:gravity="center" android:id="@id/agree_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="88.0dip" android:minHeight="48.0dip" android:text="@string/photos_strings_terms_of_service_agree_button" style="@style/Widget.Photos.Button" />
+    </LinearLayout>
+</LinearLayout>

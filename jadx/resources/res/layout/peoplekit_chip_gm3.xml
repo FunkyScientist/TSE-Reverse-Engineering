@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/google_transparent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.libraries.social.peoplekit.chips.viewcontrollers.ChannelChip
+        android:textAppearance="?attr/textAppearanceLabelLarge"
+        android:textColor="?attr/colorOnSurface"
+        android:id="@+id/peoplekit_chip"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/peoplekit_ui_chip_bar_height"
+        app:chipIconTint="?attr/colorOutline"
+        app:chipStrokeColor="@color/peoplekit_chip_stroke_color_gm3"
+        app:ensureMinTouchTargetSize="true"
+        style="@style/peoplekit_autocomplete_chip_style_gm3"/>
+</RelativeLayout>

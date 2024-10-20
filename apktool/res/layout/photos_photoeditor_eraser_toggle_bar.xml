@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.photoeditor.eraser.ModeToggle android:layout_gravity="center" android:id="@id/photos_photoeditor_fragments_eraser_mode_bar" android:background="@drawable/photos_photoeditor_eraser_mode_toggle_background" android:padding="2.0dip" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textColor="@color/google_white"
+    android:layout_gravity="center"
+    android:id="@+id/photos_phoeditor_udon_manual_segmentation_mask_editing_done"
+    android:background="@drawable/photos_photoeditor_udon_stroke_background"
+    android:paddingLeft="18dp"
+    android:paddingTop="10dp"
+    android:paddingRight="18dp"
+    android:paddingBottom="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/done"
+    android:fontFamily="@font/google_sans"
+    android:letterSpacing="0.02"
+    android:paddingHorizontal="18dp"
+    android:paddingVertical="10dp"/>

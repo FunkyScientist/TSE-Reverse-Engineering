@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="1.0dip" android:top="1.0dip" android:right="1.0dip" android:bottom="1.0dip">
+        <shape android:shape="oval">
+            <solid android:color="@color/google_white" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:id="@id/warning_icon" android:height="24.0dip" android:width="24.0dip" android:drawable="@drawable/quantum_gm_ic_error_vd_theme_24" />
+</layer-list>

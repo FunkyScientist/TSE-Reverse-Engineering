@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phenotype-registrations>
+    <phenotype-registration>
+        <configuration-package>photos_android_auto</configuration-package>
+        <log-sources>
+            <log-source>CHIME</log-source>
+            <log-source>CLIENT_LOGGING_PROD</log-source>
+            <log-source>PEOPLE_AUTOCOMPLETE</log-source>
+            <log-source>PHOTOS</log-source>
+            <log-source>PHOTOS_ANDROID_PRIMES</log-source>
+            <log-source>SENDKIT</log-source>
+            <log-source>SOCIAL_AFFINITY_PHOTOS</log-source>
+            <log-source>STREAMZ_PHOTOS_ANDROID</log-source>
+        </log-sources>
+        <auto-subpackage>true</auto-subpackage>
+    </phenotype-registration>
+</phenotype-registrations>

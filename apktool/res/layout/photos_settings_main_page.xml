@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/photos_settings_header_and_footer_spacing" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/backup_button" android:visibility="gone" style="@style/photos_settings_two_lines_container">
+            <ImageView android:id="@id/backub_button_drawable" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/gs_cloud_upload_vd_theme_24" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="18.0dip" style="photos_settings_two_lines_container">
+                <TextView android:id="@id/backup_button_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_backup_settings_screen_title" style="@style/photos_settings_line_one_text" />
+                <TextView android:id="@id/backup_button_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/auto_backup_setting_loading" style="@style/photos_settings_line_two_text" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:id="@id/notifications_button" android:text="@string/photos_settings_label_notifications" app:drawableStartCompat="@drawable/gs_notifications_vd_theme_24" style="@style/photos_settings_main_page_item" />
+        <TextView android:id="@id/customization_button" android:text="@string/photos_settings_customization" app:drawableStartCompat="@drawable/gs_interests_vd_theme_24" style="@style/photos_settings_main_page_item" />
+        <TextView android:id="@id/sharing_button" android:text="@string/photos_settings_sharing_category_title" app:drawableStartCompat="@drawable/gs_group_vd_theme_24" style="@style/photos_settings_main_page_item" />
+        <TextView android:text="@string/photos_settings_apps_and_devices" app:drawableStartCompat="@drawable/gs_devices_other_vd_theme_24" style="@style/photos_settings_main_page_item" />
+        <TextView android:id="@id/apps_and_devices_button" android:text="@string/photos_settings_apps_and_devices" app:drawableStartCompat="@drawable/gs_devices_other_vd_theme_24" style="@style/photos_settings_main_page_item" />
+        <TextView android:id="@id/privacy_button" android:text="@string/photos_settings_privacy" app:drawableStartCompat="@drawable/gs_gshield_vd_theme_24" style="@style/photos_settings_main_page_item" />
+        <TextView android:id="@id/internal_button" android:text="@string/photos_settings_internal" app:drawableStartCompat="@drawable/gs_pets_vd_theme_24" style="@style/photos_settings_main_page_item" />
+        <Space android:layout_width="fill_parent" android:layout_height="40.0dip" />
+        <LinearLayout android:id="@id/settings_footnote" style="@style/photos_settings_three_lines_footnote_container">
+            <TextView android:id="@id/version_footnote" android:text="@string/photos_settings_footnote_prod_build_short" style="@style/photos_settings_line_two_text" />
+            <TextView android:id="@id/about_footnote" android:text="@string/photos_settings_footnote_about_underlined" style="@style/photos_settings_line_two_text" />
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton android:gravity="center" android:id="@id/dogfood_feedback_button" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/photos_settings_feedback" android:drawablePadding="12.0dip" android:paddingHorizontal="14.0dip" app:icon="@drawable/quantum_gm_ic_dogfood_vd_theme_24" style="@style/Widget.Photos.Button.StrokedButton" />
+        <include layout="@layout/photos_settings_header_and_footer_spacing" />
+    </LinearLayout>
+</ScrollView>

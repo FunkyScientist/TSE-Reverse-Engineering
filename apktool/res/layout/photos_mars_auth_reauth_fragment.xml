@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="224.0dip" android:layout_height="224.0dip" android:src="@drawable/photos_mars_auth_timeout" android:contentDescription="@null" />
+    <Button android:id="@id/mars_reauth_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginBottom="?actionBarSize" android:text="@string/photos_mars_auth_open_title" style="@style/Widget.Photos.Button" />
+</LinearLayout>

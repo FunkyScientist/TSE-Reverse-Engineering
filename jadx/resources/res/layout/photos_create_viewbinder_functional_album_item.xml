@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingLeft="8dp"
+    android:paddingTop="16dp"
+    android:paddingRight="8dp"
+    android:paddingBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.apps.photos.view.RoundedCornerImageView
+        android:id="@+id/functional_album_image"
+        android:background="@color/photos_daynight_grey600"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        app:radius="@dimen/photos_theme_rounded_corner_radius_small"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body1"
+        android:ellipsize="end"
+        android:id="@+id/functional_album_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/functional_album_image"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/burst_primary_label_container" android:background="@drawable/photos_photofragment_burst_primary_label_background" android:paddingLeft="8.0dip" android:paddingTop="6.0dip" android:paddingRight="8.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" android:paddingHorizontal="8.0dip" android:paddingVertical="6.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/burst_primary_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:tint="@color/google_white" android:layout_marginEnd="4.0dip" app:srcCompat="@drawable/gs_stack_star_vd_theme_24" />
+        <com.google.android.material.textview.MaterialTextView android:textColor="@color/google_white" android:id="@id/burst_primary_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" style="@style/TextAppearance.Photos.LabelSmall" />
+    </android.support.v7.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

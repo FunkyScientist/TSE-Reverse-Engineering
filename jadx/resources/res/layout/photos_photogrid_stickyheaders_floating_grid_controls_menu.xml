@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="end|center_vertical"
+    android:id="@+id/floating_grid_controls_menu"
+    android:background="@drawable/photos_photogrid_stickyheaders_rounded_button"
+    android:visibility="invisible"
+    android:layout_width="@dimen/photos_list_date_header_grid_controls_width_height"
+    android:layout_height="@dimen/photos_list_date_header_grid_controls_width_height"
+    android:contentDescription="@string/photos_photogrid_stickyheaders_floating_grid_controls_desc"
+    android:elevation="@dimen/gm3_sys_elevation_level1"
+    app:srcCompat="@drawable/quantum_gm_ic_more_vert_vd_theme_24"/>

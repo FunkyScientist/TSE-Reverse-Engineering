@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip android:layout_gravity="bottom|center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_outofsync_strings_review_out_of_sync_text" android:elevation="@dimen/photos_outofsync_suggestedchip_chip_elevation" app:chipIcon="@drawable/quantum_gm_ic_error_vd_theme_24" app:chipIconTint="?photosStorageLow" app:chipStrokeWidth="0.0dip" app:closeIcon="@drawable/quantum_gm_ic_close_vd_theme_24" app:closeIconEnabled="true" app:ensureMinTouchTargetSize="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

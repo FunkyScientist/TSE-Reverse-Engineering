@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="120.0dip" android:width="120.0dip" android:viewportWidth="120.0" android:viewportHeight="120.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@color/photos_daynight_grey300" android:pathData="M0.485,66.502C-3.658,34.185 19.181,4.628 51.498,0.485C83.815,-3.657 113.372,19.182 117.515,51.499C121.657,83.816 98.818,113.371 66.502,117.514C34.184,121.659 4.629,98.817 0.485,66.502" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$photos_assistant_ui_ic_null_manage_library__0" android:pathData="M1.49,68.066C-2.689,35.475 20.343,5.668 52.936,1.489C85.525,-2.689 115.332,20.345 119.511,52.934C123.689,85.527 100.655,115.332 68.066,119.511C35.475,123.689 5.668,100.655 1.49,68.066" android:fillType="evenOdd" />
+    <path android:fillColor="@color/photos_daynight_white" android:pathData="M50.445,72.39l-12.833,-12.833l-4.279,4.276l17.112,17.112l36.667,-36.667l-4.277,-4.278z" android:fillType="evenOdd" />
+</vector>

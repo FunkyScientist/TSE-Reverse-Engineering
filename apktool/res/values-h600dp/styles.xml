@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="photos_printingskus_photobook_product_recyclerview">
+        <item name="android:visibility">visible</item>
+    </style>
+</resources>

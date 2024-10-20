@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.list.fastscroll.DateScrubberView android:id="@id/photos_photogrid_date_scrubber_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:recyclerViewId="@id/recycler_view"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.apps.photos.photogrid.InstrumentedRecyclerView android:id="@id/recycler_view" android:scrollbars="none" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/photos_grid_sticky_header_viewstub" android:layout="@layout/photos_photogrid_stickyheaders_sticky_date_header" android:inflatedId="@id/photos_grid_sticky_header_inflated_viewstub" android:layout_width="fill_parent" android:layout_height="72.0dip" />
+        <ViewStub android:id="@id/photos_grid_floating_grid_controls_viewstub" android:inflatedId="@id/photos_allphotos_floating_gridcontrols_button" android:layout_width="@dimen/photos_list_date_header_grid_controls_width_height" android:layout_height="@dimen/photos_list_date_header_grid_controls_width_height" />
+    </FrameLayout>
+</com.google.android.apps.photos.list.fastscroll.DateScrubberView>

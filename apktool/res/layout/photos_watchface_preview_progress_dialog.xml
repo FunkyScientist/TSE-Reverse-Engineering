@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/photos_watchface_preview_save_progress_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/photos_watchface_preview_saving_progress_dialog_title" style="@style/TextAppearance.Photos.Subhead1" />
+    <TextView android:textColor="?photosOnSurfaceVariant" android:id="@id/photos_watchface_preview_save_progress_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" style="@style/TextAppearance.Photos.Body2" />
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/photos_watchface_preview_save_progress_progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:indeterminate="true" style="@style/Widget.Photos.LinearProgressIndicator" />
+</LinearLayout>

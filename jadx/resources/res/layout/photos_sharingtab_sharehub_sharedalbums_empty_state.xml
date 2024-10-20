@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="68dp"
+    android:paddingTop="24dp"
+    android:paddingRight="68dp"
+    android:paddingBottom="36dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="32dp"
+    android:text="@string/photos_sharingtab_sharehub_sharedalbums_empty_state_title"
+    android:drawablePadding="16dp"
+    android:textAlignment="center"
+    android:paddingHorizontal="68dp"
+    app:drawableTopCompat="@drawable/photos_sharingtab_sharehub_sharedalbums_empty_state_illustration"
+    style="@style/TextAppearance.Photos.Headline6"/>

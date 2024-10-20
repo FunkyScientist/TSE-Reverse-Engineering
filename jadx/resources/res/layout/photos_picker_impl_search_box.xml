@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/search_box_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+    <ImageView
+        android:id="@+id/search_icon"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/quantum_gm_ic_search_vd_theme_24"/>
+    <EditText
+        android:id="@+id/search_box"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/photos_search_searchbox_height"
+        android:hint="@string/photos_search_searchbox_text"
+        android:layout_weight="1"
+        android:inputType="textNoSuggestions"
+        android:privateImeOptions="nm"
+        android:imeOptions="flagNoExtractUi"
+        android:textAlignment="viewStart"
+        style="@style/Photos.Search.SearchBox.EditTextTheme"/>
+    <ImageButton
+        android:id="@+id/clear_button"
+        android:background="?attr/actionBarItemBackground"
+        android:visibility="gone"
+        android:layout_width="@dimen/photos_search_searchbox_height"
+        android:layout_height="@dimen/photos_search_searchbox_height"
+        android:contentDescription="@string/photos_search_searchbox_clear_text_button"
+        app:srcCompat="@drawable/quantum_gm_ic_clear_vd_theme_24"/>
+    <ImageButton
+        android:id="@+id/voice_search"
+        android:background="?attr/actionBarItemBackground"
+        android:visibility="gone"
+        android:layout_width="@dimen/photos_search_searchbox_height"
+        android:layout_height="@dimen/photos_search_searchbox_height"
+        android:contentDescription="@string/photos_search_searchbox_voice_search_button"
+        app:srcCompat="@drawable/quantum_gm_ic_mic_vd_theme_24"/>
+</LinearLayout>

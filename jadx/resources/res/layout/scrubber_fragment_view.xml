@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr">
+    <SeekBar
+        android:layout_gravity="center_vertical"
+        android:id="@+id/clip_seekbar_view"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:maxHeight="48dp"
+        android:minHeight="48dp"/>
+    <com.google.android.apps.photos.movies.p019ui.scrubber.impl.SegmentedBarView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/clip_segmented_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="4dp"/>
+</FrameLayout>

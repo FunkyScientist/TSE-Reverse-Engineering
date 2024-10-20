@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:id="@id/cover_style_toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/photos_printingskus_photobook_preview_layout_switching_button_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.card.MaterialCardView android:layout_gravity="center" android:id="@id/photos_printingskus_photobook_preview_layout_switching_button_cardview_bookcover" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/photos_printingskus_photobook_preview_layout_switching_cardview_margin" style="@style/photos_printingskus_photobook_theme_preview_page_layout_button_card_view">
+        <include android:layout_width="@dimen/photos_printingskus_photobook_preview_layout_switching_cardview_size" android:layout_height="@dimen/photos_printingskus_photobook_preview_layout_switching_cardview_size" layout="@layout/photobook_cover_layout" />
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

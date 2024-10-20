@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/all_photos_empty_state_layout"
+    android:visibility="gone"
+    style="@style/Theme.Photos.EmptyState.Layout">
+    <ImageView
+        android:layout_marginBottom="38dp"
+        android:contentDescription="@string/photos_gridlayers_empty_state_title"
+        app:srcCompat="@drawable/photos_emptystate_illustration"
+        style="@style/Theme.Photos.EmptyState.Image"/>
+    <TextView
+        android:text="@string/photos_gridlayers_empty_state_title"
+        style="@style/Theme.Photos.EmptyState.Title"/>
+    <TextView
+        android:text="@string/photos_gridlayers_empty_state_caption"
+        style="@style/Theme.Photos.EmptyState.Caption"/>
+</LinearLayout>

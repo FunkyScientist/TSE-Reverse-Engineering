@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.memories.titlecard.MemoryTitleCardContainer xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/photos_memories_gridhighlights_start_end_margin"
+    android:paddingEnd="@dimen/photos_memories_gridhighlights_start_end_margin"
+    app:cardStyle="SIXTEEN_BY_NINE">
+    <include layout="@layout/photos_memories_gridhighlights_highlight_card_performance_fixed"/>
+</com.google.android.apps.photos.memories.titlecard.MemoryTitleCardContainer>

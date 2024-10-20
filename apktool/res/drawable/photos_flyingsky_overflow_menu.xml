@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/photos_flyingsky_story_card_overflow_menu_background_color" />
+    <corners android:topLeftRadius="@dimen/photos_flyingsky_ui_cloud_grid_overflow_menu_corner_radius" android:topRightRadius="@dimen/photos_flyingsky_ui_cloud_grid_overflow_menu_corner_radius" android:bottomLeftRadius="@dimen/photos_flyingsky_ui_cloud_grid_overflow_menu_corner_radius" android:bottomRightRadius="@dimen/photos_flyingsky_ui_cloud_grid_overflow_menu_corner_radius" />
+</shape>

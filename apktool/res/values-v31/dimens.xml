@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="app_widget_background_corner_radius">@android:dimen/system_app_widget_background_radius</item>
+    <item type="dimen" name="app_widget_container_corner_radius">@android:dimen/system_app_widget_inner_radius</item>
+    <dimen name="settingslib_dialogCornerRadius">28.0dip</dimen>
+    <dimen name="settingslib_listPreferredItemPaddingStart">24.0dip</dimen>
+    <item type="dimen" name="survey_alertdialog_button_right_margin">@dimen/google_marterial_alertdialog_buttons_right_margin</item>
+    <dimen name="survey_button_min_width_size">88.0dip</dimen>
+    <dimen name="expanded_title_margin_bottom">32.0dip</dimen>
+    <dimen name="expanded_title_margin_end">24.0dip</dimen>
+    <dimen name="expanded_title_margin_start">24.0dip</dimen>
+    <dimen name="google_marterial_alertdialog_buttons_bottom_margin">30.0dip</dimen>
+    <dimen name="google_marterial_alertdialog_buttons_end_margin">16.0dip</dimen>
+    <dimen name="google_marterial_alertdialog_buttons_padding_vertical">16.0dip</dimen>
+    <dimen name="google_marterial_alertdialog_buttons_right_margin">16.0dip</dimen>
+    <dimen name="google_marterial_alertdialog_buttons_top_margin">26.0dip</dimen>
+    <dimen name="google_marterial_button_text_size">14.0sp</dimen>
+    <dimen name="google_marterial_dialog_title_size">24.0sp</dimen>
+    <dimen name="google_marterial_dialog_title_top_padding">24.0dip</dimen>
+    <dimen name="google_marterial_margin_between_buttons">8.0dip</dimen>
+    <dimen name="google_material_corner_radius">28.0dip</dimen>
+    <dimen name="settingslib_preferred_minimum_touch_target">48.0dip</dimen>
+    <dimen name="settingslib_scrim_visible_height_trigger">137.0dip</dimen>
+    <dimen name="settingslib_toolbar_layout_height">179.0dip</dimen>
+    <dimen name="survey_alertdialog_background_inset">5.0dip</dimen>
+    <item type="dimen" name="survey_alertdialog_corner_radius">@dimen/google_material_corner_radius</item>
+</resources>

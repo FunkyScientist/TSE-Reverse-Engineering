@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="@dimen/photos_printingskus_storefront_librarybanner_carousel_item_width_small"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/photos_printingskus_storefront_librarybanner_carousel_item_margin"
+    android:layout_marginEnd="@dimen/photos_printingskus_storefront_librarybanner_carousel_item_margin">
+    <com.google.android.material.card.MaterialCardView
+        android:orientation="vertical"
+        android:id="@+id/card"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/photos_printingskus_storefront_librarybanner_height"
+        app:cardBackgroundColor="@color/photos_daynight_grey100"
+        app:cardCornerRadius="8dp"
+        app:strokeWidth="0dp">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+    </com.google.android.material.card.MaterialCardView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAppearance="@style/TextAppearance.Photos.Subhead2"
+            android:textColor="@color/photos_daynight_grey900"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textDirection="locale"
+            android:textAlignment="gravity"/>
+    </LinearLayout>
+</LinearLayout>

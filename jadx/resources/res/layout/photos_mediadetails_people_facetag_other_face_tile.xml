@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.apps.photos.theme.SquareImageView
+        android:id="@+id/face_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/photos_mediadetails_people_facetag_title_select_face"
+        android:layout_marginStart="16dp"/>
+    <ImageView
+        android:id="@+id/add_face_tag_button"
+        android:paddingTop="4dp"
+        android:paddingBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="?attr/photosPrimary"
+        android:contentDescription="@string/photos_mediadetails_people_facetag_add_person_description"
+        android:paddingStart="4dp"
+        android:paddingEnd="20dp"
+        app:srcCompat="@drawable/quantum_gm_ic_add_circle_vd_theme_24"/>
+</FrameLayout>

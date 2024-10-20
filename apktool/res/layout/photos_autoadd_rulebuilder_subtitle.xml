@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/photos_autoadd_rulebuilder_subtitle_color" android:id="@id/people_picker_subtitle" android:paddingTop="@dimen/photos_autoadd_rulebuilder_subtitle_padding" android:paddingBottom="@dimen/photos_autoadd_rulebuilder_subtitle_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/photos_autoadd_rulebuilder_header_padding" android:paddingEnd="@dimen/photos_autoadd_rulebuilder_header_padding" style="@style/TextAppearance.Photos.Body2" />
+    <View android:id="@id/people_picker_subtitle_divider" android:background="@color/photos_autoadd_rulebuilder_subtitle_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/photos_autoadd_rulebuilder_header_padding" android:layout_marginEnd="@dimen/photos_autoadd_rulebuilder_header_padding" />
+</merge>

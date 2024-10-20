@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/photos_envelope_feed_adapteritem_bottom_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.material.button.MaterialButton
+        android:textAppearance="@style/TextAppearance.Photos.Subhead2"
+        android:id="@+id/save_action_button"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        app:iconSize="@dimen/photos_envelope_feed_adapteritem_save_action_icon_size"
+        style="@style/Widget.Photos.Button.Borderless"/>
+</LinearLayout>

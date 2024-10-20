@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/trash_empty_state_non_default_gallery_layout"
+    style="@style/Theme.Photos.EmptyState.LayoutWithSideBleed">
+    <LinearLayout style="@style/Photos.Trash.Ui.Container">
+        <ImageView
+            android:contentDescription="@string/photos_trash_ui_empty_state_title_new"
+            app:srcCompat="@drawable/photos_trash_ui_empty_132dp"
+            style="@style/Theme.Photos.EmptyState.Image"/>
+        <android.support.v7.widget.AppCompatTextView
+            android:text="@string/photos_trash_ui_empty_state_title"
+            style="@style/Theme.Photos.EmptyState.Title"/>
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/photos_trash_ui_empty_state_info"
+            style="@style/Theme.Photos.EmptyState.Caption"/>
+    </LinearLayout>
+    <android.support.v7.widget.AppCompatTextView
+        android:background="@color/quantum_bluegrey100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="1dp"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/photos_trash_ui_empty_state_help"
+        android:background="?attr/selectableItemBackground"
+        android:padding="16dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_trash_ui_empty_state_non_default_gallery_help"
+        android:textAlignment="viewStart"
+        app:drawableRightCompat="@drawable/quantum_gm_ic_help_outline_gm_grey_18"
+        style="@style/Photos.Trash.Ui.NonDefaultGalleryText"/>
+</LinearLayout>

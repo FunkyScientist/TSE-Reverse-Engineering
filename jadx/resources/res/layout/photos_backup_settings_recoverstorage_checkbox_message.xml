@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginHorizontal="16dp">
+        <CheckBox
+            android:gravity="top"
+            android:id="@+id/photos_settings_recoverstorage_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"/>
+        <TextView
+            android:textColor="@color/photos_daynight_grey700"
+            android:id="@+id/photos_settings_recoverstorage_dialog_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingExtra="3sp"
+            android:paddingStart="3dp"
+            android:paddingEnd="16dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:paddingLeft="?android:listPreferredItemPaddingLeft"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:tint="@color/google_blue700" android:drawable="@drawable/quantum_gm_ic_check_vd_theme_24" />
+    <item android:state_checked="false" android:visibility="invisible" android:drawable="@drawable/quantum_gm_ic_check_vd_theme_24" />
+</selector>

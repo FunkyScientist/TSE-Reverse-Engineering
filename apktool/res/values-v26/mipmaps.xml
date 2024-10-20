@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="mipmap" name="photos_launcher">@mipmap/photos_launchericon_release_adaptive</item>
+    <item type="mipmap" name="photos_round_launcher">@mipmap/photos_launchericon_release_adaptive</item>
+</resources>

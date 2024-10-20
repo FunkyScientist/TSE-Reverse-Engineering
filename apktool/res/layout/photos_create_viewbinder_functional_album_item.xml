@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:selectableItemBackground" android:paddingLeft="8.0dip" android:paddingTop="16.0dip" android:paddingRight="8.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.photos.view.RoundedCornerImageView android:id="@id/functional_album_image" android:background="@color/photos_daynight_grey600" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_alignParentTop="true" android:layout_alignParentStart="true" app:radius="@dimen/photos_theme_rounded_corner_radius_small" />
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Body1" android:ellipsize="end" android:id="@id/functional_album_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_alignParentTop="true" android:layout_toEndOf="@id/functional_album_image" android:layout_alignParentEnd="true" />
+</RelativeLayout>

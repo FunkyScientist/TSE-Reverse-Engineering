@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/photos_cloudstorage_ui_storageprogressbar_storage_usage_progress_meter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/quota_progress_bar" android:layout_width="0.0dip" android:layout_height="8.0dip" android:max="100" android:indeterminate="false" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/quota_progress_bar_label_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="rtl" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/quota_progress_bar">
+        <androidx.constraintlayout.helper.widget.Flow android:id="@id/label_flow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" app:constraint_referenced_ids="total_storage_label,photos_storage_layout,other_storage_layout" app:flow_horizontalAlign="end" app:flow_horizontalBias="1.0" app:flow_horizontalStyle="spread_inside" app:flow_maxElementsWrap="2" app:flow_verticalGap="8.0dip" app:flow_wrapMode="chain" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="12.0sp" android:id="@id/total_storage_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/photos_storage_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale">
+            <View android:id="@id/photos_storage_color" android:layout_width="8.0dip" android:layout_height="8.0dip" />
+            <TextView android:textSize="12.0sp" android:id="@id/photos_storage_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/other_storage_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layoutDirection="locale">
+            <View android:id="@id/other_storage_color" android:layout_width="8.0dip" android:layout_height="8.0dip" />
+            <TextView android:textSize="12.0sp" android:id="@id/other_storage_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/quota_progress_bar_label_layout" layout="@layout/photos_cloudstorage_ui_storageprogressbar_pixel_storage_offer_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

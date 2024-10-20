@@ -1,0 +1,28 @@
+package p000;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public enum bcwy implements bfit {
+    CHANNEL_GROUP_STATE_UNKNOWN(0),
+    ALLOWED(1),
+    BANNED(2);
+
+
+    /* renamed from: d */
+    public final int f89617d;
+
+    bcwy(int i) {
+        this.f89617d = i;
+    }
+
+    @Override // p000.bfit
+    /* renamed from: a */
+    public final int mo6948a() {
+        return this.f89617d;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return Integer.toString(this.f89617d);
+    }
+}

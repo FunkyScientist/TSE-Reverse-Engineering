@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/title_image" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="8.0dip" />
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Subhead1" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_mediadetails_people_facetag_create_cluster_dialog_title" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
+</LinearLayout>

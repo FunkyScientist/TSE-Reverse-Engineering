@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/photos_photoeditor_udon_manual_segmentation_bar"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/photos_photoeditor_udon_manual_segmentation_undo"/>
+    <ImageView
+        android:id="@+id/photos_phoeditor_udon_manual_segmentation_update_mode_add"
+        android:background="@drawable/photos_photoeditor_udon_button_circle_background"
+        android:padding="8dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/photos_photoeditor_udon_manual_segmentation_add"
+        android:layout_marginStart="8dp"
+        app:iconTint="@color/photos_photoeditor_commonui_icon_color"
+        app:srcCompat="@drawable/quantum_gm_ic_add_vd_theme_24"/>
+    <ImageView
+        android:id="@+id/photos_phoeditor_udon_manual_segmentation_update_mode_subtract"
+        android:background="@drawable/photos_photoeditor_udon_button_circle_background"
+        android:padding="8dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/photos_photoeditor_udon_manual_segmentation_subtract"
+        android:layout_marginStart="8dp"
+        app:iconTint="@color/photos_photoeditor_commonui_icon_color"
+        app:srcCompat="@drawable/gs_remove_vd_theme_24"/>
+</LinearLayout>

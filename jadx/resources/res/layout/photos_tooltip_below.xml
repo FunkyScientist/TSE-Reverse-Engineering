@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.tooltip.InsetAwareLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/photos_tooltip_below"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingBottom="4dp"
+    android:clipToPadding="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <include layout="@layout/photos_tooltip_arrow_upward"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/tooltip_text_container"
+        android:padding="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp">
+        <com.google.android.apps.photos.tooltip.WrapWidthTextView
+            android:textAppearance="@style/TextAppearance.Photos.Subhead1"
+            android:textColor="?android:attr/colorBackground"
+            android:id="@+id/tooltip_headline_text"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="@dimen/photos_tooltip_max_width"/>
+        <com.google.android.apps.photos.tooltip.WrapWidthTextView
+            android:textAppearance="@style/TextAppearance.Photos.Body2"
+            android:textColor="?android:attr/colorBackground"
+            android:id="@+id/tooltip_body_text"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="@dimen/photos_tooltip_max_width"/>
+        <ViewStub
+            android:layout_gravity="end"
+            android:id="@+id/tooltip_action_button_layout_viewstub"
+            android:layout="@layout/photos_tooltip_action_button"
+            android:inflatedId="@+id/tooltip_action_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</com.google.android.apps.photos.tooltip.InsetAwareLinearLayout>

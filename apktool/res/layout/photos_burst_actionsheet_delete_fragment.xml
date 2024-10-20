@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/photos_burst_actionsheet_dialog_content" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Body1" android:textSize="14.0sp" android:textColor="?photosOnSurfaceVariant" android:gravity="center_vertical" android:id="@id/photos_burst_actionsheet_delete_title" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/photos_burst_actionsheet_delete_all_row" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <ImageView android:id="@id/photos_burst_actionsheet_delete_all_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@null" app:srcCompat="@drawable/quantum_gm_ic_burst_mode_vd_theme_24" />
+        <TextView android:textAppearance="@style/TextAppearance.Photos.Body1" android:textColor="?colorOnSurface" android:gravity="center_vertical" android:id="@id/photos_burst_actionsheet_delete_all_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="32.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/photos_burst_actionsheet_current_only_row" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:minHeight="48.0dip">
+        <ImageView android:id="@id/photos_burst_actionsheet_current_only_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@null" app:srcCompat="@drawable/quantum_gm_ic_image_vd_theme_24" />
+        <TextView android:textAppearance="@style/TextAppearance.Photos.Body1" android:textColor="?colorOnSurface" android:gravity="center_vertical" android:id="@id/photos_burst_actionsheet_current_only_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_burst_actionsheet_current_only" android:layout_marginStart="32.0dip" />
+    </LinearLayout>
+</LinearLayout>

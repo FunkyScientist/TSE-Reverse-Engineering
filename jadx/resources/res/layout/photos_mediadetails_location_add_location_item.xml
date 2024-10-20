@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginStart="@dimen/photos_mediadetails_item_margin_horizontal"
+    android:layout_marginEnd="@dimen/photos_mediadetails_item_margin_horizontal"
+    android:layout_alignParentStart="true">
+    <TextView
+        android:textColor="?attr/photosPrimary"
+        android:gravity="start|center_vertical"
+        android:id="@+id/add_location"
+        android:background="?attr/selectableItemBackground"
+        android:paddingLeft="4dp"
+        android:paddingTop="8dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_mediadetails_location_no_exif_location"
+        android:drawablePadding="28dp"
+        android:layout_marginStart="4dp"
+        android:drawableTint="?attr/photosPrimary"
+        android:paddingHorizontal="4dp"
+        app:drawableStartCompat="@drawable/quantum_gm_ic_location_on_vd_theme_24"
+        style="@style/TextAppearance.Photos.Subhead2.MediaDetailsExifItemText"/>
+</LinearLayout>

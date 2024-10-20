@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.compose.p002ui.platform.ComposeView
+        android:layout_gravity="center"
+        android:id="@+id/photos_videoplayer_controller_center_controls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.compose.p002ui.platform.ComposeView
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/photos_videoplayer_controller_bottom_controls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

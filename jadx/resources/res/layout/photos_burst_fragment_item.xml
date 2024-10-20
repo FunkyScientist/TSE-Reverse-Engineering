@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp">
+    <ImageView
+        android:id="@+id/photos_burst_fragment_cover_photo_indicator"
+        android:paddingBottom="@dimen/photos_burst_fragment_primary_icon_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cover_photo_indicator_drawable"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/photos_burst_fragment_cover_photos_indicator"/>
+    <com.google.android.apps.photos.view.BorderedImageView
+        android:id="@+id/photos_burst_fragment_thumbnail"
+        android:background="@android:color/black"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/photos_burst_fragment_cover_photo_indicator"
+        android:contentDescription="@string/photos_burst_fragment_thumbnail_description"/>
+    <RelativeLayout
+        android:id="@+id/photos_burst_fragment_raw_thumbnail_holder"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignTop="@+id/photos_burst_fragment_thumbnail"
+        android:layout_alignStart="@+id/photos_burst_fragment_thumbnail">
+        <ImageView
+            android:id="@+id/photos_burst_fragment_thumbnail_icon"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>

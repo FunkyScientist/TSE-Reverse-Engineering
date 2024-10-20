@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Widget.Photos.CardView">
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="24dp"
+        android:paddingBottom="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+        <TextView
+            android:id="@+id/card_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:color="?attr/photosTextColorPrimaryVariant"
+            style="@style/TextAppearance.Photos.Subhead1"/>
+        <TextView
+            android:id="@+id/card_message"
+            android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:color="?attr/photosTextColorPrimaryVariant"
+            style="@style/TextAppearance.Photos.Body2"/>
+        <LinearLayout
+            android:theme="@style/ThemeOverlay.Photos.DayNight.Primary"
+            android:orientation="horizontal"
+            android:id="@+id/card_bottom_row_container"
+            android:paddingTop="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/card_handle_all_button"
+                style="@style/OutOfSyncCardButtonStyle"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/card_review_button"
+                android:text="@string/photos_outofsync_ui_card_review_button_text"
+                support:drawableStartCompat="@drawable/photos_quantum_gm_ic_arrow_forward_vd_theme_18"
+                style="@style/OutOfSyncCardButtonStyle"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

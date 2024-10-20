@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.microvideo.stillexporter.beta.MuteAudioButtonView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/photos_microvideo_stillexporter_beta_mute_audio_button"
+    android:background="@drawable/photos_microvideo_stillexporter_beta_mute_audio_button_ripple"
+    android:padding="@dimen/photos_microvideo_stillexporter_beta_mute_audio_padding"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/photos_microvideo_stillexporter_beta_mute_audio_margin"
+    android:tint="@color/photos_microvideo_stillexporter_beta_mute_audio_color"
+    android:layout_above="@+id/photos_microvideo_stillexporter_beta_frame_selector_fragment_scrubber_holder"
+    android:contentDescription="@string/photos_microvideo_stillexporter_beta_mute_audio_announcement"
+    android:layout_marginEnd="@dimen/photos_microvideo_stillexporter_beta_mute_audio_margin"
+    app:srcCompat="@drawable/quantum_gm_ic_volume_up_vd_theme_24"/>

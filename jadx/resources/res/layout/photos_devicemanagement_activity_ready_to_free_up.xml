@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_view"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/photos_devicemanagement_activity_freeing_up_lottie_animation"
+        style="@style/FreeUpSpaceLottieAnimation"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/lottie_view">
+        <TextView
+            android:id="@+id/title"
+            android:text="@string/photos_devicemanagement_activity_ready_to_free_up_title_v2"
+            style="@style/FreeUpSpaceTitle"/>
+        <TextView
+            android:id="@+id/safetyTip"
+            android:text="@string/photos_devicemanagement_activity_ready_to_free_up_safety_tip"
+            app:drawableStartCompat="@drawable/quantum_gm_ic_cloud_done_vd_theme_24"
+            style="@style/FreeUpSpaceTip"/>
+        <TextView
+            android:text="@string/photos_devicemanagement_activity_ready_to_free_up_viewing_tip"
+            app:drawableStartCompat="@drawable/quantum_gm_ic_mobile_friendly_vd_theme_24"
+            style="@style/FreeUpSpaceTip"/>
+        <TextView
+            android:id="@+id/olderMediaTip"
+            android:text="@string/photos_devicemanagement_activity_ready_to_free_up_older_media_tip"
+            app:drawableStartCompat="@drawable/quantum_gm_ic_history_vd_theme_24"
+            style="@style/FreeUpSpaceTip"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/free_up_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/FreeUpSpaceBottomButton"/>
+</android.support.constraint.ConstraintLayout>

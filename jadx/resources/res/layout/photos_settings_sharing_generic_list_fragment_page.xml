@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.apps.photos.list.fastscroll.DateScrubberView
+        android:id="@+id/shared_memories_date_scrubber_view"
+        android:background="?attr/tabBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:recyclerViewId="@+id/list">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list"
+            android:scrollbars="none"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.google.android.apps.photos.list.fastscroll.DateScrubberView>
+    <include layout="@layout/photos_emptystate_container"/>
+</FrameLayout>

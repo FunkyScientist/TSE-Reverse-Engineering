@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/tool_tray_selection_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Subtitle1" android:textColor="?photosOnSurfaceVariant" android:id="@id/tool_tray_selection_message" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:textAlignment="gravity" />
+    <Button android:textColor="?photosOnSurfaceVariant" android:layout_gravity="center_horizontal" android:id="@id/tool_tray_selection_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/cancel" style="@style/Widget.Photos.Button.Borderless" />
+</LinearLayout>

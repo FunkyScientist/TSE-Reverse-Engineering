@@ -1,0 +1,61 @@
+package p000;
+
+import com.google.android.libraries.photos.media.Feature;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class nih implements _124 {
+
+    /* renamed from: a */
+    private static final _3138 f162327a = new bbch("protobuf");
+
+    @Override // p000.siz
+    /* renamed from: a */
+    public final /* bridge */ /* synthetic */ Feature mo257a(int i, Object obj) {
+        nya nyaVar = (nya) obj;
+        nyaVar.getClass();
+        begn m64329D = nyaVar.f164019c.m64329D();
+        boolean z = false;
+        if (m64329D == null) {
+            return new _175(false);
+        }
+        befs befsVar = m64329D.f95704i;
+        if (befsVar == null) {
+            befsVar = befs.f95518a;
+        }
+        befq befqVar = befsVar.f95524f;
+        if (befqVar == null) {
+            befqVar = befq.f95507a;
+        }
+        if ((befqVar.f95509b & 1) != 0) {
+            befs befsVar2 = m64329D.f95704i;
+            if (befsVar2 == null) {
+                befsVar2 = befs.f95518a;
+            }
+            befq befqVar2 = befsVar2.f95524f;
+            if (befqVar2 == null) {
+                befqVar2 = befq.f95507a;
+            }
+            bdgo m39248b = bdgo.m39248b(befqVar2.f95510c);
+            if (m39248b == null) {
+                m39248b = bdgo.UNKNOWN_MODE;
+            }
+            if (m39248b == bdgo.CINEMATIC_MEMORY) {
+                z = true;
+            }
+        }
+        return new _175(z);
+    }
+
+    @Override // p000.siz
+    /* renamed from: b */
+    public final _3138 mo258b() {
+        return f162327a;
+    }
+
+    @Override // p000.siz
+    /* renamed from: c */
+    public final Class mo259c() {
+        return _175.class;
+    }
+}

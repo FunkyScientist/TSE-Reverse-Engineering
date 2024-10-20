@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/photos_datetimeedit_bulk_editor_mode_selection_sheet" />
+    <ViewStub android:id="@id/date_selection_sheet_stub" android:layout="@layout/photos_datetimeedit_dates_selection_sheet" android:inflatedId="@id/date_selection_sheet_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

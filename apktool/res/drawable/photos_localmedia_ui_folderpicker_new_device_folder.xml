@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/photos_localmedia_ui_folderpicker_new_folder_background" />
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/quantum_gm_ic_folder_white_24" android:tint="?android:colorBackground" />
+    </item>
+</layer-list>

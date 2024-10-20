@@ -1,0 +1,20 @@
+package p000;
+
+import java.lang.annotation.Documented;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+/* compiled from: PG */
+@Target({ElementType.TYPE})
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+/* loaded from: classes5.dex */
+public @interface bhyp {
+    /* renamed from: a */
+    int m40950a() default -1;
+
+    /* renamed from: b */
+    int[] m40951b();
+}

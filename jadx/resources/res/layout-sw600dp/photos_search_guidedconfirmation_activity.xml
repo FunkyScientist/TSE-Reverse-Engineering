@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.insetview.WindowInsetsView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/colorOutline"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_gravity="center"
+        android:id="@+id/root"
+        android:background="@drawable/photos_search_guidedconfirmation_rounded_background"
+        android:layout_width="360dp"
+        android:layout_height="600dp"
+        android:elevation="2dp"/>
+</com.google.android.apps.photos.insetview.WindowInsetsView>

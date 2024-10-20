@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/photos_partneraccount_settings_ui_row_padding_horizontal"
+    android:paddingRight="@dimen/photos_partneraccount_settings_ui_row_padding_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="@dimen/photos_partneraccount_settings_people_options_text_size"
+        android:gravity="center_vertical"
+        android:id="@+id/selected_people_text"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        app:drawableEndCompat="@drawable/photos_quantum_gm_ic_chevron_right_vd_theme_36"/>
+</LinearLayout>

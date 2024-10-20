@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/peoplekit_listview_flattened_header" android:visibility="gone" layout="@layout/flattened_peoplekit_header" />
+    <include android:id="@id/peoplekit_listview_flattened_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/peoplekit_listview_flattened_header" layout="@layout/single_peoplekit_row_view" />
+    <include android:id="@id/peoplekit_listview_flattened_permissions_row" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/flattened_peoplekit_permissions_row" />
+    <include android:id="@id/peoplekit_listview_no_contacts_row" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/flattened_peoplekit_no_contacts_row" />
+    <include android:id="@id/peoplekit_listview_no_results_fullscreen" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/peoplekit_listview_no_results" />
+    <include android:id="@id/peoplekit_listview_flattened_show_hidden_suggestions_row" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/flattened_peoplekit_show_hidden_suggestions_row" />
+</RelativeLayout>

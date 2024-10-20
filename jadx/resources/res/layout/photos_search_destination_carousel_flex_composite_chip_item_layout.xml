@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/flex_composite_chip_container"
+    android:background="@drawable/photos_search_destination_carousel_flex_composite_chip_border"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/photos_search_destination_carousel_chip_height">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/flex_composite_chip_image"
+        android:layout_width="@dimen/photos_search_destination_carousel_chip_people_icon_size"
+        android:layout_height="@dimen/photos_search_destination_carousel_chip_people_icon_size"
+        android:contentDescription="@null"
+        app:drawableTint="?attr/photosOnSurfaceVariant"/>
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:contentDescription="@null"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        app:srcCompat="@drawable/quantum_gm_ic_add_vd_theme_24"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Subhead2"
+        android:textColor="?attr/photosOnSurfaceVariant"
+        android:gravity="end|center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/flex_composite_chip_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="12dp"/>
+</LinearLayout>

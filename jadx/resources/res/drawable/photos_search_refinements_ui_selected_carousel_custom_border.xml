@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="?attr/photosSurface2"/>
+    <size
+        android:height="56dp"
+        android:width="56dp"/>
+    <stroke
+        android:width="2dp"
+        android:color="?attr/photosPrimary"/>
+    <corners android:radius="50dp"/>
+</shape>

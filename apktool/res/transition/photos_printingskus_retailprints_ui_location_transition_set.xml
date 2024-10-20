@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <transitionSet android:interpolator="@interpolator/fast_out_slow_in" android:duration="@integer/photos_printingskus_retailprints_ui_location_sheet_animation_duration_ms">
+        <changeTransform />
+        <changeBounds />
+        <changeScroll />
+        <targets>
+            <target android:targetId="@id/sheet" />
+        </targets>
+    </transitionSet>
+    <transitionSet android:interpolator="@android:interpolator/linear">
+        <changeBounds />
+        <fade android:duration="75" android:fadingMode="fade_in" android:startDelay="150" />
+        <fade android:duration="75" android:fadingMode="fade_out" />
+        <targets>
+            <target android:targetId="@id/confirm_button" />
+            <target android:targetId="@id/header" />
+            <target android:targetId="@id/location_full_text" />
+            <target android:targetId="@id/location_search_field" />
+            <target android:targetId="@id/my_location_item" />
+            <target android:targetId="@id/no_location_found_item" />
+            <target android:targetId="@id/retail_store_item" />
+        </targets>
+    </transitionSet>
+</transitionSet>

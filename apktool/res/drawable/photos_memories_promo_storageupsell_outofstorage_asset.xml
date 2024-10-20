@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="131.16278dip" android:width="200.0dip" android:viewportWidth="215.0" android:viewportHeight="141.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/photos_memories_promo_storageupsell_quota_color" android:pathData="M117.6,1.17C116.85,0.42 115.83,0 114.77,0L93.23,0C92.17,0 91.15,0.42 90.4,1.17L75.17,16.4C74.42,17.15 74,18.17 74,19.23V40.77C74,41.83 74.42,42.85 75.17,43.6L90.4,58.83C91.15,59.58 92.17,60 93.23,60H114.77C115.83,60 116.85,59.58 117.6,58.83L132.83,43.6C133.58,42.85 134,41.83 134,40.77V19.23C134,18.17 133.58,17.15 132.83,16.4L117.6,1.17Z" />
+    <path android:fillColor="@color/photos_memories_promo_storageupsell_background_color" android:pathData="M104,60V116" android:strokeColor="@color/photos_daynight_grey500" android:strokeWidth="1.0" />
+    <path android:fillColor="@color/photos_daynight_grey800" android:pathData="M101,13h6v24h-6z" />
+    <path android:fillColor="@color/photos_daynight_grey800" android:pathData="M100.5,44.5C100.5,46.41 102.09,48 104,48C105.91,48 107.5,46.41 107.5,44.5C107.5,42.59 105.91,41 104,41C101.99,41.11 100.5,42.59 100.5,44.5Z" />
+    <path android:fillColor="@color/photos_memories_promo_storageupsell_background_color" android:pathData="M204,89.25C207.39,89.25 210.9,89.25 214.36,89.25" android:strokeColor="@color/photos_daynight_grey600" android:strokeWidth="1.5" />
+    <path android:fillColor="@color/photos_memories_promo_storageupsell_background_color" android:pathData="M196.75,90.32C198.13,89.94 199.51,89.66 200.89,89.29" android:strokeColor="@color/photos_daynight_grey600" android:strokeWidth="1.5" />
+    <path android:fillColor="@color/photos_memories_promo_storageupsell_background_color" android:pathData="M119.07,140C134.48,115.81 161.43,97.78 193.64,91.32" android:strokeColor="@color/photos_daynight_grey600" android:strokeWidth="1.5" />
+    <path android:fillColor="@color/photos_memories_promo_storageupsell_background_color" android:pathData="M81.79,123.13C89.08,118.73 97.71,116.18 106.95,116.18C116.37,116.18 125.12,118.85 132.54,123.43" android:strokeColor="@color/photos_daynight_grey600" android:strokeWidth="1.5" />
+    <path android:fillColor="@color/photos_memories_promo_storageupsell_background_color" android:pathData="M9.29,82C6.42,82.41 3.68,83.16 1,84.07" android:strokeColor="@color/photos_daynight_grey600" android:strokeWidth="1.5" />
+    <path android:fillColor="@color/photos_memories_promo_storageupsell_background_color" android:pathData="M97.32,117.21C90.76,109.32 80.9,104.25 69.83,104.25C65.74,104.25 61.83,104.97 58.16,106.18C50.82,91.95 34.51,82 15.5,82" android:strokeColor="@color/photos_daynight_grey600" android:strokeWidth="1.5" />
+    <path android:fillColor="@color/photos_memories_promo_storageupsell_background_color" android:pathData="M17.57,114.64C17.57,114.64 41.03,109.73 52.79,129.64" android:strokeColor="@color/photos_daynight_grey600" android:strokeWidth="1.5" />
+</vector>

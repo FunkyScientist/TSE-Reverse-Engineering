@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.photos.memories.titlecard.MemoryTitleCardContainer android:id="@id/card_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/photos_memories_gridhighlights_start_end_margin" android:layout_marginEnd="@dimen/photos_memories_gridhighlights_start_end_margin" app:cardStyle="SIXTEEN_BY_NINE">
+        <include layout="@layout/photos_memories_gridhighlights_highlight_card" />
+    </com.google.android.apps.photos.memories.titlecard.MemoryTitleCardContainer>
+</FrameLayout>

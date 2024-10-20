@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/photos_settings_header_and_footer_spacing" />
+        <LinearLayout android:id="@id/clean_grid_button" android:visibility="gone" style="@style/photos_settings_two_lines_container">
+            <TextView android:id="@id/photos_settings_clean_grid_line_one_text" style="@style/photos_settings_line_one_text" />
+            <TextView android:id="@id/photos_settings_clean_grid_line_two_text" style="@style/photos_settings_line_two_text" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/face_grouping_button" style="@style/photos_settings_two_lines_container">
+            <TextView android:text="@string/photos_settings_faceclustering_face_recognition_setting_title" style="@style/photos_settings_line_one_text" />
+            <TextView android:text="@string/photos_settings_faceclustering_advanced_face_recognition_setting_desc" style="@style/photos_settings_line_two_text" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/memories_button" style="@style/photos_settings_two_lines_container">
+            <TextView android:text="@string/photos_memories_settings_title" style="@style/photos_settings_line_one_text" />
+            <TextView android:id="@id/memories_button_subtitle" android:text="@string/photos_memories_settings_description" style="@style/photos_settings_line_two_text" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/photo_grid_playback_button" style="@style/photos_settings_two_lines_container">
+            <TextView android:text="@string/photos_photoadapteritem_videoplayerbehavior_settings_impl_title" style="@style/photos_settings_line_one_text" />
+            <TextView android:text="@string/photos_photoadapteritem_videoplayerbehavior_settings_impl_subtitle" style="@style/photos_settings_line_two_text" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/ellmann_button" android:visibility="gone" style="@style/photos_settings_two_lines_container">
+            <TextView android:id="@id/photos_settings_ellmann_button_title" android:text="@string/photos_settings_activity_ellmann_settings_title" style="@style/photos_settings_line_one_text" />
+            <TextView android:id="@id/photos_settings_ellmann_button_description" android:text="@string/photos_settings_activity_ellmann_settings_subtitle" style="@style/photos_settings_line_two_text" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/ellmannchat_button" android:visibility="gone" style="@style/photos_settings_two_lines_container">
+            <TextView android:text="@string/photos_settings_ellmann_chat_settings_title" style="@style/photos_settings_line_one_text" />
+            <TextView android:text="@string/photos_settings_ellmann_chat_settings_subtitle" style="@style/photos_settings_line_two_text" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/gen_ai_button" android:visibility="gone" style="@style/photos_settings_two_lines_container">
+            <TextView android:text="@string/photos_settings_activity_gen_ai_settings_title" style="@style/photos_settings_line_one_text" />
+            <TextView android:text="@string/photos_settings_activity_gen_ai_settings_subtitle" style="@style/photos_settings_line_two_text" />
+        </LinearLayout>
+        <android.support.constraint.ConstraintLayout android:id="@id/activity_personalization_button" android:visibility="gone" style="@style/photos_settings_two_lines_container">
+            <TextView android:id="@id/activity_personalization_title" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/activity_personalization_subtitle" app:layout_constraintEnd_toStartOf="@id/activity_personalization_arrow_drawable" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="@style/photos_settings_line_one_text" />
+            <TextView android:id="@id/activity_personalization_subtitle" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/activity_personalization_arrow_drawable" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/activity_personalization_title" style="@style/photos_settings_line_two_text" />
+            <ImageView android:id="@id/activity_personalization_arrow_drawable" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/activity_personalization_subtitle" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/activity_personalization_title" app:srcCompat="@drawable/gs_chevron_right_vd_theme_24" />
+        </android.support.constraint.ConstraintLayout>
+        <include layout="@layout/photos_settings_header_and_footer_spacing" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/all_faces_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:contentInsetStartWithNavigation="0dp"
+        app:navigationIcon="@drawable/quantum_gm_ic_close_vd_theme_24"
+        style="@style/Widget.Photos.ActionMode.ActionBar"/>
+    <android.support.v7.widget.RecyclerView
+        android:orientation="vertical"
+        android:id="@+id/all_faces_main"
+        android:paddingBottom="16dp"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:textColor="?attr/colorPrimary"
+        android:layout_gravity="center"
+        android:id="@+id/send_feedback_text"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_strings_send_feedback"
+        android:drawablePadding="4dp"
+        app:drawableStartCompat="@drawable/quantum_gm_ic_feedback_vd_theme_24"
+        app:drawableTint="?attr/colorPrimary"/>
+</LinearLayout>

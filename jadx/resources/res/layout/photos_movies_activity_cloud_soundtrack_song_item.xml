@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@color/photos_daynight_white"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="?attr/photosPrimary"
+        android:paddingStart="16dp"
+        app:srcCompat="@drawable/photos_movies_activity_soundtrack_check_selector"/>
+    <TextView
+        android:id="@+id/soundtrack_song_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/photos_movies_activity_music_picker_list_item"/>
+</LinearLayout>

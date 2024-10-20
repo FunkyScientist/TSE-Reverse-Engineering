@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:focusable="true" card_view:cardBackgroundColor="@color/photos_daynight_white" card_view:cardCornerRadius="@dimen/photos_assistant_cardui_corner_radius" style="@style/AssistantCardBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:padding="@dimen/photos_assistant_cardui_toast_card_layout_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/photos_assistant_cardui_toast_card_text_end_margin">
+            <TextView android:textAppearance="@style/TextAppearance.Photos.Body1" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" />
+            <TextView android:textAppearance="@style/TextAppearance.Photos.Body2" android:textColor="@color/photos_daynight_grey700" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="end|center" android:id="@id/icon_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" android:paddingStart="@dimen/photos_assistant_cardui_toast_card_icon_end_padding" android:paddingEnd="@dimen/photos_assistant_cardui_toast_card_icon_end_padding" />
+    </FrameLayout>
+</com.google.android.material.card.MaterialCardView>

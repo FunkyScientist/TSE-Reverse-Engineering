@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/photos_photoeditor_udon_manual_segmentation_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/photos_photoeditor_udon_manual_segmentation_undo" />
+    <ImageView android:id="@id/photos_phoeditor_udon_manual_segmentation_update_mode_add" android:background="@drawable/photos_photoeditor_udon_button_circle_background" android:padding="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:contentDescription="@string/photos_photoeditor_udon_manual_segmentation_add" android:layout_marginStart="8.0dip" app:iconTint="@color/photos_photoeditor_commonui_icon_color" app:srcCompat="@drawable/quantum_gm_ic_add_vd_theme_24" />
+    <ImageView android:id="@id/photos_phoeditor_udon_manual_segmentation_update_mode_subtract" android:background="@drawable/photos_photoeditor_udon_button_circle_background" android:padding="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:contentDescription="@string/photos_photoeditor_udon_manual_segmentation_subtract" android:layout_marginStart="8.0dip" app:iconTint="@color/photos_photoeditor_commonui_icon_color" app:srcCompat="@drawable/gs_remove_vd_theme_24" />
+</LinearLayout>

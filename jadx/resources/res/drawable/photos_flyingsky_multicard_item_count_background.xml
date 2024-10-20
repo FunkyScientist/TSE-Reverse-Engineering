@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="@dimen/photos_flyingsky_cloudgrid_gutter_stroke_small_width"
+        android:top="@dimen/photos_flyingsky_cloudgrid_gutter_stroke_small_width"
+        android:right="@dimen/photos_flyingsky_cloudgrid_gutter_stroke_small_width"
+        android:bottom="@dimen/photos_flyingsky_cloudgrid_gutter_stroke_small_width">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/photos_flyingsky_item_count_background"/>
+            <corners
+                android:topLeftRadius="@dimen/photos_flyingsky_cloudgrid_small_radius"
+                android:topRightRadius="@dimen/photos_flyingsky_cloudgrid_small_radius"
+                android:bottomLeftRadius="@dimen/photos_flyingsky_cloudgrid_small_radius"
+                android:bottomRightRadius="@dimen/photos_flyingsky_cloudgrid_standard_radius"/>
+        </shape>
+    </item>
+</layer-list>

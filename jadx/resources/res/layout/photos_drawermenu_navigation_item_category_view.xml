@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAppearance="@style/TextAppearance.Photos.Overline.DrawermenuNavigationCategoryHeader"
+    android:id="@+id/photos_drawermenu_navigation_category_title"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:clickable="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/photos_drawermenu_navigation_item_view_padding_start_end"
+    android:paddingEnd="@dimen/photos_drawermenu_navigation_item_view_padding_start_end"/>

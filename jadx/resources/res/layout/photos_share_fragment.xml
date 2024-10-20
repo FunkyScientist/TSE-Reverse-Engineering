@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/share_fragment_root_view"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/drag_handle"
+        android:background="@drawable/photos_list_drag_handle"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/share_sheet_container"
+        android:background="@color/photos_share_fragment_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/share_sheet"
+            android:scrollbars="none"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAccessibility="no"/>
+        <View
+            android:id="@+id/share_sheet_overlay"
+            android:background="?android:attr/colorBackground"
+            android:visibility="gone"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.5"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

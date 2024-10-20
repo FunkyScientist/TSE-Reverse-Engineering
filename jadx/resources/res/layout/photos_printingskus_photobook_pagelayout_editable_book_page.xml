@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.printingskus.common.pagelayout.PrintPageLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="top|center_horizontal"
+    android:id="@+id/editable_print_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/photos_printingskus_photobook_pagelayout_margin"
+    style="@style/photos_printingskus_photobook_theme_preview_one_up_page_card_view">
+    <include layout="@layout/photos_printingskus_photobook_pagelayout_page_text_view"/>
+    <include
+        android:id="@+id/page_photo_view_0"
+        layout="@layout/photos_printingskus_photobook_pagelayout_printphotoview"/>
+    <include
+        android:id="@+id/page_photo_view_1"
+        layout="@layout/photos_printingskus_photobook_pagelayout_printphotoview"/>
+    <include
+        android:id="@+id/page_photo_view_2"
+        layout="@layout/photos_printingskus_photobook_pagelayout_printphotoview"/>
+    <include
+        android:id="@+id/page_photo_view_3"
+        layout="@layout/photos_printingskus_photobook_pagelayout_printphotoview"/>
+</com.google.android.apps.photos.printingskus.common.pagelayout.PrintPageLayout>

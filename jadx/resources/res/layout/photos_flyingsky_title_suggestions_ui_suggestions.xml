@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ViewStub
+        android:id="@+id/label_clusters_entry_layout_view_stub"
+        android:layout="@layout/photos_flyingsky_title_suggestions_label_cluster_entry_layout"
+        android:inflatedId="@+id/label_clusters_entry_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/suggestion_1"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/label_clusters_entry_layout_view_stub"
+        app:layout_constraintTop_toBottomOf="@+id/label_clusters_entry_layout_view_stub"
+        style="@style/TitleSuggestions.SuggestionStyle"/>
+    <FrameLayout
+        android:id="@+id/edit_suggestion_1_tap_target"
+        app:layout_constraintBottom_toBottomOf="@+id/suggestion_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/suggestion_1"
+        style="@style/TitleSuggestions.EditSuggestionTapTargetStyle">
+        <include layout="@layout/photos_flyingsky_title_suggestions_ui_edit_button"/>
+    </FrameLayout>
+    <TextView
+        android:id="@+id/suggestion_2"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/suggestion_1"
+        app:layout_constraintTop_toBottomOf="@+id/suggestion_1"
+        style="@style/TitleSuggestions.SuggestionStyle"/>
+    <FrameLayout
+        android:id="@+id/edit_suggestion_2_tap_target"
+        app:layout_constraintBottom_toBottomOf="@+id/suggestion_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/suggestion_2"
+        style="@style/TitleSuggestions.EditSuggestionTapTargetStyle">
+        <include layout="@layout/photos_flyingsky_title_suggestions_ui_edit_button"/>
+    </FrameLayout>
+    <TextView
+        android:id="@+id/suggestion_3"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/suggestion_2"
+        app:layout_constraintTop_toBottomOf="@+id/suggestion_2"
+        style="@style/TitleSuggestions.SuggestionStyle"/>
+    <FrameLayout
+        android:id="@+id/edit_suggestion_3_tap_target"
+        app:layout_constraintBottom_toBottomOf="@+id/suggestion_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/suggestion_3"
+        style="@style/TitleSuggestions.EditSuggestionTapTargetStyle">
+        <include layout="@layout/photos_flyingsky_title_suggestions_ui_edit_button"/>
+    </FrameLayout>
+    <ViewStub
+        android:id="@+id/refresh_layout_view_stub"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/suggestion_3"
+        app:layout_constraintStart_toStartOf="@+id/suggestion_3"
+        app:layout_constraintTop_toBottomOf="@+id/suggestion_3"/>
+</android.support.constraint.ConstraintLayout>

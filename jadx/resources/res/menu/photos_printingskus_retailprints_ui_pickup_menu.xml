@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/delete_order"
+        android:title="@string/photos_printingskus_common_ui_order_delete"
+        support:showAsAction="never"/>
+    <item
+        android:id="@+id/photos_pager_menu_action_bar_help"
+        android:title="@string/photos_app_menu_item_help_feedback"
+        support:showAsAction="never"/>
+</menu>

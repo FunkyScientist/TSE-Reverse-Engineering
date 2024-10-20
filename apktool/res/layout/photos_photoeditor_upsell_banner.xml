@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/photos_photoeditor_upsell_banner" android:visibility="gone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/photos_photoeditor_upsell_banner_cardview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" app:cardBackgroundColor="@color/google_white" app:cardCornerRadius="8.0dip" app:cardElevation="6.0dip" app:strokeWidth="0.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/photos_photoeditor_upsell_banner_height">
+            <ImageView android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/photos_googleoneassets_logo_ring_36" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+            <TextView android:textAppearance="@style/TextAppearance.Photos.Body2" android:textColor="@color/google_grey800" android:gravity="start|center" android:id="@id/photos_photoeditor_upsell_banner_textview" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/photos_photoeditor_fragments_editor3_upsell_banner" android:layout_weight="1.0" android:textAlignment="textStart" />
+            <ImageView android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="fill_parent" android:tint="@color/google_blue600" android:paddingStart="0.0dip" android:paddingEnd="21.0dip" app:srcCompat="@drawable/quantum_gm_ic_arrow_forward_vd_theme_24" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

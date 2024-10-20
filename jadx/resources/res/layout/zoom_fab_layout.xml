@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.floatingactionbutton.FloatingActionButton xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/zoom_fab_layout"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/photos_gridlayers_floating_action_button_zoom_in_content_description"
+    support:fabSize="normal"
+    support:srcCompat="@drawable/quantum_gm_ic_zoom_in_vd_theme_24"
+    style="@style/Widget.Photos.GridFloatingActionButton"/>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="launchscreens_google_logo_bottom">104.0dip</dimen>
+    <dimen name="launchscreens_product_logo_bottom">64.0dip</dimen>
+    <dimen name="photos_update_treatment_promo_page_notnow_button_bottom_margin">18.0dip</dimen>
+</resources>

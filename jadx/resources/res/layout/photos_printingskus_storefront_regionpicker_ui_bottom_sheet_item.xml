@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="56dp">
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body1"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/region_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="24dp"/>
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/checkbox"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:tint="?attr/photosPrimary"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:tintMode="multiply"
+        app:srcCompat="@drawable/quantum_gm_ic_done_vd_theme_24"/>
+</LinearLayout>

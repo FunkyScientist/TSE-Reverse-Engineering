@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25 ಪಟ್ಟು</item>
+        <item>0.5 ಪಟ್ಟು</item>
+        <item>0.75 ಪಟ್ಟು</item>
+        <item>ಸಾಮಾನ್ಯ</item>
+        <item>1.25 ಪಟ್ಟು</item>
+        <item>1.5 ಪಟ್ಟು</item>
+        <item>2 ಪಟ್ಟು</item>
+    </string-array>
+    <string-array name="photos_album_titlecard_narrative_add_description_alternates">
+        <item>ನೀವು ಸದಾ ನೆನಪಿಟ್ಟುಕೊಳ್ಳಲು ಬಯಸುವ ಮೂರು ವಿಷಯಗಳು ಯಾವುವು?</item>
+        <item>ಈ ಈವೆಂಟ್ ಅನ್ನು ನಿಮ್ಮ ಫ್ಯೂಚರ್ ಸೆಲ್ಫ್‌ಗೆ ವಿವರಿಸಿ</item>
+        <item>ಈ ಸವಿನೆನಪನ್ನು ವಿವರಿಸಲು ಒಂದು ವಾಕ್ಯವನ್ನು ಸೇರಿಸಿ…</item>
+        <item>ಈ ದಿನವನ್ನು ನೀವು ಹೇಗೆ ನೆನಪಿಸಿಕೊಳ್ಳುತ್ತೀರಿ?</item>
+    </string-array>
+    <string-array name="photos_album_titlecard_narrative_prompt">
+        <item>ಈ ಸವಿನೆನಪಿನ ಕುರಿತಾದ ವಿಶೇಷತೆ ಏನು?</item>
+        <item>ಈ ಸವಿನೆನಪು ಏಕೆ ಮುಖ್ಯವಾಗಿತ್ತು?</item>
+        <item>ಈ ಕ್ಷಣದಲ್ಲಿನ ನಿಮ್ಮ ಮೆಚ್ಚಿನ ಭಾಗ ಯಾವುದು?</item>
+        <item>ಈ ಕ್ಷಣವನ್ನು ವಿಶೇಷವಾಗಿಸಿದ್ದು ಯಾವುದು?</item>
+    </string-array>
+    <string-array name="photos_allphotos_ui_actionconfirmation_delete_from_device_message">
+        <item>@string/photos_allphotos_ui_actionconfirmation_delete_from_device_message_one</item>
+        <item>@string/photos_allphotos_ui_actionconfirmation_delete_from_device_message_other</item>
+    </string-array>
+    <string-array name="photos_allphotos_ui_actionconfirmation_delete_from_device_warning">
+        <item>@string/photos_allphotos_ui_actionconfirmation_delete_from_device_warning_one</item>
+        <item>@string/photos_allphotos_ui_actionconfirmation_delete_from_device_warning_other</item>
+        <item>@string/photos_allphotos_ui_actionconfirmation_delete_from_device_warning_mixed</item>
+    </string-array>
+    <string-array name="photos_allphotos_ui_actionconfirmation_move_to_trash_messages">
+        <item>@string/photos_allphotos_ui_actionconfirmation_move_to_trash_folders_one</item>
+        <item>@string/photos_allphotos_ui_actionconfirmation_move_to_trash_folders_other</item>
+    </string-array>
+    <string-array name="photos_allphotos_ui_actionconfirmation_places_shared_message">
+        <item>@string/photos_allphotos_ui_actionconfirmation_places_shared_message_one</item>
+        <item>@string/photos_allphotos_ui_actionconfirmation_places_shared_message_other</item>
+    </string-array>
+    <string-array name="photos_envelope_addmedia_toast_optimistic_add_success_offline">
+        <item>@string/photos_envelope_addmedia_toast_optimistic_add_success_offline_single</item>
+        <item>@string/photos_envelope_addmedia_toast_optimistic_add_success_offline_multiple</item>
+    </string-array>
+    <string-array name="photos_localmedia_ui_deleteconfirm_delete_from_device_warnings">
+        <item>@string/photos_localmedia_ui_deleteconfirm_delete_from_device_warning_one</item>
+        <item>@string/photos_localmedia_ui_deleteconfirm_delete_from_device_warning_other</item>
+    </string-array>
+    <string-array name="photos_partneraccount_settings_receiver_autosave_options">
+        <item>@string/photos_partneraccount_settings_receiver_autosave_all</item>
+        <item>@string/photos_partneraccount_settings_receiver_autosave_none</item>
+        <item>@string/photos_partneraccount_settings_receiver_autosave_specific_people</item>
+    </string-array>
+    <string-array name="photos_partneraccount_settings_receiver_autosave_options_no_people">
+        <item>@string/photos_partneraccount_settings_receiver_autosave_all</item>
+        <item>@string/photos_partneraccount_settings_receiver_autosave_none</item>
+    </string-array>
+    <string-array name="photos_printingskus_photobook_picker_cannot_add_duplicate_photo_dialog_message">
+        <item>ಪುಟಕ್ಕೆ ನೀವು ಪ್ರತಿ ಪೋಟೋವಿನ ಒಂದು ಫೋಟೋವನ್ನು ಮಾತ್ರ ಸೇರಿಸಬಹುದು</item>
+    </string-array>
+    <string-array name="photos_printingskus_photobook_picker_cannot_add_duplicate_photo_dialog_title">
+        <item>ನಕಲಿ ಫೋಟೋವನ್ನು ಸೇರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ</item>
+    </string-array>
+    <string-array name="photos_printingskus_photobook_picker_duplicate_check_dialog_message">
+        <item>ಈ ಫೋಟೋವನ್ನು ಈಗಾಗಲೇ ನಿಮ್ಮ ಪುಸ್ತಕದಲ್ಲಿ ಬಳಸಲಾಗಿದೆ</item>
+        <item>ಈ ಕೆಲವು ಫೋಟೋಗಳನ್ನು ಈಗಾಗಲೇ ನಿಮ್ಮ ಪುಸ್ತಕದಲ್ಲಿ ಬಳಸಲಾಗಿದೆ</item>
+    </string-array>
+    <string-array name="photos_printingskus_photobook_picker_duplicate_check_dialog_title">
+        <item>ನಕಲು ಮಾಡಿದ ಫೋಟೋ ಸೇರಿಸುವುದೇ?</item>
+        <item>ನಕಲಿ ಪೋಟೋಗಳನ್ನು ಸಹ ಸೇರಿಸುವುದೇ?</item>
+    </string-array>
+    <string-array name="photos_search_ellmannchat_additional_feedback_down_reason">
+        <item>Offensive / unsafe / biased</item>
+        <item>Slow</item>
+        <item>Incorrect photos</item>
+        <item>Incorrect facts</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="photos_search_ellmannchat_additional_feedback_up_reason">
+        <item>Fast</item>
+        <item>Correct photos</item>
+        <item>Factually correct</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="photos_search_peoplegroupingonboarding_promo_recapture_desc_global_opt_in_personalized_copy2">
+        <item>@string/photos_search_peoplegroupingonboarding_promo_recapture_desc_global_opt_in_personalized_copy2_1face</item>
+        <item>@string/photos_search_peoplegroupingonboarding_promo_recapture_desc_global_opt_in_personalized_copy2_2faces</item>
+        <item>@string/photos_search_peoplegroupingonboarding_promo_recapture_desc_global_opt_in_personalized_copy2_3faces</item>
+        <item>@string/photos_search_peoplegroupingonboarding_promo_recapture_desc_global_opt_in_personalized_copy2_4faces</item>
+    </string-array>
+    <string-array name="photos_search_removeresults_feedback_title">
+        <item>@string/photos_search_removeresults_feedback_title_single</item>
+        <item>@string/photos_search_removeresults_feedback_title_multiple</item>
+    </string-array>
+    <string-array name="photos_search_removeresults_feedback_title_unnamed_person_cluster">
+        <item>@string/photos_search_removeresults_feedback_title_unnamed_person_cluster_single</item>
+        <item>@string/photos_search_removeresults_feedback_title_unnamed_person_cluster_multiple</item>
+    </string-array>
+    <string-array name="photos_search_removeresults_feedback_title_unnamed_pet_cluster">
+        <item>@string/photos_search_removeresults_feedback_title_unnamed_pet_cluster_single</item>
+        <item>@string/photos_search_removeresults_feedback_title_unnamed_pet_cluster_multiple</item>
+    </string-array>
+</resources>

@@ -1,0 +1,68 @@
+package p000;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public final class blom extends bfir implements bfjx {
+
+    /* renamed from: a */
+    public static final blom f118824a;
+
+    /* renamed from: f */
+    private static volatile bfkd f118825f;
+
+    /* renamed from: b */
+    public int f118826b;
+
+    /* renamed from: c */
+    public int f118827c;
+
+    /* renamed from: d */
+    public boolean f118828d;
+
+    /* renamed from: e */
+    public bfjb f118829e = bfkg.f99953a;
+
+    static {
+        blom blomVar = new blom();
+        f118824a = blomVar;
+        bfir.m39976aa(blom.class, blomVar);
+    }
+
+    private blom() {
+    }
+
+    @Override // p000.bfir
+    /* renamed from: a */
+    public final Object mo4203a(int i, Object obj) {
+        int i2 = i - 1;
+        if (i2 != 0) {
+            if (i2 != 2) {
+                if (i2 != 3) {
+                    if (i2 != 4) {
+                        if (i2 != 5) {
+                            if (i2 != 6) {
+                                return null;
+                            }
+                            bfkd bfkdVar = f118825f;
+                            if (bfkdVar == null) {
+                                synchronized (blom.class) {
+                                    bfkdVar = f118825f;
+                                    if (bfkdVar == null) {
+                                        bfkdVar = new bfim(f118824a);
+                                        f118825f = bfkdVar;
+                                    }
+                                }
+                            }
+                            return bfkdVar;
+                        }
+                        return f118824a;
+                    }
+                    return new bfil(f118824a);
+                }
+                return new blom();
+            }
+            return new bfkh(f118824a, "\u0004\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001᠌\u0000\u0002ဇ\u0001\u0003\u001b", new Object[]{"b", "c", bloa.f118712j, "d", "e", blok.class});
+        }
+        return (byte) 1;
+    }
+}

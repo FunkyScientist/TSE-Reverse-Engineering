@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/photos_mediadetails_suggestedeffects_item_bottom_margin"
+    app:cardUseCompatPadding="true">
+    <FrameLayout
+        android:id="@+id/photos_mediadetails_suggestedeffects_image_container"
+        android:background="@color/photos_daynight_grey100"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/photos_mediadetails_suggestedeffects_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"/>
+    </FrameLayout>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Subhead2.MediaDetailsExifItemText"
+        android:gravity="center"
+        android:id="@+id/photos_mediadetails_suggestedeffects_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/photos_mediadetails_suggestedeffects_image_bottom_margin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photos_mediadetails_suggestedeffects_image_container"/>
+</android.support.constraint.ConstraintLayout>

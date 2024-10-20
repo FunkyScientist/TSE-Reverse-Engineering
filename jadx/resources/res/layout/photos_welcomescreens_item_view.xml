@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/photos_welcomescreens_horizontal_padding"
+    android:paddingRight="@dimen/photos_welcomescreens_horizontal_padding"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/welcomescreens_animation"
+        android:layout_width="@dimen/photos_welcomescreens_animation_width"
+        android:layout_height="@dimen/photos_welcomescreens_animation_height"
+        android:layout_marginTop="@dimen/photos_welcomescreens_animation_top_padding"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"/>
+    <Space
+        android:id="@+id/welcomescreens_animation_built_in_margin_space"
+        android:layout_width="@dimen/photos_welcomescreens_text_alignment_padding"
+        android:layout_height="0dp"
+        android:layout_alignBottom="@+id/welcomescreens_animation"
+        android:layout_alignStart="@+id/welcomescreens_animation"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/welcomescreens_animation"
+        android:layout_alignParentBottom="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toEndOf="@+id/welcomescreens_animation_built_in_margin_space">
+        <TextView
+            android:textAppearance="@style/TextAppearance.Photos.Headline5"
+            android:textColor="?attr/colorOnBackground"
+            android:gravity="center"
+            android:id="@+id/welcomescreens_title"
+            android:paddingBottom="@dimen/photos_welcomescreens_title_bottom_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"/>
+        <include layout="@layout/photos_welcomescreens_subtitle_layout"/>
+    </LinearLayout>
+</RelativeLayout>

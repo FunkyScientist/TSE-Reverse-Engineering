@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.material.progress.MaterialProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/photos_photofragment_processing_progress_indeterminate"
+    android:layout_width="18dp"
+    android:layout_height="18dp"
+    android:indeterminate="true"
+    style="@style/Widget.GoogleLib.Progress.Circular.Indeterminate.Small"/>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="?attr/previewBackground"
+    android:paddingTop="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/low_res_warning"
+        android:paddingTop="8dp"
+        layout="@layout/book_low_res_header_item"/>
+    <include layout="@layout/photos_printingskus_photobook_pagelayout_editable_book_page"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/single_photo_layout_tray"
+        android:paddingTop="@dimen/photos_printingskus_photobook_preview_page_layout_toggle_container_padding"
+        android:paddingBottom="@dimen/photos_printingskus_photobook_preview_page_layout_toggle_container_padding"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/photos_printingskus_photobook_preview_tool_tray">
+        <include
+            android:id="@+id/scale_to_fit_button_layout"
+            layout="@layout/layout_switching_button"/>
+        <include
+            android:id="@+id/page_crop_button_layout"
+            layout="@layout/layout_switching_button"/>
+        <include
+            android:id="@+id/full_bleed_button_layout"
+            layout="@layout/layout_switching_button"/>
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <include
+        android:id="@+id/multi_photo_tool_tray"
+        layout="@layout/photos_printingskus_photobook_preview_page_tool_tray"/>
+</LinearLayout>

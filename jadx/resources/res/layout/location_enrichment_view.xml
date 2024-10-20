@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.album.enrichment.p004ui.LocationEnrichmentLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:id="@+id/photos_album_enrichment_ui_enrichment_content"
+        android:background="@drawable/enrichment_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:paddingTop="@dimen/photos_album_enrichment_ui_text_enrichment_vertical_margin"
+            android:paddingBottom="@dimen/photos_album_enrichment_ui_text_enrichment_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="@dimen/photos_album_enrichment_ui_text_enrichment_horizontal_margin"
+            android:paddingEnd="@dimen/photos_album_enrichment_ui_text_enrichment_horizontal_margin">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/photos_album_enrichment_ui_location_content"
+                android:paddingTop="@dimen/photos_album_enrichment_ui_location_enrichment_vertical_margin"
+                android:paddingBottom="@dimen/photos_album_enrichment_ui_location_enrichment_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/photos_album_enrichment_ui_location_enrichment_horizontal_margin"
+                android:paddingEnd="@dimen/photos_album_enrichment_ui_location_enrichment_horizontal_margin">
+                <ImageView
+                    android:id="@+id/photos_album_enrichment_ui_location_icon"
+                    android:padding="3dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:contentDescription="@null"
+                    android:layout_marginEnd="12dp"/>
+                <TextView
+                    android:gravity="start"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/location_enrichment_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textIsSelectable="false"
+                    android:textDirection="locale"
+                    style="@style/Photos.Album.Enrichment.Ui.LocationEnrichmentTextView"/>
+            </LinearLayout>
+        </FrameLayout>
+        <include layout="@layout/enrichment_adornments_layout"/>
+    </FrameLayout>
+    <include layout="@layout/photos_list_remove_button_white"/>
+</com.google.android.apps.photos.album.enrichment.p004ui.LocationEnrichmentLayout>

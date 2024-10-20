@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView android:layout_gravity="center" android:id="@id/photos_photoeditor_fragments_editor3_suggestion_recyclerview" android:paddingTop="24.0dip" android:paddingBottom="24.0dip" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="@dimen/photos_photoeditor_fragments_editor3_control_bar_layout_height" android:paddingStart="@dimen/photos_photoeditor_fragments_editor3_suggestion_recycler_view_side_padding" android:paddingEnd="@dimen/photos_photoeditor_fragments_editor3_suggestion_recycler_view_side_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

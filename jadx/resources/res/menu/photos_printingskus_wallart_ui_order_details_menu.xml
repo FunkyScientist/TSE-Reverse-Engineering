@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/buy_identical"
+        android:title="@string/photos_printingskus_wallart_ui_order_buy_idential"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/delete_order"
+        android:title="@string/photos_printingskus_common_ui_order_delete"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/download_pdf"
+        android:title="@string/photos_printingskus_wallart_ui_order_download_pdf"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/photos_pager_menu_action_bar_help"
+        android:title="@string/photos_app_menu_item_help_feedback"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="30dp"
+    android:paddingEnd="12dp">
+    <com.google.android.material.button.MaterialButton
+        android:gravity="start"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/photos_photoeditor_fragments_editor3_mute"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        android:contentDescription="@string/photos_photoeditor_fragments_editor3_a11y_mute_audio"
+        android:paddingEnd="30dp"
+        app:icon="@drawable/quantum_gm_ic_volume_up_vd_theme_24"
+        app:iconPadding="0dp"
+        app:iconSize="24dp"
+        app:iconTint="@color/photos_photoeditor_commonui_icon_color"
+        style="@style/Widget.Photos.Button.Borderless"/>
+    <com.google.android.material.button.MaterialButton
+        android:gravity="start"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/photos_photoeditor_fragments_editor3_stabilize"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        android:contentDescription="@string/photos_photoeditor_commonui_a11y_stabilize_video"
+        android:paddingStart="20dp"
+        android:paddingEnd="30dp"
+        app:icon="@drawable/quantum_gm_ic_video_stable_vd_theme_24"
+        app:iconPadding="0dp"
+        app:iconSize="24dp"
+        app:iconTint="@color/photos_photoeditor_commonui_icon_color"
+        style="@style/Widget.Photos.Button.Borderless"/>
+    <RelativeLayout
+        android:gravity="start"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/photos_photoeditor_fragments_editor3_video_hint_view_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

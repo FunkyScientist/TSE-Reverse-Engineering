@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.view.RoundedCornerImageView android:id="@id/thumbnail_preview" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="centerCrop" android:contentDescription="@null" app:radius="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

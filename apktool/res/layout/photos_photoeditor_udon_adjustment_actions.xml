@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/photos_photoeditor_udon_close_button" android:background="@drawable/photos_photoeditor_udon_button_circle_background" android:padding="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:contentDescription="@string/photos_photoeditor_fragments_editor3_cancel" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true" app:iconTint="@color/photos_photoeditor_commonui_icon_color" app:srcCompat="@drawable/quantum_gm_ic_close_vd_theme_24" />
+    <ImageView android:id="@id/photos_photoeditor_udon_done_button" android:background="@drawable/photos_photoeditor_udon_accept_circle_background" android:padding="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:contentDescription="@string/photos_strings_confirm_button" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" app:iconTint="@color/photos_photoeditor_commonui_icon_color" app:srcCompat="@drawable/quantum_gm_ic_check_vd_theme_24" />
+</merge>

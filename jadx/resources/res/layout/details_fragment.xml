@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/photos_mediadetails_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="100dp">
+    <com.google.android.apps.photos.orthogonalscroll.VerticalParentRecyclerView
+        android:id="@+id/details_list"
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:overScrollMode="never"/>
+</FrameLayout>

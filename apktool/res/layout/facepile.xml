@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/faces" android:paddingLeft="@dimen/photos_album_titlecard_facepile_start_padding" android:paddingRight="@dimen/photos_album_titlecard_facepile_start_padding" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/photos_album_titlecard_facepile_start_padding" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/owner_info" android:paddingLeft="@dimen/photos_album_titlecard_facepile_start_padding" android:paddingRight="@dimen/photos_album_titlecard_facepile_start_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/photos_album_titlecard_facepile_start_padding">
+        <include android:id="@id/owner_face" layout="@layout/photos_album_titlecard_facepile_face" />
+        <TextView android:textColor="?colorOnSurface" android:ellipsize="end" android:gravity="center" android:id="@id/collection_owner_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/photos_album_titlecard_facepile_margin_top" android:layout_marginBottom="@dimen/photos_album_titlecard_facepile_margin_bottom" android:maxLines="1" android:paddingStart="@dimen/photos_album_titlecard_facepile_horizontal_spacing" style="@style/TextAppearance.Photos.Subhead2" />
+    </LinearLayout>
+</FrameLayout>

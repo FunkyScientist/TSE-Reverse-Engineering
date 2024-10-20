@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.orthogonalscroll.VerticalParentRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/photos_grid_action_panel_recycler"
+    android:background="@drawable/photos_gridactionpanel_impl_rounded_background"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="@dimen/photos_gridactionpanel_elevation"/>

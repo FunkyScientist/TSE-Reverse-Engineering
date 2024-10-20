@@ -1,0 +1,77 @@
+.class public final Leef;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# direct methods
+.method public static final a(Lecl;Lbkfw;)Lecl;
+    .locals 1
+
+    .line 1
+    new-instance v0, Landroidx/compose/ui/draw/DrawBehindElement;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p1}, Landroidx/compose/ui/draw/DrawBehindElement;-><init>(Lbkfw;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-interface {p0, v0}, Lecl;->a(Lecl;)Lecl;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object p0
+
+    .line 10
+    return-object p0
+.end method
+
+.method public static final b(Lecl;Lbkfw;)Lecl;
+    .locals 1
+
+    .line 1
+    new-instance v0, Landroidx/compose/ui/draw/DrawWithCacheElement;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p1}, Landroidx/compose/ui/draw/DrawWithCacheElement;-><init>(Lbkfw;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-interface {p0, v0}, Lecl;->a(Lecl;)Lecl;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object p0
+
+    .line 10
+    return-object p0
+.end method
+
+.method public static final c(Lecl;Lbkfw;)Lecl;
+    .locals 1
+
+    .line 1
+    new-instance v0, Landroidx/compose/ui/draw/DrawWithContentElement;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p1}, Landroidx/compose/ui/draw/DrawWithContentElement;-><init>(Lbkfw;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-interface {p0, v0}, Lecl;->a(Lecl;)Lecl;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object p0
+
+    .line 10
+    return-object p0
+.end method

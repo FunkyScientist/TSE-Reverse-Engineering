@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/photos_photoeditor_udon_result_hint_background" android:padding="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0dip" android:textColor="?colorOnBackground" android:ellipsize="end" android:id="@id/photos_photoeditor_udon_result_hint" android:layout_width="wrap_content" android:layout_height="20.0dip" android:maxWidth="250.0dip" android:singleLine="true" android:drawablePadding="8.0dip" android:drawableTint="@color/google_default_color_inverse_primary_google" app:drawableStartCompat="@drawable/photos_photoeditor_udon_result_hint_icon" />
+    <ImageView android:id="@id/photos_photoeditor_udon_result_hint_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" android:layout_marginStart="8.0dip" app:srcCompat="@drawable/gs_info_vd_theme_20" />
+</LinearLayout>

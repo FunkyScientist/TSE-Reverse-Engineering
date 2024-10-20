@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ellmann_suggestion_button"
+    android:focusable="true"
+    android:visibility="gone"
+    android:clickable="true"
+    android:layout_width="@dimen/photos_flyingsky_confirmasuggestion_ellmann_suggestion_button_size"
+    android:layout_height="@dimen/photos_flyingsky_confirmasuggestion_ellmann_suggestion_button_size"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginBottom="8dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:contentDescription="@string/photos_strings_untitled_album_hint_text"
+    android:layout_marginHorizontal="6dp"
+    app:layout_constraintBottom_toBottomOf="@+id/suggestion_title_edit_text"
+    app:layout_constraintEnd_toEndOf="@+id/suggestion_title_edit_text">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/photos_ellmann_icon_background_animation"/>
+    <ImageButton
+        android:layout_gravity="center"
+        android:background="@null"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tint="?attr/colorOnSurface"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/photos_quantum_gm_gs_pen_spark_vd_theme_18"/>
+</FrameLayout>

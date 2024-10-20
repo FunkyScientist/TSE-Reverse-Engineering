@@ -1,0 +1,27 @@
+.class Lawpy;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# instance fields
+.field public date:Ljava/lang/String;
+
+.field public day:Ljava/lang/Integer;
+
+.field public time:Ljava/lang/String;
+
+.field public truncated:Ljava/lang/Boolean;
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

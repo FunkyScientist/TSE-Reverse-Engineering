@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/google_black" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:theme="?actionBarTheme" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:navigationIcon="@drawable/quantum_gm_ic_close_vd_theme_24" style="?actionBarStyle" />
+    <android.support.v7.widget.RecyclerView android:layout_gravity="center" android:id="@id/photos_photoeditor_fragments_suggestionspreview_preview" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="top" android:id="@id/feedback_view_stub" android:inflatedId="@id/feedback_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="56.0dip" />
+    <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/photos_photoeditor_upsell_banner_height" android:layout_marginBottom="@dimen/photos_photoeditor_preview_toolbar_height" layout="@layout/photos_photoeditor_upsell_banner" />
+    <android.support.v7.widget.Toolbar android:layout_gravity="bottom" android:id="@id/photos_photoeditor_suggestionspreview_toolbar" android:background="@color/google_black" android:layout_width="fill_parent" android:layout_height="@dimen/photos_photoeditor_preview_toolbar_height" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" style="?actionBarStyle">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.material.button.MaterialButton android:textColor="@color/google_white" android:id="@id/photos_photoeditor_suggestionspreview_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_photoeditor_commonui_editor_action_cancel" android:layout_alignParentStart="true" style="@style/Widget.Photos.Button.ElevatedButton" />
+            <com.google.android.material.button.MaterialButton android:textColor="@color/google_grey900" android:id="@id/photos_photoeditor_preview_share_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_strings_share_action" android:layout_alignParentEnd="true" android:backgroundTint="?photosPrimary" style="@style/Widget.Photos.Button.ElevatedButton" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <android.widget.ProgressBar android:layout_gravity="center" android:id="@id/suggestion_editor_spinner" android:layout_width="48.0dip" android:layout_height="48.0dip" android:alpha="0.0" style="@style/Widget.Photos.ProgressBar.IndeterminateWhite" />
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="40.5dip" android:width="151.0dip" android:autoMirrored="true" android:viewportWidth="151.0" android:viewportHeight="40.5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/photos_daynight_grey100" android:pathData="M16.2,37H1.8c-1,0 -1.8,0.8 -1.8,1.8s0.8,1.8 1.8,1.8h14.5c1,0 1.8,-0.8 1.8,-1.8S17.2,37 16.2,37z" />
+    <path android:fillColor="@color/photos_daynight_grey100" android:pathData="M24.2,32H1.8c-1,0 -1.8,0.8 -1.8,1.8s0.8,1.8 1.8,1.8h22.5c1,0 1.8,-0.8 1.8,-1.8S25.2,32 24.2,32z" />
+    <path android:fillColor="@color/photos_daynight_grey100" android:pathData="M26,0H4C1.8,0 0,1.8 0,4v22c0,2.2 1.8,4 4,4h22c2.2,0 4,-1.8 4,-4V4C30,1.8 28.2,0 26,0z" />
+    <path android:fillColor="@color/photos_daynight_grey100" android:pathData="M50.2,37H35.8c-1,0 -1.8,0.8 -1.8,1.8s0.8,1.8 1.8,1.8h14.5c1,0 1.8,-0.8 1.8,-1.8S51.2,37 50.2,37z" />
+    <path android:fillColor="@color/photos_daynight_grey100" android:pathData="M58.2,32H35.8c-1,0 -1.8,0.8 -1.8,1.8s0.8,1.8 1.8,1.8h22.5c1,0 1.8,-0.8 1.8,-1.8S59.2,32 58.2,32z" />
+    <path android:fillColor="@color/photos_daynight_grey100" android:pathData="M60,0H38c-2.2,0 -4,1.8 -4,4v22c0,2.2 1.8,4 4,4h22c2.2,0 4,-1.8 4,-4V4C64,1.8 62.2,0 60,0z" />
+    <path android:fillColor="@color/photos_daynight_grey100" android:pathData="M84.2,37H69.8c-1,0 -1.8,0.8 -1.8,1.8s0.8,1.8 1.8,1.8h14.5c1,0 1.8,-0.8 1.8,-1.8S85.2,37 84.2,37z" />
+    <path android:fillColor="@color/photos_daynight_grey100" android:pathData="M92.2,32H69.8c-1,0 -1.8,0.8 -1.8,1.8s0.8,1.8 1.8,1.8h22.5c1,0 1.8,-0.8 1.8,-1.8S93.2,32 92.2,32z" />
+    <path android:fillColor="@color/photos_daynight_grey100" android:pathData="M94,0H72c-2.2,0 -4,1.8 -4,4v22c0,2.2 1.8,4 4,4h22c2.2,0 4,-1.8 4,-4V4C98,1.8 96.2,0 94,0z" />
+    <path android:fillColor="@color/photos_daynight_grey100" android:pathData="M118.2,37h-14.5c-1,0 -1.8,0.8 -1.8,1.8s0.8,1.8 1.8,1.8h14.5c1,0 1.8,-0.8 1.8,-1.8S119.2,37 118.2,37z" />
+    <path android:fillColor="@color/photos_daynight_grey100" android:pathData="M126.2,32h-22.5c-1,0 -1.8,0.8 -1.8,1.8s0.8,1.8 1.8,1.8h22.5c1,0 1.8,-0.8 1.8,-1.8S127.2,32 126.2,32z" />
+    <path android:fillColor="@color/photos_daynight_grey100" android:pathData="M128,0h-22c-2.2,0 -4,1.8 -4,4v22c0,2.2 1.8,4 4,4h22c2.2,0 4,-1.8 4,-4V4C132,1.8 130.2,0 128,0z" />
+    <path android:fillColor="@color/photos_daynight_grey100" android:pathData="M136,38.8c0,1 0.8,1.8 1.8,1.8H151V37h-13.2C136.8,37 136,37.8 136,38.8z" />
+    <path android:fillColor="@color/photos_daynight_grey100" android:pathData="M136,33.8c0,1 0.8,1.8 1.8,1.8H151V32h-13.2C136.8,32 136,32.8 136,33.8z" />
+    <path android:fillColor="@color/photos_daynight_grey100" android:pathData="M140,0c-2.2,0 -4,1.8 -4,4v22c0,2.2 1.8,4 4,4h11V0H140z" />
+</vector>

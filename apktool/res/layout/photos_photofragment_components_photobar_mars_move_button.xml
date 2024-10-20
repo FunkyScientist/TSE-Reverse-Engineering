@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButton android:id="@id/mars_move_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/photos_photofragment_components_photobar_action_move_from_mars" app:icon="@drawable/photos_photofragment_components_photobar_ic_folder_open_24" style="@style/Widget.Photos.Button.TextButton.PhotoBar.LargePhotoBarButton" />
+</FrameLayout>

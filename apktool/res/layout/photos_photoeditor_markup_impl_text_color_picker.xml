@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView android:id="@id/photos_photoeditor_markup_impl_text_color_picker" android:background="@color/google_black" android:paddingTop="@dimen/photos_photoeditor_markup_impl_color_picker_padding_vertical" android:paddingBottom="@dimen/photos_photoeditor_markup_impl_color_picker_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

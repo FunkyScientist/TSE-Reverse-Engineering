@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_gravity="center_vertical" android:id="@id/size_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/photos_printingskus_wallart_ui_switching_button_default_margin" support:strokeColor="@color/photos_printingskus_wallart_ui_size_selection_button_stroke"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/photos_printingskus_wallart_ui_switching_button_width" android:minHeight="72.0dip">
+        <TextView android:textAppearance="@style/TextAppearance.Photos.Subhead1" android:textColor="?colorOnSurface" android:layout_gravity="center" android:id="@id/product_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textAppearance="@style/TextAppearance.Photos.Caption" android:textColor="?photosOnSurfaceVariant" android:layout_gravity="center" android:id="@id/product_price" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/default_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:src="@drawable/photos_printingskus_wallart_ui_default_indicator" android:contentDescription="@string/photos_printingskus_wallart_ui_default_indicator_content_description" android:layout_marginEnd="7.0dip" />
+</com.google.android.material.card.MaterialCardView>

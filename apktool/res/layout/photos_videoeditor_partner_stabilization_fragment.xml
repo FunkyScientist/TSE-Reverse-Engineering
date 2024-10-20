@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/photos_videoeditor_partner_background_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/photos_videoeditor_partner_skip_layout_bottom_margin">
+        <Button android:textColor="@color/google_white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/photos_videoeditor_partner_skip_stabilization_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_videoeditor_partner_skip_stabilization" style="?borderlessButtonStyle" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/google_white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/photos_videoeditor_partner_skip_if_stable_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_videoeditor_partner_skip_stabilization_label" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.libraries.material.progress.MaterialProgressBar android:layout_gravity="center_horizontal" android:id="@id/photos_videoeditor_partner_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/photos_videoeditor_partner_partner_progress_margin" android:indeterminate="true" app:mtrlColor="@color/google_white" style="@style/Widget.GoogleLib.Progress.Circular.Determinate" />
+        <TextView android:textColor="@color/google_white" android:id="@id/photos_videoeditor_partner_spinner_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_videoeditor_partner_stabilizing_video" />
+    </LinearLayout>
+</FrameLayout>

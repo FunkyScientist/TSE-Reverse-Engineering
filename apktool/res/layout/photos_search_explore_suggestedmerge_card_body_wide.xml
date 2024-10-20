@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/card_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/avatar_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="18.0dip">
+        <include android:id="@id/source_avatar" layout="@layout/photos_search_explore_suggestedmerge_avatar" />
+        <include android:id="@id/destination_avatar" layout="@layout/photos_search_explore_suggestedmerge_avatar" />
+    </LinearLayout>
+    <android.support.v7.widget.AppCompatTextView android:textAppearance="@style/TextAppearance.Photos.Headline4" android:textColor="?colorOnBackground" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/photos_search_explore_suggestedmerge_question_text_v2" android:singleLine="false" android:layout_weight="1.0" android:layout_marginStart="@dimen/photos_search_explore_suggestedmerge_question_margin" />
+    <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+        <android.support.v7.widget.AppCompatTextView android:id="@id/yes_button" android:text="@string/photos_search_explore_suggestedmerge_same_person_button_text" app:drawableTopCompat="@drawable/quantum_gm_ic_check_vd_theme_24" style="@style/SuggestedMergeButton" />
+        <android.support.v7.widget.AppCompatTextView android:id="@id/no_button" android:text="@string/photos_search_explore_suggestedmerge_different_person_button_text" android:layout_marginStart="@dimen/photos_search_explore_suggestedmerge_button_spacing_wide" android:layout_marginEnd="@dimen/photos_search_explore_suggestedmerge_button_spacing_wide" app:drawableTopCompat="@drawable/quantum_gm_ic_not_interested_vd_theme_24" style="@style/SuggestedMergeButton" />
+        <android.support.v7.widget.AppCompatTextView android:id="@id/notsure_button" android:text="@string/photos_search_explore_suggestedmerge_notsure_button_text" app:drawableTopCompat="@drawable/quantum_gm_ic_help_outline_vd_theme_24" style="@style/SuggestedMergeButton" />
+    </LinearLayout>
+</LinearLayout>

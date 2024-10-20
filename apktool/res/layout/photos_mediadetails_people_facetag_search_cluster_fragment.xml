@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/back_button" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/photos_strings_back_button" android:layout_alignParentStart="true" app:srcCompat="@drawable/quantum_gm_ic_arrow_back_vd_theme_24" />
+        <EditText android:textAppearance="@style/TextAppearance.Photos.Headline6" android:textSize="@dimen/text_size_16" android:id="@id/face_tag_search_box" android:background="@android:color/transparent" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/photos_mediadetails_people_facetag_search_person_hint" android:maxLines="1" android:inputType="textCapWords" android:imeOptions="actionDone|flagNoExtractUi" android:layout_toStartOf="@id/clear_text" android:layout_toEndOf="@id/back_button" android:importantForAutofill="no" />
+        <ImageView android:id="@id/clear_text" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/clear_text" android:layout_alignParentEnd="true" app:srcCompat="@drawable/quantum_gm_ic_close_vd_theme_24" />
+        <ImageView android:id="@id/search_box_divider" android:background="?colorOutline" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_below="@id/face_tag_search_box" android:contentDescription="@null" android:layout_toEndOf="@id/back_button" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <android.support.v7.widget.RecyclerView android:id="@id/search_cluster_main" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/photos_emptystate_container" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:layout_gravity="top" android:id="@id/photos_search_searchresults_optout_chips_container" android:background="?colorSurface" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.chip.ChipGroup android:gravity="start" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/photos_search_optout_chipgroup_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="false" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:singleLine="true">
+        <com.google.android.material.chip.Chip android:id="@id/photos_search_optout_most_recent_chip_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/photos_search_searchresults_most_recent_chip" style="@style/photos_search_optout_chip" />
+        <com.google.android.material.chip.Chip android:id="@id/photos_search_optout_best_match_chip_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/photos_search_searchresults_best_match_chip" style="@style/photos_search_optout_chip" />
+    </com.google.android.material.chip.ChipGroup>
+</HorizontalScrollView>

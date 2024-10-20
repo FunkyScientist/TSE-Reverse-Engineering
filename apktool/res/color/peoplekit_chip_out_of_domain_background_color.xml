@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="#33f9ab00" />
+    <item android:state_selected="true" android:color="@color/google_yellow600" android:alpha="@dimen/peoplekit_chip_out_of_domain_selected_state_opacity" />
+    <item android:state_selected="false" android:color="@color/google_yellow50" />
+</selector>

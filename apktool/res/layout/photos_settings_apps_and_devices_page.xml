@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/photos_settings_header_and_footer_spacing" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/free_up_space_title" layout="@layout/photos_settings_button_layout" />
+            <Button android:id="@id/free_up_space_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/photos_settings_device_management_title" android:layout_marginHorizontal="16.0dip" style="@style/Widget.Photos.Button.StrokedButton" />
+        </LinearLayout>
+        <include android:id="@id/photo_frames_button_divider" layout="@layout/photos_settings_divider_layout" />
+        <include android:id="@id/photo_frames_button" layout="@layout/photos_settings_button_layout" />
+        <include android:id="@id/sd_cards_button_divider" layout="@layout/photos_settings_divider_layout" />
+        <include android:id="@id/sd_cards_button" layout="@layout/photos_settings_button_layout" />
+        <include android:id="@id/raw_editor_button_divider" android:visibility="gone" layout="@layout/photos_settings_divider_layout" />
+        <include android:id="@id/raw_editor_button" layout="@layout/photos_settings_button_layout" />
+        <include android:id="@id/google_photos_access_button_divider" layout="@layout/photos_settings_divider_layout" />
+        <include android:id="@id/google_photos_access_button" layout="@layout/photos_settings_button_layout" />
+        <include layout="@layout/photos_settings_header_and_footer_spacing" />
+    </LinearLayout>
+</ScrollView>

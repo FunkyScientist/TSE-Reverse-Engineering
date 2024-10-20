@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/photos_partneraccount_settings_ui_fragment" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" style="@style/Widget.Photos.ActionMode.ActionBar.WithHome" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:headerDividersEnabled="false" android:footerDividersEnabled="false" android:paddingStart="8.0dip" android:paddingEnd="-4.0dip" style="@style/Theme.Photos.PartnerAccount.Settings" />
+    </LinearLayout>
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Body2" android:textColor="?photosOnSurfaceVariant" android:id="@id/photos_partneraccount_onboarding_backup_off_banner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/photos_partneraccount_settings_ui_backup_off_banner_margin" />
+</LinearLayout>

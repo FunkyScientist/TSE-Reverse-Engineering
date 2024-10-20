@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/peoplekit_dialog_legalese_notice_side_padding" android:paddingTop="@dimen/peoplekit_dialog_legalese_notice_top_padding" android:paddingRight="@dimen/peoplekit_dialog_legalese_notice_side_padding" android:paddingBottom="@dimen/peoplekit_dialog_legalese_notice_bottom_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/peoplekit_dialog_legalese_notice_side_padding" android:paddingEnd="@dimen/peoplekit_dialog_legalese_notice_side_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.GoogleMaterial.Subhead1" android:gravity="center" android:id="@id/peoplekit_suggestions_notice_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/peoplekit_suggestions_notice_title_value" />
+    <ScrollView android:paddingTop="@dimen/peoplekit_dialog_legalese_notice_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/peoplekit_suggestions_notice_title">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.GoogleMaterial.Body2" android:id="@id/peoplekit_suggestions_notice_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="@style/TextAppearance.GoogleMaterial.Body2" android:id="@id/peoplekit_suggestions_notice_for_hide_contact" android:paddingTop="@dimen/peoplekit_dialog_legalese_notice_content_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/peoplekit_suggestions_notice_for_hide_contact_value" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

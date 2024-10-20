@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <size
+        android:height="@dimen/photos_microvideo_stillexporter_beta_dot_diameter"
+        android:width="@dimen/photos_microvideo_stillexporter_beta_dot_diameter"/>
+    <solid android:color="@color/photos_microvideo_stillexporter_beta_blue_dot_color"/>
+</shape>

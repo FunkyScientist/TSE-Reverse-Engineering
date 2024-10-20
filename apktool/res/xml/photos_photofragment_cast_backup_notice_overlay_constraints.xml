@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConstraintSet
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Constraint android:layout_gravity="center" android:id="@id/photo_view" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="100.0dip" android:layout_marginBottom="24.0dip" android:layout_marginStart="52.0dip" android:layout_marginEnd="52.0dip" app:layout_constraintBottom_toTopOf="@id/text_and_buttons" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <Constraint android:id="@id/text_and_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_marginStart="42.0dip" android:layout_marginEnd="42.0dip" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</ConstraintSet>

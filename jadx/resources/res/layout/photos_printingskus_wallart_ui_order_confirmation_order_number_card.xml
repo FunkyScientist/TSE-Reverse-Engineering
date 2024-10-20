@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/order_number_card"
+    android:paddingBottom="24dp"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textAppearance="@style/photos_printingskus_wallart_ui_order_section_label"
+        android:id="@+id/order_number_title"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_printingskus_wallart_ui_order_confirmation_order_number"
+        android:textDirection="locale"
+        android:textAlignment="gravity"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body2"
+        android:textColor="?attr/colorOnSurface"
+        android:id="@+id/order_number_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textDirection="locale"
+        android:textAlignment="gravity"/>
+</LinearLayout>

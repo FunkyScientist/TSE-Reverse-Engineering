@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButton android:textSize="14.0sp" android:layout_gravity="center_horizontal" android:id="@id/review_more" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/photos_search_guidedconfirmation_confirm_more" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    <com.google.android.material.button.MaterialButton android:textSize="14.0sp" android:textColor="?photosPrimary" android:layout_gravity="center_horizontal" android:id="@id/done_for_now" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_search_guidedconfirmation_done_for_now" android:textAllCaps="false" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" app:rippleColor="?photosPrimary" style="@style/Widget.Photos.Button.Borderless" />
+</LinearLayout>

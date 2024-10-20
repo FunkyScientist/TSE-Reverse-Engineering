@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body1"
+        android:textColor="?attr/colorOnSurface"
+        android:gravity="start"
+        android:id="@+id/label"
+        android:textDirection="locale"
+        android:textAlignment="gravity"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body1"
+        android:textColor="?attr/colorOnSurface"
+        android:gravity="end"
+        android:id="@+id/cost"
+        android:textDirection="locale"
+        android:textAlignment="gravity"/>
+</TableRow>

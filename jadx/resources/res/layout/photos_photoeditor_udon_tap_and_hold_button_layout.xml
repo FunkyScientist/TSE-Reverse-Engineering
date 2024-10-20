@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/photos_photoeditor_udon_tap_and_hold"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp">
+    <ImageView
+        android:id="@+id/photos_photoeditor_udon_tap_and_hold_button"
+        android:background="@drawable/photos_photoeditor_udon_button_circle_background"
+        android:padding="8dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:tint="@color/photos_photoeditor_commonui_icon_color"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/gs_compare_vd_theme_24"/>
+</LinearLayout>

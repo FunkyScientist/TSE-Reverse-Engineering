@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/text_size_16"
+    android:textColor="?attr/colorOnSurface"
+    android:ellipsize="end"
+    android:id="@+id/photos_memories_gridhighlights_overflow_item_text"
+    android:paddingTop="14dp"
+    android:paddingBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:contentDescription="@null"
+    android:paddingStart="16dp"
+    android:paddingEnd="8dp"/>

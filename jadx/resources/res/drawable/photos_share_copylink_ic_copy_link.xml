@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/photos_share_copylink_copy_link_background"/>
+            <size
+                android:height="@dimen/photos_share_copylink_drawable_oval_size"
+                android:width="@dimen/photos_share_copylink_drawable_oval_size"/>
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/quantum_gm_ic_link_vd_theme_24"
+        android:left="@dimen/photos_share_copylink_drawable_icon_inset"
+        android:top="@dimen/photos_share_copylink_drawable_icon_inset"
+        android:right="@dimen/photos_share_copylink_drawable_icon_inset"
+        android:bottom="@dimen/photos_share_copylink_drawable_icon_inset"/>
+</layer-list>

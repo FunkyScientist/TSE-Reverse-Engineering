@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:visibility="gone"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/restore_from_trash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_photofragment_components_photobar_action_restore_from_trash"
+        android:contentDescription="@string/photos_photofragment_components_photobar_action_restore_from_trash"
+        app:icon="@drawable/quantum_gm_ic_restore_vd_theme_24"
+        style="@style/Widget.Photos.Button.TextButton.PhotoBar.LargePhotoBarButton"/>
+</FrameLayout>

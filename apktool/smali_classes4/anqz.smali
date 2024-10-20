@@ -1,0 +1,80 @@
+.class final Lanqz;
+.super Landroid/support/v7/widget/LinearLayoutManager;
+.source "PG"
+
+
+# instance fields
+.field final synthetic a:Lanra;
+
+
+# direct methods
+.method public constructor <init>(Lanra;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lanqz;->a:Lanra;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Landroid/support/v7/widget/LinearLayoutManager;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final o(Lnr;Lny;)V
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lanqz;->a:Lanra;
+
+    .line 2
+    .line 3
+    iget-object v1, v0, Lanra;->b:Landroid/support/v7/widget/RecyclerView;
+
+    .line 4
+    .line 5
+    invoke-virtual {v1}, Landroid/support/v7/widget/RecyclerView;->getWidth()I
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v1
+
+    .line 9
+    iget-object v2, p0, Lanqz;->a:Lanra;
+
+    .line 10
+    .line 11
+    iget-object v2, v2, Lanra;->b:Landroid/support/v7/widget/RecyclerView;
+
+    .line 12
+    .line 13
+    invoke-virtual {v2}, Landroid/support/v7/widget/RecyclerView;->getHeight()I
+
+    .line 14
+    .line 15
+    .line 16
+    move-result v2
+
+    .line 17
+    iget-object v0, v0, Lanra;->a:Lanqn;
+
+    .line 18
+    .line 19
+    invoke-virtual {v0, v1, v2}, Lanqn;->a(II)V
+
+    .line 20
+    .line 21
+    .line 22
+    invoke-super {p0, p1, p2}, Landroid/support/v7/widget/LinearLayoutManager;->o(Lnr;Lny;)V
+
+    .line 23
+    .line 24
+    .line 25
+    return-void
+.end method

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.albums.librarytab.LibraryButtonsLayout android:id="@id/library_buttons_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" app:columnCount="2" app:horizontalSpacing="16.0dip" app:rowCount="2" app:verticalInnerSpacing="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButton android:id="@id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Photos.Albums.LibraryTab.LibraryButton" />
+    <com.google.android.material.button.MaterialButton android:id="@id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Photos.Albums.LibraryTab.LibraryButton" />
+    <com.google.android.material.button.MaterialButton android:id="@id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Photos.Albums.LibraryTab.LibraryButton" />
+    <com.google.android.material.button.MaterialButton android:id="@id/button4" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Photos.Albums.LibraryTab.LibraryButton" />
+</com.google.android.apps.photos.albums.librarytab.LibraryButtonsLayout>

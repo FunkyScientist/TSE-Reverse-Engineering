@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="photos_allphotos_ui_actionconfirmation_interstitial_image_width">312dp</dimen>
+</resources>

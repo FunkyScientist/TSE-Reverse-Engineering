@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:layout_gravity="start|center|top" android:id="@id/story_player_loading_state_close_button" android:background="@color/google_transparent" android:visibility="gone" android:layout_width="56.0dip" android:layout_height="56.0dip" android:tint="@color/google_white" android:foregroundGravity="center" android:contentDescription="@string/photos_stories_actions_close" app:srcCompat="@drawable/quantum_gm_ic_close_vd_theme_24" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/story_player_loading_state_spinner" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" style="@style/Widget.Photos.ProgressBar.IndeterminateWhite" />
+</merge>

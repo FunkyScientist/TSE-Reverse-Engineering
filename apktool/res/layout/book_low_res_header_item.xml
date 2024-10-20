@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center_vertical" android:id="@id/warning_text" android:background="?bannerBackground" android:layout_width="fill_parent" android:layout_height="@dimen/photos_printingskus_photobook_viewbinder_low_res_warning_height" android:drawablePadding="16.0dip" android:lineSpacingExtra="4.0dip" android:textDirection="locale" android:textAlignment="gravity" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:drawableStartCompat="@drawable/quantum_gm_ic_error_vd_theme_24" app:drawableTint="?colorError"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

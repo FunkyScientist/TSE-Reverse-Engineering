@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/photos_printingskus_retailprints_ui_horizontal_margin"
+    android:paddingEnd="@dimen/photos_printingskus_retailprints_ui_horizontal_margin">
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body2"
+        android:textColor="?attr/photosOnSurfaceVariantFaded"
+        android:id="@+id/print_item_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        support:layout_constraintBottom_toBottomOf="parent"
+        support:layout_constraintEnd_toStartOf="@+id/print_item_subtotal"
+        support:layout_constraintStart_toStartOf="parent"
+        support:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.Photos.Body2"
+        android:textColor="?attr/photosOnSurfaceVariantFaded"
+        android:id="@+id/print_item_subtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        support:layout_constraintBottom_toBottomOf="parent"
+        support:layout_constraintEnd_toEndOf="parent"
+        support:layout_constraintTop_toTopOf="parent"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/photos_movies_ui_clipeditor_impl_add_clip_divider" />
+    <TextView android:id="@id/touch_handling_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/photos_movies_ui_clipeditor_impl_add_clips_item" style="@style/photos_movies_ui_clipeditor_impl_add_clip_button" />
+</LinearLayout>

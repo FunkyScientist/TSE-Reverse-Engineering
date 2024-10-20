@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:support="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/photos_settings_notification_permission_side_padding_content"
+    android:paddingRight="@dimen/photos_settings_notification_permission_side_padding_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/photos_notification_permission_image"
+        android:layout_width="@dimen/photos_settings_notification_permission_icon_width"
+        android:layout_height="@dimen/photos_settings_notification_permission_icon_height"
+        android:contentDescription="@null"
+        support:layout_constraintBottom_toBottomOf="parent"
+        support:layout_constraintEnd_toEndOf="parent"
+        support:layout_constraintStart_toStartOf="parent"
+        support:layout_constraintTop_toTopOf="parent"
+        support:layout_constraintVertical_bias="@fraction/photos_settings_notification_permission_icon_vertical_bias"
+        support:srcCompat="@drawable/photos_settings_notification_permission_icon"/>
+    <ScrollView
+        android:id="@+id/photos_notification_permission_scrollable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        support:layout_constraintEnd_toEndOf="@+id/photos_notification_permission_image"
+        support:layout_constraintStart_toStartOf="@+id/photos_notification_permission_image"
+        support:layout_constraintTop_toBottomOf="@+id/photos_notification_permission_image">
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/photos_settings_notification_permission_content"/>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

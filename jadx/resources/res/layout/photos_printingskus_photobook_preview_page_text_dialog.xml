@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/page_text_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="-200dp"
+        android:layout_marginRight="24dp"
+        style="@style/photos_printingskus_photobook_theme_preview_one_up_page_card_view">
+        <include layout="@layout/photos_printingskus_photobook_pagelayout_book_page"/>
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/page_text_container"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        app:counterEnabled="true"
+        app:counterTextAppearance="@style/photos_printingskus_photobook_preview_text_dialog_transparent_text"
+        app:errorEnabled="false">
+        <EditText
+            android:id="@+id/page_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textAutoCorrect"
+            android:imeOptions="flagNoExtractUi|actionDone"
+            android:textDirection="locale"
+            android:textAlignment="gravity"/>
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

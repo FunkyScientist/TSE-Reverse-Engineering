@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/flyingsky_add_button"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/photos_flyingsky_ui_add_memory"
+    app:icon="@drawable/photos_quantum_gm_ic_add_vd_theme_18"
+    style="@style/FlyingSkyStickyHeaderViewModeIconButtonsStyle"/>

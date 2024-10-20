@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <TextView android:textColor="?colorOnBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/subscriptions_storage_used" android:layout_weight="1.0" android:layout_marginEnd="8.0dip" style="?textAppearanceBody2" />
+        <TextView android:textColor="?colorOnBackground" android:id="@id/storage_usage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAlignment="textEnd" style="?textAppearanceBody2" />
+    </LinearLayout>
+    <com.google.android.libraries.subscriptions.management.v2.LayeredProgressView android:id="@id/usage_progress_bar" android:layout_width="fill_parent" android:layout_height="@dimen/g1_progress_bar_height" android:layout_marginTop="10.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/rows_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+</merge>

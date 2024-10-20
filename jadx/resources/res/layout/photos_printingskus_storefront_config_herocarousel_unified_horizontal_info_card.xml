@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="0dp"
+    android:layout_height="104dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="@dimen/photos_theme_rounded_corner_radius"
+        app:strokeColor="?attr/colorOutline"
+        app:strokeWidth="1dp">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="?attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp">
+            <ImageView
+                android:theme="@style/ThemeOverlay.Photos.DayNight.Primary"
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:contentDescription="@null"/>
+            <TextView
+                android:textAppearance="@style/TextAppearance.Photos.Subhead2"
+                android:textColor="?attr/colorOnSurface"
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"/>
+            <TextView
+                android:textAppearance="@style/TextAppearance.Photos.Caption"
+                android:textColor="?attr/photosOnSurfaceVariant"
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

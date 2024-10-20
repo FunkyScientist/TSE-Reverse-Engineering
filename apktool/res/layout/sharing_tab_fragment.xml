@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.insetview.WindowInsetsView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.photos.list.fastscroll.DateScrubberView android:id="@id/sharing_tab_date_scrubber_view" android:background="?tabBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" app:recyclerViewId="@id/shared_albums_list">
+        <com.google.android.apps.photos.view.BoundedFrameLayout android:layout_gravity="center_horizontal" android:id="@id/shared_albums_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/shared_albums_list" android:paddingBottom="16.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="2.0dip" />
+            <include layout="@layout/photos_emptystate_container" />
+        </com.google.android.apps.photos.view.BoundedFrameLayout>
+    </com.google.android.apps.photos.list.fastscroll.DateScrubberView>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/share_fab" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/photos_fabcontroller_fab_margin" android:text="@string/photos_share_strings_shared_album" android:layout_marginEnd="@dimen/photos_fabcontroller_fab_margin" app:icon="@drawable/quantum_gm_ic_add_vd_theme_24" />
+    <ViewStub android:id="@id/sharing_tab_scrolling_toolbar_view_stub" android:layout="@layout/scrolling_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.google.android.apps.photos.insetview.WindowInsetsView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/photos_explore_empty_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="96.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/photos_explore_empty_title" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" style="@style/TextAppearance.Photos.Search.Explore.EmptyFooter.Title" />
+    <TextView android:gravity="center" android:id="@id/photos_explore_empty_caption" android:paddingBottom="18.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="10.0dip" style="@style/TextAppearance.Photos.Search.Explore.EmptyFooter.Description" />
+    <TextView android:id="@id/photos_explore_empty_long_caption" android:paddingBottom="18.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="10.0dip" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" style="@style/TextAppearance.Photos.Search.Explore.EmptyFooter.Description" />
+    <Button android:textSize="@dimen/text_size_16" android:textColor="?android:colorBackground" android:gravity="center" android:id="@id/photos_explore_empty_settings_button" android:layout_width="wrap_content" android:layout_height="50.0dip" />
+</LinearLayout>

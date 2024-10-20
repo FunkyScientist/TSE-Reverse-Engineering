@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:baselineAligned="true">
+    <ImageView
+        android:id="@+id/carousel_item_image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:foreground="@drawable/carousel_press"/>
+    <Button
+        android:textColor="?attr/colorOnSurface"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/carousel_item_title"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/photos_search_destination_carousel_people_label_bottom_margin"
+        android:minHeight="0dp"
+        android:maxLines="2"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:fontFamily="@font/google_sans_medium"
+        android:paddingVertical="8dp"
+        style="@style/Widget.Photos.Button.Borderless"/>
+</LinearLayout>
